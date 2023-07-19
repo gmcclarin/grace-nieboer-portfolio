@@ -13,7 +13,7 @@
 
 ## To DO
 - research best way to showcase work
-- nadd scrolling behavior effects
+- add scrolling behavior effects
 - add a top anchor? or make the nav bar fixed...
 
 - put a fun picture up of myself on the about page 
@@ -23,6 +23,8 @@
 - new background image
 - take down the loom video of my elevator pitch?
 - last: README
+
+- 
 
 ### Code Splitting
 
