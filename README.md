@@ -24,7 +24,6 @@
 - take down the loom video of my elevator pitch?
 - last: README
 
-- 
 
 ### Code Splitting
 
