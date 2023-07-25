@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Project from "./Project"
 
 function ProjectPortfolio () {
     const [projects, setProjects] = useState([])
@@ -16,6 +17,10 @@ function ProjectPortfolio () {
     }, [])
 
     console.log(projects)
+
+    displayProjects = projects.map((p) => {
+        return 
+    })
 
     return (
     <>
