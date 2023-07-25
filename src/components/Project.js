@@ -1,10 +1,10 @@
 export default function Project({p}) {
     return (
-        <div>
+        <div className="">
             <div>{p.name}</div>
             <div>{p.descript}</div>
-            <div>{p.github}</div>
-            <div>{p.demo}</div>
+            <a href={p.github}>github</a>
+            <a href={p.demo}>demo</a>
         </div>
     )
 }

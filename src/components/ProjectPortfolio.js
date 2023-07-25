@@ -18,18 +18,20 @@ function ProjectPortfolio () {
 
     console.log(projects)
 
-    displayProjects = projects.map((p) => {
-        return 
+    const displayProjects = projects.map((p) => {
+        return <Project key={p.id} p={p} />
     })
 
     return (
-    <>
-    <h2 id="portfolio" className="text-4xl snap-always snap-center">Work</h2>
-        <div >
+    <div className = "flex justify-center text-center">
+        <div className="">
+            <h2 id="portfolio" className="text-4xl snap-always snap-center">Work</h2>
+            <div className="flex" >
+            {displayProjects}
+            </div>
             
         </div>
-            
-    </>
+    </div>
     )
 }
 

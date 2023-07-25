@@ -11,6 +11,7 @@
 
 
 
+
 ## To DO
 - research best way to showcase work
 - add scrolling behavior effects
@@ -21,9 +22,8 @@
 - record demo of the space fries
 - record recipe demo
 - new background image
-- take down the loom video of my elevator pitch?
 - last: README
-
+display projects as cards with pictures!!!!!!!
 
 ### Code Splitting
 
