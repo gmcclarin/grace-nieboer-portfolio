@@ -16,7 +16,7 @@ function Home () {
                 <p className = "text-[20px] sm:text-[30px] text-left font-display">passionate</p>
                 <Typewriter
                 options={{
-                strings: ['DEVELOPER', 'ARCHITECT',],
+                strings: ['DEVELOPER', 'ARCHITECT', 'COFFEE DRINKER'],
                 autoStart: true,
                 loop: true,
                 }}
@@ -24,7 +24,7 @@ function Home () {
             </div>
             <div className="flex justify-end">
                 <div className=" text-3xl sm:text-5xl sm:w-3/4 text-right ">
-                    I AM A PASSIONATE DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER WITH A COFFEE IN MY HAND.
+                    I AM A PASSIONATE DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.
                 </div>
             </div>
             <div className = "flex flex-col text-right mr-28 my-5 sm:my-20">
