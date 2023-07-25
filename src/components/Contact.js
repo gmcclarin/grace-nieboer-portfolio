@@ -4,7 +4,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default function Contact () {
     return (
-        <div className="mx-8 mb-8">
+        <div className="mx-8 mb-8 snap-always snap-center">
         <h1 id="contact">Contact</h1>
         <h1 className= "text-7xl">
             Looking to collaborate or meet for coffee?
