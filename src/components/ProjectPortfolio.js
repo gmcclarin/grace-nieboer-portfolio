@@ -5,7 +5,7 @@ function ProjectPortfolio () {
     const [projects, setProjects] = useState([])
 
     useEffect(() => {
-        fetch('https://portfolio-service-1qui.onrender.com/projects')
+        fetch('https://grace-nieboer-server2-0.onrender.com/projects')
             .then(r => {
                 if(r.ok){
                     r.json().then(data => setProjects(data))
