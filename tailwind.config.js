@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
@@ -7,6 +8,9 @@ module.exports = {
       'display' : 'Bodoni Moda, serif'
     },
     extend: {
+      backgroundImage: {
+        'main': "url('looking_up.avif')"
+      }
     },
   },
   plugins: [],

@@ -7,7 +7,7 @@ import Contact from './Contact';
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App bg-main bg-cover bg-no-repeat ">
         <NavBar />
         <div className="snap-y snap-mandatory w-screen h-screen">
           <div className="snap-always snap-center"><Home /></div>
