@@ -3,7 +3,7 @@ import tongue from './tongue.png'
 function About () {
 
     return (
-        <div className="p-20 snap-always snap-center">
+        <div className="p-16 snap-always snap-center">
         <div className="mx-8  mb-8">
             <p id="about" className="text-5xl sm:text-7xl font-display sm:p-10 my-7 sm:my-6">HI THERE, AND WELCOME! </p>
             <div className=" mb-5 pb-10 flex ">

@@ -28,21 +28,6 @@ function Home () {
                 </div>
             </div>
             <div className = "flex flex-col text-right mr-28 my-5 sm:my-20">
-                <div >
-                    <p className = "my-4 text-2xl sm:text-[40px] font-bold">get to know me</p>
-                        <a className="mx-2" href="https://www.instagram.com/grayce.elisabeth_/" >
-                            <FontAwesomeIcon icon={faInstagram} style={{height:"30px", color: "#ffffff",}} />
-                        </a>
-                        <a className="mx-2" href="https://www.linkedin.com/in/gracenieboer/"> 
-                            <FontAwesomeIcon icon={faLinkedin} style={{height:"30px",color: "#ffffff",}}/>
-                        </a>
-                        <a className="mx-2" href="https://github.com/gnieb">
-                            <FontAwesomeIcon icon={faGithub} style={{height:"30px",color: "#ffffff",}} />
-                        </a>
-                        <a className="mx-2" href="https://medium.com/@grace.nieboer">
-                            <FontAwesomeIcon icon={faMedium} style={{height:"30px",color: "#ffffff",}}/>
-                        </a>
-                </div>
                 <div className="my-12">
                     <a
                     href="#contact"
