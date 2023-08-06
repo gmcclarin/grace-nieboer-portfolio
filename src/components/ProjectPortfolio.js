@@ -23,10 +23,10 @@ function ProjectPortfolio () {
     })
 
     return (
-    <div className = "flex justify-center text-center">
+    <div className = "flex justify-center text-center p-20">
         <div className="">
-            <h2 id="portfolio" className="text-4xl snap-always snap-center">Work</h2>
-            <div className="flex" >
+            <h2 id="portfolio" className="text-5xl sm:text-7xl font-display snap-always snap-center">WORK</h2>
+            <div className="flex p-10" >
             {displayProjects}
             </div>
             

@@ -16,7 +16,7 @@ function Home () {
                 <p className = "text-[20px] sm:text-[30px] text-left font-display">passionate</p>
                 <Typewriter
                 options={{
-                strings: ['DEVELOPER', 'ARCHITECT', 'COFFEE DRINKER'],
+                strings: ['DEVELOPER', 'ARCHITECT', 'SOFTWARE ENGINEER'],
                 autoStart: true,
                 loop: true,
                 }}

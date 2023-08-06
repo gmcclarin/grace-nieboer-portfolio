@@ -7,7 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function Contact () {
     return (
-        <div className="mx-8 mb-8 p-20 snap-always snap-center">
+        <div className="mx-8 p-20 snap-always snap-center">
         <h1 id="contact" className="text-5xl sm:text-7xl font-display" >CONTACT</h1>
         <h1 className= "font-bold font-display text-2xl">
             get to know me a little better. 
