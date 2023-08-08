@@ -12,8 +12,8 @@ function Home () {
     return (
         
         < div id="home" className = "m-5 p-2">
-            <div className = "text-[50px] text-left md:text-[100px] xl:text-[200px] font-display font-extrabold">
-                <p className = "text-[20px] sm:text-[30px] text-left font-display">passionate</p>
+            <div className = "text-[50px]	text-left md:text-[100px]  xl:text-[200px] font-display font-extrabold">
+                <p className = "text-[20px] sm:text-[30px] md:text-5xl text-left font-display">passionate</p>
                 <Typewriter
                 options={{
                 strings: ['DEVELOPER', 'ARCHITECT', 'SOFTWARE ENGINEER'],
