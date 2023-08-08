@@ -7,9 +7,13 @@ module.exports = {
       'body': 'Arial, Helvetica, sans-serif',
       'display' : 'Bodoni Moda, serif'
     },
+    textColors : {
+      'primary' : "#22292f",
+      
+    },
     extend: {
       backgroundImage: {
-        'main': "url('looking_up.avif')"
+        'main': "url('texturePaint.avif')"
       }
     },
   },
