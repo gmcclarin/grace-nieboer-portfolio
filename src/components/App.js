@@ -9,7 +9,7 @@ function App() {
   return (
     <div className=" app ">
         <NavBar />
-        <div className="snap-y snap-mandatory w-screen h-screen">
+        <div className="snap-y snap-mandatory">
           <div className="snap-always snap-center "><Home /></div>
           <div className="snap-always snap-center bg-grey"><About /></div>
           <div className="snap-always snap-center "><Contact/></div> 
