@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 
 function NavBar () {
@@ -20,52 +21,58 @@ function NavBar () {
                     <ul className={showMenu ? "bg-orange-600 absolute left-0 top-0 w-full p-5 space-y-5 text-center rounded-b-3xl" : 
                     "hidden bg-orange-600 absolute left-0 top-0 w-full p-7 space-y-8 text-center rounded-b-3xl"}>
                         <li>
-                            <a
-                            href="#home"
+                            <NavLink
+                            to="/"
+                            exact
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             onClick={()=> setShowMenu(!showMenu)}
                             >
                                 HOME
-                            </a>
+                            </NavLink>
                         </li>
                         <li>
-                            <a
-                            href="#about"
+                            <NavLink
+                            to="/about"
+                            exact
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             onClick={()=> setShowMenu(!showMenu)}
                             >
                                 ABOUT
-                            </a>
+                            </NavLink>
                         </li>
                         <li>
-                            <a
-                            href="#portfolio"
+                            <NavLink
+                            to="/portfolio"
+                            exact
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             onClick={()=> setShowMenu(!showMenu)}
                             >
                                 PORTFOLIO
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
                     <div className="hidden sm:flex sm:space-x-4 ">
-                        <a
-                        href="#home"
+                        <NavLink
+                        to="/"
+                        exact
                         className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                         >
                             HOME
-                        </a>
-                        <a
-                        href="#about"
+                        </NavLink>
+                        <NavLink
+                        to="/about"
+                        exact
                         className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                         >
                             ABOUT
-                        </a>
-                        <a
-                        href="#portfolio"
+                        </NavLink>
+                        <NavLink
+                        to="/portfolio"
+                        exact
                         className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                         >
                             WORK
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
             </div>
