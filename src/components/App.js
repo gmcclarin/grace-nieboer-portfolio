@@ -4,17 +4,26 @@ import NavBar from './NavBar';
 import About from './About';
 import ProjectPortfolio from './ProjectPortfolio';
 import Contact from './Contact';
+import {Route, Switch} from "react-router-dom";
 
 function App() {
   return (
     <div className=" app ">
         <NavBar />
-        <div className="snap-y snap-mandatory">
-          <div className="snap-always snap-center "><Home /></div>
-          <div className="snap-always snap-center bg-grey"><About /></div>
-          <div className="snap-always snap-center "><Contact/></div> 
-          <div className="snap-always snap-center "><ProjectPortfolio /></div>
-        </div>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
+          <Route exact path="/portfolio">
+            <ProjectPortfolio />
+          </Route>
+        </Switch>
         
     </div>
   );

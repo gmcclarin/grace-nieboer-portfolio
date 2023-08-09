@@ -21,9 +21,10 @@
 .app {
   background-color: white;
   padding: 10px;
-  background-image: url('texturedPalms.avif');
+  background-image: url('greyStoneTexture.avif');
   background-repeat: repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 
