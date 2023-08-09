@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import Project from "./Project"
 import NavBar from "./NavBar"
+import MobileMenu from "./MobileMenu"
 
 function ProjectPortfolio () {
     const [projects, setProjects] = useState([])
@@ -25,7 +26,7 @@ function ProjectPortfolio () {
 
     return (
     <div className="bg-cover m-5 ">
-        <div className="sm:hidden"><NavBar /></div>
+        <div className="sm:hidden"><MobileMenu /></div>
     <div className = "flex justify-center text-center p-20">
         <div className="">
             <h2 id="portfolio" className="text-5xl sm:text-[200px] font-fun snap-always snap-center pb-10 font-bold">work.</h2>
@@ -35,7 +36,7 @@ function ProjectPortfolio () {
             
         </div>
     </div>
-        <div className="invisible sm:visible"><NavBar /></div>
+        <div className="invisible sm:visible sm:fixed sm:bottom-0"><NavBar /></div>
     </div>
     )
 }

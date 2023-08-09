@@ -30,17 +30,13 @@ html{
   height: 100%;
 }
 body{
-  min-height: 100%;
+  
   background-image: url('greyStoneTexture.avif');
-}
-
-.app {
-  /* background-color: white;
-  padding: 10px;
-  
-  background-repeat: repeat;
-  background-size: cover; */
-  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 
