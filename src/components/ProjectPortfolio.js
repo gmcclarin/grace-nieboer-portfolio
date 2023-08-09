@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import Project from "./Project"
+import NavBar from "./NavBar"
 
 function ProjectPortfolio () {
     const [projects, setProjects] = useState([])
@@ -23,6 +24,8 @@ function ProjectPortfolio () {
     })
 
     return (
+    <div className="bg-cover">
+        <div className="sm:invisible"><NavBar /></div>
     <div className = "flex justify-center text-center p-20">
         <div className="">
             <h2 id="portfolio" className="text-5xl sm:text-7xl font-display snap-always snap-center pb-10 font-bold">WORK</h2>
@@ -31,6 +34,8 @@ function ProjectPortfolio () {
             </div>
             
         </div>
+    </div>
+        <div className="invisible sm:visible"><NavBar /></div>
     </div>
     )
 }

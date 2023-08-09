@@ -9,10 +9,7 @@ import NavBar from './NavBar'
 export default function Contact () {
     return (
         <div className="m-5 ">
-            <NavBar />
-            <div className=" text-3xl sm:text-5xl sm:w-3/4 text-left ">
-                PASSIONATE DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.
-            </div>
+            <div className="sm:invisible"><NavBar /></div>
         <h1 id="contact" className="text-5xl sm:text-7xl font-display font-bold pb-10" >CONTACT</h1>
         <h1 className= " text-2xl sm:text-4xl">
             get to know me a little better. 
@@ -32,6 +29,7 @@ export default function Contact () {
         <a className="mx-2" href="https://github.com/gnieb">
             <FontAwesomeIcon icon={faGithub} style={{height:"60px",color: "#262626", margin:"10px"}} />
         </a>
+        <div className="invisible sm:visible"><NavBar /></div>
         </div>
     )
 }
