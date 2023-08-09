@@ -6,7 +6,7 @@ function Home () {
 
     return (
         
-        < div className = "my-15 p-10 sm:p-20 bg-cover h-screen">
+        < div className = "my-15 p-10 sm:p-20 bg-cover ">
             <div className="sm:flex sm:justify-between">
                 <div className="flex-col">
                     <div className="font-bold pb-5 text-xl sm:text-3xl">Grace Nieboer</div>

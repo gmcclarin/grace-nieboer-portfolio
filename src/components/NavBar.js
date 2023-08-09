@@ -1,15 +1,11 @@
 
 import { NavLink } from "react-router-dom";
 
-
 function NavBar () {
-
-
     return (
         <nav className="bg-transparent ">
-            <div className="px-2 sm:px-6 lg:px-8">
+            <div className="px-2 my-5 ">
                 <div className="flex">
-                    
                     <div className="invisible sm:visible sm:w-1/3 sm:flex-col sm:justify-items-start ">
                         <div>
                             <NavLink
