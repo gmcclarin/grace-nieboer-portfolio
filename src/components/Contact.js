@@ -9,7 +9,7 @@ import MobileMenu from './MobileMenu'
 
 export default function Contact () {
     return (
-        <div className = "m-5 bg-cover h-screen text-center">
+        <div className = "m-5 text-center">
             <MobileMenu />
             <div className="p-10 sm:p-20">
                 <h1 id="contact" className="text-5xl sm:text-[200px] font-fun font-bold pb-10" >contact.</h1>

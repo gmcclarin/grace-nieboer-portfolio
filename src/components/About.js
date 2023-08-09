@@ -7,10 +7,12 @@ function About () {
         <div className="m-5 ">
             <MobileMenu />
         <div className="mx-8  mb-8">
-            <p id="about" className="text-5xl sm:text-7xl font-display font-bold pb-10 my-7 sm:my-6">HI THERE, AND WELCOME! </p>
+            <p className="text-5xl sm:text-[200px] font-fun font-bold pb-10 my-7 sm:my-6">about.</p>
             <div className=" mb-5 sm:pb-10 flex ">
                 <p className = "text-xl sm:text-4xl text-justify sm:w-1/2 pb-10">My name is Grace Nieboer. I am a full stack software engineer with a love for the creative elements of front-end design, but I recently fell in love with Python on the back-end along with building API's with REST-ful architecture. I am currently learning Java and collaborating on a few projects with other teams. In my free time, you'll find me kickboxing or eating pizza</p>
-                <img alt="tongue" className="pl-10" style={{height:'350px'}}src={tongue} />
+                
+                    <img alt="tongue" className="pl-10 w-1/3 h-1/3" src={tongue} />
+                
             </div>
             <div className="mb-5 pb-10 flex justify-end ">
                 <div className="sm:w-1/2 flex-col text-right">
