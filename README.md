@@ -17,14 +17,8 @@
 
 
 ## To DO
-- research best way to showcase work
 
-- add a top anchor? or make the nav bar fixed...
-
-- put a fun picture up of myself on the about page 
 - portfolio page - spice it up!!!
-
-- new background image
 - last: README
 - display projects as cards with pictures!!!!!!!
 - dark mode 
