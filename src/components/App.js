@@ -5,6 +5,8 @@ import About from './About';
 import ProjectPortfolio from './ProjectPortfolio';
 import Contact from './Contact';
 import {Route, Switch} from "react-router-dom";
+import NotFound from './NotFound';
+
 
 function App() {
   return (
@@ -22,6 +24,9 @@ function App() {
           </Route>
           <Route exact path="/portfolio">
             <ProjectPortfolio />
+          </Route>
+          <Route path="*">
+            <NotFound />
           </Route>
         </Switch>
         
