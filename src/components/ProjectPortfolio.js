@@ -30,7 +30,7 @@ function ProjectPortfolio () {
     <div className = "flex justify-center text-center">
         <div className="">
             <h2 className="text-5xl sm:text-[200px] font-fun pb-10 font-bold">work.</h2>
-            <div className="flex sm:p-10" >
+            <div className="flex " >
             {displayProjects}
             </div>
         </div>
