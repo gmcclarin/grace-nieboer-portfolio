@@ -10,6 +10,9 @@ export default function Contact () {
     return (
         <div className="m-5 ">
             <NavBar />
+            <div className=" text-3xl sm:text-5xl sm:w-3/4 text-left ">
+                PASSIONATE DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.
+            </div>
         <h1 id="contact" className="text-5xl sm:text-7xl font-display font-bold pb-10" >CONTACT</h1>
         <h1 className= " text-2xl sm:text-4xl">
             get to know me a little better. 

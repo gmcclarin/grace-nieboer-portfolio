@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import Contact from "./Contact";
 
 
 function NavBar () {
@@ -72,6 +73,13 @@ function NavBar () {
                         className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                         >
                             WORK
+                        </NavLink>
+                        <NavLink
+                        to="/contact"
+                        exact
+                        className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
+                        >
+                            CONTACT
                         </NavLink>
                     </div>
                 </div>
