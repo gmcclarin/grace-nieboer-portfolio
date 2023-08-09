@@ -1,4 +1,6 @@
-import { useHistory } from "react-router-dom/cjs/react-router-dom.min"
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import { NavLink } from "react-bootstrap";
+import NavBar from "./NavBar";
 
 export default function NotFound () {
     const history= useHistory()
@@ -6,7 +8,8 @@ export default function NotFound () {
 
 
     return (
-        <div className="">
+        <div className="bg-cover h-screen">
+            <NavBar />
             <div className=" mt-20 p-5 text-5xl font-display font-bold text-center">
                 Whoops! Page Not Found. 
             </div>

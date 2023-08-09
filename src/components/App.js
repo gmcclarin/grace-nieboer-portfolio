@@ -11,7 +11,6 @@ import NotFound from './NotFound';
 function App() {
   return (
     <div className=" app ">
-        <NavBar />
         <Switch>
           <Route exact path="/">
             <Home />

@@ -4,10 +4,12 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import NavBar from './NavBar'
 
 export default function Contact () {
     return (
-        <div className="mx-8 sm:p-20 snap-always snap-center">
+        <div className="m-5 ">
+            <NavBar />
         <h1 id="contact" className="text-5xl sm:text-7xl font-display font-bold pb-10" >CONTACT</h1>
         <h1 className= " text-2xl sm:text-4xl">
             get to know me a little better. 

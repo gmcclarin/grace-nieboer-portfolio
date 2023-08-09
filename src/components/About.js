@@ -1,8 +1,10 @@
 import tongue from './tongue.png'
+import NavBar from './NavBar';
 
 function About () {
     return (
-        <div className="sm:p-16 snap-always snap-center">
+        <div className="m-5 ">
+            <NavBar />
         <div className="mx-8  mb-8">
             <p id="about" className="text-5xl sm:text-7xl font-display font-bold pb-10 my-7 sm:my-6">HI THERE, AND WELCOME! </p>
             <div className=" mb-5 sm:pb-10 flex ">
