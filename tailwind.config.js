@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     fontFamily: {
       'body': 'Arial, Helvetica, sans-serif',
-      'display' : 'Bodoni Moda, serif'
+      'display' : 'Bodoni Moda, serif',
+      'fun' : 'font-family, serif'
     },
     textColors : {
       'primary' : "#22292f",

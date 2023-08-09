@@ -8,8 +8,11 @@
 - Tailwind
 - Font Awesome
 - user-event library to test user interactions
-- dark mode 
-- 404 not found page
+
+### Features Completed
+ - server deployed with a postgresql database
+ - projects fetch request from server and displayed as cards
+ - 404 not found 'catchall'
 
 
 
@@ -23,7 +26,10 @@
 
 - new background image
 - last: README
-display projects as cards with pictures!!!!!!!
+- display projects as cards with pictures!!!!!!!
+- dark mode 
+
+
 
 ### Code Splitting
 
