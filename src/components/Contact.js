@@ -31,7 +31,7 @@ export default function Contact () {
                 <a className="mx-2" href="https://github.com/gnieb">
                     <FontAwesomeIcon icon={faGithub} style={{height:"60px",color: "#262626", margin:"10px"}} />
                 </a>
-                <div className="invisible sm:visible sm:fixed sm:bottom-0"><NavBar /></div>
+                <div className="sm:fixed sm:bottom-0"><NavBar /></div>
         </div>
         </div>
     )

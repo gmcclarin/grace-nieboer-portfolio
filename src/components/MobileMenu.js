@@ -16,7 +16,7 @@ export default function MobileMenu () {
                     </div>
 
                     {/* ------------- FOR MOBILE ---------------- */}
-                    <ul className={showMenu ? "bg-orange-600 absolute left-0 top-0 w-full p-5 space-y-5 text-center rounded-b-3xl" : 
+                    <ul className={showMenu ? "bg-orange-600 absolute  left-0 top-0 w-full p-5 space-y-5 text-center rounded-b-3xl" : 
                     "hidden bg-orange-600 absolute left-0 top-0 w-full p-7 space-y-8 text-center rounded-b-3xl"}>
                         <li>
                             <NavLink
@@ -46,6 +46,16 @@ export default function MobileMenu () {
                             onClick={()=> setShowMenu(!showMenu)}
                             >
                                 WORK
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                            to="/contact"
+                            exact
+                            className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
+                            onClick={()=> setShowMenu(!showMenu)}
+                            >
+                                CONTACT
                             </NavLink>
                         </li>
                     </ul>

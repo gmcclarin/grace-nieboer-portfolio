@@ -1,10 +1,11 @@
 import tongue from './tongue.png'
 import NavBar from './NavBar';
+import MobileMenu from './MobileMenu';
 
 function About () {
     return (
         <div className="m-5 ">
-            <NavBar />
+            <MobileMenu />
         <div className="mx-8  mb-8">
             <p id="about" className="text-5xl sm:text-7xl font-display font-bold pb-10 my-7 sm:my-6">HI THERE, AND WELCOME! </p>
             <div className=" mb-5 sm:pb-10 flex ">
@@ -19,8 +20,10 @@ function About () {
                 <p className="text-3xl font-bold mt-3">PERSON-FOCUSED</p>
                 <p className="text-xl sm:text-4xl text-justify">My unique background in complex problem solving in a very person-focused industry and roles allows me better collaborate and communicate with diverse teams. We work in tech, but we work WITH humans, FOR humans.</p>
                 </div>
+                
              </div>
         </div>
+        <div className="sm:fixed sm:bottom-0"><NavBar /></div>
         </div>
     )
 }
