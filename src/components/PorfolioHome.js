@@ -1,7 +1,7 @@
 import NavBar from "./NavBar";
 import MobileMenu from "./MobileMenu";
 
-export default function PortfolioHome({projects, displayProjects}) {
+export default function PortfolioHome({ displayProjects}) {
 
     return (
         <div className="bg-cover m-5 ">
