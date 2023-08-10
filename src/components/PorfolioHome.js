@@ -10,8 +10,8 @@ export default function PortfolioHome({ displayProjects}) {
                     <div className="flex justify-center">
                         <h2 className="text-5xl sm:text-[200px] font-fun pb-10 font-bold">work.</h2>
                     </div>
-                    <div className="mb-5 pb-10 flex justify-end ">
-                        <div className="sm:w-3/4 m-10 flex-col text-right">
+                    <div className="flex justify-end ">
+                        <div className="sm:w-3/4 mx-5 flex-col text-right">
                             {displayProjects}
                         </div>
                     </div>
