@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/contact">
             <Contact />
           </Route>
-          <Route exact path="/portfolio">
+          <Route path="/portfolio/*">
             <ProjectPortfolio />
           </Route>
           <Route path="*">
