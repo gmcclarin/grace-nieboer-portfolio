@@ -1,5 +1,4 @@
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
-import { NavLink } from "react-bootstrap";
 import NavBar from "./NavBar";
 
 export default function NotFound () {
