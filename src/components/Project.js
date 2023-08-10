@@ -1,11 +1,13 @@
-import { NavLink } from "react-router-dom";
+import { useParams } from "react-router-dom"
+export default function Project() {
+    const {id} = useParams();
 
-export default function Project({p}) {
     return (
-        <div className="hover:text-orange-600">
-            <NavLink to={`/portfolio/${p.id}`} className="text-9xl font-fun font-bold sm:text-[50px]">
-                {p.name.toUpperCase()}.
-            </NavLink>
+        <div className="text-[200px]">
+           <div>PROJECT YAY you MADE IT THIS FAR!!!</div> 
+           <div>
+            {id}
+           </div>
         </div>
     )
 }

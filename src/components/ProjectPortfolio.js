@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react"
-import Project from "./Project"
+import ProjectNav from "./ProjectNav"
 import NavBar from "./NavBar"
 import MobileMenu from "./MobileMenu"
 import {Routes, Route} from 'react-router-dom'
 import PortfolioHome from "./PorfolioHome"
+import Project from "./Project"
 
 function ProjectPortfolio () {
     const [projects, setProjects] = useState([])
@@ -23,20 +24,14 @@ function ProjectPortfolio () {
     console.log(projects)
 
     const displayProjects = projects.map((p) => {
-        return <Project key={p.id} p={p} />
-    })
-
-    const getRoutes = projects.map((p) => {
-        return (
-            <Route key={p.id} exact path={`:${p.id}`} element={<Project key={p.id} p={p} />} ></Route>
-        )
+        return <ProjectNav key={p.id} p={p} />
     })
 
     return (
         <div>
            <PortfolioHome project={projects} displayProjects={displayProjects} />
             <Routes>
-                {getRoutes}
+                <Route path=":id" element={<Project />}/>
             </Routes>
         </div>
     )
