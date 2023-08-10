@@ -21,7 +21,7 @@ export default function MobileMenu () {
                         <li>
                             <NavLink
                             to="/"
-                            exact
+                            exact="true"
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             onClick={()=> setShowMenu(!showMenu)}
                             >
@@ -31,7 +31,7 @@ export default function MobileMenu () {
                         <li>
                             <NavLink
                             to="/about"
-                            exact
+                            exact="true"
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             onClick={()=> setShowMenu(!showMenu)}
                             >
@@ -41,7 +41,7 @@ export default function MobileMenu () {
                         <li>
                             <NavLink
                             to="/portfolio"
-                            exact
+                            exact="true"
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             onClick={()=> setShowMenu(!showMenu)}
                             >
@@ -51,7 +51,7 @@ export default function MobileMenu () {
                         <li>
                             <NavLink
                             to="/contact"
-                            exact
+                            exact="true"
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             onClick={()=> setShowMenu(!showMenu)}
                             >

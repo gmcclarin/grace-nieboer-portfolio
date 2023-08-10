@@ -2,7 +2,8 @@ import { useEffect, useState } from "react"
 import Project from "./Project"
 import NavBar from "./NavBar"
 import MobileMenu from "./MobileMenu"
-import {Route, Switch} from "react-router-dom";
+import {Routes, Route} from 'react-router-dom'
+import PortfolioHome from "./PorfolioHome"
 
 function ProjectPortfolio () {
     const [projects, setProjects] = useState([])
@@ -27,35 +28,17 @@ function ProjectPortfolio () {
 
     const getRoutes = projects.map((p) => {
         return (
-            <Route exact path={`/portfolio/${p.id}`}></Route>
+            <Route key={p.id} exact path={`:${p.id}`} element={<Project key={p.id} p={p} />} ></Route>
         )
     })
 
     return (
         <div>
-            <Switch>
-                <Route exact path="/portfolio">
-                    <div className="bg-cover m-5 ">
-                        <div className="sm:hidden"><MobileMenu /></div>
-                    <div className = "flex-col justify-center text-center">
-                        <div className="flex justify-center">
-                            <h2 className="text-5xl sm:text-[200px] font-fun pb-10 font-bold">work.</h2>
-                        </div>
-                            <div className="mb-5 pb-10 flex justify-end ">
-                                <div className="sm:w-3/4 m-10 flex-col text-right">
-                                    {displayProjects}
-                                </div>
-                            </div>
-                        
-                    </div>
-                    <div className="invisible sm:visible sm:fixed sm:bottom-0">
-                        <NavBar />
-                    </div>
-                </div>
-            </Route>
-            {getRoutes}
-        </Switch>
-    </div>
+           <PortfolioHome project={projects} displayProjects={displayProjects} />
+            <Routes>
+                {getRoutes}
+            </Routes>
+        </div>
     )
 }
 

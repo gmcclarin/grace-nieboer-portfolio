@@ -1,9 +1,10 @@
-import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import { useNavigate } from 'react-router-dom';
+
 import NavBar from "./NavBar";
 
 export default function NotFound () {
-    const history= useHistory()
-    const goBackOne = () => history.goBack()
+    const navigate = useNavigate();
+    const goBackOne = () => navigate.goBack()
 
 
     return (

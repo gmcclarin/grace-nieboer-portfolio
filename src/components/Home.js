@@ -5,7 +5,6 @@ import { NavLink } from "react-router-dom";
 function Home () {
 
     return (
-        
         < div className = "my-15 p-10 sm:p-20 bg-cover ">
             <div className="sm:flex sm:justify-between">
                 <div className="flex-col">
@@ -15,13 +14,13 @@ function Home () {
                 </div>
                 <div className = "text-8xl sm:pt-0 pt-20 md:text-[200px] lg:text-[270px] text-right font-fun font-bold m-2">
                     <div className = "p-2 hover:text-white">
-                    <NavLink exact to='/about'>about.</NavLink> 
+                    <NavLink exact="true" to='/about'>about.</NavLink> 
                     </div>
                     <div className = "p-2 hover:text-white">
-                        <NavLink exact to='/portfolio'>work.</NavLink>
+                        <NavLink exact="true" to='/portfolio'>work.</NavLink>
                     </div>
                     <div className = "p-2 hover:text-white">
-                        <NavLink exact to='/contact'>contact.</NavLink>
+                        <NavLink exact="true" to='/contact'>contact.</NavLink>
                     </div>
                 </div>
             </div>

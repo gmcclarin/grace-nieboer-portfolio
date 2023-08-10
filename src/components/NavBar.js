@@ -10,28 +10,28 @@ function NavBar () {
                         <div>
                             <NavLink
                             to="/"
-                            exact
+                            exact="true"
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             >
                                 HOME
                             </NavLink>
                             <NavLink
                             to="/about"
-                            exact
+                            exact="true"
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             >
                                 ABOUT
                             </NavLink>
                             <NavLink
                             to="/portfolio"
-                            exact
+                            exact="true"
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             >
                                 WORK
                             </NavLink>
                             <NavLink
                             to="/contact"
-                            exact
+                            exact="true"
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             >CONTACT
                             </NavLink>
