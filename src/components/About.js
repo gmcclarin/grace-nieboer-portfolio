@@ -22,7 +22,6 @@ function About () {
                 <p className="text-3xl font-bold mt-3">PERSON-FOCUSED</p>
                 <p className="text-xl sm:text-4xl text-justify">My unique background in complex problem solving in a very person-focused industry and roles allows me better collaborate and communicate with diverse teams. We work in tech, but we work WITH humans, FOR humans.</p>
                 </div>
-                
              </div>
         </div>
         <div className="sm:fixed sm:bottom-0"><NavBar /></div>
