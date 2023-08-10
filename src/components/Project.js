@@ -7,13 +7,15 @@ export default function Project({getProject}) {
     console.log(project)
 
     return (
-        <div className="mx-5">
-            <div className="text-[70px] font-fun font-bold underline">{project.name.toUpperCase()}</div>
+        <div className="mx-5 mb-10">
+            <div className="sm:text-[70px] font-fun font-bold underline p-4">
+                <div className="text-4xl sm:text-6xl">{project.name.toUpperCase()}</div>
+            </div>
             <div className="flex justify-end m-5 ">
-                <div className="text-[50px] font-bold">
+                {/* <div className="text-[50px] font-bold">
                 
-                </div>
-                <div className="w-3/4" >
+                </div> */}
+                <div className="w-full sm:w-3/4 mb-10" >
                         <ResponsiveMasonry
                             columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
                             >
