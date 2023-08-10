@@ -8,7 +8,7 @@ export default function PortfolioHome({ displayProjects}) {
             <div className="sm:hidden"><MobileMenu /></div>
                 <div className = "flex-col justify-center text-center">
                     <div className="flex justify-center">
-                        <h2 className="text-5xl sm:text-[200px] font-fun pb-10 font-bold">work.</h2>
+                        <h2 className="text-9xl sm:text-[200px] font-fun pb-10 font-bold">work.</h2>
                     </div>
                     <div className="flex justify-end ">
                         <div className="sm:w-3/4 mx-5 flex-col text-right">

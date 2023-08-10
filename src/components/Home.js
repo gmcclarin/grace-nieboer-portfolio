@@ -12,14 +12,14 @@ function Home () {
                     <div className="text-xxl sm:text-2xl pb-5">SOFTWARE ENGINEER. DEVELOPER. ARCHITECT.</div>
                     <div className="text-xxl sm:text-2xl">PASSIONATE DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.</div>
                 </div>
-                <div className = "text-8xl sm:pt-0 pt-20 md:text-[200px] lg:text-[270px] text-right font-fun font-bold m-2">
-                    <div className = "p-2 hover:text-white">
+                <div className = "text-8xl sm:pt-0 pt-20 md:text-[150px] lg:text-[250px] text-right font-fun font-bold m-2 ">
+                    <div className = "p-2  hover:italic">
                     <NavLink exact="true" to='/about'>about.</NavLink> 
                     </div>
-                    <div className = "p-2 hover:text-white">
+                    <div className = "p-2 hover:italic">
                         <NavLink exact="true" to='/portfolio'>work.</NavLink>
                     </div>
-                    <div className = "p-2 hover:text-white">
+                    <div className = "p-2 hover:italic">
                         <NavLink exact="true" to='/contact'>contact.</NavLink>
                     </div>
                 </div>
