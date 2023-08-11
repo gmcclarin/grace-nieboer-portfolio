@@ -33,6 +33,8 @@ export default function Project({getProject}) {
                                         src={photo.url}
                                         style={{width:"100%", display: "block"}}
                                         title={photo.name}
+                                        allow="autoplay;"
+                                        frameborder="0"
                                         />
                                     )
                                 }
