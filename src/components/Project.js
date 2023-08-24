@@ -31,7 +31,7 @@ export default function Project({getProject}) {
                                     return (
                                         <iframe 
                                         src={photo.url}
-                                        style={{width:"100%", display: "block"}}
+                                        style={{width:"100%", height:"100%", display: "block"}}
                                         title={photo.name}
                                         allow="autoplay;"
                                         frameborder="0"
