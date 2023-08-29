@@ -2,7 +2,7 @@
 [Server Repo](https://github.com/gnieb/grace-nieboer-server2.0)
 
 ## About
-Front End client built with React JS in JavaScriptnto showcase favorite fullstack projects, both completed and in progress.
+Front End client built with React JS in JavaScript to showcase favorite fullstack projects, both completed and in progress.
 
 ### Built With
 - React.js
