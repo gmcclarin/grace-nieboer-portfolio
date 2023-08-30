@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
-import ProjectNav from "./ProjectNav"
-import {Routes, Route} from 'react-router-dom'
-import PortfolioHome from "./PorfolioHome"
 import Project from "./Project"
+import NavBar from "./NavBar";
+import MobileMenu from "./MobileMenu";
+
 
 function ProjectPortfolio () {
     const [projects, setProjects] = useState([])
@@ -19,21 +19,26 @@ function ProjectPortfolio () {
             })
     }, [])
 
-    const displayProjects = projects.map((p) => {
-        return <ProjectNav key={p.id} p={p} />
-    })
-
-    function getProject(projectId) {
-        return projects.find( p => p.id == projectId ) 
-    }
+    const displayProjects = projects.map((p) => <Project key={p.id} p={p} /> )
     
     return (
-        <div>
-           <PortfolioHome  displayProjects={displayProjects} />
-            <Routes>
-                <Route path=":id" element={<Project getProject={getProject} />}/>
-            </Routes>
-        </div>
+        <div className="bg-cover m-5 ">
+            <div className="sm:hidden"><MobileMenu /></div>
+                <div className = "flex-col justify-center text-center">
+                    <div className="flex justify-center">
+                        <h2 className="text-9xl sm:text-[200px] font-fun pb-10 font-bold">work.</h2>
+                    </div>
+                    <div className="flex justify-end ">
+                        <div className="sm:w-3/4 mx-5 flex-col text-right">
+                            {displayProjects}
+                        </div>
+                    </div>
+                    
+                </div>
+                <div className="invisible sm:visible sm:fixed sm:bottom-0">
+                    <NavBar />
+                </div>
+            </div>
     )
 }
 
