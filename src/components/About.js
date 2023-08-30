@@ -15,9 +15,7 @@ function About () {
         <div className="m-5 relative block">
             <MobileMenu />
         <div className="">
-            
                 <NavBar />
-            
             <div className="mx-32">
                 <div className="text-6xl sm:text-[200px] font-fun font-bold pb-10 my-7">about.</div>
                 <div className=" mb-5 sm:flex ">
