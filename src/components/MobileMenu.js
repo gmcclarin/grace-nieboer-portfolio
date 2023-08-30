@@ -10,9 +10,9 @@ export default function MobileMenu () {
                 <div className="flex">
                     
                     <div onClick={()=> setShowMenu(!showMenu)}  className="sm:hidden p-4 space-y-2 z-10">
-                        <div className="w-6 h-0.5 bg-white"></div>
-                        <div className="w-6 h-0.5 bg-white"></div>
-                        <div className="w-6 h-0.5 bg-white"></div>
+                        <div className="w-6 h-0.5 bg-black"></div>
+                        <div className="w-6 h-0.5 bg-black"></div>
+                        <div className="w-6 h-0.5 bg-black"></div>
                     </div>
 
                     {/* ------------- FOR MOBILE ---------------- */}

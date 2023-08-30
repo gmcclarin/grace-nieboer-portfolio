@@ -22,18 +22,27 @@ function ProjectPortfolio () {
 
     if (projects.length < 1 ) {
         return (
-          <div className="h-screen w-full flex justify-center items-center fixed">
-            <Loading />
-        </div>  
+            <div className="m-5 flex">
+             <div className="invisible sm:visible sm:fixed sm:bottom-0">
+                <NavBar />
+            </div>
+            <div className="h-screen w-full flex justify-center items-center fixed">
+                <Loading />
+            </div>  
+           
+            </div>
         )
     }
 
     const displayProjects = projects.map((p) => <Project key={p.id} p={p} /> )
     
     return (
-        <div className="bg-cover m-5 ">
-            
-            <div className="sm:hidden"><MobileMenu /></div>
+        <>
+        <div className="sm:hidden"><MobileMenu /></div>
+        <div className="bg-cover m-5 flex">
+            <div className="sm:fixed sm:bottom-0 ">
+                <NavBar />
+            </div>
                 <div className = "flex-col justify-center text-center">
                     <div className="flex justify-center">
                         <h2 className="text-9xl sm:text-[200px] font-fun pb-10 font-bold">work.</h2>
@@ -45,10 +54,9 @@ function ProjectPortfolio () {
                     </div>
                     
                 </div>
-                <div className="invisible sm:visible sm:fixed sm:bottom-0">
-                    <NavBar />
-                </div>
+                
             </div>
+            </>
     )
 }
 
