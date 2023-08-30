@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import Project from "./Project"
 import NavBar from "./NavBar";
 import MobileMenu from "./MobileMenu";
+import Loading from "./Loading"
 
 
 function ProjectPortfolio () {
@@ -19,10 +20,19 @@ function ProjectPortfolio () {
             })
     }, [])
 
+    if (projects.length < 1 ) {
+        return (
+          <div className="h-screen w-full flex justify-center items-center fixed">
+            <Loading />
+        </div>  
+        )
+    }
+
     const displayProjects = projects.map((p) => <Project key={p.id} p={p} /> )
     
     return (
         <div className="bg-cover m-5 ">
+            
             <div className="sm:hidden"><MobileMenu /></div>
                 <div className = "flex-col justify-center text-center">
                     <div className="flex justify-center">
