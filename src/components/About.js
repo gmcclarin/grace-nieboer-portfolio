@@ -9,7 +9,7 @@ import MobileMenu from './MobileMenu';
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
 
 function About () {
-    const photos = [lookatcamera, starbs, portoflio5, lookdown, getlost, portfolio4 ]
+    const photos = [lookatcamera, starbs, portoflio5, portfolio4,  getlost, lookdown ]
 
     return (
         <div className="m-5 ">
