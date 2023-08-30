@@ -9,7 +9,7 @@ import MobileMenu from './MobileMenu'
 
 export default function Contact () {
     return (
-        <div className = "m-5 text-center">
+        <div className = "m-5">
             <MobileMenu />
             <div className="p-10 sm:p-20">
                 <h1 id="contact" className="text-5xl sm:text-[200px] font-fun font-bold pb-10" >contact.</h1>
@@ -31,8 +31,10 @@ export default function Contact () {
                 <a className="mx-2" href="https://github.com/gnieb">
                     <FontAwesomeIcon icon={faGithub} style={{height:"60px",color: "#262626", margin:"10px"}} />
                 </a>
-                <div className="sm:fixed sm:bottom-0"><NavBar /></div>
-        </div>
+            </div>
+            <div className="invisible sm:visible sm:fixed sm:bottom-0">
+                <NavBar />
+            </div>
         </div>
     )
 }
