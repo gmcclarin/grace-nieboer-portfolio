@@ -20,7 +20,7 @@ function About () {
                 <p className="text-xl sm:text-4xl text-justify pb-10">I have a Master's degree in Public Administration, with a professional background in Human Resources. I've spent the past few years of my career working in employee relations roles within HR, partnering with multi-lingual, cross-functional teams to work through employee issues and resolve conflicts. 
                 </p>
                 <p className="text-3xl font-bold mt-3">PERSON-FOCUSED</p>
-                <p className="text-xl sm:text-4xl text-justify">My unique background in complex problem solving in a very person-focused industry and roles allows me better collaborate and communicate with diverse teams. We work in tech, but we work WITH humans, FOR humans.</p>
+                <p className="text-xl sm:text-4xl text-justify">My unique background in complex problem solving in a very person-focused industry and roles allows me better collaborate and communicate with diverse teams. We work in tech, but we work WITH people, FOR people.</p>
                 </div>
              </div>
         </div>
