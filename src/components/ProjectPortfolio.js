@@ -37,12 +37,10 @@ function ProjectPortfolio () {
     const displayProjects = projects.map((p) => <Project key={p.id} p={p} /> )
     
     return (
-        <>
+        <div className="m-5 relative block">
         <div className="sm:hidden"><MobileMenu /></div>
-        <div className="bg-cover m-5 flex">
-            <div className="">
-                <NavBar />
-            </div>
+        <NavBar />
+        <div className="m-5 flex">
                 <div className = "flex-col justify-center text-center">
                     <div className="flex justify-center">
                         <h2 className="text-9xl sm:text-[200px] font-fun pb-10 font-bold">work.</h2>
@@ -56,7 +54,7 @@ function ProjectPortfolio () {
                 </div>
                 
             </div>
-            </>
+            </div>
     )
 }
 

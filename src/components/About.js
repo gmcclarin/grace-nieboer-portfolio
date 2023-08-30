@@ -14,13 +14,13 @@ function About () {
     return (
         <div className="m-5 relative block">
             <MobileMenu />
-        <div className="">
-                <NavBar />
-            <div className="mx-32">
-                <div className="text-6xl sm:text-[200px] font-fun font-bold pb-10 my-7">about.</div>
-                <div className=" mb-5 sm:flex ">
-                    <div className = "text-xl sm:text-2xl lg:text-3xl xl:text-4xl text-justify w-full sm:w-1/2 pb-10">My name is Grace Nieboer. I am a full stack software engineer with a love for the creative elements of front-end design, but I recently fell in love with Python on the back-end along with building API's with REST-ful architecture. I am currently learning Java and collaborating on a few projects with other teams. In my free time, you'll find me kickboxing or eating pizza</div>
-                    <div className="w-full sm:w-1/2 m-5 mb-10" >
+            <NavBar />
+            <div>
+                <div className="mx-32">
+                    <div className="text-6xl sm:text-[200px] font-fun font-bold pb-10 my-7">about.</div>
+                    <div className=" mb-5 sm:flex ">
+                        <div className = "text-xl sm:text-2xl lg:text-3xl xl:text-4xl text-justify w-full sm:w-1/2 pb-10">My name is Grace Nieboer. I am a full stack software engineer with a love for the creative elements of front-end design, but I recently fell in love with Python on the back-end along with building API's with REST-ful architecture. I am currently learning Java and collaborating on a few projects with other teams. In my free time, you'll find me kickboxing or eating pizza</div>
+                        <div className="w-full sm:w-1/2 m-5 mb-10" >
                         
                             <ResponsiveMasonry
                                 columnsCountBreakPoints={{350: 2, 900: 3}}
