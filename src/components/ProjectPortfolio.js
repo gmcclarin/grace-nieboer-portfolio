@@ -23,7 +23,7 @@ function ProjectPortfolio () {
     if (projects.length < 1 ) {
         return (
             <div className="m-5 flex">
-             <div className="invisible sm:visible sm:fixed sm:bottom-0">
+             <div className="">
                 <NavBar />
             </div>
             <div className="h-screen w-full flex justify-center items-center fixed">
@@ -40,7 +40,7 @@ function ProjectPortfolio () {
         <>
         <div className="sm:hidden"><MobileMenu /></div>
         <div className="bg-cover m-5 flex">
-            <div className="sm:fixed sm:bottom-0 ">
+            <div className="">
                 <NavBar />
             </div>
                 <div className = "flex-col justify-center text-center">
