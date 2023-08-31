@@ -6,11 +6,10 @@ import starbs from '../photos/starbsandcaution.png'
 import getlost from '../photos/getlost.png'
 import NavBar from './NavBar';
 import MobileMenu from './MobileMenu';
-import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 function About () {
     const photos = [lookatcamera, starbs, portoflio5, portfolio4,  getlost, lookdown ]
-
     return (
         <div className="m-5 relative block">
             <MobileMenu />
@@ -28,18 +27,17 @@ function About () {
                                 <Masonry gutter="20px" >
                                     {photos.map((photo, i) => {
                                             return (
-                                            <img
-                                                key={i}
-                                                src={photo}
-                                                style={{width: "100%", display: "block"}}
-                                                alt="portfolio picture"
-                                            /> 
+                                                <img
+                                                    key={i}
+                                                    src={photo}
+                                                    style={{width: "100%", display: "block"}}
+                                                    alt="portfolio picture"
+                                                /> 
                                             )
                                 })}
                                 </Masonry>
                             </ResponsiveMasonry>
                         </div>
-                    
                 </div>
                 <div className="mb-5 pb-10 flex justify-end ">
                     <div className="sm:w-1/2 flex-col text-right">
@@ -52,9 +50,7 @@ function About () {
              </div>
              </div>
         </div>
-        
         </div>
     )
 }
-
 export default About;
