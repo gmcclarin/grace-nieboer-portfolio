@@ -6,8 +6,8 @@ export default function ({p}) {
 
     return (
         <div className="p-2 sm:p-10 mb-10 sm:mb-40 bg-stone-900 bg-opacity-75">
-            <div className="font-fun font-bold p-4">
-                <div className="text-4xl sm:text-7xl ">{p.name.toUpperCase()}</div>
+            <div className="font-fun sm:my-14 text-neutral-300 text-center font-bold sm:py-8">
+                <div className="text-4xl sm:text-9xl">{p.name.toUpperCase()}</div>
             </div>
             <div className="m-2 text-right">
                 <div className="m-3">
