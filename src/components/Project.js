@@ -2,7 +2,7 @@
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
 
 export default function ({p}) {
-    
+    console.log(p)
 
     return (
         <div className="p-2 sm:p-10 mb-10 sm:mb-40 bg-stone-900 bg-opacity-75">
@@ -11,9 +11,9 @@ export default function ({p}) {
             </div>
             <div className="m-2 text-right">
                 <div className="m-3">
-                    <div className="font-bold sm:text-4xl">{p.descript}</div>
+                    <div className="font-bold sm:text-4xl italic">{p.descript}</div>
                     <div className="m-4">
-                        <div className="text-4xl italic font-bold">Built With</div>
+                        <div className="text-4xl  font-bold">THE TECH STACK</div>
                         <div className="text-3xl">{p.front_end}</div>
                         <div className="text-3xl">{p.back_end}</div>
                         <div className="text-3xl">{p.database}</div>
