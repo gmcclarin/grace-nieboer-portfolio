@@ -11,7 +11,10 @@ export default function Contact () {
     return (
         <div className = "m-5">
             <MobileMenu />
-            <div className="p-10 sm:p-20">
+            <div className="">
+                <NavBar />
+            </div>
+            <div className="p-10 sm:p-20 content-center text-center">
                 <h1 id="contact" className="text-5xl sm:text-[200px] font-fun font-bold pb-10" >contact.</h1>
                 <h1 className= " text-2xl sm:text-4xl">
                     get to know me a little better. 
@@ -32,9 +35,7 @@ export default function Contact () {
                     <FontAwesomeIcon icon={faGithub} style={{height:"60px",color: "#262626", margin:"10px"}} />
                 </a>
             </div>
-            <div className="invisible sm:visible sm:fixed sm:bottom-0">
-                <NavBar />
-            </div>
+            
         </div>
     )
 }
