@@ -20,11 +20,11 @@ export default function ({p}) {
                         <div className="text-3xl">{p.css}</div>
                     </div>
                 </div>
-                <div className="flex justify-between">
-                    <div>{p.bullet1}</div>
-                    <div>{p.bullet2}</div>
+                <div className="flex justify-between sm:m-20 m-5">
+                    <div className="text-3xl m-3">{p.bullet1}</div>
+                    <div className="text-3xl m-3">{p.bullet2}</div>
                 </div>
-                <div>{p.bullet3}</div>
+                <div className="text-3xl sm:m-20 m-5">{p.bullet3}</div>
                 <div className="w-full mb-10" >
                     
                         <ResponsiveMasonry
