@@ -49,7 +49,7 @@ body{
 #portsection2 {
   background-image: url('./photos/twoormorebackground.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 90%;
   background-position:center;
 }
 /* 

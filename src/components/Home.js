@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function Home () {
 
     return (
-        < div className = "my-15 p-10 sm:p-20 bg-cover ">
+        < div className = "my-15 p-10 sm:p-20 bg-cover bg-neutral-100 ">
             <div className="sm:flex sm:justify-between">
                 <div className="flex-col w-1/4">
                     <div className="font-bold pb-5 text-xl sm:text-3xl">Grace Nieboer</div>
