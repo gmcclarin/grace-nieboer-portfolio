@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 function NavBar () {
     return (
         <nav className="ml-7 my-7 hidden sm:flex sm:flex-col h-100vh bg-transparent content-center justify-center sm:fixed">
-
                             <NavLink
                             to="/"
                             exact="true"
