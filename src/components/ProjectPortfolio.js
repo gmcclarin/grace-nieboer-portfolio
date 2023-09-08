@@ -1,6 +1,7 @@
 import NavBar from "./NavBar";
 import MobileMenu from "./MobileMenu";
 import { NavLink } from "react-router-dom";
+import Time from "./Time";
 
 function ProjectPortfolio () {
  
@@ -28,8 +29,23 @@ function ProjectPortfolio () {
                                 >TWO OR MORE
                             </NavLink>
                         </div>
-                        <div id="portsection3" className="relative snap-start snap-always bg-zinc-500 w-screen h-screen mx-auto ">
-                        <video
+                        <div id="portsection3" className="snap-start snap-always bg-zinc-500 w-screen h-screen flex justify-center items-center">
+                            
+                                
+                                    <Time />
+                                
+                                
+                                <NavLink
+                                    to="/jobsurge"
+                                    exact="true"
+                                    className="text-white text-right -rotate-90 p-0 m-0 hover:text-orange-500 rounded-md font-bold"
+                                    >JOB SURGE
+                                </NavLink>
+                                
+                            
+                        </div>
+                        <div className="relative snap-start snap-always bg-zinc-200 w-screen h-screen flex items-center justify-center ">
+                            <video
                             autoPlay
                             loop
                             muted
@@ -42,17 +58,9 @@ function ProjectPortfolio () {
                             Your browser does not support the video tag.
                             </video>
                             <NavLink
-                                to="/jobsurge"
-                                exact="true"
-                                className="text-white absolute right-0 bottom-0 mx-auto hover:text-orange-500 rounded-md p-5 font-bold"
-                                >JOBSURGE
-                            </NavLink>
-                        </div>
-                        <div className="snap-start snap-always bg-zinc-200 w-screen h-screen flex items-center justify-center ">
-                            <NavLink
                                 to="/fryme"
                                 exact="true"
-                                className="hover:text-orange-500 rounded-md p-5 font-bold "
+                                className="absolute right-0 bottom-20 hover:text-orange-500 rounded-md p-5 font-bold "
                                 >FRY ME TO THE MOON
                             </NavLink>
                         </div>
