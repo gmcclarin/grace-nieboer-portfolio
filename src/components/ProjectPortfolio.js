@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import JobSurge from "./JobSurge";
 import TwoOrMore from "./TwoOrMore";
 import InspiredInteriors from "./InspiredInteriors";
+import FryMe from "./FryMe";
 
 
 function ProjectPortfolio () {
@@ -38,6 +39,12 @@ function ProjectPortfolio () {
                             className="hover:text-orange-500 rounded-md p-5 text-sm sm:text-xl font-bold -rotate-90"
                             >TWO OR MORE
                         </NavLink>
+                        <NavLink
+                            to="/portfolio/fryme"
+                            exact="true"
+                            className="hover:text-orange-500 rounded-md p-5 text-sm sm:text-xl font-bold -rotate-90"
+                            >FRY ME TO THE MOON
+                        </NavLink>
 
                     </nav>
                     <div className="flex justify-end ">
@@ -46,7 +53,7 @@ function ProjectPortfolio () {
                             <Route path="/inspiredinteriors" element={<InspiredInteriors />}/>
                             <Route path="/jobsurge" element={<JobSurge />}/>
                             <Route path="/twoormore" element={<TwoOrMore />}/>
-                            {/* <Route path="portfolio/*" element={<ProjectPortfolio />}/> */}
+                            <Route path="/fryme" element={<FryMe />}/>
                         </Routes>
                         </div>
                     </div>
