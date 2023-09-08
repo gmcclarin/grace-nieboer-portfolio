@@ -3,35 +3,12 @@ import Project from "./Project"
 import NavBar from "./NavBar";
 import MobileMenu from "./MobileMenu";
 import Loading from "./Loading"
-
+import InspiredInteriors from "./InspiredInteriors";
+import {Routes, Route} from 'react-router-dom'
 
 function ProjectPortfolio () {
-    const [projects, setProjects] = useState([])
+ 
 
-    useEffect(() => {
-        fetch('https://grace-nieboer-server2-0.onrender.com/projects')
-            .then(r => {
-                if(r.ok){
-                    r.json().then(data => setProjects(data))
-                }
-                else {
-                    console.log(r)
-                }
-            })
-    }, [])
-
-    if (projects.length < 1 ) {
-        return (
-            <div className="m-5 flex">
-                <NavBar />
-                <div className="h-screen w-full flex justify-center items-center fixed">
-                    <Loading />
-                </div>  
-            </div>
-        )
-    }
-
-    const displayProjects = projects.map((p) => <Project key={p.id} p={p} /> )
     
     return (
         <div className="m-1 sm:m-5 relative block">
@@ -44,7 +21,13 @@ function ProjectPortfolio () {
                     </div>
                     <div className="flex justify-end ">
                         <div className="sm:w-11/12 mx-5 flex-col text-right">
-                            {displayProjects}
+                        <Routes>
+                            <Route exact path="/" element={<Home />}/>
+                            <Route path="about" element={<About />} />
+                            <Route path="contact" element={<Contact />}/>
+                            <Route path="portfolio/*" element={<ProjectPortfolio />}/>
+                            <Route path="*" element={<NotFound />} />
+                        </Routes>
                         </div>
                     </div>
                 </div>
