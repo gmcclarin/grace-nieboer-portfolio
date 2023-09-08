@@ -20,29 +20,29 @@ function ProjectPortfolio () {
                     <div className="flex justify-center">
                         <h2 className="text-9xl sm:text-[200px] font-fun pb-10 font-bold">work.</h2>
                     </div>
-                    <nav className="">
+                    <nav className="text-sm sm:text-2xl font-fun">
                         <NavLink
                             to="/portfolio/inspiredinteriors"
                             exact="true"
-                            className="hover:text-orange-500 rounded-md p-5  text-sm sm:text-xl font-bold -rotate-90"
+                            className="hover:text-orange-500 rounded-md p-5  font-bold -rotate-90"
                             >INSPIRED INTERIORS
                         </NavLink>
                         <NavLink
                             to="/portfolio/jobsurge"
                             exact="true"
-                            className="hover:text-orange-500 rounded-md p-5 text-sm sm:text-xl font-bold -rotate-90"
+                            className="hover:text-orange-500 rounded-md p-5 font-bold -rotate-90"
                             >JOBSURGE
                         </NavLink>
                         <NavLink
                             to="/portfolio/twoormore"
                             exact="true"
-                            className="hover:text-orange-500 rounded-md p-5 text-sm sm:text-xl font-bold -rotate-90"
+                            className="hover:text-orange-500 rounded-md p-5 font-bold -rotate-90"
                             >TWO OR MORE
                         </NavLink>
                         <NavLink
                             to="/portfolio/fryme"
                             exact="true"
-                            className="hover:text-orange-500 rounded-md p-5 text-sm sm:text-xl font-bold -rotate-90"
+                            className="hover:text-orange-500 rounded-md p-5 font-bold -rotate-90"
                             >FRY ME TO THE MOON
                         </NavLink>
 
