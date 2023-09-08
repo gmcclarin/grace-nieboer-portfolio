@@ -1,12 +1,11 @@
-import { useEffect, useState } from "react"
-import Project from "./.archivedProject"
 import NavBar from "./NavBar";
 import MobileMenu from "./MobileMenu";
-import Loading from "./Loading"
-import InspiredInteriors from "./InspiredInteriors";
 import {Routes, Route} from 'react-router-dom'
 import { NavLink } from "react-router-dom";
 import JobSurge from "./JobSurge";
+import TwoOrMore from "./TwoOrMore";
+import InspiredInteriors from "./InspiredInteriors";
+
 
 function ProjectPortfolio () {
  
@@ -33,6 +32,12 @@ function ProjectPortfolio () {
                             className="hover:text-orange-500 rounded-md p-5 text-sm sm:text-xl font-bold -rotate-90"
                             >JOBSURGE
                         </NavLink>
+                        <NavLink
+                            to="/portfolio/twoormore"
+                            exact="true"
+                            className="hover:text-orange-500 rounded-md p-5 text-sm sm:text-xl font-bold -rotate-90"
+                            >TWO OR MORE
+                        </NavLink>
 
                     </nav>
                     <div className="flex justify-end ">
@@ -40,6 +45,7 @@ function ProjectPortfolio () {
                         <Routes>
                             <Route path="/inspiredinteriors" element={<InspiredInteriors />}/>
                             <Route path="/jobsurge" element={<JobSurge />}/>
+                            <Route path="/twoormore" element={<TwoOrMore />}/>
                             {/* <Route path="portfolio/*" element={<ProjectPortfolio />}/> */}
                         </Routes>
                         </div>
