@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import Project from "./Project"
+import Project from "./.archivedProject"
 import NavBar from "./NavBar";
 import MobileMenu from "./MobileMenu";
 import Loading from "./Loading"
@@ -26,7 +26,7 @@ function ProjectPortfolio () {
                             className="hover:text-orange-500 rounded-md py-20  text-sm sm:text-xl font-bold -rotate-90"
                             >INSPIRED INTERIORS
                         </NavLink>
-                        
+
                     </nav>
                     <div className="flex justify-end ">
                         <div className="sm:w-11/12 mx-5 flex-col text-right">
