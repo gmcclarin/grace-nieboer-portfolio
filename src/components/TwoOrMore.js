@@ -37,10 +37,10 @@ export default function TwoOrMore () {
                     </div>
                 </div>
                 <div className="flex justify-between sm:m-20 m-5">
-                    <div className="text-3xl m-3">PLACEHOLDER</div>
-                    <div className="text-3xl m-3">PLACEHOLDER</div>
+                    <div className="text-3xl m-3">The interactive LIBRARY provides helpful educational resources, categorized by various material types (digital, print, audio, etc). It also features a vocabulary page that will highlight rotating founder-chosen words that have important meaning within the community.</div>
+                    <div className="text-3xl m-3">Everyone has a story! The Story page features reader submissions that tell share their story with the Two Or More community.</div>
                 </div>
-                <div className="text-3xl sm:m-20 m-5">AGAIN, LOREM IPSUM ETC ETC</div>
+                <div className="text-3xl sm:m-20 m-5">Readers inspired by others who have shared their stories can submit their own through the Share page, which is persisted to a PostgreSQL database</div>
                 <div className="w-full mb-10" >
                     
                         <ResponsiveMasonry
