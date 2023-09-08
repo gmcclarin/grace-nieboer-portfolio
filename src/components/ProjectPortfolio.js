@@ -6,6 +6,7 @@ import Loading from "./Loading"
 import InspiredInteriors from "./InspiredInteriors";
 import {Routes, Route} from 'react-router-dom'
 import { NavLink } from "react-router-dom";
+import JobSurge from "./JobSurge";
 
 function ProjectPortfolio () {
  
@@ -19,12 +20,18 @@ function ProjectPortfolio () {
                     <div className="flex justify-center">
                         <h2 className="text-9xl sm:text-[200px] font-fun pb-10 font-bold">work.</h2>
                     </div>
-                    <nav>
+                    <nav className="">
                         <NavLink
                             to="/portfolio/inspiredinteriors"
                             exact="true"
-                            className="hover:text-orange-500 rounded-md py-20  text-sm sm:text-xl font-bold -rotate-90"
+                            className="hover:text-orange-500 rounded-md p-5  text-sm sm:text-xl font-bold -rotate-90"
                             >INSPIRED INTERIORS
+                        </NavLink>
+                        <NavLink
+                            to="/portfolio/jobsurge"
+                            exact="true"
+                            className="hover:text-orange-500 rounded-md p-5 text-sm sm:text-xl font-bold -rotate-90"
+                            >JOBSURGE
                         </NavLink>
 
                     </nav>
@@ -32,6 +39,7 @@ function ProjectPortfolio () {
                         <div className="sm:w-11/12 mx-5 flex-col text-right">
                         <Routes>
                             <Route path="/inspiredinteriors" element={<InspiredInteriors />}/>
+                            <Route path="/jobsurge" element={<JobSurge />}/>
                             {/* <Route path="portfolio/*" element={<ProjectPortfolio />}/> */}
                         </Routes>
                         </div>
