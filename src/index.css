@@ -39,6 +39,27 @@ body{
   height: 100vh;
 }
 
+#portsection1 {
+  background-image: url('./photos/photo20.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#portsection2 {
+  background-image: url('./photos/twoormorebackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+#portsection3 {
+  background-image: url('./photos/twoormorebackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
 
 
 

@@ -1,12 +1,7 @@
 import NavBar from "./NavBar";
 import MobileMenu from "./MobileMenu";
-import {Routes, Route} from 'react-router-dom'
 import { NavLink } from "react-router-dom";
-import JobSurge from "./JobSurge";
-import TwoOrMore from "./TwoOrMore";
-import InspiredInteriors from "./InspiredInteriors";
-import FryMe from "./FryMe";
-
+import photo20 from "../photos/photo20.avif";
 
 function ProjectPortfolio () {
  
@@ -17,41 +12,37 @@ function ProjectPortfolio () {
         <NavBar />
         <div className="flex">
                 <div className = "mx-auto text-center">
-                    {/* <div className="flex justify-center">
-                        <h2 className="text-9xl sm:text-[150px] font-fun pb-10 font-bold">work.</h2>
-                    </div> */}
-                    <div className="sm:w-11/12 mx-5 flex-col text-right">
-                    </div>
-                    <div className="snap-y snap-mandatory h-screen w-screen overflow-y-scroll">
-                        <div className="snap-start snap-always bg-pink-500 w-screen h-screen flex items-center justify-center ">
+                    {/* <img src={photo20} /> */}
+                    <div className="snap-y snap-mandatory h-screen w-screen overflow-y-scroll text-5xl">
+                        <div id="portsection1" className="snap-start snap-always w-screen h-screen flex items-center justify-center ">
                             <NavLink
                                 to="/inspiredinteriors"
                                 exact="true"
-                                className="hover:text-orange-500 rounded-md p-5  font-bold -rotate-90"
+                                className="hover:text-orange-500 text-white rounded-md p-5 hover:blur-sm  font-bold"
                                 >INSPIRED INTERIORS
                             </NavLink>
                         </div>
-                        <div className="snap-start snap-always bg-blue-500 w-screen h-screen flex items-center justify-center ">
+                        <div id="portsection2" className="snap-start snap-always bg-zinc-700 w-screen h-screen flex items-center justify-center ">
                             <NavLink
                                 to="/twoormore"
                                 exact="true"
-                                className="hover:text-orange-500 rounded-md p-5 font-bold -rotate-90"
+                                className="hover:text-orange-500 rounded-md p-5 font-bold "
                                 >TWO OR MORE
                             </NavLink>
                         </div>
-                        <div className="snap-start snap-always bg-orange-500 w-screen h-screen flex items-center justify-center ">
+                        <div className="snap-start snap-always bg-zinc-500 w-screen h-screen flex items-center justify-center ">
                             <NavLink
                                 to="/jobsurge"
                                 exact="true"
-                                className="hover:text-orange-500 rounded-md p-5 font-bold -rotate-90"
+                                className="hover:text-orange-500 rounded-md p-5 font-bold"
                                 >JOBSURGE
                             </NavLink>
                         </div>
-                        <div className="snap-start snap-always bg-teal-500 w-screen h-screen flex items-center justify-center ">
+                        <div className="snap-start snap-always bg-zinc-200 w-screen h-screen flex items-center justify-center ">
                             <NavLink
                                 to="/fryme"
                                 exact="true"
-                                className="hover:text-orange-500 rounded-md p-5 font-bold -rotate-90"
+                                className="hover:text-orange-500 rounded-md p-5 font-bold "
                                 >FRY ME TO THE MOON
                             </NavLink>
                         </div>
