@@ -1,50 +1,60 @@
-import { useEffect, useState } from "react"
-import Project from "./Project"
 import NavBar from "./NavBar";
 import MobileMenu from "./MobileMenu";
-import Loading from "./Loading"
+import {Routes, Route} from 'react-router-dom'
+import { NavLink } from "react-router-dom";
+import JobSurge from "./JobSurge";
+import TwoOrMore from "./TwoOrMore";
+import InspiredInteriors from "./InspiredInteriors";
+import FryMe from "./FryMe";
 
 
 function ProjectPortfolio () {
-    const [projects, setProjects] = useState([])
-
-    useEffect(() => {
-        fetch('https://grace-nieboer-server2-0.onrender.com/projects')
-            .then(r => {
-                if(r.ok){
-                    r.json().then(data => setProjects(data))
-                }
-                else {
-                    console.log(r)
-                }
-            })
-    }, [])
-
-    if (projects.length < 1 ) {
-        return (
-            <div className="m-5 flex">
-                <NavBar />
-                <div className="h-screen w-full flex justify-center items-center fixed">
-                    <Loading />
-                </div>  
-            </div>
-        )
-    }
-
-    const displayProjects = projects.map((p) => <Project key={p.id} p={p} /> )
+ 
     
     return (
         <div className="m-1 sm:m-5 relative block">
         <div className="sm:hidden"><MobileMenu /></div>
         <NavBar />
         <div className="m-5 flex">
-                <div className = "flex-col justify-center text-center">
+                <div className = "mx-auto text-center">
                     <div className="flex justify-center">
                         <h2 className="text-9xl sm:text-[200px] font-fun pb-10 font-bold">work.</h2>
                     </div>
+                    <nav className="">
+                        <NavLink
+                            to="/portfolio/inspiredinteriors"
+                            exact="true"
+                            className="hover:text-orange-500 rounded-md p-5  text-sm sm:text-xl font-bold -rotate-90"
+                            >INSPIRED INTERIORS
+                        </NavLink>
+                        <NavLink
+                            to="/portfolio/jobsurge"
+                            exact="true"
+                            className="hover:text-orange-500 rounded-md p-5 text-sm sm:text-xl font-bold -rotate-90"
+                            >JOBSURGE
+                        </NavLink>
+                        <NavLink
+                            to="/portfolio/twoormore"
+                            exact="true"
+                            className="hover:text-orange-500 rounded-md p-5 text-sm sm:text-xl font-bold -rotate-90"
+                            >TWO OR MORE
+                        </NavLink>
+                        <NavLink
+                            to="/portfolio/fryme"
+                            exact="true"
+                            className="hover:text-orange-500 rounded-md p-5 text-sm sm:text-xl font-bold -rotate-90"
+                            >FRY ME TO THE MOON
+                        </NavLink>
+
+                    </nav>
                     <div className="flex justify-end ">
                         <div className="sm:w-11/12 mx-5 flex-col text-right">
-                            {displayProjects}
+                        <Routes>
+                            <Route path="/inspiredinteriors" element={<InspiredInteriors />}/>
+                            <Route path="/jobsurge" element={<JobSurge />}/>
+                            <Route path="/twoormore" element={<TwoOrMore />}/>
+                            <Route path="/fryme" element={<FryMe />}/>
+                        </Routes>
                         </div>
                     </div>
                 </div>
