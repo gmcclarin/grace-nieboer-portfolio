@@ -12,14 +12,15 @@ function ProjectPortfolio () {
  
     
     return (
-        <div className="m-1 sm:m-5 relative block">
+        <div className="relative block">
         <div className="sm:hidden"><MobileMenu /></div>
         <NavBar />
-        <div className="m-5 flex">
+        <div className="flex">
                 <div className = "mx-auto text-center">
                     <div className="flex justify-center">
                         <h2 className="text-9xl sm:text-[200px] font-fun pb-10 font-bold">work.</h2>
                     </div>
+
                     <nav className="text-sm sm:text-2xl font-fun">
                         <NavLink
                             to="/portfolio/inspiredinteriors"
@@ -47,15 +48,12 @@ function ProjectPortfolio () {
                         </NavLink>
 
                     </nav>
-                    <div className="flex justify-end ">
-                        <div className="sm:w-11/12 mx-5 flex-col text-right">
-                        <Routes>
-                            <Route path="/inspiredinteriors" element={<InspiredInteriors />}/>
-                            <Route path="/jobsurge" element={<JobSurge />}/>
-                            <Route path="/twoormore" element={<TwoOrMore />}/>
-                            <Route path="/fryme" element={<FryMe />}/>
-                        </Routes>
-                        </div>
+                    <div className="snap-y snap-mandatory h-screen w-screen overflow-scroll">
+                        <div className="snap-start bg-pink-500 w-screen h-screen flex items-center justify-center ">1</div>
+                        <div className="snap-start bg-blue-500 w-screen h-screen flex items-center justify-center ">1</div>
+                        <div className="snap-start bg-orange-500 w-screen h-screen flex items-center justify-center ">1</div>
+                        <div className="snap-start bg-teal-500 w-screen h-screen flex items-center justify-center ">1</div>
+                        
                     </div>
                 </div>
             </div>
