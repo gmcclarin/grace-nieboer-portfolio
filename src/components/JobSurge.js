@@ -1,4 +1,5 @@
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
+import { NavLink } from "react-router-dom";
 
 export default function JobSurge () {
 
@@ -22,6 +23,13 @@ export default function JobSurge () {
 
     return (
         <div className="p-2 sm:p-10 mb-10 sm:mb-40">
+            <NavLink
+                to="/portfolio"
+                exact="true"
+                className="hover:text-orange-500 rounded-md py-20 text-sm sm:text-2xl font-bold -rotate-90"
+                >
+                    ← BACK TO WORK ←
+                </NavLink>
             <div className="font-fun sm:my-14 text-neutral-300 text-center font-bold sm:py-8">
                 <div className="text-4xl sm:text-9xl">JobSurge</div>
             </div>

@@ -11,7 +11,7 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 function About () {
     const photos = [lookatcamera, starbs, portoflio5, portfolio4,  getlost, lookdown ]
     return (
-        <div className="m-5 relative block">
+        <div className="relative block">
             <MobileMenu />
             <NavBar />
             <div>

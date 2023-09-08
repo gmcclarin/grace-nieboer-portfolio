@@ -9,13 +9,13 @@ import MobileMenu from './MobileMenu'
 
 export default function Contact () {
     return (
-        <div className = "m-5">
+        <div className = "">
             <MobileMenu />
             <div className="">
                 <NavBar />
             </div>
             <div className="p-10 sm:p-20 content-center text-center">
-                <h1 id="contact" className="text-5xl sm:text-[200px] font-fun font-bold pb-10" >contact.</h1>
+                <h1 id="contact" className="text-4xl sm:text-[100px] md:text-[150px] lg:text-[200px] font-fun font-bold pb-10" >contact.</h1>
                 <h1 className= " text-2xl sm:text-4xl">
                     get to know me a little better. 
                 </h1>
