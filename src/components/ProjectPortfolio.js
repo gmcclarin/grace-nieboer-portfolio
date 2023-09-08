@@ -29,30 +29,27 @@ function ProjectPortfolio () {
                                 >TWO OR MORE
                             </NavLink>
                         </div>
-                        <div id="portsection3" className="snap-start snap-always bg-zinc-500 w-screen h-screen flex justify-center items-center">
-                            
-                                
-                                    <Time />
-                                
-                                
+                        <div id="portsection3" className="snap-start snap-always bg-zinc-500 w-screen h-screen flex justify-center mx-auto pl-5 items-center">
+                                <Time />
                                 <NavLink
                                     to="/jobsurge"
                                     exact="true"
-                                    className="text-white text-right -rotate-90 p-0 m-0 hover:text-orange-500 rounded-md font-bold"
+                                    className="text-white text-left -rotate-90 px-0 my-0 hover:text-orange-500 rounded-md font-bold"
                                     >JOB SURGE
                                 </NavLink>
                                 
                             
                         </div>
-                        <div className="relative snap-start snap-always bg-zinc-200 w-screen h-screen flex items-center justify-center ">
+                        <div className="relative snap-start snap-always bg-black w-screen h-screen flex items-center justify-center ">
+                        
                             <video
                             autoPlay
                             loop
                             muted
-                            className="w-screen h-screen"
+                            className="min-w-full min-h-screen w-screen h-screen"
                         >
                                 <source
-                                src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4"
+                                src="https://assets.mixkit.co/videos/preview/mixkit-full-moon-with-a-soft-haze-4433-large.mp4"
                                 type="video/mp4"
                                 />
                             Your browser does not support the video tag.
@@ -60,7 +57,7 @@ function ProjectPortfolio () {
                             <NavLink
                                 to="/fryme"
                                 exact="true"
-                                className="absolute right-0 bottom-20 hover:text-orange-500 rounded-md p-5 font-bold "
+                                className="absolute right-1/2 bottom-20 text-white hover:text-orange-500 rounded-md p-5 font-bold "
                                 >FRY ME TO THE MOON
                             </NavLink>
                         </div>
