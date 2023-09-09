@@ -15,7 +15,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         'main': "url('texturePaint.avif')"
-      }
+      },
+      padding: {
+        '1/2': '50%',
+        full: '100%',
+      },
     },
   },
   plugins: [],

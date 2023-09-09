@@ -13,11 +13,20 @@ function ProjectPortfolio () {
         <div className="flex">
                 <div className = "mx-auto text-center">
                     <div className="snap-y snap-mandatory h-screen w-screen  overflow-y-scroll overflow-x-hidden text-7xl">
+                        <div id="portsection3" className="snap-start snap-always bg-neutral-400 w-screen h-screen flex justify-center mx-auto pl-5 items-center">
+                                <Time />
+                                <NavLink
+                                    to="/jobsurge"
+                                    exact="true"
+                                    className="text-white text-left -rotate-90 px-0 my-0 hover:text-orange-500 rounded-md font-bold"
+                                    >JOB SURGE
+                                </NavLink>
+                        </div>
                         <div id="portsection1" className="snap-start snap-always w-screen h-screen flex items-center justify-center ">
                             <NavLink
                                 to="/inspiredinteriors"
                                 exact="true"
-                                className="hover:text-orange-500 text-white rounded-md p-5 hover:blur-sm  font-bold"
+                                className="hover:text-orange-500 text-white rounded-md p-40 font-bold"
                                 >INSPIRED INTERIORS
                             </NavLink>
                         </div>
@@ -29,17 +38,7 @@ function ProjectPortfolio () {
                                 >TWO OR MORE
                             </NavLink>
                         </div>
-                        <div id="portsection3" className="snap-start snap-always bg-zinc-400 w-screen h-screen flex justify-center mx-auto pl-5 items-center">
-                                <Time />
-                                <NavLink
-                                    to="/jobsurge"
-                                    exact="true"
-                                    className="text-white text-left -rotate-90 px-0 my-0 hover:text-orange-500 rounded-md font-bold"
-                                    >JOB SURGE
-                                </NavLink>
-                                
-                            
-                        </div>
+                        
                         <div className="relative snap-start snap-always bg-black w-screen h-screen flex items-center justify-center ">
                         
                             <video
