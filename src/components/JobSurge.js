@@ -1,5 +1,6 @@
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
 import { NavLink } from "react-router-dom";
+import Time from "./Time";
 
 export default function JobSurge () {
 
@@ -22,22 +23,30 @@ export default function JobSurge () {
     ]
 
     return (
-        <div className="p-2 sm:p-10 mb-10 sm:mb-40">
+        <div className="">
             <NavLink
                 to="/portfolio"
                 exact="true"
-                className="hover:text-orange-500 rounded-md py-20 text-sm sm:text-2xl font-bold -rotate-90"
+                className="fixed hover:text-orange-500 rounded-md p-10 text-sm sm:text-2xl font-bold "
                 >
                     ← BACK TO WORK ←
                 </NavLink>
-            <div className="font-fun sm:my-14 text-neutral-300 text-center font-bold sm:py-8">
-                <div className="text-4xl sm:text-9xl">JobSurge</div>
-            </div>
-            <div className="m-2 text-right">
-                <div className="m-3">
-                <div className="font-bold sm:text-4xl italic">SURGE [ v ]: to move suddenly and powerfully forward or upward.</div>
-                    <div className="font-bold sm:text-4xl italic">A career dashboard to help me navigate my job search, organize my priorities, and categorize my goals by Day, Week, Month, and Year. JobSurge was built to navigate my transition from Human Resources into tech.</div>
-                    <div className="m-4">
+            <div className="snap-y snap-mandatory h-screen w-screen  overflow-y-scroll overflow-x-hidden">
+                <div className="snap-start snap-always bg-neutral-400 w-screen h-screen flex justify-center mx-auto pl-5 items-center">
+                    <Time />
+                </div>
+                <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
+                    <div className="sm:my-14 text-neutral-500 text-center font-bold sm:py-8">
+                        <div className="font-fun text-4xl sm:text-9xl">JobSurge</div>
+                        <div className="flex w-3/4 justify-between mx-auto ">
+                            <div className="w-1/2 p-2 text-left file:font-bold sm:text-4xl italic text-black">SURGE [ v ]: to move suddenly and powerfully forward or upward.</div>
+                            <div className="w-1/2 p-2 text-left font-bold sm:text-3xl italic text-black">A career dashboard to help me navigate my job search, organize my priorities, and categorize my goals by Day, Week, Month, and Year. JobSurge was built to navigate my transition from Human Resources into tech.</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
+                <div className="m-4">
                         <div className="text-4xl  font-bold">THE TECH STACK</div>
                         <div className="text-3xl">REACT JS</div>
                         <div className="text-3xl">JAVASCRIPT</div>
@@ -47,43 +56,11 @@ export default function JobSurge () {
                         <div className="text-3xl">TAILWIND</div>
                     </div>
                 </div>
-                <div className="flex justify-between sm:m-20 m-5">
-                    <div className="text-3xl m-3">PLACEHOLDER</div>
-                    <div className="text-3xl m-3">PLACEHOLDER</div>
-                </div>
-                <div className="text-3xl sm:m-20 m-5">AGAIN, LOREM IPSUM ETC ETC</div>
-                <div className="w-full mb-10" >
+                <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto items-center align-center">
                     
-                        <ResponsiveMasonry
-                            columnsCountBreakPoints={{350: 2, 750: 2, 900: 3}}
-                            >
-                            <Masonry gutter="20px" >
-                                {(photos).map((photo, i) => {
-                                    if (photo.isPhoto) {
-                                        return (
-                                        <img
-                                            key={i}
-                                            src={photo.src}
-                                            style={{width: "100%", display: "block"}}
-                                            alt={photo.name}
-                                        /> 
-                                        )
-                                } else {
-                                    return (
-                                        <iframe 
-                                        key={i}
-                                        src={photo.src}
-                                        style={{width:"100%", height:"100%", display: "block"}}
-                                        title={photo.name}
-                                        allow="autoplay;"
-                                        // frameBorder="0"
-                                        />
-                                    )
-                                }
-                            })}
-                            </Masonry>
-                        </ResponsiveMasonry>
-                    </div>
+                        <img className="w-3/4 2xl:w-1/2 border border-black" src={photos[0].src} />
+                        
+                </div>
             </div>
         </div>
     )

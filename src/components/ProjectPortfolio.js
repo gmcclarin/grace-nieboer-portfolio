@@ -13,7 +13,7 @@ function ProjectPortfolio () {
         <div className="flex">
                 <div className = "mx-auto text-center">
                     <div className="snap-y snap-mandatory h-screen w-screen  overflow-y-scroll overflow-x-hidden text-7xl">
-                        <div id="portsection3" className="snap-start snap-always bg-zinc-400 w-screen h-screen flex justify-center mx-auto pl-5 items-center">
+                        <div id="portsection3" className="snap-start snap-always bg-neutral-400 w-screen h-screen flex justify-center mx-auto pl-5 items-center">
                                 <Time />
                                 <NavLink
                                     to="/jobsurge"
