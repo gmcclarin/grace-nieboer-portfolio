@@ -13,7 +13,7 @@ function Home () {
                         <h1 className="absolute text-4xl sm:text-[100px] text-white top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">Grace Nieboer</h1>
                     </div>
                     <div className="flex ">
-                        <div className="relative w-full h-0 pb-1/2 text-sm sm:text-2xl lg:text-2xl xl:text-3xl">
+                        <div className="relative w-full h-0 pb-1/2 text-sm sm:text-2xl lg:text-2xl xl:text-3xl border border-black">
                             <p className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">SOFTWARE ENGINEER. DEVELOPER. ARCHITECT.</p>
                         </div>
                         <div className="relative w-full h-0 pb-1/2 text-sm sm:text-2xl xl:text-2xl">
@@ -26,8 +26,21 @@ function Home () {
                         <div id="home-about" className = "relative w-full h-0 pb-1/2 hover:italic grayscale hover:grayscale-0 bg-pink-300">
                             <NavLink className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" exact="true" to='/about'>about.</NavLink> 
                         </div>
-                        <div id="home-work" className = "relative w-full h-0 pb-1/2 hover:italic ">
-            
+                        <div id="home-work" className = "relative w-full h-0 pb-1/2 hover:italic grayscale hover:grayscale-0">
+                            <video
+                            id="video-element"
+                                autoPlay
+                                loop
+                                muted
+                                className="w-full absolute"
+                              
+                            >
+                                <source
+                                src="https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-screens-4192-large.mp4"
+                                type="video/mp4"
+                                />
+                            Your browser does not support the video tag.
+                            </video>
                             <NavLink  className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" exact="true" to='/portfolio'>work.</NavLink>
                         </div>
                     </div>
