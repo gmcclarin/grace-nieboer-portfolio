@@ -29,21 +29,22 @@ html, body{
 html{
   height: 100%;
 }
-body{
-  
+/* body{
+ 
   background-image: url('texturePaint.avif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
-}
+} */
 
 #portsection1 {
   background-image: url('./photos/photo20.avif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  cursor: text;
 }
 
 #portsection2 {
@@ -52,13 +53,14 @@ body{
   background-size: 90%;
   background-position:center;
 }
-/* 
-#portsection3 {
-  background-image: url('./photos/twoormorebackground.png');
-  background-repeat: no-repeat;
+
+#home-about {
+  background-image: url('./photos/starbsandcaution.png');
+  background-position: top;
   background-size: cover;
-  background-position:center;
-} */
+  background-repeat: no-repeat;
+}
+
 
 
 

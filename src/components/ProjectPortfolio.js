@@ -17,7 +17,7 @@ function ProjectPortfolio () {
                             <NavLink
                                 to="/inspiredinteriors"
                                 exact="true"
-                                className="hover:text-orange-500 text-white rounded-md p-5 hover:blur-sm  font-bold"
+                                className="hover:text-orange-500 text-white rounded-md p-40 font-bold"
                                 >INSPIRED INTERIORS
                             </NavLink>
                         </div>

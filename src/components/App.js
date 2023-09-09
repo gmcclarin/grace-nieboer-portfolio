@@ -14,7 +14,7 @@ import JobSurge from './JobSurge';
 
 function App() {
   return (
-    <div >
+    <div className="bg-neutral-200" >
         <Routes>
           <Route exact path="/" element={<Home />}/>
           <Route path="about" element={<About />} />

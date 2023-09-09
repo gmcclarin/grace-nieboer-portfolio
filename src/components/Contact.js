@@ -9,7 +9,7 @@ import MobileMenu from './MobileMenu'
 
 export default function Contact () {
     return (
-        <div className = "">
+        <div className = "h-screen">
             <MobileMenu />
             <div className="">
                 <NavBar />
