@@ -32,6 +32,7 @@ function Home () {
                     </div>
                     <div className = "relative hover:italic w-full pb-1/2 bg-neutral-900">
                         <NavLink className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" exact="true" to='/contact'>contact.</NavLink>
+                        
                     </div>
                 </div>
             </div>
