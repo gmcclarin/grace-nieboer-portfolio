@@ -4,38 +4,28 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import NavBar from './NavBar'
-import MobileMenu from './MobileMenu'
 
-export default function Contact () {
+
+export default function HomePageContact () {
     return (
-        <div className = "h-screen">
-            <MobileMenu />
-            <div className="">
-                <NavBar />
-            </div>
-            <div className="p-10 sm:p-20 content-center text-center">
-                <h1 id="contact" className="text-4xl sm:text-[100px] md:text-[150px] lg:text-[200px] font-fun font-bold pb-10" >contact.</h1>
-                <h1 className= " text-2xl sm:text-4xl">
-                    get to know me a little better. 
-                </h1>
-                <a href="https://www.linkedin.com/in/gracenieboer/" target="_blank" rel="noreferrer">
-                <FontAwesomeIcon icon={faLinkedin} style={{height:"60px",color: "#262626", margin:"10px"}}/>
+            <div className="flex content-center text-center">
+                <a className="transform transition duration-500 hover:scale-150" href="https://www.linkedin.com/in/gracenieboer/" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faLinkedin} style={{height:"50px",color: "#ffffff", margin:"10px"}}/>
                 </a>
-                <a href="mailto:grace.nieboer@outlook.com">
-                    <FontAwesomeIcon icon={faEnvelope} style={{height:"60px", color:"#262626", margin:"10px"}}/>
+                <a className="transform transition duration-500 hover:scale-150" href="mailto:grace.nieboer@outlook.com">
+                    <FontAwesomeIcon icon={faEnvelope} style={{height:"50px", color:"#ffffff", margin:"10px"}}/>
                 </a>
-                <a href="https://www.instagram.com/grayce.elisabeth_/">
-                    <FontAwesomeIcon icon={faInstagram} style={{height:"60px", color:"#262626", margin:"10px"}}/>
+                <a className="transform transition duration-500 hover:scale-150" href="https://www.instagram.com/grayce.elisabeth_/">
+                    <FontAwesomeIcon icon={faInstagram} style={{height:"50px", color:"#ffffff", margin:"10px"}}/>
                 </a>
-                <a className="mx-2" href="https://medium.com/@grace.nieboer">
-                    <FontAwesomeIcon icon={faMedium} style={{height:"60px",color: "#262626", margin:"10px"}}/>
+                <a className="transform transition duration-500 hover:scale-150" href="https://medium.com/@grace.nieboer">
+                    <FontAwesomeIcon icon={faMedium} style={{height:"50px",color: "#ffffff", margin:"8px"}}/>
                 </a>
-                <a className="mx-2" href="https://github.com/gnieb">
-                    <FontAwesomeIcon icon={faGithub} style={{height:"60px",color: "#262626", margin:"10px"}} />
+                <a className="transform transition duration-500 hover:scale-150" href="https://github.com/gnieb">
+                    <FontAwesomeIcon icon={faGithub} style={{height:"50px",color: "#ffffff", margin:"7px"}} />
                 </a>
             </div>
             
-        </div>
+    
     )
 }
