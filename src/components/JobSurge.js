@@ -37,7 +37,7 @@ export default function JobSurge () {
                 </div>
                 <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
                     <div className="sm:my-14 text-neutral-500 text-center font-bold sm:py-8">
-                        <div className="font-fun text-4xl sm:text-9xl">JobSurge</div>
+                        <div className="text-4xl pb-5 sm:text-9xl">JobSurge</div>
                         <div className="flex w-3/4 justify-between mx-auto ">
                             <div className="w-1/2 p-2 text-left file:font-bold sm:text-4xl italic text-black">SURGE [ v ]: to move suddenly and powerfully forward or upward.</div>
                             <div className="w-1/2 p-2 text-left font-bold sm:text-3xl italic text-black">A career dashboard to help me navigate my job search, organize my priorities, and categorize my goals by Day, Week, Month, and Year. JobSurge was built to navigate my transition from Human Resources into tech.</div>
@@ -56,10 +56,16 @@ export default function JobSurge () {
                         <div className="text-3xl">TAILWIND</div>
                     </div>
                 </div>
-                <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto items-center align-center">
+                <div className="snap-start snap-always w-screen h-screen flex items-center ">
+                    <div className="">
+                        <div><img className="mx-auto content-center w-3/4 2xl:w-1/2 border border-black" src={photos[0].src} />
+                        </div>
                     
-                        <img className="w-3/4 2xl:w-1/2 border border-black" src={photos[0].src} />
-                        
+                        <div className="mx-auto sm:ml-10 w-3/4 md:w-1/2 py-8 text-2xl 2xl:text-3xl text-justify font-bold">The dashboard shows a live clock feature at the top as a reminder and motivation for me to take advantage of every minute.
+                        </div>
+                        <div className="mx-auto sm:ml-10 w-3/4 md:w-1/2 py-8 text-2xl 2xl:text-3xl text-justify font-bold"> There are goals displayed by time priority, along with a rotating random piece of advice or encouragement I've collected from experienced software developers.
+                        </div>
+                    </div>  
                 </div>
             </div>
         </div>
