@@ -15,26 +15,28 @@ function ProjectPortfolio () {
                     <div className="snap-y snap-mandatory h-screen w-screen  overflow-y-scroll overflow-x-hidden text-7xl">
                         <div id="portsection3" className="snap-start snap-always bg-neutral-400 w-screen h-screen flex justify-center mx-auto pl-5 items-center">
                                 <Time />
-                                <NavLink
+                               <div className="swishy1"><NavLink
                                     to="/jobsurge"
                                     exact="true"
-                                    className="text-white text-left -rotate-90 px-0 my-0 hover:text-orange-500 rounded-md font-bold"
+                                    className=" text-white text-left -rotate-90 px-0 my-0 hover:text-orange-500 rounded-md font-bold"
                                     >JOB SURGE
-                                </NavLink>
+                                </NavLink></div>
                         </div>
                         <div id="portsection1" className="snap-start snap-always w-screen h-screen flex items-center justify-center ">
-                            <NavLink
+                            <div  className="swishy2">
+                                <NavLink
                                 to="/inspiredinteriors"
                                 exact="true"
-                                className="hover:text-orange-500 text-white rounded-md p-40 font-bold"
+                                className=" hover:text-orange-500 text-white rounded-md p-40 font-bold"
                                 >INSPIRED INTERIORS
                             </NavLink>
+                            </div>
                         </div>
                         <div id="portsection2" className="snap-start snap-always bg-white w-screen h-screen flex items-center justify-center ">
                             <NavLink
                                 to="/twoormore"
                                 exact="true"
-                                className="hover:text-orange-500 rounded-md p-5 font-bold "
+                                className="swish hover:text-orange-500 rounded-md p-5 font-bold "
                                 >TWO OR MORE
                             </NavLink>
                         </div>

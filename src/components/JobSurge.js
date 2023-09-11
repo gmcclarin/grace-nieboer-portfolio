@@ -61,11 +61,22 @@ export default function JobSurge () {
                         <div><img className="mx-auto content-center w-3/4 2xl:w-1/2 border border-black" src={photos[0].src} />
                         </div>
                     
-                        <div className="mx-auto sm:ml-10 w-3/4 md:w-1/2 py-8 text-2xl 2xl:text-3xl text-justify font-bold">The dashboard shows a live clock feature at the top as a reminder and motivation for me to take advantage of every minute.
+                        <div className="mx-auto sm:ml-10 w-3/4 md:w-1/3 py-8 text-2xl 2xl:text-3xl text-justify font-bold">The dashboard shows a live clock feature at the top as a reminder and motivation for me to take advantage of every minute.
                         </div>
                         <div className="mx-auto sm:ml-10 w-3/4 md:w-1/2 py-8 text-2xl 2xl:text-3xl text-justify font-bold"> There are goals displayed by time priority, along with a rotating random piece of advice or encouragement I've collected from experienced software developers.
                         </div>
                     </div>  
+                </div>
+                <div className="snap-start snap-always w-screen h-screen flex items-center ">
+                <div>
+                    <iframe 
+                                        src={photos[2].src}
+                                        style={{width:"100%", height:"100%", display: "block"}}
+                                        title={photos[2].name}
+                                        allow="autoplay;"
+                                        // frameBorder="0"
+                                        />
+                </div>
                 </div>
             </div>
         </div>
