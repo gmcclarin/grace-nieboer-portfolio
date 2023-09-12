@@ -38,11 +38,11 @@ export default function InspiredInteriors () {
             </NavLink>
             <div className="snap-y snap-mandatory h-screen w-screen overflow-y-scroll overflow-x-hidden ">
                 <div id="inspfirstsection" className="snap-start snap-always w-screen h-screen flex justify-center items-center">
-                    <div className="text-4xl pb-5 sm:text-9xl font-bold transform translate-y-12 transition-opacity swishy2">INSPIRED INTERIORS</div>
+                    <div className="text-4xl pb-5 sm:text-8xl  transform translate-y-12 transition-opacity swishy2 font-black">INSPIRED INTERIORS</div>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
-                    <div className="sm:my-14 text-neutral-500 text-center font-bold sm:py-8">
-                        <div className="text-4xl pb-5 sm:text-9xl">Inspired Interiors</div>
+                    <div className="sm:my-14 text-center font-bold sm:py-8">
+                        <div className="text-4xl pb-5 sm:text-9xl font-black">INSPIRED INTERIORS</div>
                         <div className="flex w-3/4 justify-between mx-auto ">
                             <div className="w-1/2 p-2 text-left file:font-bold sm:text-4xl italic text-black"> {`[An interior design planning and inspiration solution]`}</div>
                             <div className="w-1/2 p-2 text-left font-bold sm:text-3xl italic text-black">This full stack application was built to explore trending design ideas and create moodboards as a visual tool to experiment with different elements of design together.</div>
@@ -52,7 +52,7 @@ export default function InspiredInteriors () {
                 </div>
                 <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto items-center">
                 <div className="m-4">
-                        <div className="text-4xl  font-bold">THE TECH STACK</div>
+                        <div className="text-4xl  font-black">THE TECH STACK</div>
                         <div className="text-3xl">REACT JS</div>
                         <div className="text-3xl">JAVASCRIPT</div>
                         <div className="text-3xl">PYTHON</div>
@@ -103,10 +103,25 @@ export default function InspiredInteriors () {
                             <div className="sm:flex sm:justify-center ">
                                 <img className="w-3/4 sm:w-1/2 lg:w-full  p-7" src={palette} title="explore" />
                             </div>
-                            
                         </div>
-                        
-                        
+                </div>
+                <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto items-center">
+                <div className="m-4">
+                        <div className="text-4xl font-black">WANT MORE?</div>
+                        <div className="transform transition duration-500 hover:scale-125">
+                            <a href="https://github.com/gnieb/interior-design-board" target="_blank"
+                            className="text-3xl"
+                            rel="noreferrer">GITHUB
+                            </a>
+                        </div>
+                        <div className="transform transition duration-500 hover:scale-125">
+                            <a href="https://www.loom.com/share/d2cb126a6bbe4227b5eeaeba2bc0135b?sid=fe522f3b-9de5-4312-affb-55622e104937"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-3xl">DEMO
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
