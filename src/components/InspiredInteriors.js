@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
 import explore from '../photos/explorepage.png'
 import palette from '../photos/color_palette.png'
+import moodboard1 from '../photos/moodboardexample.png'
+import moodboard2 from '../photos/moodboard2.png'
 
 export default function InspiredInteriors () {
 
@@ -60,6 +62,22 @@ export default function InspiredInteriors () {
                         <div className="text-3xl">MATERIAL UI</div>
                     </div>
                 </div>
+                <div className="snap-start snap-always w-screen h-screen">
+                        <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
+                            <div>
+                            <div className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">THE MOOD BOARD</div>
+                            <div className=" w-full lg:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">A virtual moodboard tool. 
+                            </div>
+                            <div className="sm:pl-32 w-full lg:w-3/4 p-5 text-lg 2xl:text-2xl text-justify font-bold">A blank 'canvas' awaits the application user with this beautiful tool. Design elements added by the user are displayed in a masonry layout and are fully customizeable, featuring a special <a className="underline text-pink-500" href="#colorPalette">color palette</a>.
+                            </div>
+                            </div>
+                            <div className="sm:flex-col sm:justify-center ">
+                                <img className="w-3/4 sm:w-1/2 lg:w-full  p-7" src={moodboard1} title="moodboard1" />
+                                <img className="w-3/4 sm:w-1/2 lg:w-full  p-7" src={moodboard2} title="moodboard2" />
+                            </div>
+                            
+                        </div>
+                </div>
                 <div className="snap-start snap-always w-screen h-screen  ">
                    
                         <div className="md:flex w-screen pt-12 px-32 justify-between items-center">
@@ -74,16 +92,16 @@ export default function InspiredInteriors () {
                         </div>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen">
-                        <div className="md:flex w-screen pt-12 px-32 justify-between items-center">
+                        <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
                             <div>
-                            <div className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">COLOR PALETTE</div>
-                            <div className=" w-full md:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">A paint swatch-inspired tool for color exploration.
+                            <div id="colorPalette" className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">THE COLOR PALETTE</div>
+                            <div className=" w-full lg:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">A paint swatch-inspired tool for color exploration. 
                             </div>
-                            <div className="sm:pl-32  w-3/4 md:w-1/2 p-5 text-lg 2xl:text-2xl text-justify font-bold">The Palette is a tool built using the Colormind API. The user can click a button, and a new color palette from the API will be displayed in the palette structure.
+                            <div className="sm:pl-32 w-full lg:w-3/4 p-5 text-lg 2xl:text-2xl text-justify font-bold"> The Palette is a tool built using the Colormind API. Every moodboard is equipped with the default palette shown here. The user can click a button, and a new color palette from the API will be displayed in the palette structure.
                             </div>
                             </div>
                             <div className="sm:flex sm:justify-center ">
-                                <img className="w-full  p-7" src={palette} title="explore" />
+                                <img className="w-3/4 sm:w-1/2 lg:w-full  p-7" src={palette} title="explore" />
                             </div>
                             
                         </div>
