@@ -2,6 +2,7 @@
 import { NavLink } from "react-router-dom";
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
 import explore from '../photos/explorepage.png'
+import palette from '../photos/color_palette.png'
 
 export default function InspiredInteriors () {
 
@@ -62,29 +63,32 @@ export default function InspiredInteriors () {
                 <div className="snap-start snap-always w-screen h-screen  ">
                    
                         <div className="md:flex w-screen pt-12 px-32 justify-between items-center">
-                            <div className="xl:text-8xl md:text-6xl text-4xl font-black sm:w-1/3 w-full">EXPLORE</div>
+                            <div className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">EXPLORE</div>
                             <div className=" w-full md:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">The EXPLORE feature was inspired by the popular explore pages on social media platforms like Instagram.
                             </div>
                         </div>
-                    
                         <div className="sm:pl-32  w-3/4 md:w-1/2 p-5 text-lg 2xl:text-2xl text-justify font-bold">The Explore feature brings current trends and design inspiration to the user from an industry classic: Architectural Digest (AD). Users can browse the top trending articles from AD and click on an article to read it at its source.
                         </div>
-                       
                         <div className="sm:flex sm:justify-center ">
                             <img className="w-full md:w-3/4 2xl:w-1/2 p-7" src={explore} title="explore" />
                         </div>
-                 
                 </div>
-                <div className="snap-start snap-always w-screen h-screen flex items-center ">
-                <div>
-                    <iframe 
-                                        src={photos[2].src}
-                                        style={{width:"100%", height:"100%", display: "block"}}
-                                        title={photos[2].name}
-                                        allow="autoplay;"
-                                        // frameBorder="0"
-                                        />
-                </div>
+                <div className="snap-start snap-always w-screen h-screen">
+                        <div className="md:flex w-screen pt-12 px-32 justify-between items-center">
+                            <div>
+                            <div className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">COLOR PALETTE</div>
+                            <div className=" w-full md:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">A paint swatch-inspired tool for color exploration.
+                            </div>
+                            <div className="sm:pl-32  w-3/4 md:w-1/2 p-5 text-lg 2xl:text-2xl text-justify font-bold">The Palette is a tool built using the Colormind API. The user can click a button, and a new color palette from the API will be displayed in the palette structure.
+                            </div>
+                            </div>
+                            <div className="sm:flex sm:justify-center ">
+                                <img className="w-full  p-7" src={palette} title="explore" />
+                            </div>
+                            
+                        </div>
+                        
+                        
                 </div>
             </div>
         </div>
