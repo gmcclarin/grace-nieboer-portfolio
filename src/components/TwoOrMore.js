@@ -64,9 +64,9 @@ export default function TwoOrMore () {
                         <div className="lg:flex w-screen h-screen pt-12 px-10 sm:px-32 justify-between items-center">
                             <div className="w-full lg:w-1/2">
                                 <div id="colorPalette" className="xl:text-8xl md:text-7xl text-4xl font-black lg:w-1/3 w-full">MISSION AND VISION</div>
-                                <div className=" w-full lg:w-1/3  lg:my-8 text-xl 2xl:text-3xl text-justify font-bold">Everyone has a story.
+                                <div className=" w-full lg:w-1/3  lg:my-8 text-xl 2xl:text-3xl text-justify font-bold">Dive into the story behind Two or More.
                                 </div>
-                                <div className="sm:pl-32 w-full lg:w-3/4 p-5 text-lg 2xl:text-2xl text-justify font-bold"> The Story page will feature reader submissions sharing their story. Everyone is welcome to browse stories and are encouraged to share their own experience.
+                                <div className="sm:pl-32 w-full lg:w-3/4 p-5 text-lg 2xl:text-2xl text-justify font-bold"> Two or More exist in their journey to serve bi/multi-ethnic individuals and their families. Get to know the founder and partners to learn more about the heart behind the non-profit.
                                 </div>
                             </div>
                             <div className=" w-full lg:w-1/2 flex-col sm:justify-center aspect-video">
