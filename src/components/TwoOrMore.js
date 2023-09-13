@@ -1,6 +1,7 @@
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
 import { NavLink } from "react-router-dom";
 
+
 export default function TwoOrMore () {
 
     const photos = [
@@ -20,22 +21,34 @@ export default function TwoOrMore () {
     ]
 
     return (
-        <div className="p-2 sm:p-10 mb-10 sm:mb-40">
+
+
+        <div className="relative overflow-y-hidden overflow-x-hidden ">
+
             <NavLink
                 to="/portfolio"
                 exact="true"
-                className="hover:text-orange-500 rounded-md py-20 text-sm sm:text-2xl font-bold -rotate-90"
+                className="fixed -rotate-90 hover:text-orange-500 text-sm sm:text-2xl font-bold translate-y-28 -translate-x-12 top-0 left-0"
                 >
-                    ← BACK TO WORK ←
-                </NavLink>
-            <div className="font-fun sm:my-14 text-neutral-300 text-center font-bold sm:py-8">
-                <div className="text-4xl sm:text-9xl">Two or More</div>
-            </div>
-            <div className="m-2 text-right">
-                <div className="m-3">
-                    <div className="font-bold sm:text-4xl italic">This web application is in progress for a client with the purpose of fostering community with individuals that identify as being a part of two or more racial groups, and providing educational materials and opportunities with the ultimate goal of racial reconciliation between families.</div>
-                    <div className="m-4">
-                        <div className="text-4xl  font-bold">THE TECH STACK</div>
+                    BACK TO WORK
+            </NavLink>
+            <div className="snap-y snap-mandatory h-screen w-screen overflow-y-scroll overflow-x-hidden ">
+                <div id="twofirstsection" className="snap-start snap-always w-screen h-screen flex justify-center items-center">
+                    <div className="text-4xl pb-5 sm:text-8xl  transform translate-y-12 transition-opacity swishy2 font-black">TWO OR MORE</div>
+                </div>
+                <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
+                    <div className="sm:my-14 text-center font-bold sm:py-8">
+                        <div className="text-4xl pb-5 sm:text-9xl font-black">TWO OR MORE</div>
+                        <div className="flex w-3/4 justify-between mx-auto ">
+                            <div className="w-1/2 p-2 text-left file:font-bold sm:text-4xl italic text-black"> {`[An educational resource and community internet space for the non-profit, Two or More]`}</div>
+                            <div className="w-1/2 p-2 text-left font-bold sm:text-3xl italic text-black">This web application is in progress for a client with the purpose of fostering community with individuals that identify as being a part of two or more racial groups, and providing educational materials and opportunities with the ultimate goal of racial reconciliation between families.</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto items-center">
+                <div className="m-4">
+                        <div className="text-4xl  font-black">THE TECH STACK</div>
                         <div className="text-3xl">REACT JS</div>
                         <div className="text-3xl">JAVASCRIPT</div>
                         <div className="text-3xl">JAVA</div>
@@ -44,44 +57,130 @@ export default function TwoOrMore () {
                         <div className="text-3xl">TAILWIND</div>
                     </div>
                 </div>
-                <div className="flex justify-between sm:m-20 m-5">
-                    <div className="text-3xl m-3">The interactive LIBRARY provides helpful educational resources, categorized by various material types (digital, print, audio, etc). It also features a vocabulary page that will highlight rotating founder-chosen words that have important meaning within the community.</div>
-                    <div className="text-3xl m-3">Everyone has a story! The Story page features reader submissions that tell share their story with the Two Or More community.</div>
+                <div className="snap-start snap-always w-screen h-screen">
+                        <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
+                            <div>
+                            <div className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">LIBRARY</div>
+                            <div className=" w-full lg:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">Resources for learning and growth  
+                            </div>
+                            <div className="sm:pl-32 w-full lg:w-3/4 p-5 text-lg 2xl:text-2xl text-justify font-bold">The LIBRARY provides helpful educational resources, categorized by various material types (digital, print, audio, etc). It also features a vocabulary page that will highlight rotating founder-chosen words that have important meaning within the community.
+                            </div>
+                            </div>
+                           
+                            
+                        </div>
                 </div>
-                <div className="text-3xl sm:m-20 m-5">Readers inspired by others who have shared their stories can submit their own through the Share page, which is persisted to a PostgreSQL database</div>
-                <div className="w-full mb-10" >
-                    
-                        <ResponsiveMasonry
-                            columnsCountBreakPoints={{350: 2, 750: 2, 900: 2}}
-                            >
-                            <Masonry gutter="20px" >
-                                {(photos).map((photo, i) => {
-                                    if (photo.isPhoto) {
-                                        return (
-                                        <img
-                                            key={i}
-                                            src={photo.src}
-                                            style={{width: "100%", display: "block"}}
-                                            alt={photo.name}
-                                        /> 
-                                        )
-                                } else {
-                                    return (
-                                        <iframe 
-                                        key={i}
-                                        src={photo.src}
-                                        style={{width:"100%", height:"100%", display: "block"}}
-                                        title={photo.name}
-                                        allow="autoplay;"
-                                        // frameBorder="0"
-                                        />
-                                    )
-                                }
-                            })}
-                            </Masonry>
-                        </ResponsiveMasonry>
+                <div className="snap-start snap-always w-screen h-screen  ">
+                   
+                        <div className="md:flex w-screen pt-12 px-32 justify-between items-center">
+                            <div className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">STORIES</div>
+                            <div className=" w-full md:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">Everyone has a story.
+                            </div>
+                        </div>
+                        <div className="sm:pl-32  w-3/4 md:w-1/2 p-5 text-lg 2xl:text-2xl text-justify font-bold">The Story page will feature reader submissions sharing their story. Everyone is welcome to browse stories and are encouraged to share their own experience.
+                        </div>
+                        <div className="sm:flex sm:justify-center aspect-video ">
+                            <iframe className="w-full md:w-3/4 2xl:w-1/2" src="https://player.vimeo.com/video/859198489?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479autoplay=1&loop=1&autopause=0?muted=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"  title="share" />
+                        </div>
+                </div>
+                <div className="snap-start snap-always w-screen h-screen">
+                        <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
+                            <div>
+                            <div id="colorPalette" className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">STORIES</div>
+                            <div className=" w-full lg:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">Everyone has a story.
+                            </div>
+                            <div className="sm:pl-32 w-full lg:w-3/4 p-5 text-lg 2xl:text-2xl text-justify font-bold"> The Story page will feature reader submissions sharing their story. Everyone is welcome to browse stories and are encouraged to share their own experience.
+                            </div>
+                            </div>
+                            <div className="sm:flex sm:justify-center aspect-video ">
+                            <iframe className="w-full md:w-3/4 2xl:w-full" src="https://player.vimeo.com/video/859198489?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479autoplay=1&loop=1&autopause=0?muted=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"  title="share" />
+                            </div>
+                        </div>
+                </div>
+                <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto items-center">
+                <div className="m-4">
+                        <div className="text-4xl font-black">WANT MORE?</div>
+                        <div className="transform transition duration-500 hover:scale-125">
+                            <a href="https://github.com/gnieb/interior-design-board" target="_blank"
+                            className="text-3xl"
+                            rel="noreferrer">GITHUB
+                            </a>
+                        </div>
+                        <div className="transform transition duration-500 hover:scale-125">
+                            <a href="https://www.loom.com/share/d2cb126a6bbe4227b5eeaeba2bc0135b?sid=fe522f3b-9de5-4312-affb-55622e104937"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-3xl">DEMO
+                            </a>
+                        </div>
                     </div>
+                </div>
             </div>
         </div>
+
+
+        // <div className="p-2 sm:p-10 mb-10 sm:mb-40">
+        //     <NavLink
+        //         to="/portfolio"
+        //         exact="true"
+        //         className="hover:text-orange-500 rounded-md py-20 text-sm sm:text-2xl font-bold -rotate-90"
+        //         >
+        //             ← BACK TO WORK ←
+        //         </NavLink>
+        //     <div className="font-fun sm:my-14 text-neutral-300 text-center font-bold sm:py-8">
+        //         <div className="text-4xl sm:text-9xl">Two or More</div>
+        //     </div>
+        //     <div className="m-2 text-right">
+        //         <div className="m-3">
+        //             <div className="font-bold sm:text-4xl italic">This web application is in progress for a client with the purpose of fostering community with individuals that identify as being a part of two or more racial groups, and providing educational materials and opportunities with the ultimate goal of racial reconciliation between families.</div>
+        //             <div className="m-4">
+        //                 <div className="text-4xl  font-bold">THE TECH STACK</div>
+        //                 <div className="text-3xl">REACT JS</div>
+        //                 <div className="text-3xl">JAVASCRIPT</div>
+        //                 <div className="text-3xl">JAVA</div>
+        //                 <div className="text-3xl">SPRING BOOT</div>
+        //                 <div className="text-3xl">POSTGRESQL</div>
+        //                 <div className="text-3xl">TAILWIND</div>
+        //             </div>
+        //         </div>
+        //         <div className="flex justify-between sm:m-20 m-5">
+        //             <div className="text-3xl m-3">The interactive LIBRARY provides helpful educational resources, categorized by various material types (digital, print, audio, etc). It also features a vocabulary page that will highlight rotating founder-chosen words that have important meaning within the community.</div>
+        //             <div className="text-3xl m-3">Everyone has a story! The Story page features reader submissions that tell share their story with the Two Or More community.</div>
+        //         </div>
+        //         <div className="text-3xl sm:m-20 m-5">Readers inspired by others who have shared their stories can submit their own through the Share page, which is persisted to a PostgreSQL database</div>
+        //         <div className="w-full mb-10" >
+                    
+        //                 <ResponsiveMasonry
+        //                     columnsCountBreakPoints={{350: 2, 750: 2, 900: 2}}
+        //                     >
+        //                     <Masonry gutter="20px" >
+        //                         {(photos).map((photo, i) => {
+        //                             if (photo.isPhoto) {
+        //                                 return (
+        //                                 <img
+        //                                     key={i}
+        //                                     src={photo.src}
+        //                                     style={{width: "100%", display: "block"}}
+        //                                     alt={photo.name}
+        //                                 /> 
+        //                                 )
+        //                         } else {
+        //                             return (
+        //                                 <iframe 
+        //                                 key={i}
+        //                                 src={photo.src}
+        //                                 style={{width:"100%", height:"100%", display: "block"}}
+        //                                 title={photo.name}
+        //                                 allow="autoplay;"
+        //                                 // frameBorder="0"
+        //                                 />
+        //                             )
+        //                         }
+        //                     })}
+        //                     </Masonry>
+        //                 </ResponsiveMasonry>
+        //             </div>
+        //     </div>
+        // </div>
     )
 }

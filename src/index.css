@@ -73,6 +73,13 @@ html{
   background-position: center;
 }
 
+#twofirstsection {
+    background-image: url('./photos/twoormorebackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 @keyframes swish {
   to {
     opacity: 1;
