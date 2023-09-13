@@ -1,4 +1,4 @@
-import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
+
 import { NavLink } from "react-router-dom";
 
 
@@ -70,30 +70,17 @@ export default function TwoOrMore () {
                             
                         </div>
                 </div>
-                <div className="snap-start snap-always w-screen h-screen  ">
-                   
-                        <div className="md:flex w-screen pt-12 px-32 justify-between items-center">
-                            <div className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">STORIES</div>
-                            <div className=" w-full md:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">Everyone has a story.
-                            </div>
-                        </div>
-                        <div className="sm:pl-32  w-3/4 md:w-1/2 p-5 text-lg 2xl:text-2xl text-justify font-bold">The Story page will feature reader submissions sharing their story. Everyone is welcome to browse stories and are encouraged to share their own experience.
-                        </div>
-                        <div className="sm:flex sm:justify-center aspect-video ">
-                            <iframe className="w-full md:w-3/4 2xl:w-1/2" src="https://player.vimeo.com/video/859198489?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479autoplay=1&loop=1&autopause=0?muted=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"  title="share" />
-                        </div>
-                </div>
                 <div className="snap-start snap-always w-screen h-screen">
-                        <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
-                            <div>
-                            <div id="colorPalette" className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">STORIES</div>
-                            <div className=" w-full lg:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">Everyone has a story.
+                        <div className="lg:flex w-screen h-screen pt-12 px-10 sm:px-32 justify-between items-center">
+                            <div className="w-full lg:w-1/2">
+                                <div id="colorPalette" className="xl:text-8xl md:text-7xl text-4xl font-black lg:w-1/3 w-full">STORIES</div>
+                                <div className=" w-full lg:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">Everyone has a story.
+                                </div>
+                                <div className="sm:pl-32 w-full lg:w-3/4 p-5 text-lg 2xl:text-2xl text-justify font-bold"> The Story page will feature reader submissions sharing their story. Everyone is welcome to browse stories and are encouraged to share their own experience.
+                                </div>
                             </div>
-                            <div className="sm:pl-32 w-full lg:w-3/4 p-5 text-lg 2xl:text-2xl text-justify font-bold"> The Story page will feature reader submissions sharing their story. Everyone is welcome to browse stories and are encouraged to share their own experience.
-                            </div>
-                            </div>
-                            <div className="sm:flex sm:justify-center aspect-video ">
-                            <iframe className="w-full md:w-3/4 2xl:w-full" src="https://player.vimeo.com/video/859198489?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479autoplay=1&loop=1&autopause=0?muted=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"  title="share" />
+                            <div className=" w-full lg:w-1/2 flex sm:justify-center aspect-video">
+                            <iframe className="w-full" src="https://player.vimeo.com/video/859198489?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479autoplay=1&loop=1&autopause=0?muted=1"  allow="autoplay"  title="share" />
                             </div>
                         </div>
                 </div>

@@ -1,6 +1,5 @@
 
 import { NavLink } from "react-router-dom";
-import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
 import explore from '../photos/explorepage.png'
 import palette from '../photos/color_palette.png'
 import moodboard1 from '../photos/moodboardexample.png'
