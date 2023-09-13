@@ -88,16 +88,16 @@ export default function TwoOrMore () {
                 <div className="m-4">
                         <div className="text-4xl font-black">WANT MORE?</div>
                         <div className="transform transition duration-500 hover:scale-125">
-                            <a href="https://github.com/gnieb/interior-design-board" target="_blank"
+                            <a href="https://github.com/madalinefitz/Two-or-More" target="_blank"
                             className="text-3xl"
                             rel="noreferrer">GITHUB
                             </a>
                         </div>
                         <div className="transform transition duration-500 hover:scale-125">
-                            <a href="https://www.loom.com/share/d2cb126a6bbe4227b5eeaeba2bc0135b?sid=fe522f3b-9de5-4312-affb-55622e104937"
+                            <a href="https://brave-tree-0c566030f.3.azurestaticapps.net/"
                             target="_blank"
                             rel="noreferrer"
-                            className="text-3xl">DEMO
+                            className="text-3xl">LIVE APPLICATION
                             </a>
                         </div>
                     </div>
