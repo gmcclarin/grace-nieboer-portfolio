@@ -1,5 +1,8 @@
 
 import { NavLink } from "react-router-dom";
+import about from '../photos/abouttwoormore.png'
+import why from '../photos/thewhy.png'
+import meet from '../photos/meetbrian.png'
 
 
 export default function TwoOrMore () {
@@ -56,6 +59,24 @@ export default function TwoOrMore () {
                         <div className="text-3xl">POSTGRESQL</div>
                         <div className="text-3xl">TAILWIND</div>
                     </div>
+                </div>
+                <div className="snap-start snap-always w-screen h-screen">
+                        <div className="lg:flex w-screen h-screen pt-12 px-10 sm:px-32 justify-between items-center">
+                            <div className="w-full lg:w-1/2">
+                                <div id="colorPalette" className="xl:text-8xl md:text-7xl text-4xl font-black lg:w-1/3 w-full">MISSION AND VISION</div>
+                                <div className=" w-full lg:w-1/3  lg:my-8 text-xl 2xl:text-3xl text-justify font-bold">Everyone has a story.
+                                </div>
+                                <div className="sm:pl-32 w-full lg:w-3/4 p-5 text-lg 2xl:text-2xl text-justify font-bold"> The Story page will feature reader submissions sharing their story. Everyone is welcome to browse stories and are encouraged to share their own experience.
+                                </div>
+                            </div>
+                            <div className=" w-full lg:w-1/2 flex-col sm:justify-center aspect-video">
+                            <img className="w-1/2 lg:w-full p-2" src={why}  allow="autoplay"  title="share" />
+                            <div className="flex">
+                                <img className="w-1/3 lg:w-1/2 p-2" src={about}  allow="autoplay"  title="share"  />
+                                <img className="w-1/3 lg:w-1/2 p-2" src={meet}  allow="autoplay"  title="share"  />
+                            </div>
+                            </div>
+                        </div>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen">
                         <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
