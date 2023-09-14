@@ -63,7 +63,7 @@ export default function JobSurge () {
                             <div  className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">JOB SEARCHING</div>
                             <div className=" w-full lg:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">A tool to scrape the web for relevant jobs posted by a target company. 
                             </div>
-                            <div className="sm:pl-32 w-full lg:w-3/4 lg:p-5 text-lg 2xl:text-2xl text-justify font-bold">The Jobs component of the application uses Selenium's headless chrome web driver to mimic user interaction with the target page, allowing the program to then retrieve dynamically rendered information from the site and display it on this application.
+                            <div className="md:pl-32 w-full lg:w-3/4 lg:p-5 text-lg 2xl:text-2xl text-justify font-bold">The Jobs component of the application uses Selenium's headless chrome web driver to mimic user interaction with the target page, allowing the program to then retrieve dynamically rendered information from the site and display it on this application.
                             </div>
                             </div>
                             <div className="lg:flex-col flex sm:justify-center ">
@@ -87,19 +87,48 @@ export default function JobSurge () {
                             </div>
                             <div className="">
                                
-                                    <img className="mx-auto md:w-full p-10" src={todos}  title="dashboard home page" alt="dashboard home page" />
-
-                                <div className="w-3/4 2xl:w-1/2 p-2 sm:p-5">
-                                    <div className="text-sm md:text-xl text-justify font-bold">Goals are organized by priority time frame - day, week, month, and year.
+                                    <img className="mx-auto md:w-full lg:p-10" src={todos}  title="dashboard home page" alt="dashboard home page" />
+                                <div className="sm:flex sm:justify-between">
+                                <div className="w-1/2 2xl:w-1/2 p-2 sm:pr-4 ">
+                                    <div className="text-sm md:text-lg text-justify font-bold">Goals are organized by priority time frame - day, week, month, and year.
                                     </div>
                                 </div>
                                     
-                                <div className="w-3/4 2xl:w-1/2 p-2 sm:p-5">
-                                    <div className="text-sm md:text-xl text-justify font-bold">A live clock feature at the top of the dashboard is a reminder to me to take advantage of every minute.
+                                <div className="w-1/2 2xl:w-1/2 p-2 sm:pl-4 ">
+                                    <div className="text-sm md:text-lg text-justify font-bold">A live clock feature at the top of the dashboard is a reminder to me to take advantage of every minute.
                                     </div>
+                                </div>
                                 </div>
                             </div>
                             
+                        </div>
+                </div>
+                <div className="snap-start snap-always w-screen h-screen">
+                        <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
+                            <div className="w-full">
+                            <div  className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">ADVICE COLLECTION</div>
+                            <div className="md:flex">
+                                <div className="w-3/4 md:w-1/2">
+                                    <div className=" w-full md:w-3/4 my-8 text-xl 2xl:text-3xl text-justify font-bold">A place for my continually growing collection of advice gathered from experienced devs.
+                                    </div>
+                                    <div className=" w-full md:w-3/4 my-4 text-lg lg:text-xl 2xl:text-2xl text-justify font-bold">As I make new connections with devs in the industry, I collect pieces of advice, and add them to my ever-growing collection, each credited to the dev that gave it.
+                                    </div>
+                                    <div className=" w-full md:w-3/4  text-lg lg:text-xl 2xl:text-2xl text-justify font-bold">As a career transitioner, I greatly value the experience of dev who have gone before me, and now are willing to share their insight into the industry. 
+                                    </div>
+                                </div>
+
+                                <div className="w-3/4 md:w-1/2">
+                                    <div className="w-3/4 2xl:w-1/2 my-8">
+                                        <div className="text-sm md:text-lg lg:text-xl text-justify font-bold">I've enjoyed and continue to seek out connections with devs that are diverse in demographic, background, experience level, and on and on. 
+                                        </div>
+                                    </div>
+                                    <div className="w-3/4 2xl:w-1/2 ">
+                                        <div className="text-sm md:text-lg lg:text-xl text-justify font-bold">I've been overwhelmed with gratitude for each person who has sacrificed their time to meet with me, share their wisdom, and help me better prepare for the career path ahead of me in various ways. This is truly an industry full of supportive and encouraging people.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
                         </div>
                 </div>
 
