@@ -83,32 +83,26 @@ export default function JobSurge () {
                             </div>
                             <div className="sm:pl-32 w-full lg:w-1/2 lg:p-5 text-lg 2xl:text-2xl text-justify font-bold">The Dashboard is just that - one place that combines priortized career goals and daily reminders with self- care and wisdom collected from experienced devs during my career transition.
                             </div>
-                            <Time />
+                        
                             </div>
-                            <div className=" sm:justify-center ">
+                            <div className="">
                                
-                                    <img className="mx-auto md:w-3/4  px-7" src={todos}  title="dashboard home page" alt="dashboard home page" />
+                                    <img className="mx-auto md:w-full p-10" src={todos}  title="dashboard home page" alt="dashboard home page" />
+
+                                <div className="w-3/4 2xl:w-1/2 p-2 sm:p-5">
+                                    <div className="text-sm md:text-xl text-justify font-bold">Goals are organized by priority time frame - day, week, month, and year.
+                                    </div>
+                                </div>
                                     
-                                <div className="w-3/4 mx-auto p-7">
-                                    
-                                    <div className="mx-auto w-full lg:w-2/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">The dashboard shows a live clock feature at the top as a reminder and motivation for me to take advantage of every minute.</div>
+                                <div className="w-3/4 2xl:w-1/2 p-2 sm:p-5">
+                                    <div className="text-sm md:text-xl text-justify font-bold">A live clock feature at the top of the dashboard is a reminder to me to take advantage of every minute.
+                                    </div>
                                 </div>
                             </div>
                             
                         </div>
                 </div>
 
-                <div className="snap-start snap-always w-screen h-screen flex items-center ">
-                    <div className="">
-                        <div><img className="mx-auto content-center w-3/4 2xl:w-1/2 border border-black" src={photos[0].src} />
-                        </div>
-                    
-                        <div className="mx-auto sm:ml-10 w-3/4 md:w-1/3 py-8 text-2xl 2xl:text-3xl text-justify font-bold">The dashboard shows a live clock feature at the top as a reminder and motivation for me to take advantage of every minute.
-                        </div>
-                        <div className="mx-auto sm:ml-10 w-3/4 md:w-1/2 py-8 text-2xl 2xl:text-3xl text-justify font-bold"> There are goals displayed by time priority, along with a rotating random piece of advice or encouragement I've collected from experienced software developers.
-                        </div>
-                    </div>  
-                </div>
                 <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto items-center">
                 <div className="m-4">
                         <div className="text-4xl font-black">WANT MORE?</div>
