@@ -49,7 +49,7 @@ export default function FryMe () {
             </div>
             <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
                 <div className="sm:my-14 text-center font-bold sm:py-8">
-                    <div className="text-4xl pb-5 sm:text-9xl font-black">FRY ME TO THE MOON</div>
+                    <div className="text-4xl pb-5 md:text-6xl lg:text-9xl font-black">FRY ME TO THE MOON</div>
                     <div className="flex w-3/4 justify-between mx-auto ">
                         <div className="w-1/2 p-2 text-left file:font-bold sm:text-4xl italic text-black"> {`[An outer-space themed store front for custom potato fry creations]`}</div>
                         <div className="w-1/2 p-2 text-left font-bold sm:text-3xl italic text-black">This full stack web application is a retro take on artisan potatoes. This was a group project built to showcase client, server, and RESTful API development</div>
@@ -85,26 +85,17 @@ export default function FryMe () {
                         </div>
                     </div>
             </div>
-            <div className="snap-start snap-always w-screen h-screen">
-                    <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
-                        <div>
-                        <div className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">LIBRARY</div>
-                        <div className=" w-full lg:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">Resources for learning and growth  
-                        </div>
-                        <div className="sm:pl-32 w-full lg:w-3/4 p-5 text-lg 2xl:text-2xl text-justify font-bold">The LIBRARY provides helpful educational resources, categorized by various material types (digital, print, audio, etc). It also features a vocabulary page that will highlight rotating founder-chosen words that have important meaning within the community.
-                        </div>
-                        </div>
-                       
-                        
-                    </div>
-            </div>
+        
             <div className="snap-start snap-always w-screen h-screen">
                     <div className="lg:flex w-screen h-screen pt-12 px-10 sm:px-32 justify-between items-center">
                         <div className="w-full lg:w-1/2">
                             <div className="xl:text-8xl md:text-7xl text-4xl font-black lg:w-1/3 w-full">ORDER UP!</div>
-                            <div className=" w-full lg:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">x
+                            <div className=" w-full lg:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">
+                                Sign up to be a spud club member or log in to the application to place an order!
                             </div>
-                            <div className="sm:pl-32 w-full lg:w-3/4 p-5 text-lg 2xl:text-2xl text-justify font-bold"> The Story page will feature reader submissions sharing their story. Everyone is welcome to browse stories and are encouraged to share their own experience.
+                            <div className="sm:pl-32 w-full lg:w-3/4 p-5 text-lg 2xl:text-2xl text-justify font-bold"> Place your order for artisan fry menu items! Want extra cheese? Add gravy? Leave the chef a note on any item(s) to customize ♥ .
+                            </div>
+                            <div className="sm:pl-32 w-full lg:w-3/4 p-5 text-lg 2xl:text-2xl text-justify font-bold">Go to cart and check out!
                             </div>
                         </div>
                         <div className=" w-full lg:w-1/2 flex sm:justify-center aspect-video">
@@ -125,72 +116,5 @@ export default function FryMe () {
             </div>
         </div>
     </div>
-
-
-
-
-        // <div className="p-2 sm:p-10 mb-10 sm:mb-40">
-        //     <NavLink
-        //         to="/portfolio"
-        //         exact="true"
-        //         className="hover:text-orange-500 rounded-md py-20 text-sm sm:text-2xl font-bold -rotate-90"
-        //         >
-        //             ← BACK TO WORK ←
-        //         </NavLink>
-        //     <div className="font-fun sm:my-14 text-neutral-300 text-center font-bold sm:py-8">
-        //         <div className="text-4xl sm:text-9xl">Fry Me to the Moon</div>
-        //     </div>
-        //     <div className="m-2 text-right">
-        //         <div className="m-3">
-        //             <div className="font-bold sm:text-4xl italic">Outer space themed store-front for ordering curated fry creations.</div>
-        //             <div className="m-4">
-        //                 <div className="text-4xl  font-bold">THE TECH STACK</div>
-        //                 <div className="text-3xl">REACT JS</div>
-        //                 <div className="text-3xl">JAVASCRIPT</div>
-        //                 <div className="text-3xl">PYTHON</div>
-        //                 <div className="text-3xl">FLASK</div>
-        //                 <div className="text-3xl">SQLITE</div>
-        //                 <div className="text-3xl">BOOTSTRAP</div>
-        //             </div>
-        //         </div>
-        //         <div className="flex justify-between sm:m-20 m-5">
-        //             <div className="text-3xl m-3">PLACEHOLDER</div>
-        //             <div className="text-3xl m-3">PLACEHOLDER</div>
-        //         </div>
-        //         <div className="text-3xl sm:m-20 m-5">AGAIN, LOREM IPSUM ETC ETC</div>
-        //         <div className="w-full mb-10" >
-                    
-        //                 <ResponsiveMasonry
-        //                     columnsCountBreakPoints={{350: 2, 750: 2, 900: 2}}
-        //                     >
-        //                     <Masonry gutter="20px" >
-        //                         {(photos).map((photo, i) => {
-        //                             if (photo.isPhoto) {
-        //                                 return (
-        //                                 <img
-        //                                     key={i}
-        //                                     src={photo.src}
-        //                                     style={{width: "100%", display: "block"}}
-        //                                     alt={photo.name}
-        //                                 /> 
-        //                                 )
-        //                         } else {
-        //                             return (
-        //                                 <iframe 
-        //                                 key={i}
-        //                                 src={photo.src}
-        //                                 style={{width:"100%", height:"100%", display: "block"}}
-        //                                 title={photo.name}
-        //                                 allow="autoplay;"
-        //                                 // frameBorder="0"
-        //                                 />
-        //                             )
-        //                         }
-        //                     })}
-        //                     </Masonry>
-        //                 </ResponsiveMasonry>
-        //             </div>
-        //     </div>
-        // </div>
     )
 }
