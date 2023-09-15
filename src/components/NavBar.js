@@ -25,12 +25,12 @@ function NavBar () {
                             >
                                 WORK
                             </NavLink>
-                            <NavLink
+                            {/* <NavLink
                             to="/contact"
                             exact="true"
                             className="hover:text-orange-500 rounded-md py-20 text-sm sm:text-xl font-bold -rotate-90"
                             >CONTACT
-                            </NavLink>
+                            </NavLink> */}
         </nav>
     )
 }

@@ -46,37 +46,49 @@ function About () {
     }
 
     return (
-        <div id="about" className="relative block h-screen ">
+        <div id="about" className="relative block h-screen overscroll-y-hidden">
             <MobileMenu />
             <NavBar />
             
             
             <div className="relative mx-32 mb-5 sm:flex h-screen items-center justify-center overscroll-x-auto overscroll-y-hidden">
 
-                {openAbout ? <div className = "z-10 text-white bg-orange-400 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-1/2 h-3/4 flex justify-center items-center p-8 rounded-full ">
-                        <p>HI! 
-                    My name is Grace Nieboer. I am a full stack software engineer with a love for the creative elements of front-end design, but I recently fell in love with Python on the back-end along with building API's with REST-ful architecture. I am currently learning Java and collaborating on a few projects with other teams. In my free time, you'll find me kickboxing or eating pizza</p></div> 
+                {openAbout ? <div className = "z-10 text-white bg-neutral-400 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-1/2 h-full flex justify-center items-center px-8 rounded-full ">
+                    <div>
+                        <p className="p-1 py-2">HI, I'M GRACE! </p>
+                        <p className="p-1"> I am a full stack software engineer with a love for the creative elements of front-end design.</p>
+                       <p className="p-1">I love Python as a language, along with building API's with REST-ful architecture.
+                        </p>
+                    </div>
+                    </div> 
                     :
-                    <div onClick={handleOpenAbout}className="cursor-pointer w-1/6 h-3/4  bg-orange-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
+                    <div onClick={handleOpenAbout}className="cursor-pointer w-1/6 h-3/4   bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
                         <p  className="-rotate-90 font-black text-8xl text-white">ABOUT</p> 
                     </div> 
                     
                     }
-                { openBefore ? <div className = "z-10 text-white bg-orange-400 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-1/2 h-3/4 flex justify-center items-center p-8 rounded-full ">
-                        <p>HI! 
-                    My name is Grace Nieboer. I am a full stack software engineer with a love for the creative elements of front-end design, but I recently fell in love with Python on the back-end along with building API's with REST-ful architecture. I am currently learning Java and collaborating on a few projects with other teams. In my free time, you'll find me kickboxing or eating pizza</p></div> 
+                { openBefore ? <div className = "z-10 text-white bg-neutral-500 top-50 left-50 text-xl sm:text-2xl  text-justify w-1/2 h-full flex justify-center items-center px-8 rounded-full ">
+                    <div>
+                        <p className="p-1">
+                        I have a Master's degree in Public Administration, with a professional background in Human Resources. I've spent the past few years of my career working in employee relations roles within HR, partnering with multi-lingual, cross-functional teams to resolve employee conflicts. </p>
+                        <p className="p-1">My unique background in complex problem solving in a very person-focused industry and roles allows me better collaborate and communicate with diverse teams. We work in tech, but we work WITH people, FOR people.</p>
+                        </div>
+                    </div> 
                 
-                :<div onClick={handleOpenBefore} className="cursor-pointer w-1/6 h-3/4 bg-orange-500 rounded-full transform transition duration-500 hover:scale-125 overflow-hidden flex justify-center items-center"> 
-                    <p  className=" -rotate-90 font-black text-8xl text-white">BEFORE</p>
+                :<div onClick={handleOpenBefore} className="cursor-pointer w-1/6 h-3/4 bg-neutral-500 rounded-full transform transition duration-500 hover:scale-125 overflow-hidden flex justify-center items-center"> 
+                    <p  className=" -rotate-90 font-black text-7xl text-white">BACKGROUND</p>
                 </div>}
 
                 {openNow ? 
-                <div className = "z-10 text-white bg-orange-400 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-1/2 h-3/4 flex justify-center items-center p-8 rounded-full ">
-                    <p>HI! 
-                    My name is Grace Nieboer. I am a full stack software engineer with a love for the creative elements of front-end design, but I recently fell in love with Python on the back-end along with building API's with REST-ful architecture. I am currently learning Java and collaborating on a few projects with other teams. In my free time, you'll find me kickboxing or eating pizza</p>
+                <div className = "z-10 text-white bg-neutral-600 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-1/2 h-full flex justify-center items-center p-8 rounded-full ">
+                    <div>
+                    <p className="p-1">I am currently learning Java, React Native, and Typescript</p> 
+                    <p className="p-1">I am currently learning Java, React Native, and Typescript</p>
+                    <p className="p-1"> In my free time, I'm probably kickboxing or eating pizza</p>
+                    </div>
                 </div> 
                 
-                :<div onClick={handleOpenNow} className="cursor-pointer w-1/6 h-3/4 bg-orange-600 rounded-full transform transition duration-500 hover:scale-125 overflow-hidden flex justify-center items-center ">
+                :<div onClick={handleOpenNow} className="cursor-pointer w-1/6 h-3/4 bg-neutral-600 rounded-full transform transition duration-500 hover:scale-125 overflow-hidden flex justify-center items-center ">
                     <p  className=" -rotate-90 font-black text-8xl text-white">NOW</p> 
                 </div>
                 
@@ -84,28 +96,17 @@ function About () {
 
             {openConnect ? 
                 
-                <div className = "z-10 text-white bg-orange-400 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-1/2 h-3/4 flex justify-center items-center p-8 rounded-full ">
+                <div className = "z-10 text-white bg-neutral-800 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-1/2 h-full flex justify-center items-center p-8 rounded-full ">
                     <HomePageContact />
                 </div> 
                 
                 
-                :<div onClick={handleOpenConnect}  className="cursor-pointer w-1/6 h-3/4 bg-orange-700 rounded-full transform transition duration-500 hover:scale-125 flex justify-center  items-center overflow-hidden"> 
+                :<div onClick={handleOpenConnect}  className="cursor-pointer w-1/6 h-3/4 bg-neutral-800 rounded-full transform transition duration-500 hover:scale-125 flex justify-center  items-center overflow-hidden"> 
                     <p  className="-rotate-90 font-black text-8xl text-white">CONNECT</p>
                 </div>
             }
        
         </div>  
-            
-            
-            <div className="mb-5 pb-10 flex justify-end ">
-                <div className="sm:w-1/2 flex-col text-right">
-                <p className="text-3xl font-bold">BACKGROUND</p>
-                <p className="text-xl sm:text-2xl lg:text-4xl text-justify pb-10">I have a Master's degree in Public Administration, with a professional background in Human Resources. I've spent the past few years of my career working in employee relations roles within HR, partnering with multi-lingual, cross-functional teams to work through employee issues and resolve conflicts. 
-                </p>
-                <p className="text-3xl font-bold mt-3">PERSON-FOCUSED</p>
-                <p className="text-xl sm:text-2xl lg:text-4xl text-justify">My unique background in complex problem solving in a very person-focused industry and roles allows me better collaborate and communicate with diverse teams. We work in tech, but we work WITH people, FOR people.</p>
-                </div>
-            </div>
         </div>
     )
 }
