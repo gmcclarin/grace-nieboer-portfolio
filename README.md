@@ -9,6 +9,7 @@ Front End client built with React JS in JavaScript to showcase favorite fullstac
 - Javascript
 - Tailwind
 - Font Awesome
+- Intersection Observer API
 - react-loading
 
 ### Features Completed

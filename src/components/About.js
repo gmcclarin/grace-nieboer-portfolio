@@ -53,7 +53,7 @@ function About () {
             
             <div className="relative mx-32 mb-5 sm:flex h-screen items-center justify-center overscroll-x-auto overscroll-y-hidden">
 
-                {openAbout ? <div className = "z-10 text-white bg-neutral-400 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-1/2 h-full flex justify-center items-center px-8 rounded-full ">
+                {openAbout ? <div className = "z-10 text-white bg-neutral-400 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-1/3 h-full flex justify-center items-center px-8 rounded-full ">
                     <div>
                         <p className="p-1 py-2">HI, I'M GRACE! </p>
                         <p className="p-1"> I am a full stack software engineer with a love for the creative elements of front-end design.</p>
@@ -67,7 +67,7 @@ function About () {
                     </div> 
                     
                     }
-                { openBefore ? <div className = "z-10 text-white bg-neutral-500 top-50 left-50 text-xl sm:text-2xl  text-justify w-1/2 h-full flex justify-center items-center px-8 rounded-full ">
+                { openBefore ? <div className = "z-10 text-white bg-neutral-500 top-50 left-50 text-xl sm:text-2xl  text-justify w-1/3 h-full flex justify-center items-center px-8 rounded-full ">
                     <div>
                         <p className="p-1">
                         I have a Master's degree in Public Administration, with a professional background in Human Resources. I've spent the past few years of my career working in employee relations roles within HR, partnering with multi-lingual, cross-functional teams to resolve employee conflicts. </p>
@@ -80,7 +80,7 @@ function About () {
                 </div>}
 
                 {openNow ? 
-                <div className = "z-10 text-white bg-neutral-600 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-1/2 h-full flex justify-center items-center p-8 rounded-full ">
+                <div className = "z-10 text-white bg-neutral-600 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-1/3 h-full flex justify-center items-center p-8 rounded-full ">
                     <div>
                     <p className="p-1">I am currently learning Java, React Native, and Typescript</p> 
                     <p className="p-1">I am currently learning Java, React Native, and Typescript</p>
@@ -96,7 +96,7 @@ function About () {
 
             {openConnect ? 
                 
-                <div className = "z-10 text-white bg-neutral-800 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-1/2 h-full flex justify-center items-center p-8 rounded-full ">
+                <div className = "z-10 text-white bg-neutral-800 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-1/3 h-full flex justify-center items-center p-8 rounded-full ">
                     <HomePageContact />
                 </div> 
                 
