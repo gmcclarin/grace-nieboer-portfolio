@@ -48,7 +48,7 @@ function ProjectPortfolio () {
         <NavBar />
         <div className="flex">
                 <div className = "mx-auto text-center">
-                    <div className="snap-y snap-mandatory h-screen w-screen  overflow-y-scroll overflow-x-hidden text-7xl">
+                    <div className="snap-y snap-mandatory h-screen w-screen  overflow-y-scroll overflow-x-hidden text-3xl md:text-4xl lg:text-6xl xl:text-8xl">
                         <div id="portsection3" className="snap-start snap-always bg-neutral-400 w-screen h-screen flex justify-center mx-auto pl-5 items-center">
                                 <Time />
                                <RevealOnScroll ><NavLink
@@ -63,7 +63,7 @@ function ProjectPortfolio () {
                                 <NavLink
                                 to="/inspiredinteriors"
                                 exact="true"
-                                className=" hover:text-orange-500 text-white rounded-md p-40 font-bold"
+                                className=" hover:text-orange-500  text-white rounded-md p-20 font-bold"
                                 >INSPIRED INTERIORS
                             </NavLink>
                             </RevealOnScroll>
@@ -85,7 +85,7 @@ function ProjectPortfolio () {
                             autoPlay
                             loop
                             muted
-                            className="min-w-full min-h-screen w-screen h-screen"
+                            className=" min-w-full min-h-screen w-screen h-screen"
                         >
                                 <source
                                 src="https://assets.mixkit.co/videos/preview/mixkit-full-moon-with-a-soft-haze-4433-large.mp4"
@@ -100,7 +100,7 @@ function ProjectPortfolio () {
                                     className="absolute right-1/2 bottom-20 text-white hover:text-orange-500 rounded-md p-5 font-bold "
                                     >FRY ME TO THE MOON
                                 </NavLink>
-                           
+                          
                         </div>
                         
                     </div>

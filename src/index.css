@@ -100,6 +100,34 @@ html{
   animation: swish 2s ease .5s forwards;
 }
 
+.aboutabout{
+  background-image: url('./photos/lookatcameraportfolio3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutbackground {
+  background-image: url('./photos/starbsandcaution.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutnow {
+  background-image: url('./photos/portfolio5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutconnect {
+  background-image: url('./photos/getlost.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 
 
 
