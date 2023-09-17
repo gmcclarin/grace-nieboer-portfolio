@@ -1,9 +1,3 @@
-import lookatcamera from '../photos/lookatcameraportfolio3.png'
-import lookdown from '../photos/lookingdownportfolio1.png'
-import portfolio4 from '../photos/portfolio4.jpg'
-import portoflio5 from '../photos/portfolio5.png'
-import starbs from '../photos/starbsandcaution.png'
-import getlost from '../photos/getlost.png'
 import NavBar from './NavBar';
 import MobileMenu from './MobileMenu';
 import { useState } from 'react'
@@ -11,7 +5,7 @@ import HomePageContact from './HomePageContact'
 
 
 function About () {
-    const photos = [lookatcamera, starbs, portoflio5, portfolio4,  getlost, lookdown ]
+    
 
     const [openAbout, setOpenAbout] = useState(false)
     const [openBefore, setOpenBefore] = useState(false)

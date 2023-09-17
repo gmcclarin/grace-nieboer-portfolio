@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import Time from "./Time";
 import todos from '../photos/todos.png'
-import reminders from '../photos/reminders.png'
+
 
 export default function JobSurge () {
 
@@ -67,7 +67,7 @@ export default function JobSurge () {
                             </div>
                             </div>
                             <div className="lg:flex-col flex sm:justify-center ">
-                                <img className="w-1/2 md:w-1/3 lg:w-3/4 p-7" src={photos[3].src} title="explore" />
+                                <img className="w-1/2 md:w-1/3 lg:w-3/4 p-7" src={photos[3].src} alt="oddball jobs" />
                                 <iframe className="w-1/2 lg:w-full" src={photos[2].src} title="web driver in action"/>
                                 
                             </div>
@@ -87,7 +87,7 @@ export default function JobSurge () {
                             </div>
                             <div className="">
                                
-                                    <img className="mx-auto md:w-full lg:p-10" src={todos}  title="dashboard home page" alt="dashboard home page" />
+                                    <img className="mx-auto md:w-full lg:p-10" src={todos}  alt="dashboard home page" />
                                 <div className="sm:flex sm:justify-between">
                                 <div className="w-1/2 2xl:w-1/2 p-2 sm:pr-4 ">
                                     <div className="text-sm md:text-lg text-justify font-bold">Goals are organized by priority time frame - day, week, month, and year.

@@ -78,9 +78,9 @@ export default function FryMe () {
                             </div>
                         </div>
                         <div className=" w-full lg:w-1/2 flex-col sm:justify-center aspect-video">
-                        <img className="w-1/2 lg:w-full p-2" src={menu1}  allow="autoplay"  title="share" />
+                        <img className="w-1/2 lg:w-full p-2" src={menu1}  allow="autoplay"  alt="menu" />
                         <div className="flex">
-                            <img className="w-1/3 lg:w-1/2 p-2" src={menu2}  allow="autoplay"  title="share"  />
+                            <img className="w-1/3 lg:w-1/2 p-2" src={menu2}  allow="autoplay"  alt="menu"  />
                         </div>
                         </div>
                     </div>
