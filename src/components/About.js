@@ -62,11 +62,11 @@ function About () {
                     </div> 
                     
                     }
-                { openBefore ? <div className = "aboutbackground z-10 text-white font-bold bg-neutral-600 top-50 left-50 text-md sm:text-lg md:text-lg 2xl:text-2xl text-justify w-3/4 xl:w-1/3 h-full flex justify-center items-center p-8 rounded-full ">
+                { openBefore ? <div className = "aboutbackground z-10 text-white font-bold bg-neutral-600 top-50 left-50 text-md lg:text-lg 2xl:text-2xl text-justify w-3/4 xl:w-1/3 h-full flex justify-center items-center p-8 rounded-full ">
                     <div>
-                        <p className="m-4 p-2 text-white bg-gray-900 opacity-50">
+                        <p className="my-1 sm:m-4 p-2 text-white bg-gray-900 opacity-50">
                         I have a Master's degree in Public Administration, with a professional background in Human Resources. I've spent the past few years of my career partnering with multi-lingual, cross-functional teams to resolve conflicts. </p>
-                        <p className="m-4 p-2 text-white bg-gray-900 opacity-50">My unique professional background in complex problem-solving in person-focused roles allows me to better collaborate and communicate with diverse teams. I recognize that technology is built WITH people, and FOR people.</p>
+                        <p className="my-1 sm:m-4 p-2 text-white bg-gray-900 opacity-50">My unique professional background in complex problem-solving in person-focused roles allows me to better collaborate and communicate with diverse teams. I recognize that technology is built WITH people, and FOR people.</p>
                         </div>
                     </div> 
                 

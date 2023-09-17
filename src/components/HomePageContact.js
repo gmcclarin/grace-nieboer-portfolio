@@ -10,19 +10,19 @@ export default function HomePageContact () {
     return (
             <div className="flex content-center text-center">
                 <a className="transform transition duration-500 hover:scale-150" href="https://www.linkedin.com/in/gracenieboer/" target="_blank" rel="noreferrer">
-                <FontAwesomeIcon icon={faLinkedin} style={{height:"50px",color: "#ffffff", margin:"10px"}}/>
+                <FontAwesomeIcon icon={faLinkedin} style={{height:"40px",color: "#ffffff", margin:"8px"}}/>
                 </a>
                 <a className="transform transition duration-500 hover:scale-150" href="mailto:grace.nieboer@outlook.com">
-                    <FontAwesomeIcon icon={faEnvelope} style={{height:"50px", color:"#ffffff", margin:"10px"}}/>
+                    <FontAwesomeIcon icon={faEnvelope} style={{height:"40px", color:"#ffffff", margin:"8px"}}/>
                 </a>
                 <a className="transform transition duration-500 hover:scale-150" href="https://www.instagram.com/grayce.elisabeth_/">
-                    <FontAwesomeIcon icon={faInstagram} style={{height:"50px", color:"#ffffff", margin:"10px"}}/>
+                    <FontAwesomeIcon icon={faInstagram} style={{height:"40px", color:"#ffffff", margin:"8px"}}/>
                 </a>
                 <a className="transform transition duration-500 hover:scale-150" href="https://medium.com/@grace.nieboer">
-                    <FontAwesomeIcon icon={faMedium} style={{height:"50px",color: "#ffffff", margin:"8px"}}/>
+                    <FontAwesomeIcon icon={faMedium} style={{height:"40px",color: "#ffffff", margin:"8px"}}/>
                 </a>
                 <a className="transform transition duration-500 hover:scale-150" href="https://github.com/gnieb">
-                    <FontAwesomeIcon icon={faGithub} style={{height:"50px",color: "#ffffff", margin:"7px"}} />
+                    <FontAwesomeIcon icon={faGithub} style={{height:"40px",color: "#ffffff", margin:"7px"}} />
                 </a>
             </div>
             
