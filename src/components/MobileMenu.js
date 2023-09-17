@@ -5,7 +5,7 @@ export default function MobileMenu () {
     const [showMenu, setShowMenu] = useState(false)
 
     return (
-        <nav>
+        <nav className="">
             <div className="px-2 sm:px-6 lg:px-8">
                 <div className="flex">
                     
@@ -16,7 +16,7 @@ export default function MobileMenu () {
                     </div>
 
                     {/* ------------- FOR MOBILE ---------------- */}
-                    <ul className={showMenu ? "bg-orange-600 absolute  left-0 top-0 w-full p-5 space-y-5 text-center rounded-b-3xl" : 
+                    <ul className={showMenu ? "bg-orange-600 absolute z-30  left-0 top-0 w-full p-5 space-y-5 text-center rounded-b-3xl" : 
                     "hidden bg-orange-600 absolute left-0 top-0 w-full p-7 space-y-8 text-center rounded-b-3xl"}>
                         <li>
                             <NavLink
