@@ -54,7 +54,7 @@ function About () {
             
             <div className="relative sm:mx-20 lg:mx-32 mb-5 flex h-screen items-center justify-center overscroll-x-auto overscroll-y-hidden">
 
-                {openAbout ? <div className = "aboutabout z-10 text-white  top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-full xl:w-1/3 h-full flex justify-center items-center px-8 rounded-full ">
+                {openAbout ? <div className = "aboutabout z-10 text-white  top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-3/4 xl:w-1/3 h-full flex justify-center items-center px-8 rounded-full ">
                     <div>
                         <p className="p-1 py-2">HI, I'M GRACE! </p>
                         <p className="p-1"> I am a full stack software engineer with a love for the creative elements of front-end design.</p>
@@ -63,12 +63,12 @@ function About () {
                     </div>
                     </div> 
                     :
-                    <div onClick={handleOpenAbout}className="aboutabout cursor-pointer w-1/3 xl:w-1/6 h-3/4   bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
+                    <div onClick={handleOpenAbout}className="aboutabout cursor-pointer w-1/5 xl:w-1/6 h-3/4   bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
                         <p  className="-rotate-90 font-black text-8xl text-white">ABOUT</p> 
                     </div> 
                     
                     }
-                { openBefore ? <div className = "aboutbackground z-10 text-white bg-neutral-500 top-50 left-50 text-xl sm:text-2xl  text-justify w-1/3 h-full flex justify-center items-center px-8 rounded-full ">
+                { openBefore ? <div className = "aboutbackground z-10 text-white bg-neutral-500 top-50 left-50 text-xl sm:text-2xl  text-justify w-3/4 xl:w-1/3 h-full flex justify-center items-center px-8 rounded-full ">
                     <div>
                         <p className="p-1">
                         I have a Master's degree in Public Administration, with a professional background in Human Resources. I've spent the past few years of my career working in employee relations roles within HR, partnering with multi-lingual, cross-functional teams to resolve employee conflicts. </p>
@@ -76,12 +76,12 @@ function About () {
                         </div>
                     </div> 
                 
-                :<div onClick={handleOpenBefore} className="aboutbackground cursor-pointer w-1/6 h-3/4 bg-neutral-500 rounded-full transform transition duration-500 hover:scale-125 overflow-hidden flex justify-center items-center"> 
+                :<div onClick={handleOpenBefore} className="aboutbackground cursor-pointer w-1/5 xl:w-1/6 h-3/4 bg-neutral-500 rounded-full transform transition duration-500 hover:scale-125 overflow-hidden flex justify-center items-center"> 
                     <p  className=" -rotate-90 font-black text-7xl text-white">BACKGROUND</p>
                 </div>}
 
                 {openNow ? 
-                <div className = "aboutnow z-10 text-white bg-neutral-600 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-1/3 h-full flex justify-center items-center p-8 rounded-full ">
+                <div className = "aboutnow z-10 text-white bg-neutral-600 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-3/4 xl:w-1/3 h-full flex justify-center items-center p-8 rounded-full ">
                     <div>
                     <p className="p-1">I am currently learning Java, React Native, and Typescript</p> 
                     <p className="p-1">I am currently learning Java, React Native, and Typescript</p>
@@ -89,7 +89,7 @@ function About () {
                     </div>
                 </div> 
                 
-                :<div onClick={handleOpenNow} className="aboutnow cursor-pointer w-1/6 h-3/4 bg-neutral-600 rounded-full transform transition duration-500 hover:scale-125 overflow-hidden flex justify-center items-center ">
+                :<div onClick={handleOpenNow} className="aboutnow cursor-pointer w-1/5 xl:w-1/6 h-3/4 bg-neutral-600 rounded-full transform transition duration-500 hover:scale-125 overflow-hidden flex justify-center items-center ">
                     <p  className=" -rotate-90 font-black text-8xl text-white">NOW</p> 
                 </div>
                 
@@ -97,12 +97,12 @@ function About () {
 
             {openConnect ? 
                 
-                <div className = "aboutconnect z-10 text-white bg-neutral-800 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-1/3 h-full flex justify-center items-center p-8 rounded-full ">
+                <div className = "aboutconnect z-10 text-white bg-neutral-800 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-2/3 xl:w-1/3 h-full flex justify-center items-center p-8 rounded-full ">
                     <HomePageContact />
                 </div> 
                 
                 
-                :<div onClick={handleOpenConnect}  className="aboutconnect   cursor-pointer w-1/6 h-3/4 bg-neutral-800 rounded-full transform transition duration-500 hover:scale-125 flex justify-center  items-center overflow-hidden"> 
+                :<div onClick={handleOpenConnect}  className="aboutconnect   cursor-pointer w-1/5 xl:w-1/6 h-3/4 bg-neutral-800 rounded-full transform transition duration-500 hover:scale-125 flex justify-center  items-center overflow-hidden"> 
                     <p  className="-rotate-90 font-black text-8xl text-white">CONNECT</p>
                 </div>
             }
