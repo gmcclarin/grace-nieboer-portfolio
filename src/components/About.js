@@ -62,7 +62,7 @@ function About () {
                     </div> 
                     
                     }
-                { openBefore ? <div className = "aboutbackground z-10 text-white font-bold  top-50 left-50 text-xl sm:text-xl  text-justify w-3/4 xl:w-1/3 h-full flex justify-center items-center px-8 rounded-full ">
+                { openBefore ? <div className = "aboutbackground z-10 text-white font-bold bg-neutral-600 top-50 left-50 text-md sm:text-lg md:text-lg 2xl:text-2xl text-justify w-3/4 xl:w-1/3 h-full flex justify-center items-center p-8 rounded-full ">
                     <div>
                         <p className="m-4 p-2 text-white bg-gray-900 opacity-50">
                         I have a Master's degree in Public Administration, with a professional background in Human Resources. I've spent the past few years of my career partnering with multi-lingual, cross-functional teams to resolve conflicts. </p>
@@ -70,7 +70,7 @@ function About () {
                         </div>
                     </div> 
                 
-                :<div onClick={handleOpenBefore} className="aboutbackground cursor-pointer w-1/5 xl:w-1/6 h-3/4 bg-neutral-500 rounded-full transform transition duration-500 hover:scale-125 overflow-hidden flex justify-center items-center"> 
+                :<div onClick={handleOpenBefore} className="aboutbackground ursor-pointer w-1/5 xl:w-1/6 h-3/4   bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
                     <p  className=" -rotate-90 font-black text-7xl text-white">BACKGROUND</p>
                 </div>}
 
