@@ -41,12 +41,12 @@ function About () {
     }
 
     return (
-        <div id="about" className="relative block h-screen overscroll-y-hidden">
+        <div id="about" className="bg-neutral-100 relative block h-screen overscroll-y-hidden">
             <MobileMenu />
             <NavBar />
             
             
-            <div className="relative sm:mx-20 lg:mx-32 mb-5 flex h-screen items-center justify-center overscroll-x-auto overscroll-y-hidden">
+            <div className="relative sm:mx-20 lg:mx-32 mb-5 flex bg-neutral-100 h-screen items-center justify-center overscroll-x-auto overscroll-y-hidden">
 
                 {openAbout ? <div className = "aboutabout  z-10 text-white font-bold  top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-3/4 xl:w-1/3 h-full flex justify-center items-center px-8 rounded-full ">
                     <div>
@@ -58,7 +58,7 @@ function About () {
                     </div> 
                     :
                     <div onClick={handleOpenAbout}className="aboutabout cursor-pointer w-1/5 xl:w-1/6 h-3/4   bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
-                        <p  className="-rotate-90 font-black text-8xl text-white">ABOUT</p> 
+                        <p  className="-rotate-90 font-black text-7xl text-white">ABOUT</p> 
                     </div> 
                     
                     }
@@ -84,7 +84,7 @@ function About () {
                 </div> 
                 
                 :<div onClick={handleOpenNow} className="aboutnow cursor-pointer w-1/5 xl:w-1/6 h-3/4 bg-neutral-600 rounded-full transform transition duration-500 hover:scale-125 overflow-hidden flex justify-center items-center ">
-                    <p  className=" -rotate-90 font-black text-8xl text-white">NOW</p> 
+                    <p  className=" -rotate-90 font-black text-7xl text-white">NOW</p> 
                 </div>
                 
             }
@@ -97,7 +97,7 @@ function About () {
                 
                 
                 :<div onClick={handleOpenConnect}  className="aboutconnect   cursor-pointer w-1/5 xl:w-1/6 h-3/4 bg-neutral-800 rounded-full transform transition duration-500 hover:scale-125 flex justify-center  items-center overflow-hidden"> 
-                    <p  className="-rotate-90 font-black text-8xl text-white">CONNECT</p>
+                    <p  className="-rotate-90 font-black text-7xl text-white">CONNECT</p>
                 </div>
             }
        
