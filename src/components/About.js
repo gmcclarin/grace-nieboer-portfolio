@@ -62,7 +62,7 @@ function About () {
                     </div> 
                     
                     }
-                { openBefore ? <div className = "aboutbackground z-10 text-white font-bold  top-50 left-50 text-xl sm:text-2xl  text-justify w-3/4 xl:w-1/3 h-full flex justify-center items-center px-8 rounded-full ">
+                { openBefore ? <div className = "aboutbackground z-10 text-white font-bold  top-50 left-50 text-xl sm:text-xl  text-justify w-3/4 xl:w-1/3 h-full flex justify-center items-center px-8 rounded-full ">
                     <div>
                         <p className="m-4 p-2 text-white bg-gray-900 opacity-50">
                         I have a Master's degree in Public Administration, with a professional background in Human Resources. I've spent the past few years of my career partnering with multi-lingual, cross-functional teams to resolve conflicts. </p>
