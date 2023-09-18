@@ -43,13 +43,13 @@ function ProjectPortfolio () {
  
     
     return (
-        <div className="relative block overscroll-contain">
+        <div className="bg-white relative block overscroll-contain">
         <div className="sm:hidden"><MobileMenu /></div>
         <NavBar />
         <div className="flex">
                 <div className = "mx-auto text-center">
                     <div className="snap-y snap-mandatory h-screen w-screen  overflow-y-scroll overflow-x-hidden text-3xl md:text-4xl lg:text-6xl xl:text-8xl">
-                        <div id="portsection3" className="snap-start snap-always bg-neutral-400 w-screen h-screen flex justify-center mx-auto pl-5 items-center">
+                        <div id="" className="snap-start snap-always bg-neutral-400 w-screen h-screen flex justify-center mx-auto pl-5 items-center">
                                 <Time />
                                <RevealOnScroll ><NavLink
                                     to="/jobsurge"
@@ -63,44 +63,31 @@ function ProjectPortfolio () {
                                 <NavLink
                                 to="/inspiredinteriors"
                                 exact="true"
-                                className=" hover:text-orange-500  text-white rounded-md p-20 font-bold"
+                                className=" hover:text-orange-500  text-white rounded-md font-bold"
                                 >INSPIRED INTERIORS
                             </NavLink>
                             </RevealOnScroll>
                         </div>
-                        <div id="portsection2" className="snap-start snap-always bg-white w-screen h-screen flex items-center justify-center ">
+                        <div id="portsection2" className="sm:ml-32 snap-start snap-always bg-white w-screen h-screen flex items-center justify-center ">
                             <RevealOnScroll>
                             <NavLink
                                 to="/twoormore"
                                 exact="true"
-                                className=" hover:text-orange-500 rounded-md p-5 font-bold "
+                                className=" hover:text-orange-500 rounded-md font-bold "
                                 >TWO OR MORE
                             </NavLink>
                             </RevealOnScroll>
                         </div>
                         
-                        <div className="relative snap-start snap-always bg-black w-screen h-screen flex items-center justify-center ">
-                        
-                            <iframe
-                            autoPlay
-                            loop
-                            muted
-                            className=" min-w-full min-h-screen w-screen h-screen"
-                            src="https://assets.mixkit.co/videos/preview/mixkit-full-moon-with-a-soft-haze-4433-large.mp4"
-                       />
-                                {/* <source
-                                src="https://assets.mixkit.co/videos/preview/mixkit-full-moon-with-a-soft-haze-4433-large.mp4"
-                                type="video/mp4"
-                                /> */}
-                            
-                            
+                        <div id="portsection3" className="relative snap-start snap-always bg-black w-screen h-screen flex items-center justify-center ">
+                                <RevealOnScroll>
                                 <NavLink
                                     to="/fryme"
                                     exact="true"
                                     className="absolute right-1/2 bottom-20 text-white hover:text-orange-500 rounded-md p-5 font-bold "
                                     >FRY ME TO THE MOON
                                 </NavLink>
-                          
+                                </RevealOnScroll>
                         </div>
                         
                     </div>
