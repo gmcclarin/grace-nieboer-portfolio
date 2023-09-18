@@ -42,7 +42,7 @@ export default function InspiredInteriors () {
                 <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
                     <div className="sm:my-14 text-center font-bold sm:py-8">
                         <div className="text-4xl pb-5 sm:text-9xl font-black">INSPIRED INTERIORS</div>
-                        <div className="flex w-3/4 justify-between mx-auto ">
+                        <div className="flex w-full sm:w-3/4 justify-between mx-auto ">
                             <div className="w-1/2 p-2 text-left file:font-bold sm:text-4xl italic text-black"> {`[An interior design planning and inspiration solution]`}</div>
                             <div className="w-1/2 p-2 text-left font-bold sm:text-3xl italic text-black">This full stack application was built to explore trending design ideas and create moodboards as a visual tool to experiment with different elements of design together.</div>
                         </div>
