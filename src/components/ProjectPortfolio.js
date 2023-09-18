@@ -18,7 +18,7 @@ const RevealOnScroll = ({children}) => {
     const options = {
         root: null,
         rootMargin: "0px",
-        threshold:0.5
+        threshold:0.7
     }
 
     useEffect(() => {
@@ -27,7 +27,7 @@ const RevealOnScroll = ({children}) => {
             if(ref.current) scrollObserver.observe(ref.current)
 
             return () => {
-                if(ref.current) scrollObserver.unobserve(ref.current)
+                if(ref.current) scrollObserver.disconnect()
             }
         }, [ref, options]);
 
