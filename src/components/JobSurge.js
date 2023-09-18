@@ -28,7 +28,7 @@ export default function JobSurge () {
             <NavLink
                 to="/portfolio"
                 exact="true"
-                className="fixed -rotate-90 hover:text-orange-500 text-sm sm:text-2xl font-bold translate-y-28 -translate-x-12 top-0 left-0"
+                className="fixed -rotate-90 hover:text-orange-500 text-sm sm:text-2xl font-bold translate-y-28 -translate-x-12 top-0 left-3"
                 >
                     BACK TO WORK
             </NavLink>
