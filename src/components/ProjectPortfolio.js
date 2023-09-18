@@ -81,18 +81,18 @@ function ProjectPortfolio () {
                         
                         <div className="relative snap-start snap-always bg-black w-screen h-screen flex items-center justify-center ">
                         
-                            <video
+                            <iframe
                             autoPlay
                             loop
                             muted
                             className=" min-w-full min-h-screen w-screen h-screen"
-                        >
-                                <source
+                            src="https://assets.mixkit.co/videos/preview/mixkit-full-moon-with-a-soft-haze-4433-large.mp4"
+                       />
+                                {/* <source
                                 src="https://assets.mixkit.co/videos/preview/mixkit-full-moon-with-a-soft-haze-4433-large.mp4"
                                 type="video/mp4"
-                                />
-                            Your browser does not support the video tag.
-                            </video>
+                                /> */}
+                            
                             
                                 <NavLink
                                     to="/fryme"
