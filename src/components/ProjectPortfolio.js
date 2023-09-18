@@ -29,7 +29,7 @@ const RevealOnScroll = ({children}) => {
             return () => {
                 if(ref.current) scrollObserver.disconnect()
             }
-        }, [ref, options]);
+        }, []);
 
         const classes = `transition-opacity duration-500 
             ${isVisible ? "swishy2" : "opacity-0"
