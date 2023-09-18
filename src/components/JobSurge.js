@@ -109,20 +109,20 @@ export default function JobSurge () {
                             <div  className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">ADVICE COLLECTION</div>
                             <div className="md:flex">
                                 <div className="w-3/4 md:w-1/2">
-                                    <div className=" w-full md:w-3/4 my-8 text-xl 2xl:text-3xl text-justify font-bold">A place for my continually growing collection of advice gathered from experienced devs.
+                                    <div className=" w-full md:w-3/4 sm:my-8 my-4 text-md 2xl:text-3xl text-justify font-bold">A place for my continually growing collection of advice gathered from experienced devs.
                                     </div>
-                                    <div className=" w-full md:w-3/4 my-4 text-lg lg:text-xl 2xl:text-2xl text-justify font-bold">As I make new connections with devs in the industry, I collect pieces of advice, and add them to my ever-growing collection, each credited to the dev that gave it.
+                                    <div className=" w-full md:w-3/4 my-4 text-md lg:text-xl 2xl:text-2xl text-justify font-bold">As I make new connections with devs in the industry, I collect pieces of advice, and add them to my ever-growing collection, each credited to the dev that gave it.
                                     </div>
-                                    <div className=" w-full md:w-3/4  text-lg lg:text-xl 2xl:text-2xl text-justify font-bold">As a career transitioner, I greatly value the experience of dev who have gone before me, and now are willing to share their insight into the industry. 
+                                    <div className=" w-full md:w-3/4  text-md lg:text-xl 2xl:text-2xl text-justify font-bold">As a career transitioner, I greatly value the experience of dev who have gone before me, and now are willing to share their insight into the industry. 
                                     </div>
                                 </div>
 
-                                <div className="w-3/4 md:w-1/2">
-                                    <div className="w-3/4 2xl:w-1/2 my-8">
+                                <div className="w-3/4 md:w-1/2 my-4">
+                                    <div className="hidden sm:block w-3/4 2xl:w-1/2 my-8">
                                         <div className="text-sm md:text-lg lg:text-xl text-justify font-bold">I've enjoyed and continue to seek out connections with devs that are diverse in demographic, background, experience level, and on and on. 
                                         </div>
                                     </div>
-                                    <div className="w-3/4 2xl:w-1/2 ">
+                                    <div className="w-full 2xl:w-1/2 ">
                                         <div className="text-sm md:text-lg lg:text-xl text-justify font-bold">I've been overwhelmed with gratitude for each person who has sacrificed their time to meet with me, share their wisdom, and help me better prepare for the career path ahead of me in various ways. This is truly an industry full of supportive and encouraging people.
                                         </div>
                                     </div>
