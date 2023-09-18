@@ -7,21 +7,21 @@ import meet from '../photos/meetbrian.png'
 
 export default function TwoOrMore () {
 
-    const photos = [
-        {src:"https://i.postimg.cc/qM4K3Cd3/Screenshot-2023-08-29-at-8-05-00-PM.png",
-        name:"home page1",
-        isPhoto: true},
-        {src:"https://i.postimg.cc/ryQVfdrW/Screenshot-2023-08-29-at-8-05-13-PM.png",
-        name:"home page2",
-        isPhoto:true},
-        {src:"https://player.vimeo.com/video/859195808?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&autopause=0",
-        name:"share video",
-        isPhoto:false},
-        {src:"https://i.postimg.cc/4450tV9C/Screenshot-2023-08-29-at-8-05-48-PM.png",
-        name:"about1",
-        isPhoto:true}
+    // const photos = [
+    //     {src:"https://i.postimg.cc/qM4K3Cd3/Screenshot-2023-08-29-at-8-05-00-PM.png",
+    //     name:"home page1",
+    //     isPhoto: true},
+    //     {src:"https://i.postimg.cc/ryQVfdrW/Screenshot-2023-08-29-at-8-05-13-PM.png",
+    //     name:"home page2",
+    //     isPhoto:true},
+    //     {src:"https://player.vimeo.com/video/859195808?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&autopause=0",
+    //     name:"share video",
+    //     isPhoto:false},
+    //     {src:"https://i.postimg.cc/4450tV9C/Screenshot-2023-08-29-at-8-05-48-PM.png",
+    //     name:"about1",
+    //     isPhoto:true}
         
-    ]
+    // ]
 
     return (
 
@@ -70,10 +70,10 @@ export default function TwoOrMore () {
                                 </div>
                             </div>
                             <div className=" w-full lg:w-1/2 flex-col sm:justify-center aspect-video">
-                            <img className="w-1/2 lg:w-full p-2" src={why}  allow="autoplay"  title="share" />
+                            <img className="w-1/2 lg:w-full p-2" src={why}  allow="autoplay"  alt="why" />
                             <div className="flex">
-                                <img className="w-1/3 lg:w-1/2 p-2" src={about}  allow="autoplay"  title="share"  />
-                                <img className="w-1/3 lg:w-1/2 p-2" src={meet}  allow="autoplay"  title="share"  />
+                                <img className="w-1/3 lg:w-1/2 p-2" src={about}  allow="autoplay"  alt="about"  />
+                                <img className="w-1/3 lg:w-1/2 p-2" src={meet}  allow="autoplay"  alt="meet"  />
                             </div>
                             </div>
                         </div>

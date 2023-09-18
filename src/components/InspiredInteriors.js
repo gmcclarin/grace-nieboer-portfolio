@@ -7,23 +7,23 @@ import moodboard2 from '../photos/moodboard2.png'
 
 export default function InspiredInteriors () {
 
-    const photos = [
-        {src:"https://i.postimg.cc/VkmSncp2/Screenshot-2023-05-10-at-10-50-29-AM.png",
-        name:"home page",
-        isPhoto: true},
-        {src:"https://i.postimg.cc/Y2fC8fW0/Screenshot-2023-08-10-at-9-54-37-PM.png",
-        name:"log in",
-        isPhoto:true},
-        {src:"https://i.postimg.cc/xdvFzCXk/Screenshot-2023-08-10-at-10-07-30-PM.png",
-        name:"palette",
-        isPhoto:true},
-        {src:"https://i.postimg.cc/kXCBMfkF/Screenshot-2023-08-10-at-10-22-19-PM.png",
-        name:"moodboard",
-        isPhoto:true},
-        {src:"https://player.vimeo.com/video/853567624?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&autopause=0",
-        name:"palette video",
-        isPhoto:false},
-    ]
+    // const photos = [
+    //     {src:"https://i.postimg.cc/VkmSncp2/Screenshot-2023-05-10-at-10-50-29-AM.png",
+    //     name:"home page",
+    //     isPhoto: true},
+    //     {src:"https://i.postimg.cc/Y2fC8fW0/Screenshot-2023-08-10-at-9-54-37-PM.png",
+    //     name:"log in",
+    //     isPhoto:true},
+    //     {src:"https://i.postimg.cc/xdvFzCXk/Screenshot-2023-08-10-at-10-07-30-PM.png",
+    //     name:"palette",
+    //     isPhoto:true},
+    //     {src:"https://i.postimg.cc/kXCBMfkF/Screenshot-2023-08-10-at-10-22-19-PM.png",
+    //     name:"moodboard",
+    //     isPhoto:true},
+    //     {src:"https://player.vimeo.com/video/853567624?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&autopause=0",
+    //     name:"palette video",
+    //     isPhoto:false},
+    // ]
 
     return (
         <div className="relative overflow-y-hidden overflow-x-hidden ">
@@ -71,8 +71,8 @@ export default function InspiredInteriors () {
                             </div>
                             </div>
                             <div className="sm:flex-col sm:justify-center ">
-                                <img className="w-3/4 sm:w-1/2 lg:w-full  p-7" src={moodboard1} title="moodboard1" />
-                                <img className="w-3/4 sm:w-1/2 lg:w-full  p-7" src={moodboard2} title="moodboard2" />
+                                <img className="w-3/4 sm:w-1/2 lg:w-full  p-7" src={moodboard1} alt="moodboard1" />
+                                <img className="w-3/4 sm:w-1/2 lg:w-full  p-7" src={moodboard2} alt="moodboard2" />
                             </div>
                             
                         </div>
@@ -87,7 +87,7 @@ export default function InspiredInteriors () {
                         <div className="sm:pl-32  w-3/4 md:w-1/2 p-5 text-lg 2xl:text-2xl text-justify font-bold">The Explore feature brings current trends and design inspiration to the user from an industry classic: Architectural Digest (AD). Users can browse the top trending articles from AD and click on an article to read it at its source.
                         </div>
                         <div className="sm:flex sm:justify-center ">
-                            <img className="w-full md:w-3/4 2xl:w-1/2 p-7" src={explore} title="explore" />
+                            <img className="w-full md:w-3/4 2xl:w-1/2 p-7" src={explore} alt="explore" />
                         </div>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen">
@@ -100,7 +100,7 @@ export default function InspiredInteriors () {
                             </div>
                             </div>
                             <div className="sm:flex sm:justify-center ">
-                                <img className="w-3/4 sm:w-1/2 lg:w-full  p-7" src={palette} title="explore" />
+                                <img className="w-3/4 sm:w-1/2 lg:w-full  p-7" src={palette} alt="palette" />
                             </div>
                         </div>
                 </div>
