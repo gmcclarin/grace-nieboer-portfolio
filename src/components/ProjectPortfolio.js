@@ -9,15 +9,27 @@ const RevealOnScroll = ({children}) => {
     const [isVisible, setIsVisible] = useState(false);
     const ref = useRef(null);
 
+
+    const callbackFunction = (entries) => {
+        const [entry] = entries
+        setIsVisible(entry.isIntersecting)
+    }
+
+    const options = {
+        root: null,
+        rootMargin: "0px",
+        threshold:1.0
+    }
+
     useEffect(() => {
-            const scrollObserver = new IntersectionObserver(([entry]) => {
-                setIsVisible(entry.isIntersecting)
-            });
-            scrollObserver.observe(ref.current);
+            const scrollObserver = new IntersectionObserver(callbackFunction, options);
+            
+            if(ref.current) scrollObserver.observe(ref.current)
+
             return () => {
-                 scrollObserver.disconnect();
-            };
-        }, []);
+                if(ref.current) scrollObserver.unobserve(ref.current)
+            }
+        }, [ref, options]);
 
         const classes = `transition-opacity duration-500 
             ${isVisible ? "swishy2" : "opacity-0"
@@ -84,7 +96,7 @@ function ProjectPortfolio () {
                                 <NavLink
                                     to="/fryme"
                                     exact="true"
-                                    className="absolute right-1/2 bottom-20 text-white hover:text-orange-500 rounded-md p-5 font-bold "
+                                    className="absolute z-20 right-1/2 bottom-20 text-white hover:text-orange-500 rounded-md p-5 font-bold "
                                     >FRY ME TO THE MOON
                                 </NavLink>
                                 </RevealOnScroll>
