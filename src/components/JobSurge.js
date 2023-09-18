@@ -61,13 +61,13 @@ export default function JobSurge () {
                         <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
                             <div className="w-3/4">
                             <div  className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">JOB SEARCHING</div>
-                            <div className=" w-full lg:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">A tool to scrape the web for relevant jobs posted by a target company. 
+                            <div className=" w-full lg:w-1/3 my-2 sm:my-8 text-xl 2xl:text-3xl text-justify font-bold">A tool to scrape the web for relevant jobs posted by a target company. 
                             </div>
-                            <div className="md:pl-32 w-full lg:w-3/4 lg:p-5 text-lg 2xl:text-2xl text-justify font-bold">The Jobs component of the application uses Selenium's headless chrome web driver to mimic user interaction with the target page, allowing the program to then retrieve dynamically rendered information from the site and display it on this application.
+                            <div className="md:pl-32 w-full lg:w-3/4 my-2 lg:p-5 text-lg 2xl:text-2xl text-justify font-bold">The Jobs component of the application uses Selenium's headless chrome web driver to mimic user interaction with the target page, allowing the program to then retrieve dynamically rendered information from the site and display it on this application.
                             </div>
                             </div>
                             <div className="lg:flex-col flex sm:justify-center ">
-                                <img className="w-1/2 md:w-1/3 lg:w-3/4 p-7" src={photos[3].src} alt="oddball jobs" />
+                                <img className="w-1/2 md:w-1/3 lg:w-3/4 p-4 sm:p-7" src={photos[3].src} alt="oddball jobs" />
                                 <iframe className="w-1/2 lg:w-full" src={photos[2].src} title="web driver in action"/>
                                 
                             </div>
@@ -79,7 +79,7 @@ export default function JobSurge () {
                         <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
                             <div className="w-3/4">
                             <div  className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">DASHBOARD</div>
-                            <div className=" w-full lg:w-1/3 my-8 text-xl 2xl:text-3xl text-justify font-bold">Everything I needed in one place. 
+                            <div className=" w-full lg:w-1/3 my-2 sm:my-8 text-xl 2xl:text-3xl text-justify font-bold">Everything I needed in one place. 
                             </div>
                             <div className="sm:pl-32 w-full lg:w-1/2 lg:p-5 text-lg 2xl:text-2xl text-justify font-bold">The Dashboard is just that - one place that combines priortized career goals and daily reminders with self- care and wisdom collected from experienced devs during my career transition.
                             </div>
@@ -87,8 +87,8 @@ export default function JobSurge () {
                             </div>
                             <div className="">
                                
-                                    <img className="mx-auto md:w-full lg:p-10" src={todos}  alt="dashboard home page" />
-                                <div className="sm:flex sm:justify-between">
+                                    <img className="mx-auto md:w-full m-2 lg:p-10" src={todos}  alt="dashboard home page" />
+                                <div className="flex sm:justify-between">
                                 <div className="w-1/2 2xl:w-1/2 p-2 sm:pr-4 ">
                                     <div className="text-sm md:text-lg text-justify font-bold">Goals are organized by priority time frame - day, week, month, and year.
                                     </div>
@@ -108,12 +108,12 @@ export default function JobSurge () {
                             <div className="w-full">
                             <div  className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">ADVICE COLLECTION</div>
                             <div className="md:flex">
-                                <div className="w-3/4 md:w-1/2">
-                                    <div className=" w-full md:w-3/4 sm:my-8 my-4 text-md 2xl:text-3xl text-justify font-bold">A place for my continually growing collection of advice gathered from experienced devs.
+                                <div className="w-full md:w-1/2">
+                                    <div className="w-full md:w-3/4 sm:my-8 my-4 text-md 2xl:text-3xl text-justify font-bold">A place for my continually growing collection of advice gathered from experienced devs.
                                     </div>
-                                    <div className=" w-full md:w-3/4 my-4 text-md lg:text-xl 2xl:text-2xl text-justify font-bold">As I make new connections with devs in the industry, I collect pieces of advice, and add them to my ever-growing collection, each credited to the dev that gave it.
+                                    <div className="w-full md:w-3/4 my-4 text-md lg:text-xl 2xl:text-2xl text-justify font-bold">As I make new connections with devs in the industry, I collect pieces of advice, and add them to my ever-growing collection, each credited to the dev that gave it.
                                     </div>
-                                    <div className=" w-full md:w-3/4  text-md lg:text-xl 2xl:text-2xl text-justify font-bold">As a career transitioner, I greatly value the experience of dev who have gone before me, and now are willing to share their insight into the industry. 
+                                    <div className="w-full md:w-3/4  text-md lg:text-xl 2xl:text-2xl text-justify font-bold">As a career transitioner, I greatly value the experience of dev who have gone before me, and now are willing to share their insight into the industry. 
                                     </div>
                                 </div>
 
