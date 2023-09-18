@@ -4,55 +4,23 @@
 @tailwind components;
 @tailwind utilities;
 
-/* html {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-body {
-  
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  flex-grow: 1;
-  background-color: white;
-  
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-} */
 html, body{
   padding: 0;
   margin: 0;
 }
-html{
-  height: 100%;
-}
-
 
 html {
+  height: 100%;
   overflow: hidden;
   width: 100%;
 }
 
 body {
   height: 100%;
-  position: fixed;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   }
 
-
-/* body{
- 
-  background-image: url('texturePaint.avif');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  height: 100vh;
-} */
 
 #portsection1 {
   background-image: url('./photos/photo20.avif');
