@@ -13,11 +13,11 @@ html {
   height: 100dvh;
   /* overflow: hidden; */
   width: 100%;
+  position:fixed;
 }
 
 body {
   min-height: 100dvh;
-  position: fixed;
   overflow-y: scroll;
   /* mobile viewport bug fix */
   min-height: -webkit-fill-available;
