@@ -37,7 +37,7 @@ body {
   background-position:center;
 }
 
-#portsection3 {
+.portsection3 {
   background-image: url('./photos/moon.jpg');
   background-repeat: no-repeat;
   background-size: cover;

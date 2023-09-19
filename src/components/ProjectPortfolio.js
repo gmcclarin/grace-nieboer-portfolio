@@ -18,7 +18,7 @@ const RevealOnScroll = ({children}) => {
     const options = {
         root: null,
         rootMargin: "0px",
-        threshold:0.7
+        threshold:1.0
     }
 
     useEffect(() => {
@@ -31,8 +31,8 @@ const RevealOnScroll = ({children}) => {
             }
         }, []);
 
-        const classes = `transition-opacity duration-500 
-            ${isVisible ? "swishy2" : "opacity-0"
+        const classes = `
+            ${isVisible ? "swishy2" : ""
             }`;
 
 
@@ -63,12 +63,14 @@ function ProjectPortfolio () {
                     <div className="snap-y snap-mandatory h-screen w-screen  overflow-y-scroll overflow-x-hidden text-3xl md:text-4xl lg:text-6xl xl:text-8xl">
                         <div id="" className="snap-start snap-always bg-neutral-400 w-screen h-screen flex justify-center mx-auto pl-5 items-center">
                                 <Time />
-                               <RevealOnScroll ><NavLink
+                               <RevealOnScroll >
+                                <NavLink
                                     to="/jobsurge"
                                     exact="true"
                                     className=" text-white text-left -rotate-90 px-0 my-0 hover:text-orange-500 rounded-md font-bold"
                                     >JOB SURGE
-                                </NavLink></RevealOnScroll>
+                                </NavLink>
+                                </RevealOnScroll>
                         </div>
                         <div id="portsection1" className="snap-start snap-always w-screen h-screen flex items-center justify-center ">
                             <RevealOnScroll  >
@@ -80,7 +82,7 @@ function ProjectPortfolio () {
                             </NavLink>
                             </RevealOnScroll>
                         </div>
-                        <div id="portsection2" className="sm:ml-32 snap-start snap-always bg-white w-screen h-screen flex items-center justify-center ">
+                        <div id="portsection2" className=" sm:ml-24 snap-start snap-always bg-white w-screen h-screen flex items-center justify-center ">
                             <RevealOnScroll>
                             <NavLink
                                 to="/twoormore"
@@ -91,7 +93,7 @@ function ProjectPortfolio () {
                             </RevealOnScroll>
                         </div>
                         
-                        <div id="portsection3" className="relative snap-start snap-always bg-black w-screen h-screen flex items-center justify-center ">
+                        <div  className="portsection3 relative snap-start snap-always bg-black w-screen h-screen flex items-center justify-center ">
                                 <RevealOnScroll>
                                 <NavLink
                                     to="/fryme"

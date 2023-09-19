@@ -32,8 +32,9 @@ export default function FryMe () {
                 BACK TO WORK
         </NavLink>
         <div className="snap-y snap-mandatory h-screen w-screen overflow-y-scroll overflow-x-hidden ">
-            <div  className="bg-black relative snap-start snap-always w-screen h-screen flex justify-center items-center">
-                <video
+            <div  className="portsection3 bg-black relative snap-start snap-always w-screen h-screen flex justify-center items-center">
+
+                {/* <video
                     autoPlay
                     loop
                     muted
@@ -44,7 +45,7 @@ export default function FryMe () {
                         type="video/mp4"
                         />
                     Your browser does not support the video tag.
-                    </video>
+                    </video> */}
                 <div className="absolute text-orange-500 text-4xl pb-5 sm:text-8xl  transform translate-y-12 transition-opacity swishy2 font-black">FRY ME TO THE MOON</div>
             </div>
             <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
@@ -78,9 +79,9 @@ export default function FryMe () {
                             </div>
                         </div>
                         <div className=" w-full lg:w-1/2 flex-col sm:justify-center aspect-video">
-                        <img className="w-1/2 lg:w-full p-2" src={menu1}  allow="autoplay"  alt="menu" />
+                        <img className="w-3/4 lg:w-full p-2" src={menu1}  allow="autoplay"  alt="menu" />
                         <div className="flex">
-                            <img className="w-1/3 lg:w-1/2 p-2" src={menu2}  allow="autoplay"  alt="menu"  />
+                            <img className="w-2/3 lg:w-1/2 p-2" src={menu2}  allow="autoplay"  alt="menu"  />
                         </div>
                         </div>
                     </div>
