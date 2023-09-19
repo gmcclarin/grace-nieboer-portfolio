@@ -41,14 +41,14 @@ function About () {
     }
 
     return (
-        <div id="about" className="bg-neutral-100 relative block h-screen overscroll-y-hidden">
+        <div id="about" className="bg-neutral-100 relative block h-screen ">
             <MobileMenu />
             <NavBar />
             
             
             <div className="relative sm:mx-20 lg:mx-32 mb-5 flex bg-neutral-100 h-screen items-center justify-center overscroll-x-auto overscroll-y-hidden">
 
-                {openAbout ? <div className = "aboutabout  z-10 text-white font-bold  top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-3/4 xl:w-1/3 h-full flex justify-center items-center px-8 rounded-full ">
+                {openAbout ? <div className = "aboutabout  z-10 text-white font-bold  top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-3/4 xl:w-1/3 h-full flex justify-center items-center sm:px-8 rounded-full ">
                     <div>
                         <p className="m-4 p-2 text-white bg-gray-900 opacity-50">HI, I'M GRACE! </p>
                         <p className="m-4 p-2 text-white bg-gray-900 opacity-50"> I am a full stack software engineer with a love for the creative elements of front-end design.</p>
@@ -75,7 +75,7 @@ function About () {
                 </div>}
 
                 {openNow ? 
-                <div className = "aboutnow z-10 text-white font-bold bg-neutral-600 top-50 left-50 text-xl sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-3/4 xl:w-1/3 h-full flex justify-center items-center p-8 rounded-full ">
+                <div className = "aboutnow z-10 text-white font-bold bg-neutral-600 top-50 left-50 text-lg sm:text-2xl lg:text-3xl xl:text-3xl text-justify w-3/4 xl:w-1/3 h-full flex justify-center items-center sm:p-8 rounded-full ">
                     <div className="">
                     <p className="m-4 p-2 text-white bg-gray-900 opacity-50">I am currently learning Java, React Native, and Typescript.</p> 
                     <p className="m-4 p-2 text-white bg-gray-900 opacity-50">I am collaborating on several projects with different teams to build quality, creative products.</p>
