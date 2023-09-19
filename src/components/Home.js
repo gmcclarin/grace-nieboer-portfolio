@@ -29,10 +29,12 @@ function Home () {
                         <div id="home-work" className = "relative w-full h-0 pb-1/2 hover:italic grayscale hover:grayscale-0 transform transition duration-500 hover:scale-125 hover:z-10">
                             <video
                             id="video-element"
-                                autoPlay
-                                loop
-                                muted
-                                className="w-full absolute"
+                            autoPlay={true} 
+                            loop={true}
+                            controls={false} 
+                            playsInline
+                            muted
+                            className="w-full absolute"
                               
                             >
                                 <source

@@ -21,7 +21,8 @@ Front End client built with React JS in JavaScript to showcase favorite fullstac
 
 ## Features In-Progress
 - Dark Mode
-- portfolio design inspo- what if
+- better animation!!
+- refactor revealOnScroll into a React hook??
 
 
 
