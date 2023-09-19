@@ -73,12 +73,12 @@ function ProjectPortfolio () {
                                 </NavLink>
                                 </RevealOnScroll>
                         </div>
-                        <div id="portsection1" className="snap-start snap-always w-screen h-screen flex items-center justify-center ">
+                        <div id="portsection1" className="snap-start snap-always w-screen h-screen flex items-center justify-center  mx-auto pl-5">
                             <RevealOnScroll  >
                                 <NavLink
                                 to="/inspiredinteriors"
                                 exact="true"
-                                className=" hover:text-orange-500  text-white rounded-md font-bold"
+                                className="text-white text-left px-0 my-0 hover:text-orange-500 rounded-md font-bold"
                                 >INSPIRED INTERIORS
                             </NavLink>
                             </RevealOnScroll>
