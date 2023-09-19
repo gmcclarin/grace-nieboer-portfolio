@@ -30,13 +30,13 @@ const RevealOnScroll = ({children}) => {
             return () => {
                 if(ref.current) {
                     scrollObserver.unobserve(ref.current)
-                    scrollObserver.disconnect()
+                    // scrollObserver.disconnect()
                 }
             }
         }, []);
 
-        const classes = `transition-opacity duration-1000 
-            ${isVisible ? "opacity-100" : "opacity-0"
+        const classes = `transition-opacity duration-2000 
+            ${isVisible ? "opacity-100 " : "opacity-0"
             }`;
 
 

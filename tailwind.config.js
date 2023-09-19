@@ -20,7 +20,9 @@ module.exports = {
         '1/2': '50%',
         full: '100%',
       },
-      
+      transitionDuration: {
+        '2000': '2000ms',
+      },
     },
   },
   plugins: [],
