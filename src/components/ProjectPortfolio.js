@@ -64,7 +64,7 @@ function ProjectPortfolio () {
         <NavBar />
         <div className="flex">
                 <div className = "mx-auto text-center">
-                    <div className="snap-y snap-mandatory h-screen w-screen  overflow-y-scroll overflow-x-hidden text-3xl md:text-4xl lg:text-6xl xl:text-8xl">
+                    <div className="snap-y snap-mandatory h-screen w-screen overflow-x-hidden text-3xl md:text-4xl lg:text-6xl xl:text-8xl">
                         <div id="" className="snap-start snap-always bg-neutral-400 w-screen h-screen flex justify-center mx-auto pl-5 items-center">
                                 <Time />
                                <RevealOnScroll >
