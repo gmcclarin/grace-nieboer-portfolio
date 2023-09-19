@@ -79,11 +79,6 @@ body {
   }
 }
 
-.swishy1 {
-  opacity: 0;
-  transform: translateY(3rem);
-  animation: swish 2s ease 2s forwards;
-}
 
 .swishy2 {
   opacity: 0;

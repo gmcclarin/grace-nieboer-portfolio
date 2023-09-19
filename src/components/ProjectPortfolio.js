@@ -35,8 +35,8 @@ const RevealOnScroll = ({children}) => {
             }
         }, []);
 
-        const classes = `
-            ${isVisible ? "swishy2" : ""
+        const classes = `transition-opacity duration-1000 
+            ${isVisible ? "opacity-100" : "opacity-0"
             }`;
 
 
