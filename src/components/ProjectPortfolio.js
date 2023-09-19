@@ -23,11 +23,12 @@ const RevealOnScroll = ({children}) => {
 
     useEffect(() => {
             const scrollObserver = new IntersectionObserver(callbackFunction, options);
-            
-            if(ref.current) scrollObserver.observe(ref.current)
+            if(ref.current) {
+                scrollObserver.observe(ref.current)
+            }
 
             return () => {
-                if(ref.current) scrollObserver.disconnect()
+                if(ref.current) scrollObserver.unobserve(ref.current)
             }
         }, []);
 
@@ -98,7 +99,7 @@ function ProjectPortfolio () {
                                 <NavLink
                                     to="/fryme"
                                     exact="true"
-                                    className="absolute z-20 right-1/2 bottom-20 text-white hover:text-orange-500 rounded-md p-5 font-bold "
+                                    className=" text-white hover:text-orange-500 rounded-md font-bold "
                                     >FRY ME TO THE MOON
                                 </NavLink>
                                 </RevealOnScroll>
