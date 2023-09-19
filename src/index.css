@@ -17,11 +17,9 @@ html {
 }
 
 body {
-  min-height: 100dvh;
   overflow-y: scroll;
-  /* mobile viewport bug fix */
   min-height: -webkit-fill-available;
-  -webkit-overflow-scrolling: touch;
+  height: calc(100vh - calc(100vh - 100%))
   }
 
 
