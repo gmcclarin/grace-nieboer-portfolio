@@ -28,7 +28,10 @@ const RevealOnScroll = ({children}) => {
             }
 
             return () => {
-                if(ref.current) scrollObserver.unobserve(ref.current)
+                if(ref.current) {
+                    scrollObserver.unobserve(ref.current)
+                    scrollObserver.disconnect()
+                }
             }
         }, []);
 
