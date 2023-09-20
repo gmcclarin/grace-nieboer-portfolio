@@ -81,13 +81,13 @@ export default function InspiredInteriors () {
                    
                         <div className="md:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
                             <div className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full 2xl:w-1/4 ">EXPLORE</div>
-                            <div className=" w-full md:w-1/3 my-2 sm:my-8 text-md 2xl:text-3xl text-justify font-bold">The EXPLORE feature was inspired by the popular explore pages on social media platforms like Instagram.
+                            <div className=" w-3/4 md:w-1/3 my-3 sm:my-8 text-md 2xl:text-3xl  font-bold">The EXPLORE feature was inspired by the popular explore pages on social media platforms like Instagram.
                             </div>
                         </div>
-                        <div className="sm:pl-32  w-3/4 md:w-1/2 my-2 mx-auto text-md 2xl:text-2xl text-justify font-bold">The Explore feature brings current trends and design inspiration to the user from an industry classic: Architectural Digest (AD). Users can browse the top trending articles from AD and click on an article to read it at its source.
+                        <div className="sm:pl-32  w-2/3 md:w-1/2 my-3 mx-auto text-md 2xl:text-2xl text-justify font-bold">The Explore feature brings current trends and design inspiration to the user from an industry classic: Architectural Digest (AD). Users can browse the top trending articles from AD and click on an article to read it at its source.
                         </div>
-                        <div className="sm:flex sm:justify-center ">
-                            <img className="w-1/2 sm:m-7" src={explore} alt="explore" />
+                        <div className="flex justify-center ">
+                            <img className="w-1/2 m-7" src={explore} alt="explore" />
                         </div>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen">
