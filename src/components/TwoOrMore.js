@@ -66,7 +66,7 @@ export default function TwoOrMore () {
                                 <div id="colorPalette" className="xl:text-8xl md:text-5xl text-4xl font-black lg:w-1/3 w-full">MISSION AND VISION</div>
                                 <div className=" w-full lg:my-8 text-xl 2xl:text-3xl font-bold">Dive into the story behind Two or More.
                                 </div>
-                                <div className="md:pl-32 pl-16  w-full lg:w-3/4 my-3 text-lg 2xl:text-2xl text-justify font-bold"> Two or More exist in their journey to serve bi/multi-ethnic individuals and their families. Get to know the founder and partners to learn more about the heart behind the non-profit.
+                                <div className="md:pl-32 pl-16  w-full lg:w-3/4 my-3 text-sm md:text-xl 2xl:text-2xl text-justify font-bold"> Two or More exist in their journey to serve bi/multi-ethnic individuals and their families. Get to know the founder and partners to learn more about the heart behind the non-profit.
                                 </div>
                             </div>
                             <div className=" w-full lg:w-1/2 flex-col sm:justify-center aspect-video">
