@@ -38,10 +38,10 @@ export default function JobSurge () {
                 </div>
                 <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
                     <div className="sm:my-14 text-neutral-500 text-center font-black sm:py-8">
-                        <div className="text-4xl pb-5 sm:text-9xl">JOB SURGE</div>
+                        <div className="text-4xl pb-5 md:text-6xl lg:text-7xl">JOB SURGE</div>
                         <div className="flex sm:w-3/4 justify-between mx-auto ">
-                            <div className="w-1/2 p-2 text-left file:font-bold sm:text-4xl italic text-black">SURGE [ v ]: to move suddenly and powerfully forward or upward.</div>
-                            <div className="w-1/2 p-2 text-left font-bold sm:text-3xl italic text-black">A career dashboard to help me navigate my job search, organize my priorities, and categorize my goals by Day, Week, Month, and Year. JobSurge was built to navigate my transition from Human Resources into tech.</div>
+                            <div className="w-1/2 m-4 text-left file:font-bold sm:text-xl md:text-3xl lg:text-4xl italic text-black">SURGE [ v ]: to move suddenly and powerfully forward or upward.</div>
+                            <div className="w-1/2 m-4 text-left font-bold sm:text-xl md:text-3xl lg:text-3xl italic text-black">A career dashboard to help me navigate my job search, organize my priorities, and categorize my goals by Day, Week, Month, and Year. JobSurge was built to navigate my transition from Human Resources into tech.</div>
                         </div>
                         
                     </div>
@@ -58,17 +58,17 @@ export default function JobSurge () {
                     </div>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen">
-                        <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
-                            <div className="w-full sm:w-3/4">
-                            <div  className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">JOB SEARCHING</div>
-                            <div className=" w-full lg:w-1/3 my-2 sm:my-8 text-md 2xl:text-3xl text-justify font-bold">A tool to scrape the web for relevant jobs posted by a target company. 
+                        <div className="md:flex w-screen pt-12 px-10 sm:pl-32 justify-between items-center">
+                            <div className="w-full sm:w-3/4 lg:w-3/4">
+                                <div  className="xl:text-8xl md:text-5xl text-4xl font-black sm:w-1/3 w-full">JOB SEARCHING</div>
+                                <div className=" w-full lg:w-3/4 my-4 sm:my-8 text-md 2xl:text-3xl font-bold">A tool to scrape the web for relevant jobs posted by a target company. 
+                                </div>
+                                <div className="lg:pl-32 pl-16 w-full lg:w-3/4 my-4 lg:p-5 text-md 2xl:text-2xl text-justify font-bold">The Jobs component of the application uses Selenium's headless chrome web driver to mimic user interaction with the target page, allowing the program to then retrieve dynamically rendered information from the site and display it on this application.
+                                </div>
                             </div>
-                            <div className="md:pl-32 w-full lg:w-3/4 my-2 lg:p-5 text-md 2xl:text-2xl text-justify font-bold">The Jobs component of the application uses Selenium's headless chrome web driver to mimic user interaction with the target page, allowing the program to then retrieve dynamically rendered information from the site and display it on this application.
-                            </div>
-                            </div>
-                            <div className="lg:flex-col flex sm:justify-center ">
-                                <img className="w-1/2 md:w-1/3 lg:w-3/4 p-4 sm:p-7" src={photos[3].src} alt="oddball jobs" />
-                                <iframe className="w-1/2 lg:w-full" src={photos[2].src} title="web driver in action"/>
+                            <div className="md:flex-col flex justify-center items-center ">
+                                <img className="w-1/3 md:w-1/2 xl:w-1/2 m-3 sm:p-7" src={photos[3].src} alt="oddball jobs" />
+                                <iframe className="w-1/2 md:w-3/4 m-3" src={photos[2].src} title="web driver in action"/>
                                 
                             </div>
                             
