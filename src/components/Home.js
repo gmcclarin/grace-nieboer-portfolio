@@ -43,7 +43,7 @@ function Home () {
                                 />
                             Your browser does not support the video tag.
                             </video>
-                            <NavLink  className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" exact="true" to='/portfolio'>work.</NavLink>
+                            <NavLink  className=" w-full pb-1/2 pt-1/2 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" exact="true" to='/portfolio'>work.</NavLink>
                         </div>
                     </div>
                     <div className = "relative hover:italic w-full pb-1/2 bg-neutral-900">
