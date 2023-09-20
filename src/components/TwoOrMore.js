@@ -43,8 +43,8 @@ export default function TwoOrMore () {
                     <div className="sm:my-14 text-center font-bold sm:py-8">
                         <div className="text-4xl pb-5  md:text-6xl lg:text-7xl font-black">TWO OR MORE</div>
                         <div className="flex w-3/4 justify-between mx-auto ">
-                            <div className="w-1/2 p-2 text-left file:font-bold sm:text-xl md:text-3xl lg:text-4xl italic text-black"> {`[An educational resource and community internet space for the non-profit, Two or More]`}</div>
-                            <div className="w-1/2 p-2 text-left font-bold sm:text-xl md:text-3xl lg:text-4xl italic text-black">This web application is in progress for a client with the purpose of fostering community with individuals that identify as being a part of two or more racial groups, and providing educational materials and opportunities with the ultimate goal of racial reconciliation between families.</div>
+                            <div className="w-1/2 p-2 text-left text-sm file:font-bold sm:text-xl md:text-3xl lg:text-4xl italic text-black"> {`[An educational resource and community internet space for the non-profit, Two or More]`}</div>
+                            <div className="w-1/2 p-2 text-left text-sm sm:text-xl md:text-3xl lg:text-4xl italic text-black">This web application is in progress for a client with the purpose of fostering community with individuals that identify as being a part of two or more racial groups, and providing educational materials and opportunities with the ultimate goal of racial reconciliation between families.</div>
                         </div>
                         
                     </div>
