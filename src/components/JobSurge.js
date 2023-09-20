@@ -76,26 +76,25 @@ export default function JobSurge () {
                 </div>
 
                 <div className="snap-start snap-always w-screen h-screen">
-                        <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
+                        <div className="lg:flex w-screen pt-12 px-10 sm:pl-32 justify-between items-center">
                             <div className=" w-full sm:w-3/4">
                             <div  className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">DASHBOARD</div>
-                            <div className=" w-3/4 sm:w-full lg:w-1/3 my-2 sm:my-8 text-xl 2xl:text-3xl text-justify font-bold">Everything I needed in one place. 
+                            <div className=" w-full  my-4 md:my-8 text-xl 2xl:text-3xl font-bold">Everything I needed in one place. 
                             </div>
-                            <div className="sm:pl-32 w-full lg:w-1/2 lg:p-5 text-md 2xl:text-2xl text-justify font-bold">The Dashboard is just that - one place that combines priortized career goals and daily reminders with self- care and wisdom collected from experienced devs during my career transition.
+                            <div className="md:pl-32 pl-16 my-4 w-full lg:w-1/2 lg:p-5 text-md 2xl:text-2xl text-justify font-bold">The Dashboard is just that - one place that combines priortized career goals and daily reminders with self- care and wisdom collected from experienced devs during my career transition.
                             </div>
                         
                             </div>
                             <div className="">
-                               
-                                    <img className="mx-auto md:w-full m-2 lg:p-10" src={todos}  alt="dashboard home page" />
+                                    <img className="mx-auto md:w-1/2 lg:w-full m-2 lg:p-5" src={todos}  alt="dashboard home page" />
                                 <div className="flex sm:justify-between">
                                 <div className="w-1/2 2xl:w-1/2 p-2 sm:pr-4 ">
-                                    <div className="text-sm md:text-lg text-justify font-bold">Goals are organized by priority time frame - day, week, month, and year.
+                                    <div className="text-sm md:text-lg  font-bold">Goals are organized by priority time frame - day, week, month, and year.
                                     </div>
                                 </div>
                                     
                                 <div className="w-1/2 2xl:w-1/2 p-2 sm:pl-4 ">
-                                    <div className="text-sm md:text-lg text-justify font-bold">A live clock feature at the top of the dashboard is a reminder to me to take advantage of every minute.
+                                    <div className="text-sm md:text-lg font-bold">A live clock feature at the top of the dashboard is a reminder to me to take advantage of every minute.
                                     </div>
                                 </div>
                                 </div>
