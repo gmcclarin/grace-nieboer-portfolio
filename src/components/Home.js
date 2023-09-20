@@ -13,11 +13,20 @@ function Home () {
                         <h1 className="absolute text-4xl sm:text-8xl text-white top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">GRACE NIEBOER</h1>
                     </div>
                     <div className="flex ">
-                        <div className="bg-neutral-100 relative w-full h-0 pb-1/2 text-sm sm:text-2xl lg:text-2xl xl:text-3xl border-2 border-black">
-                            <p className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 font-bold">SOFTWARE ENGINEER. DEVELOPER. ARCHITECT.</p>
+                        <div className="flex justify-center items-center bg-neutral-100 relative w-full h-0 pb-1/2 text-sm sm:text-2xl lg:text-2xl xl:text-3xl border-2 border-black">
+                            <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 font-bold">
+                                PASSIONATE 
+                                <div className="scroller">
+                                    <span>
+                                    ENGINEER.<br/>
+                                    DEVELOPER.<br/> 
+                                    ARCHITECT.
+                                    </span>
+                                </div>
+                            </div> 
                         </div>
                         <div className="relative w-full h-0 pb-1/2 text-sm sm:text-2xl md:text-xl xl:text-xl border-2 border-black  bg-neutral-100 hover:z-10">
-                            <p className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 transform transition duration-500 hover:scale-125">PASSIONATE DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.</p>
+                            <p className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 transform transition duration-500 hover:scale-125">FULL STACK DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.</p>
                         </div>
                     </div>
                 </div>
