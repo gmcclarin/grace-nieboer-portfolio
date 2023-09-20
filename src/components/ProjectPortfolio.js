@@ -71,7 +71,7 @@ function ProjectPortfolio () {
                                 <NavLink
                                     to="/jobsurge"
                                     exact="true"
-                                    className=" text-white text-left -rotate-90 px-0 my-0 hover:text-orange-500 rounded-md font-bold"
+                                    className=" text-white text-left -rotate-90 px-0 my-0 hover:text-orange-500 rounded-md font-bold text-xl md:text-4xl lg:text-6xl xl:text-8xl"
                                     >JOB SURGE
                                 </NavLink>
                                 </RevealOnScroll>
