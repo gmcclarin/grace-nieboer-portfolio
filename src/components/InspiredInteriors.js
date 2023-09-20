@@ -67,7 +67,7 @@ export default function InspiredInteriors () {
                                 <div className="xl:text-8xl md:text-5xl text-4xl font-black sm:w-1/2 w-full">THE MOOD BOARD</div>
                                     <div className=" w-full lg:w-full my-8 text-xl 2xl:text-3xl font-bold">A virtual moodboard tool. 
                                 </div>
-                                    <div className="pl-32 w-full  my-8 text-lg 2xl:text-2xl text-justify font-bold">A blank 'canvas' awaits the application user with this beautiful tool. Design elements added by the user are displayed in a masonry layout and are fully customizeable, featuring a special <a className="underline text-pink-500" href="#colorPalette">color palette</a>.
+                                    <div className="sm:pl-32 pl-16 w-full  my-8 text-lg 2xl:text-2xl text-justify font-bold">A blank 'canvas' awaits the application user with this beautiful tool. Design elements added by the user are displayed in a masonry layout and are fully customizeable, featuring a special <a className="underline text-pink-500" href="#colorPalette">color palette</a>.
                                 </div>
                             </div>
                             <div className="flex lg:flex-col items-center">
@@ -91,16 +91,16 @@ export default function InspiredInteriors () {
                         </div>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen">
-                        <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
+                        <div className="sm:flex w-screen pt-12 px-10 sm:pl-32 justify-between items-center">
                             <div>
                             <div id="colorPalette" className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">THE COLOR PALETTE</div>
-                            <div className=" w-full lg:w-1/3 my-2 sm:my-8 text-xl 2xl:text-3xl text-justify font-bold">A paint swatch-inspired tool for color exploration. 
+                            <div className=" w-full lg:w-1/3 my-3 md:my-8 text-xl 2xl:text-3xl  font-bold">A paint swatch-inspired tool for color exploration. 
                             </div>
-                            <div className="sm:pl-32 w-full lg:w-3/4 my-2 sm:p-5 text-md 2xl:text-2xl text-justify font-bold"> The Palette is a tool built using the Colormind API. Every moodboard is equipped with the default palette shown here. The user can click a button, and a new color palette from the API will be displayed in the palette structure.
+                            <div className="md:pl-32 pl-8 w-full lg:w-3/4 my-4 sm:p-5 text-md 2xl:text-2xl text-justify font-bold"> The Palette is a tool built using the Colormind API. Every moodboard is equipped with the default palette shown here. The user can click a button, and a new color palette from the API will be displayed in the palette structure.
                             </div>
                             </div>
                             <div className="sm:flex sm:justify-center ">
-                                <img className="w-1/2 sm:w-1/2 lg:w-full sm:p-7" src={palette} alt="palette" />
+                                <img className="w-1/2 sm:w-full " src={palette} alt="palette" />
                             </div>
                         </div>
                 </div>
