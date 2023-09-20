@@ -64,15 +64,15 @@ export default function InspiredInteriors () {
                 <div className="snap-start snap-always w-screen h-screen">
                         <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
                             <div>
-                            <div className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">THE MOOD BOARD</div>
-                            <div className=" w-full lg:w-1/3 my-8 text-xl 2xl:text-3xl font-bold">A virtual moodboard tool. 
+                                <div className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/2 w-full">THE MOOD BOARD</div>
+                                    <div className=" w-full lg:w-full my-8 text-xl 2xl:text-3xl font-bold">A virtual moodboard tool. 
+                                </div>
+                                    <div className="pl-32 w-full  my-8 text-lg 2xl:text-2xl text-justify font-bold">A blank 'canvas' awaits the application user with this beautiful tool. Design elements added by the user are displayed in a masonry layout and are fully customizeable, featuring a special <a className="underline text-pink-500" href="#colorPalette">color palette</a>.
+                                </div>
                             </div>
-                            <div className="pl-32 w-full lg:w-3/4 my-8 text-lg 2xl:text-2xl text-justify font-bold">A blank 'canvas' awaits the application user with this beautiful tool. Design elements added by the user are displayed in a masonry layout and are fully customizeable, featuring a special <a className="underline text-pink-500" href="#colorPalette">color palette</a>.
-                            </div>
-                            </div>
-                            <div className="flex lg:flex-col sm:justify-center ">
-                                <img className="w-1/2 lg:w-full 2xl:w-3/4  p-1 sm:p-7" src={moodboard1} alt="moodboard1" />
-                                <img className="w-1/2 lg:w-full 2xl:w-3/4 p-1 sm:p-7" src={moodboard2} alt="moodboard2" />
+                            <div className="flex lg:flex-col items-center">
+                                <img className="w-1/2 lg:w-2/3 2xl:w-2/3  p-1 " src={moodboard1} alt="moodboard1" />
+                                <img className="w-1/2 lg:w-2/3 2xl:w-2/3 p-1 " src={moodboard2} alt="moodboard2" />
                             </div>
                             
                         </div>
@@ -87,7 +87,7 @@ export default function InspiredInteriors () {
                         <div className="sm:pl-32  w-3/4 md:w-1/2 my-2 mx-auto text-md 2xl:text-2xl text-justify font-bold">The Explore feature brings current trends and design inspiration to the user from an industry classic: Architectural Digest (AD). Users can browse the top trending articles from AD and click on an article to read it at its source.
                         </div>
                         <div className="sm:flex sm:justify-center ">
-                            <img className="w-full md:w-3/4 2xl:w-1/2 p-5 sm:m-7" src={explore} alt="explore" />
+                            <img className="w-1/2 p-5 sm:m-7" src={explore} alt="explore" />
                         </div>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen">
