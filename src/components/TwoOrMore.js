@@ -31,7 +31,7 @@ export default function TwoOrMore () {
             <NavLink
                 to="/portfolio"
                 exact="true"
-                className="absolute z-30 bg-white bg-opacity-50 -rotate-90 hover:text-orange-500 text-sm sm:text-2xl font-bold translate-y-28 -translate-x-12 top-0 left-3"
+                className="absolute z-30 rounded-full p-1 bg-white bg-opacity-50 -rotate-90 hover:text-orange-500 text-sm sm:text-2xl font-bold translate-y-28 -translate-x-12 top-0 left-3"
                 >
                     BACK TO WORK
             </NavLink>
