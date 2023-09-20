@@ -37,14 +37,14 @@ export default function TwoOrMore () {
             </NavLink>
             <div className="snap-y snap-mandatory h-screen w-screen overflow-y-scroll overflow-x-hidden ">
                 <div id="twofirstsection" className="snap-start snap-always w-screen h-screen flex justify-center items-center">
-                    <div className="text-4xl pb-5 sm:text-8xl  transform translate-y-12 transition-opacity swishy2 font-black">TWO OR MORE</div>
+                    <div className="text-4xl pb-5 md:text-6xl lg:text-8xl  transform translate-y-12 transition-opacity swishy2 font-black">TWO OR MORE</div>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
                     <div className="sm:my-14 text-center font-bold sm:py-8">
-                        <div className="text-4xl pb-5 sm:text-9xl font-black">TWO OR MORE</div>
+                        <div className="text-4xl pb-5  md:text-6xl lg:text-7xl font-black">TWO OR MORE</div>
                         <div className="flex w-3/4 justify-between mx-auto ">
-                            <div className="w-1/2 p-2 text-left file:font-bold sm:text-4xl italic text-black"> {`[An educational resource and community internet space for the non-profit, Two or More]`}</div>
-                            <div className="w-1/2 p-2 text-left font-bold sm:text-3xl italic text-black">This web application is in progress for a client with the purpose of fostering community with individuals that identify as being a part of two or more racial groups, and providing educational materials and opportunities with the ultimate goal of racial reconciliation between families.</div>
+                            <div className="w-1/2 p-2 text-left file:font-bold sm:text-xl md:text-3xl lg:text-4xl italic text-black"> {`[An educational resource and community internet space for the non-profit, Two or More]`}</div>
+                            <div className="w-1/2 p-2 text-left font-bold sm:text-xl md:text-3xl lg:text-4xl italic text-black">This web application is in progress for a client with the purpose of fostering community with individuals that identify as being a part of two or more racial groups, and providing educational materials and opportunities with the ultimate goal of racial reconciliation between families.</div>
                         </div>
                         
                     </div>
