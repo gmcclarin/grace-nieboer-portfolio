@@ -86,7 +86,7 @@ function ProjectPortfolio () {
                             </NavLink>
                             </RevealOnScroll>
                         </div>
-                        <div id="portsection2" className=" sm:ml-24 snap-start snap-always bg-white w-screen h-screen flex items-center justify-center ">
+                        <div id="portsection2" className=" sm:ml-24 2xl-ml-16 snap-start snap-always bg-white w-screen h-screen flex items-center justify-center ">
                             <RevealOnScroll>
                             <NavLink
                                 to="/twoormore"
