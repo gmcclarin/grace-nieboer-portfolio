@@ -16,7 +16,7 @@ function Home () {
                         <div className="bg-neutral-100 relative w-full h-0 pb-1/2 text-sm sm:text-2xl lg:text-2xl xl:text-3xl border-2 border-black transform transition duration-500 hover:scale-125 hover:z-10">
                             <p className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 font-bold">SOFTWARE ENGINEER. DEVELOPER. ARCHITECT.</p>
                         </div>
-                        <div className="relative w-full h-0 pb-1/2 text-sm sm:text-2xl md:text-xl xl:text-2xl border-2 border-black transform transition duration-500 hover:scale-125 bg-neutral-100 hover:z-10">
+                        <div className="relative w-full h-0 pb-1/2 text-sm sm:text-2xl md:text-xl xl:text-xl border-2 border-black transform transition duration-500 hover:scale-125 bg-neutral-100 hover:z-10">
                             <p className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">PASSIONATE DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.</p>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ function Home () {
                 <div className = "w-full lg:w-1/2  h-screen text-white text-4xl sm:text-8xl text-center font-fun font-black">
                     <div className="flex ">
                         <div id="home-about" className = "relative w-full h-0 pb-1/2 hover:italic grayscale hover:grayscale-0 transform transition duration-500 hover:scale-125 hover:z-10">
-                            <NavLink className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" exact="true" to='/about'>about.</NavLink> 
+                            <NavLink className="w-full pb-1/2 pt-1/2 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" exact="true" to='/about'>about.</NavLink> 
                         </div>
                         <div id="home-work" className = "relative w-full h-0 pb-1/2 hover:italic grayscale hover:grayscale-0 transform transition duration-500 hover:scale-125 hover:z-10">
                             <video
