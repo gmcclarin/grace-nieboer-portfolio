@@ -61,15 +61,18 @@ export default function JobSurge () {
                         <div className="md:flex w-screen pt-12 px-10 sm:pl-32 justify-between items-center">
                             <div className="w-full sm:w-3/4 lg:w-3/4">
                                 <div  className="xl:text-8xl md:text-5xl text-4xl font-black sm:w-1/3 w-full">JOB SEARCHING</div>
-                                <div className=" w-full lg:w-3/4 my-4 sm:my-8 text-md 2xl:text-3xl font-bold">A tool to scrape the web for relevant jobs posted by a target company. 
+                                <div className=" w-full lg:w-3/4 my-4 md:my-8 text-md 2xl:text-3xl font-bold">A tool to scrape the web for relevant jobs posted by a target company. 
                                 </div>
-                                <div className="lg:pl-32 pl-16 w-full lg:w-3/4 my-4 lg:p-5 text-md 2xl:text-2xl text-justify font-bold">The Jobs component of the application uses Selenium's headless chrome web driver to mimic user interaction with the target page, allowing the program to then retrieve dynamically rendered information from the site and display it on this application.
+                                <div className="lg:pl-24 pl-16 w-full lg:w-3/4 my-4 lg:p-5 text-md 2xl:text-2xl text-justify font-bold">The Jobs component of the application uses Selenium's headless chrome web driver to mimic user interaction with the target page, allowing the program to then retrieve dynamically rendered information from the site and display it on this application.
                                 </div>
+                                
                             </div>
                             <div className="md:flex-col flex justify-center items-center ">
-                                <img className="w-1/3 md:w-2/3 m-3 sm:p-7" src={photos[3].src} alt="oddball jobs" />
+                                <img className="w-1/3 md:w-2/3 xl:w-1/2 m-3 " src={photos[3].src} alt="oddball jobs" />
                                 {/* <iframe className="w-1/2 md:w-3/4 m-3" src={photos[2].src} title="web driver in action"/> */}
-                                
+                                <div className="w-full md:w-2/3 mt-4 text-sm 2xl:text-xl ">
+                                    The photo shows the web driver retrieving and displaying jobs just posted to the careers page of a company called Oddball.
+                                </div>
                             </div>
                             
                         </div>
