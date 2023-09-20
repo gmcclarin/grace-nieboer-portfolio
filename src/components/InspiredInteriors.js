@@ -80,7 +80,7 @@ export default function InspiredInteriors () {
                 <div className="snap-start snap-always w-screen h-screen  ">
                    
                         <div className="md:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
-                            <div className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full">EXPLORE</div>
+                            <div className="xl:text-8xl md:text-7xl text-4xl font-black sm:w-1/3 w-full 2xl:w-1/4 ">EXPLORE</div>
                             <div className=" w-full md:w-1/3 my-2 sm:my-8 text-md 2xl:text-3xl text-justify font-bold">The EXPLORE feature was inspired by the popular explore pages on social media platforms like Instagram.
                             </div>
                         </div>
