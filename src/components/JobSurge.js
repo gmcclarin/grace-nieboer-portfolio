@@ -67,8 +67,8 @@ export default function JobSurge () {
                                 </div>
                             </div>
                             <div className="md:flex-col flex justify-center items-center ">
-                                <img className="w-1/3 md:w-1/2 xl:w-1/2 m-3 sm:p-7" src={photos[3].src} alt="oddball jobs" />
-                                <iframe className="w-1/2 md:w-3/4 m-3" src={photos[2].src} title="web driver in action"/>
+                                <img className="w-1/3 md:w-2/3 m-3 sm:p-7" src={photos[3].src} alt="oddball jobs" />
+                                {/* <iframe className="w-1/2 md:w-3/4 m-3" src={photos[2].src} title="web driver in action"/> */}
                                 
                             </div>
                             
