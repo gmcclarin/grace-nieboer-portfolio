@@ -3,37 +3,37 @@ import MobileMenu from "./MobileMenu";
 import { NavLink } from "react-router-dom";
 import Time from "./Time";
 import { useRef, useState, useEffect } from "react";
+import { useRevealOnScreen } from "./useRevealOnScreen";
+
 
 
 const RevealOnScroll = ({children}) => {
-    const [isVisible, setIsVisible] = useState(false);
-    const ref = useRef(null);
-
-
-    const callbackFunction = (entries) => {
-        const [entry] = entries
-        setIsVisible(entry.isIntersecting)
-    }
-
-    const options = {
+    const [ref, isVisible] = useRevealOnScreen({
         root: null,
         rootMargin: "0px",
         threshold:0.1
-    }
+    });
+    
 
-    useEffect(() => {
-            const scrollObserver = new IntersectionObserver(callbackFunction, options);
-            if(ref.current) {
-                scrollObserver.observe(ref.current)
-            }
+    // const options = {
+    //     root: null,
+    //     rootMargin: "0px",
+    //     threshold:0.1
+    // }
 
-            return () => {
-                if(ref.current) {
-                    scrollObserver.unobserve(ref.current)
-                    // scrollObserver.disconnect()
-                }
-            }
-        }, []);
+    // useEffect(() => {
+    //         const scrollObserver = new IntersectionObserver(callbackFunction, options);
+    //         if(ref.current) {
+    //             scrollObserver.observe(ref.current)
+    //         }
+
+    //         return () => {
+    //             if(ref.current) {
+    //                 scrollObserver.unobserve(ref.current)
+    //                 // scrollObserver.disconnect()
+    //             }
+    //         }
+    //     }, []);
 
         const classes = `transition-opacity duration-2000 
             ${isVisible ? "opacity-100 " : "opacity-0"
@@ -54,9 +54,6 @@ const RevealOnScroll = ({children}) => {
 function ProjectPortfolio () {
    
 
-    
-    
- 
     
     return (
         <div className="bg-white relative block ">
