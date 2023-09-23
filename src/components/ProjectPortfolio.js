@@ -14,32 +14,9 @@ const RevealOnScroll = ({children}) => {
         threshold:0.1
     });
     
-
-    // const options = {
-    //     root: null,
-    //     rootMargin: "0px",
-    //     threshold:0.1
-    // }
-
-    // useEffect(() => {
-    //         const scrollObserver = new IntersectionObserver(callbackFunction, options);
-    //         if(ref.current) {
-    //             scrollObserver.observe(ref.current)
-    //         }
-
-    //         return () => {
-    //             if(ref.current) {
-    //                 scrollObserver.unobserve(ref.current)
-    //                 // scrollObserver.disconnect()
-    //             }
-    //         }
-    //     }, []);
-
         const classes = `transition-opacity duration-2000 
             ${isVisible ? "opacity-100 " : "opacity-0"
             }`;
-
-
 
         return (
             <div ref={ref} className={classes}>

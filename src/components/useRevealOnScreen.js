@@ -19,7 +19,6 @@ const useRevealOnScreen = (options) => {
         return () => {
             if(ref.current) {
                 scrollObserver.unobserve(ref.current)
-                // scrollObserver.disconnect()
             }
         }
     }, [])
