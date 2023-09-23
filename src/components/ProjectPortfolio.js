@@ -2,31 +2,11 @@ import NavBar from "./NavBar";
 import MobileMenu from "./MobileMenu";
 import { NavLink } from "react-router-dom";
 import Time from "./Time";
-import { useRef, useState, useEffect } from "react";
-import { useRevealOnScreen } from "./useRevealOnScreen";
+import { RevealOnScroll } from "./RevealOnScroll";
 
 
 
-const RevealOnScroll = ({children}) => {
-    const [ref, isVisible] = useRevealOnScreen({
-        root: null,
-        rootMargin: "0px",
-        threshold:0.1
-    });
-    
-        const classes = `transition-opacity duration-2000 
-            ${isVisible ? "opacity-100 " : "opacity-0"
-            }`;
 
-        return (
-            <div ref={ref} className={classes}>
-                {children}
-            </div>
-        );
-
-
-
-}
 
 function ProjectPortfolio () {
    
