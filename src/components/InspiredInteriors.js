@@ -4,6 +4,7 @@ import explore from '../photos/explorepage.png'
 import palette from '../photos/color_palette.png'
 import moodboard1 from '../photos/moodboardexample.png'
 import moodboard2 from '../photos/moodboard2.png'
+import { RevealOnScroll } from "./RevealOnScroll";
 
 export default function InspiredInteriors () {
 
@@ -40,6 +41,7 @@ export default function InspiredInteriors () {
                     <div className="text-4xl pb-5 sm:text-8xl  transform translate-y-12 transition-opacity swishy2 font-black">INSPIRED INTERIORS</div>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
+                    <RevealOnScroll>
                     <div className="sm:my-14 text-center font-bold sm:py-8">
                         <div className="text-4xl pb-5 md:text-6xl lg:text-7xl font-black">INSPIRED INTERIORS</div>
                         <div className="flex w-full sm:w-3/4 justify-between mx-auto ">
@@ -48,8 +50,10 @@ export default function InspiredInteriors () {
                         </div>
                         
                     </div>
+                    </RevealOnScroll>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto items-center">
+                <RevealOnScroll >
                 <div className="m-4">
                         <div className="text-4xl  font-black">THE TECH STACK</div>
                         <div className="text-3xl">REACT JS</div>
@@ -60,6 +64,7 @@ export default function InspiredInteriors () {
                         <div className="text-3xl">BOOTSTRAP</div>
                         <div className="text-3xl">MATERIAL UI</div>
                     </div>
+                </RevealOnScroll>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen">
                         <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">

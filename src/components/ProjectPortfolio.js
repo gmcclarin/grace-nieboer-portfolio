@@ -4,13 +4,7 @@ import { NavLink } from "react-router-dom";
 import Time from "./Time";
 import { RevealOnScroll } from "./RevealOnScroll";
 
-
-
-
-
 function ProjectPortfolio () {
-   
-
     
     return (
         <div className="bg-white relative block ">
