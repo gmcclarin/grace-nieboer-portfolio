@@ -39,7 +39,7 @@ export default function FryMe () {
                     autoPlay
                     loop
                     muted
-                    className="min-w-full min-h-screen w-screen h-screen"
+                    className="w-full absolute video-element"
                 >
                         <source
                         src="https://assets.mixkit.co/videos/preview/mixkit-full-moon-with-a-soft-haze-4433-large.mp4"
