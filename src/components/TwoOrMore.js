@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import about from '../photos/abouttwoormore.png'
 import why from '../photos/thewhy.png'
 import meet from '../photos/meetbrian.png'
+import { RevealOnScroll } from "./RevealOnScroll";
 
 
 export default function TwoOrMore () {
@@ -40,25 +41,28 @@ export default function TwoOrMore () {
                     <div className="text-4xl pb-5 md:text-6xl lg:text-8xl  transform translate-y-12 transition-opacity swishy2 font-black">TWO OR MORE</div>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
+                    <RevealOnScroll>
                     <div className="sm:my-14 text-center font-bold sm:py-8">
                         <div className="text-4xl pb-5  md:text-6xl lg:text-7xl font-black">TWO OR MORE</div>
                         <div className="flex w-3/4 justify-between mx-auto ">
                             <div className="w-1/2 p-2 text-left text-sm file:font-bold sm:text-xl md:text-3xl lg:text-4xl italic text-black"> {`[An educational resource and community internet space for the non-profit, Two or More]`}</div>
                             <div className="w-1/2 p-2 text-left text-sm sm:text-xl md:text-3xl lg:text-4xl italic text-black">This web application is in progress for a client with the purpose of fostering community with individuals that identify as being a part of two or more racial groups, and providing educational materials and opportunities with the ultimate goal of racial reconciliation between families.</div>
                         </div>
-                        
                     </div>
+                    </RevealOnScroll>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto items-center">
-                <div className="m-4">
-                        <div className="text-4xl  font-black">THE TECH STACK</div>
-                        <div className="text-3xl">REACT JS</div>
-                        <div className="text-3xl">JAVASCRIPT</div>
-                        <div className="text-3xl">JAVA</div>
-                        <div className="text-3xl">SPRING BOOT</div>
-                        <div className="text-3xl">POSTGRESQL</div>
-                        <div className="text-3xl">TAILWIND</div>
+                    <RevealOnScroll>
+                    <div className="m-4">
+                            <div className="text-4xl  font-black">THE TECH STACK</div>
+                            <div className="text-3xl">REACT JS</div>
+                            <div className="text-3xl">JAVASCRIPT</div>
+                            <div className="text-3xl">JAVA</div>
+                            <div className="text-3xl">SPRING BOOT</div>
+                            <div className="text-3xl">POSTGRESQL</div>
+                            <div className="text-3xl">TAILWIND</div>
                     </div>
+                    </RevealOnScroll>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen">
                         <div className="lg:flex w-screen h-screen pt-12 px-10 sm:px-32 justify-between items-center">
