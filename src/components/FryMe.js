@@ -33,20 +33,20 @@ export default function FryMe () {
                 BACK TO WORK
         </NavLink>
         <div className="snap-y snap-mandatory h-screen w-screen overflow-y-scroll overflow-x-hidden ">
-            <div  className=" bg-black relative snap-start snap-always w-screen h-screen flex justify-center items-center">
+            <div  className="portsection3 bg-black relative snap-start snap-always w-screen h-screen flex justify-center items-center">
 
-                <video
+                {/* <video
                     autoPlay
                     loop
                     muted
-                    className="w-full absolute video-element"
+                    className="min-w-full min-h-screen w-screen h-screen"
                 >
                         <source
                         src="https://assets.mixkit.co/videos/preview/mixkit-full-moon-with-a-soft-haze-4433-large.mp4"
                         type="video/mp4"
                         />
                     Your browser does not support the video tag.
-                    </video>
+                    </video> */}
                 <div className="absolute text-orange-500 text-4xl pb-5 sm:text-2xl md:text-5xl lg:text-8xl  transform translate-y-12 transition-opacity swishy2 font-black">FRY ME TO THE MOON</div>
             </div>
             <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
