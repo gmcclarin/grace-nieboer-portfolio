@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import Time from "./Time";
 import todos from '../photos/todos.png'
-
+import { RevealOnScroll } from "./RevealOnScroll";
 
 export default function JobSurge () {
 
@@ -37,16 +37,18 @@ export default function JobSurge () {
                     <Time />
                 </div>
                 <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
+                    <RevealOnScroll>
                     <div className="sm:my-14 text-neutral-500 text-center font-black sm:py-8">
                         <div className="text-4xl pb-5 md:text-6xl lg:text-7xl">JOB SURGE</div>
                         <div className="flex sm:w-3/4 justify-between mx-auto ">
                             <div className="w-1/2 m-4 text-left file:font-bold sm:text-xl md:text-3xl lg:text-4xl italic text-black">SURGE [ v ]: to move suddenly and powerfully forward or upward.</div>
                             <div className="w-1/2 m-4 text-left font-bold sm:text-xl md:text-3xl lg:text-3xl italic text-black">A career dashboard to help me navigate my job search, organize my priorities, and categorize my goals by Day, Week, Month, and Year. JobSurge was built to navigate my transition from Human Resources into tech.</div>
                         </div>
-                        
                     </div>
+                    </RevealOnScroll>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
+                <RevealOnScroll>
                 <div className="m-4">
                         <div className="text-4xl  font-black">THE TECH STACK</div>
                         <div className="text-3xl">REACT JS</div>
@@ -56,6 +58,7 @@ export default function JobSurge () {
                         <div className="text-3xl">POSTGRESQL</div>
                         <div className="text-3xl">TAILWIND</div>
                     </div>
+                </RevealOnScroll>
                 </div>
                 <div className="snap-start snap-always w-screen h-screen">
                         <div className="md:flex w-screen pt-12 px-10 sm:pl-32 justify-between items-center">
