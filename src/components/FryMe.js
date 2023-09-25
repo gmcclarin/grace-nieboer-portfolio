@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import menu1 from '../photos/menu1.png'
 import menu2 from '../photos/menu2.png'
+import { RevealOnScroll } from "./RevealOnScroll";
 
 export default function FryMe () {
 
@@ -49,25 +50,29 @@ export default function FryMe () {
                 <div className="absolute text-orange-500 text-4xl pb-5 sm:text-2xl md:text-5xl lg:text-8xl  transform translate-y-12 transition-opacity swishy2 font-black">FRY ME TO THE MOON</div>
             </div>
             <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
+                <RevealOnScroll>
                 <div className="sm:my-14 text-center font-bold sm:py-8">
                     <div className="text-4xl pb-5 sm:text-2xl md:text-5xl lg:text-7xl font-black">FRY ME TO THE MOON</div>
                     <div className="flex w-3/4 justify-between mx-auto ">
                         <div className="w-1/2 p-2 text-left file:font-bold sm:text-xl md:text-3xl lg:text-4xl italic text-black"> {`[An outer-space themed store front for custom potato fry creations]`}</div>
                         <div className="w-1/2 p-2 text-left font-bold sm:text-xl md:text-3xl lg:text-3xl italic text-black">This full stack web application is a retro take on artisan potatoes. This was a group project built to showcase client, server, and RESTful API development</div>
-                    </div>
-                    
+                    </div>    
                 </div>
+                </RevealOnScroll>
+
             </div>
             <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto items-center">
-            <div className="m-4">
-                    <div className="text-4xl  font-black">THE TECH STACK</div>
-                    <div className="text-3xl">REACT JS</div>
-                    <div className="text-3xl">JAVASCRIPT</div>
-                    <div className="text-3xl">PYTHON</div>
-                    <div className="text-3xl">FLASK</div>
-                    <div className="text-3xl">SQLITE3</div>
-                    <div className="text-3xl">BOOTSTRAP</div>
+                <RevealOnScroll>
+                <div className="m-4">
+                        <div className="text-4xl  font-black">THE TECH STACK</div>
+                        <div className="text-3xl">REACT JS</div>
+                        <div className="text-3xl">JAVASCRIPT</div>
+                        <div className="text-3xl">PYTHON</div>
+                        <div className="text-3xl">FLASK</div>
+                        <div className="text-3xl">SQLITE3</div>
+                        <div className="text-3xl">BOOTSTRAP</div>
                 </div>
+                </RevealOnScroll>
             </div>
             <div className="snap-start snap-always w-screen h-screen">
                     <div className="md:flex w-screen h-screen pt-12 px-10 sm:px-32 justify-between items-center">
