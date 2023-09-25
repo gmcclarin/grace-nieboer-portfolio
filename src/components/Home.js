@@ -37,13 +37,13 @@ function Home () {
                         </div>
                         <div id="home-work" className = "relative w-full h-0 pb-1/2 hover:italic grayscale hover:grayscale-0 transform transition duration-500 hover:scale-125 hover:z-10">
                             <video
-                            id="video-element"
+                            id=""
                             autoPlay={true} 
                             loop={true}
                             controls={false} 
                             playsInline
                             muted
-                            className="w-full absolute"
+                            className="video-element w-full absolute"
                               
                             >
                                 <source
