@@ -57,7 +57,7 @@ function About () {
                     </div>
                     </div> 
                     :
-                    <div onClick={handleOpenAbout}className="aboutabout cursor-pointer w-1/5 xl:w-1/6 h-3/4   bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
+                    <div onClick={handleOpenAbout}className="aboutabout cursor-pointer w-1/5 h-3/4   bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
                         <p  className="-rotate-90 font-black text-7xl text-white">ABOUT</p> 
                     </div> 
                     
@@ -70,7 +70,7 @@ function About () {
                         </div>
                     </div> 
                 
-                :<div onClick={handleOpenBefore} className="aboutbackground ursor-pointer w-1/5 xl:w-1/6 h-3/4   bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
+                :<div onClick={handleOpenBefore} className="aboutbackground ursor-pointer w-1/5 h-3/4   bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
                     <p  className=" -rotate-90 font-black text-7xl text-white">BACKGROUND</p>
                 </div>}
 
@@ -83,7 +83,7 @@ function About () {
                     </div>
                 </div> 
                 
-                :<div onClick={handleOpenNow} className="aboutnow cursor-pointer w-1/5 xl:w-1/6 h-3/4 bg-neutral-600 rounded-full transform transition duration-500 hover:scale-125 overflow-hidden flex justify-center items-center ">
+                :<div onClick={handleOpenNow} className="aboutnow cursor-pointer w-1/5  h-3/4 bg-neutral-600 rounded-full transform transition duration-500 hover:scale-125 overflow-hidden flex justify-center items-center ">
                     <p  className=" -rotate-90 font-black text-7xl text-white">NOW</p> 
                 </div>
                 
@@ -96,7 +96,7 @@ function About () {
                 </div> 
                 
                 
-                :<div onClick={handleOpenConnect}  className="aboutconnect   cursor-pointer w-1/5 xl:w-1/6 h-3/4 bg-neutral-800 rounded-full transform transition duration-500 hover:scale-125 flex justify-center  items-center overflow-hidden"> 
+                :<div onClick={handleOpenConnect}  className="aboutconnect   cursor-pointer w-1/5 h-3/4 bg-neutral-800 rounded-full transform transition duration-500 hover:scale-125 flex justify-center  items-center overflow-hidden"> 
                     <p  className="-rotate-90 font-black text-7xl text-white">CONNECT</p>
                 </div>
             }
