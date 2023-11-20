@@ -201,3 +201,42 @@ body {
   font-family: "nyght";
   src: url('./fonts/nyght-serif-main/fonts/WEB/NyghtSerif-DarkItalic.woff2');
 }
+
+.scroll-y {
+  height: 100%;
+  text-align: center;
+  
+  /* animation properties */
+  -moz-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  
+  -moz-animation: my-scroll 5s linear infinite;
+  -webkit-animation: my-scroll 5s linear infinite;
+  animation: my-scroll 5s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-scroll {
+  from { -moz-transform: translateY(-100%); }
+  to { -moz-transform: translateY(100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-scroll {
+  from { -webkit-transform: translateY(-100%); }
+  to { -webkit-transform: translateY(100%); }
+}
+
+@keyframes my-scroll {
+  from {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  to {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+}

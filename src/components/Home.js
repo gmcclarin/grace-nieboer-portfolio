@@ -44,18 +44,40 @@ function Home () {
                     </div>
 
                     {/* right half of the home page */}
-                    <div className="sm:w-1/2 h-full flex flex-col sm:items-center items-end justify-between">
+                    <div className="sm:w-1/2 h-full flex flex-col sm:items-center items-end justify-between relative">
                         <div className="w-full ">
-                            <div className="flex justify-center items-center"><NavLink className=" hover:transition-transform hover:scale-125 flex text-right font-nyght lg:text-7xl text-4xl " exact="true" to='/about'>
-                                <p className="lg:text-[250px] text-7xl sm:text-9xl">a</p><p className="items-end flex">bout.</p></NavLink></div>
+                            <div className="z-30 flex justify-center items-center"><NavLink className=" hover:transition-transform hover:scale-125 flex text-right font-nyght lg:text-7xl text-4xl " exact="true" to='/about'>
+                                <p className=" lg:text-[250px] text-7xl sm:text-9xl">a</p><p className="items-end flex">bout.</p></NavLink>
+                            </div>
+                            {/* <div className="w-full flex relative h-0 z-1 justify-center items-center">
+                                <div className="w-32 h-32 absolute z-2 rounded-full">
+                                    <video
+                                        id=""
+                                        autoPlay={true} 
+                                        loop={true}
+                                        controls={false} 
+                                        playsInline
+                                        muted
+                                        className="video-element w-full absolute rounded-full"
+                                        
+                                        >
+                                            <source
+                                            src="https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-screens-4192-large.mp4"
+                                            type="video/mp4"
+                                            />
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div> */}
                             <div className="flex justify-center items-center">
                                 <NavLink className=" flex font-nyght lg:text-7xl text-4xl hover:transition-transform hover:scale-125" exact="true" to='/portfolio'>
                                 <p className="lg:text-[250px] sm:text-9xl text-7xl">w</p><p className="items-end flex">ork.</p></NavLink>
                             </div>
                         </div>
                     </div>
-                    <div className="flex items-end my-10">
-                    <div className="flex flex-col content-centerm items-center text-center border-orange-500 border-2 rounded-full py-1">
+                    <div className="flex items-end my-10 ">
+                    <div className="flex flex-col content-center items-center text-center border-orange-500 border-2 rounded-full py-1 overflow-y-hidden ">
+                        <div className="flex flex-col scroll-y">
                             <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150 " href="https://www.linkedin.com/in/gracenieboer/" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon  icon={faLinkedin} style={{height:"20px",color: "#f97316"}}/>
                             </a>
@@ -71,6 +93,7 @@ function Home () {
                             <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150" href="https://github.com/gnieb">
                                 <FontAwesomeIcon icon={faGithub} style={{height:"20px",color: "#f97316",}} />
                             </a>
+                            </div>
                         </div>
                     </div>
                 </div>
