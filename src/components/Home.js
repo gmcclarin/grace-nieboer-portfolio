@@ -8,7 +8,7 @@ function Home () {
     return (
 
             <div className="home bg-cover bg-fixed h-screen w-screen overflow-auto p-5" >
-                <div className="flex w-full justify-center">
+                <div className="sm:flex w-full justify-center">
                     {/* left half side of the screen */}
                     <div className="w-1/2 h-full flex flex-col items-center justify-between">
                         <div className="w-full flex  m-5">
@@ -19,8 +19,8 @@ function Home () {
                                 BUILDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.
                             </div>
                         </div>
-                        <div className="relative w-full flex justify-center items-center h-0 pb-1/2 text-sm sm:text-2xl lg:text-2xl xl:text-3xl">
-                            <div className="absolute top-12 left-1/4 -translate-y-1/2 -translate-x-1/2 font-bold">
+                        <div className="relative w-full flex justify-center items-center h-0 pb-1/2 text-sm sm:text-2xl lg:text-2xl xl:text-3xl p-5">
+                            <div className="absolute top-12 left-1/3 sm:left-1/4 -translate-y-1/2 -translate-x-1/2 font-bold">
                                     PASSIONATE 
                                     <div className="scroller">
                                         <span>
@@ -32,19 +32,19 @@ function Home () {
                                 </div> 
                         </div>
 
-                        <div className="w-full flex m-10 font-nyght text-8xl">
+                        <div className="w-full flex m-10 font-nyght text-6xl md:text-8xl">
                             grace nieboer
                         </div>
                     </div>
 
                     {/* right half of the home page */}
-                    <div className="w-1/2 h-full flex flex-col items-center justify-between">
+                    <div className="sm:w-1/2 h-full flex flex-col sm:items-center items-end justify-between">
                         <div className="w-full ">
-                            <div className="flex justify-center items-center"><NavLink className=" hover:transition-transform hover:scale-125 flex text-right font-nyght text-7xl " exact="true" to='/about'>
-                                <p className="text-9xl">a</p><p>bout.</p></NavLink></div>
+                            <div className="flex justify-center items-center"><NavLink className=" hover:transition-transform hover:scale-125 flex text-right font-nyght lg:text-7xl text-4xl " exact="true" to='/about'>
+                                <p className="lg:text-[250px] text-7xl sm:text-9xl">a</p><p className="items-end flex">bout.</p></NavLink></div>
                             <div className="flex justify-center items-center">
-                                <NavLink className=" flex font-nyght text-7xl hover:transition-transform hover:scale-125" exact="true" to='/portfolio'>
-                                <p className="text-9xl">w</p><p>ork.</p></NavLink>
+                                <NavLink className=" flex font-nyght lg:text-7xl text-4xl hover:transition-transform hover:scale-125" exact="true" to='/portfolio'>
+                                <p className="lg:text-[250px] sm:text-9xl text-7xl">w</p><p className="items-end flex">ork.</p></NavLink>
                             </div>
                         </div>
                     </div>
