@@ -6,7 +6,8 @@ module.exports = {
     fontFamily: {
       'body': 'Arial, Helvetica, sans-serif',
       'display' : 'Bodoni Moda, serif',
-      'fun' : 'font-family, serif'
+      'fun' : 'font-family, serif',
+      'nyght' : 'nyght',
     },
     textColors : {
       'primary' : "#22292f",

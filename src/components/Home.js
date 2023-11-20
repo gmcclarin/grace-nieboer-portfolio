@@ -10,7 +10,7 @@ function Home () {
             <div className="lg:flex">
                 <div className="w-full lg:w-1/2 h-auto">
                     <div className="relative hover:italic w-full pb-1/2 bg-neutral-700 font-black ">
-                        <h1 className="absolute text-4xl sm:text-8xl text-white top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">GRACE NIEBOER</h1>
+                        <h1 className="absolute text-4xl sm:text-8xl text-white top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 font-nyght">GRACE NIEBOER</h1>
                     </div>
                     <div className="flex ">
                         <div className="flex justify-center items-center bg-neutral-100 relative w-full h-0 pb-1/2 text-sm sm:text-2xl lg:text-2xl xl:text-3xl border-2 border-black">

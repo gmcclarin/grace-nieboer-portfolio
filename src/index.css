@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -189,4 +190,9 @@ body {
   75% {
     top: -3.6em;
   }
+}
+
+@font-face {
+  font-family: "nyght";
+  src: url('./fonts/nyght-serif-main/fonts/WEB/NyghtSerif-DarkItalic.woff2');
 }
