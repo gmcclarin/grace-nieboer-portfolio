@@ -1,6 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import HomePageContact from "./HomePageContact";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faMedium } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
 function Home () {
@@ -46,6 +52,25 @@ function Home () {
                                 <NavLink className=" flex font-nyght lg:text-7xl text-4xl hover:transition-transform hover:scale-125" exact="true" to='/portfolio'>
                                 <p className="lg:text-[250px] sm:text-9xl text-7xl">w</p><p className="items-end flex">ork.</p></NavLink>
                             </div>
+                        </div>
+                    </div>
+                    <div className="flex items-end my-10">
+                    <div className="flex flex-col content-centerm items-center text-center border-orange-500 border-2 rounded-full py-1">
+                            <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150 " href="https://www.linkedin.com/in/gracenieboer/" target="_blank" rel="noreferrer">
+                            <FontAwesomeIcon  icon={faLinkedin} style={{height:"20px",color: "#f97316"}}/>
+                            </a>
+                            <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150" href="mailto:grace.nieboer@outlook.com">
+                                <FontAwesomeIcon icon={faEnvelope} style={{height:"20px", color:"#f97316", }}/>
+                            </a>
+                            <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150" href="https://www.instagram.com/grayce.elisabeth_/">
+                                <FontAwesomeIcon icon={faInstagram} style={{height:"20px", color:"#f97316", }}/>
+                            </a>
+                            <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150" href="https://medium.com/@grace.nieboer">
+                                <FontAwesomeIcon icon={faMedium} style={{height:"20px",color: "#f97316", }}/>
+                            </a>
+                            <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150" href="https://github.com/gnieb">
+                                <FontAwesomeIcon icon={faGithub} style={{height:"20px",color: "#f97316",}} />
+                            </a>
                         </div>
                     </div>
                 </div>
