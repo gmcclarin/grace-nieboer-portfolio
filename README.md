@@ -25,4 +25,7 @@ Front End client built with React JS in JavaScript to showcase favorite fullstac
 - refactor revealOnScroll into a React hook??
 
 
+## Credits
 
+- NYGHT SERIF FONT: Copyright (c) 2022, [Maksym Kobuzan](maxkobuzan@gmail.com),
+with Reserved Font Name NYGHT SERIF.
