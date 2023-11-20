@@ -6,63 +6,96 @@ import HomePageContact from "./HomePageContact";
 function Home () {
 
     return (
-        < div className = "bg-cover bg-black bg-fixed h-auto overflow-auto ">
-            <div className="lg:flex">
-                <div className="w-full lg:w-1/2 h-auto">
-                    <div className="relative hover:italic w-full pb-1/2 bg-neutral-700 font-black ">
-                        <h1 className="absolute text-4xl sm:text-8xl text-white top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 font-nyght">GRACE NIEBOER</h1>
+
+            <div className="home bg-cover bg-fixed h-screen w-screen overflow-auto" >
+                <div className="lg:flex-column lg:justify-between h-1/2 ">
+                    <div className="w-full flex lg:w-1/2 h-full m-5">
+                        <div className="w-1/2  mx-2 text-xs font-bold">
+                            FULL STACK DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.
+                        </div>
+                        <div className="w-1/2 mx-5 text-xs md::text-sm font-bold">
+                            FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.
+                        </div>
                     </div>
-                    <div className="flex ">
-                        <div className="flex justify-center items-center bg-neutral-100 relative w-full h-0 pb-1/2 text-sm sm:text-2xl lg:text-2xl xl:text-3xl border-2 border-black">
-                            <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 font-bold">
-                                PASSIONATE 
-                                <div className="scroller">
-                                    <span>
-                                    ENGINEER.<br/>
-                                    DEVELOPER.<br/> 
-                                    ARCHITECT.
-                                    </span>
+                    <div className="relative flex">
+                        <div className="absolute top-1/2 left-48 text-xl -translate-y-1/2 -translate-x-1/2 font-bold">
+                                 PASSIONATE 
+                                 <div className="scroller">
+                                     <span>
+                                     ENGINEER.<br/>
+                                     DEVELOPER.<br/> 
+                                     ARCHITECT.
+                                     </span>
                                 </div>
-                            </div> 
-                        </div>
-                        <div className="relative w-full h-0 pb-1/2 text-sm sm:text-2xl md:text-xl xl:text-xl border-2 border-black  bg-neutral-100 hover:z-10">
-                            <p className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 transform transition duration-500 hover:scale-125">FULL STACK DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.</p>
                         </div>
                     </div>
+
+                    <div className="font-nyght p-10 text-8xl">
+                        grace nieboer
+                    </div>
+
                 </div>
-                <div className = "w-full lg:w-1/2  h-screen text-white text-4xl sm:text-8xl text-center font-fun font-black">
-                    <div className="flex ">
-                        <div id="home-about" className = "relative w-full h-0 pb-1/2 hover:italic grayscale hover:grayscale-0 transform transition duration-500 hover:scale-125 hover:z-10">
-                            <NavLink className="w-full pb-1/2 pt-1/2 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" exact="true" to='/about'>about.</NavLink> 
-                        </div>
-                        <div id="home-work" className = "relative w-full h-0 pb-1/2 hover:italic grayscale hover:grayscale-0 transform transition duration-500 hover:scale-125 hover:z-10">
-                            <video
-                            id=""
-                            autoPlay={true} 
-                            loop={true}
-                            controls={false} 
-                            playsInline
-                            muted
-                            className="video-element w-full absolute"
-                              
-                            >
-                                <source
-                                src="https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-screens-4192-large.mp4"
-                                type="video/mp4"
-                                />
-                            Your browser does not support the video tag.
-                            </video>
-                            <NavLink  className=" w-full pb-1/2 pt-1/2 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" exact="true" to='/portfolio'>work.</NavLink>
-                        </div>
-                    </div>
-                    <div className = "relative hover:italic w-full pb-1/2 bg-neutral-900">
-                        <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" >
-                        <HomePageContact />
-                        </div>
-                    </div>
-                </div>
+
             </div>
-        </div>
+
+
+        // < div className = "bg-cover bg-black bg-fixed h-auto overflow-auto ">
+        //     <div className="lg:flex">
+        //         <div className="w-full lg:w-1/2 h-auto">
+        //             <div className="relative hover:italic w-full pb-1/2 bg-neutral-700 font-black ">
+        //                 <h1 className="absolute text-4xl sm:text-8xl text-white top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 font-nyght">GRACE NIEBOER</h1>
+        //             </div>
+        //             <div className="flex ">
+        //                 <div className="flex justify-center items-center bg-neutral-100 relative w-full h-0 pb-1/2 text-sm sm:text-2xl lg:text-2xl xl:text-3xl border-2 border-black">
+        //                     <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 font-bold">
+        //                         PASSIONATE 
+        //                         <div className="scroller">
+        //                             <span>
+        //                             ENGINEER.<br/>
+        //                             DEVELOPER.<br/> 
+        //                             ARCHITECT.
+        //                             </span>
+        //                         </div>
+        //                     </div> 
+        //                 </div>
+        //                 <div className="relative w-full h-0 pb-1/2 text-sm sm:text-2xl md:text-xl xl:text-xl border-2 border-black  bg-neutral-100 hover:z-10">
+        //                     <p className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 transform transition duration-500 hover:scale-125">FULL STACK DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.</p>
+        //                 </div>
+        //             </div>
+        //         </div>
+        //         <div className = "w-full lg:w-1/2  h-screen text-white text-4xl sm:text-8xl text-center font-fun font-black">
+        //             <div className="flex ">
+        //                 <div id="home-about" className = "relative w-full h-0 pb-1/2 hover:italic grayscale hover:grayscale-0 transform transition duration-500 hover:scale-125 hover:z-10">
+        //                     <NavLink className="w-full pb-1/2 pt-1/2 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" exact="true" to='/about'>about.</NavLink> 
+        //                 </div>
+        //                 <div id="home-work" className = "relative w-full h-0 pb-1/2 hover:italic grayscale hover:grayscale-0 transform transition duration-500 hover:scale-125 hover:z-10">
+        //                     <video
+        //                     id=""
+        //                     autoPlay={true} 
+        //                     loop={true}
+        //                     controls={false} 
+        //                     playsInline
+        //                     muted
+        //                     className="video-element w-full absolute"
+                              
+        //                     >
+        //                         <source
+        //                         src="https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-screens-4192-large.mp4"
+        //                         type="video/mp4"
+        //                         />
+        //                     Your browser does not support the video tag.
+        //                     </video>
+        //                     <NavLink  className=" w-full pb-1/2 pt-1/2 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" exact="true" to='/portfolio'>work.</NavLink>
+        //                 </div>
+        //             </div>
+        //             <div className = "relative hover:italic w-full pb-1/2 bg-neutral-900">
+        //                 <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2" >
+        //                 <HomePageContact />
+        //                 </div>
+        //             </div>
+        //         </div>
+        //     </div>
+        // </div>
     )
 }
 export default Home;

@@ -115,7 +115,12 @@ body {
 }
 
 
-
+.home {
+  background-image: url('./photos/colorful-noise.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 
 
