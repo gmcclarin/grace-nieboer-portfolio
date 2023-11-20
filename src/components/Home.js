@@ -7,35 +7,48 @@ function Home () {
 
     return (
 
-            <div className="home bg-cover bg-fixed h-screen w-screen overflow-auto" >
-                <div className="lg:flex-column lg:justify-between h-1/2 ">
-                    <div className="w-full flex lg:w-1/2 h-full m-5">
-                        <div className="w-1/2  mx-2 text-xs font-bold">
-                            FULL STACK DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.
+            <div className="home bg-cover bg-fixed h-screen w-screen overflow-auto p-5" >
+                <div className="flex w-full justify-center">
+                    {/* left half side of the screen */}
+                    <div className="w-1/2 h-full flex flex-col items-center justify-between">
+                        <div className="w-full flex  m-5">
+                            <div className="w-1/2  mx-2 text-xs font-bold">
+                                FULL STACK DEVELOPER WITH A LOVE FOR DESIGN AND USER IMPACT.
+                            </div>
+                            <div className="w-1/2 mx-5 text-xs md::text-sm font-bold">
+                                BUILDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.
+                            </div>
                         </div>
-                        <div className="w-1/2 mx-5 text-xs md::text-sm font-bold">
-                            FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.
+                        <div className="relative w-full flex justify-center items-center h-0 pb-1/2 text-sm sm:text-2xl lg:text-2xl xl:text-3xl">
+                            <div className="absolute top-12 left-1/4 -translate-y-1/2 -translate-x-1/2 font-bold">
+                                    PASSIONATE 
+                                    <div className="scroller">
+                                        <span>
+                                        ENGINEER.<br/>
+                                        DEVELOPER.<br/> 
+                                        ARCHITECT.
+                                        </span>
+                                    </div>
+                                </div> 
                         </div>
-                    </div>
-                    <div className="relative flex">
-                        <div className="absolute top-1/2 left-48 text-xl -translate-y-1/2 -translate-x-1/2 font-bold">
-                                 PASSIONATE 
-                                 <div className="scroller">
-                                     <span>
-                                     ENGINEER.<br/>
-                                     DEVELOPER.<br/> 
-                                     ARCHITECT.
-                                     </span>
-                                </div>
+
+                        <div className="w-full flex m-10 font-nyght text-8xl">
+                            grace nieboer
                         </div>
                     </div>
 
-                    <div className="font-nyght p-10 text-8xl">
-                        grace nieboer
+                    {/* right half of the home page */}
+                    <div className="w-1/2 h-full flex flex-col items-center justify-between">
+                        <div className="w-full ">
+                            <div className="flex justify-center items-center"><NavLink className=" hover:transition-transform hover:scale-125 flex text-right font-nyght text-7xl " exact="true" to='/about'>
+                                <p className="text-9xl">a</p><p>bout.</p></NavLink></div>
+                            <div className="flex justify-center items-center">
+                                <NavLink className=" flex font-nyght text-7xl hover:transition-transform hover:scale-125" exact="true" to='/portfolio'>
+                                <p className="text-9xl">w</p><p>ork.</p></NavLink>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
-
             </div>
 
 
