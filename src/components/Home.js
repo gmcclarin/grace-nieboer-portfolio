@@ -81,7 +81,7 @@ function Home () {
                         </div>   
                     </div>
                 </div>
-                <div className="text-right font-nyght text-[8px]">font nyght by 
+                <div className="sm:m-0 mt-10 text-right font-nyght text-[8px]">font nyght by 
                     <a href="https://www.tunera.xyz/fonts/nyght-serif/" target="_blank">@Maksym Kobuzan</a>
                 </div>
             </div>
