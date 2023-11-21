@@ -7,8 +7,8 @@ import { RevealOnScroll } from "./RevealOnScroll";
 function ProjectPortfolio () {
     
     return (
-        <div className="bg-white relative block ">
-        <div className="sm:hidden"><MobileMenu /></div>
+        <div className="bg-white relative block">
+        <div className="sm:hidden "><MobileMenu /></div>
         <NavBar />
         <div className="flex">
                 <div className = "mx-auto text-center">
