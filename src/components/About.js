@@ -41,12 +41,12 @@ function About () {
     }
 
     return (
-        <div id="about" className="bg-neutral-100 relative block h-screen ">
+        <div id="about" className="bg-[#ebe9e0] relative block bg-cover bg-fixed h-screen w-screen overflow-auto p-5">
             <MobileMenu />
             <NavBar />
             
             
-            <div className="relative sm:mx-20 lg:mx-32 mb-5 flex bg-neutral-100 h-screen items-center justify-center overscroll-x-auto overscroll-y-hidden">
+            <div className="relative sm:mx-20 lg:mx-32 mb-5 flex  h-screen items-center justify-center overscroll-x-auto overscroll-y-hidden">
 
                 {openAbout ? <div className = "aboutabout  z-10 text-white font-bold  top-50 left-50 text-xl lg:text-2xl  w-3/4 xl:w-1/3 h-full flex justify-center items-center rounded-full ">
                     <div className="flex flex-col items-center justify-center bg-gray-900 opacity-70 rounded-full h-full w-full">
@@ -58,7 +58,7 @@ function About () {
                     </div> 
                     :
                     <div onClick={handleOpenAbout}className="aboutabout cursor-pointer w-1/5 h-3/4   bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
-                        <p  className="-rotate-90 font-black text-7xl text-white">ABOUT</p> 
+                        <div className="flex items-end -rotate-90 font-black text-7xl text-orange-600 font-nyght "><p  className="text-9xl ">a</p><p>bout</p></div>
                     </div> 
                     
                     }
@@ -71,7 +71,7 @@ function About () {
                     </div> 
                 
                 :<div onClick={handleOpenBefore} className="aboutbackground ursor-pointer w-1/5 h-3/4   bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
-                    <p  className=" -rotate-90 font-black text-7xl text-white">BACKGROUND</p>
+                    <div className="flex items-end -rotate-90 font-black text-7xl text-orange-600 font-nyght "><p  className="text-9xl ">b</p><p>ackground</p></div>
                 </div>}
 
                 {openNow ? 
@@ -86,7 +86,7 @@ function About () {
                 :<div onClick={handleOpenNow} className="aboutnow cursor-pointer w-1/5  h-3/4 bg-neutral-600 rounded-full transform transition duration-500 hover:scale-125 overflow-hidden flex justify-center items-center ">
                     
                     
-                    <p  className=" -rotate-90 font-black text-7xl text-white">NOW</p> 
+                    <div className="flex items-end -rotate-90 font-black text-7xl text-orange-600 font-nyght "><p  className="text-9xl ">n</p><p>ow</p></div>
                 </div>
                 
             }
@@ -101,7 +101,7 @@ function About () {
                 
                 
                 :<div onClick={handleOpenConnect}  className="aboutconnect   cursor-pointer w-1/5 h-3/4 bg-neutral-800 rounded-full transform transition duration-500 hover:scale-125 flex justify-center  items-center overflow-hidden"> 
-                    <p  className="-rotate-90 font-black text-7xl text-white">CONNECT</p>
+                    <div className="flex items-end -rotate-90 font-black text-7xl text-orange-600 font-nyght "><p  className="text-9xl ">c</p><p>onnect</p></div>
                 </div>
             }
        
