@@ -46,8 +46,11 @@ function Home () {
                     {/* right half of the home page */}
                     <div className="sm:w-1/2 h-full flex flex-col sm:items-center items-end justify-between relative">
                         <div className="w-full ">
-                            <div className="z-30 flex justify-center items-center"><NavLink className=" hover:transition-transform hover:scale-125 flex text-right font-nyght lg:text-7xl text-4xl " exact="true" to='/about'>
-                                <p className=" lg:text-[250px] text-7xl sm:text-9xl">a</p><p className="items-end flex">bout.</p></NavLink>
+                            <div className="z-30 flex justify-center items-center">
+                                <NavLink className=" hover:transition-transform hover:scale-125 flex text-right font-nyght lg:text-7xl text-4xl " exact="true" to='/about'>
+                                <p className=" lg:text-[250px] text-7xl sm:text-9xl">a</p>
+                                <p className="items-end flex">bout.</p>
+                                </NavLink>
                             </div>
                             {/* <div className="w-full flex relative h-0 z-1 justify-center items-center">
                                 <div className="w-32 h-32 absolute z-2 rounded-full">
