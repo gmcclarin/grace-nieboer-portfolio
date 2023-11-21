@@ -7,6 +7,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import MobileMenu from "./MobileMenu";
 
 
 function Home () {
@@ -14,6 +15,7 @@ function Home () {
     return (
 
             <div className="home bg-cover bg-fixed h-screen w-screen overflow-auto p-5" >
+                <MobileMenu />
                 <div className="sm:flex w-full justify-center">
                     {/* left half side of the screen */}
                     <div className="sm:w-1/2 h-full flex flex-col items-center justify-between">

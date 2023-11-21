@@ -6,10 +6,10 @@ export default function MobileMenu () {
 
     return (
         <nav className="">
-            <div className="px-2 sm:px-6 lg:px-8">
+            <div className=" sm:px-6 lg:px-8">
                 <div className="flex">
                     
-                    <div onClick={()=> setShowMenu(!showMenu)}  className="sm:hidden p-4 space-y-2 z-10">
+                    <div onClick={()=> setShowMenu(!showMenu)}  className="sm:hidden p-1 space-y-1 z-10">
                         <div className="w-6 h-0.5 bg-black"></div>
                         <div className="w-6 h-0.5 bg-black"></div>
                         <div className="w-6 h-0.5 bg-black"></div>

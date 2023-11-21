@@ -58,7 +58,7 @@ function About () {
                     </div> 
                     :
                     <div onClick={handleOpenAbout}className="aboutabout cursor-pointer w-1/5 h-3/4   bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
-                        <div className="flex items-end -rotate-90 font-black text-7xl text-orange-600 font-nyght "><p  className="text-9xl ">a</p><p>bout</p></div>
+                        <div className="flex items-end -rotate-90 font-black text-4xl sm:text-7xl text-orange-600 font-nyght "><p  className="text-6xl sm:text-9xl ">a</p><p>bout</p></div>
                     </div> 
                     
                     }
@@ -71,7 +71,7 @@ function About () {
                     </div> 
                 
                 :<div onClick={handleOpenBefore} className="aboutbackground ursor-pointer w-1/5 h-3/4   bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
-                    <div className="flex items-end -rotate-90 font-black text-7xl text-orange-600 font-nyght "><p  className="text-9xl ">b</p><p>ackground</p></div>
+                    <div className="flex items-end -rotate-90 font-black text-4xl sm:text-7xl text-orange-600 font-nyght "><p  className="text-6xl sm:text-9xl ">b</p><p>ackground</p></div>
                 </div>}
 
                 {openNow ? 
@@ -86,7 +86,7 @@ function About () {
                 :<div onClick={handleOpenNow} className="aboutnow cursor-pointer w-1/5  h-3/4 bg-neutral-600 rounded-full transform transition duration-500 hover:scale-125 overflow-hidden flex justify-center items-center ">
                     
                     
-                    <div className="flex items-end -rotate-90 font-black text-7xl text-orange-600 font-nyght "><p  className="text-9xl ">n</p><p>ow</p></div>
+                    <div className="flex items-end -rotate-90 font-black text-4xl sm:text-7xl text-orange-600 font-nyght "><p  className="text-6xl sm:text-9xl ">n</p><p>ow</p></div>
                 </div>
                 
             }
@@ -101,7 +101,7 @@ function About () {
                 
                 
                 :<div onClick={handleOpenConnect}  className="aboutconnect   cursor-pointer w-1/5 h-3/4 bg-neutral-800 rounded-full transform transition duration-500 hover:scale-125 flex justify-center  items-center overflow-hidden"> 
-                    <div className="flex items-end -rotate-90 font-black text-7xl text-orange-600 font-nyght "><p  className="text-9xl ">c</p><p>onnect</p></div>
+                    <div className="flex items-end -rotate-90 font-black text-4xl sm:text-7xl text-orange-600 font-nyght "><p  className="text-6xl sm:text-9xl ">c</p><p>onnect</p></div>
                 </div>
             }
        
