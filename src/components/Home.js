@@ -58,7 +58,7 @@ function Home () {
                             </div>
                         </div>
                     
-                        <div className="flex border-orange-500 border-2 rounded-full py-1 overflow-y-hidden ">
+                        <div className="flex border-orange-500 border-2 rounded-full py-1 overflow-y-hidden overflow-x-hidden ">
                             <div className="flex flex-col scroll-y">
                                 <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150 " href="https://www.linkedin.com/in/gracenieboer/" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon  icon={faLinkedin} style={{height:"20px",color: "#f97316"}}/>
