@@ -1,8 +1,8 @@
 # Portfolio
-[Server Repo](https://github.com/gnieb/grace-nieboer-server2.0)
+<!-- [Server Repo](https://github.com/gnieb/grace-nieboer-server2.0) -->
 
 ## About
-Front End client built with React JS in JavaScript to showcase favorite fullstack projects, both completed and in progress.
+Front End web client built with React in JavaScript to showcase favorite fullstack projects, both completed and in progress.
 
 ### Built With
 - React.js
@@ -10,7 +10,7 @@ Front End client built with React JS in JavaScript to showcase favorite fullstac
 - Tailwind
 - Font Awesome
 - Intersection Observer API
-- 
+- NYGHT Serif
 
 ### Features Completed
  - Python/Flask Server / API deployed via Render
@@ -21,8 +21,9 @@ Front End client built with React JS in JavaScript to showcase favorite fullstac
 
 ## Features In-Progress
 - Dark Mode
-- better animation!!
-- refactor revealOnScroll into a React hook??
 
 
+## Credits
 
+- NYGHT SERIF FONT: Copyright (c) 2022, [Maksym Kobuzan](maxkobuzan@gmail.com),
+with Reserved Font Name NYGHT SERIF.
