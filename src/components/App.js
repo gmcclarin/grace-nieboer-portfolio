@@ -9,11 +9,16 @@ import InspiredInteriors from './InspiredInteriors';
 import FryMe from './FryMe';
 import TwoOrMore from './TwoOrMore';
 import JobSurge from './JobSurge';
+import nightwind from "nightwind/helper"
 
 
 
 function App() {
   return (
+    <div>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: nightwind.init() }} />
+      </head>
     <div className="bg-neutral-200" >
         <Routes>
           <Route exact path="/" element={<Home />}/>
@@ -26,6 +31,7 @@ function App() {
           <Route path="/fryme" element={<FryMe />}/>
           <Route path="*" element={<NotFound />} />
         </Routes>
+    </div>
     </div>
   );
 }
