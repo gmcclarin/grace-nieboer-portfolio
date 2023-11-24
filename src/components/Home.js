@@ -8,7 +8,8 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import MobileMenu from "./MobileMenu";
-
+import DarkMode from "./DarkMode";
+import nightwind from "nightwind/helper";
 
 function Home () {
 
@@ -16,6 +17,9 @@ function Home () {
 
             <div className="home bg-cover bg-fixed h-screen w-screen overflow-auto p-5" >
                 <MobileMenu />
+                <button 
+                onClick={() => nightwind.toggle()}
+                className="bg-white rounded-full p-2 text-black">Dark Mode</button>
                 <div className="sm:flex w-full justify-center">
                     {/* left half side of the screen */}
                     <div className="sm:w-1/2 h-full flex flex-col items-center justify-between">
@@ -47,6 +51,7 @@ function Home () {
 
                     {/* right half of the home page */}
                     <div className="sm:w-1/2 w-full h-full flex  items-end relative">
+                        
                         <div className="w-11/12 flex flex-col">
                             <div className="z-30 flex justify-center items-center">
                                 <NavLink className=" hover:transition-transform hover:scale-125 flex text-right font-nyght lg:text-7xl text-4xl " exact="true" to='/about'>
