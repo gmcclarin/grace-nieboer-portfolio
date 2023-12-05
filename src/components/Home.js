@@ -17,6 +17,7 @@ function Home () {
 
             <div className="home bg-cover bg-fixed h-screen w-screen overflow-auto p-5" >
                 <MobileMenu />
+                {/* <button className="border-2 border-black p-2 rounded-full" onClick={() => nightwind.toggle()}>DARK MODE</button> */}
                 <div className="sm:flex w-full justify-center">
                     {/* left half side of the screen */}
                     <div className="sm:w-1/2 h-full flex flex-col items-center justify-between">
