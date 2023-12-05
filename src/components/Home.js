@@ -10,27 +10,30 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import MobileMenu from "./MobileMenu";
 import DarkMode from "./DarkMode";
 import nightwind from "nightwind/helper";
+import circle from "../photos/enormouscirclegradient.png"
 
 function Home () {
+    
 
     return (
 
-            <div className="home bg-cover bg-fixed h-screen w-screen overflow-auto p-5" >
+            <div className="relative bg-center bg-fixed h-screen w-screen overflow-auto p-5" >
+                <img src={circle} className="rounded-full absolute object-cover m-auto top-0 bottom-0 left-0 right-0" />
                 <MobileMenu />
                 {/* <button className="border-2 border-black p-2 rounded-full" onClick={() => nightwind.toggle()}>DARK MODE</button> */}
                 <div className="sm:flex w-full justify-center">
                     {/* left half side of the screen */}
                     <div className="sm:w-1/2 h-full flex flex-col items-center justify-between">
-                        <div className="w-full flex  m-5">
-                            <div className="w-1/2  mx-2 text-xs font-bold">
+                        <div className="w-full flex m-5">
+                            <div className="w-1/2 z-50 mx-2 text-xs font-bold">
                                 FULL STACK DEVELOPER WITH A LOVE FOR DESIGN AND USER IMPACT.
                             </div>
-                            <div className="w-1/2 mx-5 text-xs md::text-sm font-bold">
+                            <div className="w-1/2 z-50  mx-5 text-xs md::text-sm font-bold">
                                 BUILDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.
                             </div>
                         </div>
                         <div className="relative w-full flex justify-center items-center h-0 sm:pb-1/2 text-sm sm:text-2xl lg:text-2xl xl:text-3xl p-5">
-                            <div className="absolute top-12 left-1/3 sm:left-1/4 -translate-y-1/2 -translate-x-1/2 font-bold">
+                            <div className="absolute z-50 top-12 left-1/3 sm:left-1/4 -translate-y-1/2 -translate-x-1/2 font-bold">
                                     PASSIONATE 
                                     <div className="scroller">
                                         <span>
@@ -42,7 +45,7 @@ function Home () {
                                 </div> 
                         </div>
 
-                        <div className="w-full flex m-10 font-nyght text-6xl md:text-8xl">
+                        <div className="z-50 w-full flex m-10 font-nyght text-6xl md:text-8xl">
                             grace nieboer
                         </div>
                     </div>
@@ -52,8 +55,8 @@ function Home () {
                         
                         <div className="w-11/12 flex flex-col">
                             <div className="z-30 flex justify-center items-center">
-                                <NavLink className=" hover:transition-transform hover:scale-125 flex text-right font-nyght lg:text-7xl text-4xl " exact="true" to='/about'>
-                                <p className=" lg:text-[250px] text-9xl ">a</p>
+                                <NavLink className="text-black hover:transition-transform hover:scale-125 flex text-right font-nyght lg:text-7xl text-4xl " exact="true" to='/about'>
+                                <p className=" lg:text-[250px] text-9xl">a</p>
                                 <p className="items-end flex">bout.</p>
                                 </NavLink>
                             </div>
