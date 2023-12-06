@@ -41,7 +41,7 @@ function About () {
     }
 
     return (
-        <div id="about" className="bg-[#ebe9e0] relative block bg-cover bg-fixed h-screen w-screen overflow-auto p-5">
+        <div id="about" className="bg-zinc-200 relative block bg-cover bg-fixed h-screen w-screen overflow-auto p-5">
             <MobileMenu />
             <NavBar />
             

@@ -17,12 +17,12 @@ function Home () {
 
     return (
 
-            <div className="relative bg-center bg-fixed h-screen w-screen overflow-auto p-5" >
+            <div className="relative bg-zinc-200 bg-center bg-fixed h-screen w-screen overflow-auto p-5" >
                 <img src={circle} className="rounded-full absolute object-cover m-auto top-0 bottom-0 left-0 right-0" />
                 <MobileMenu />
 
                 {/* toggle dark mode */}
-                {/* <div className="z-50 flex items-center justify-end w-full mb-12">
+                <div className="z-50 flex items-center justify-end w-full mb-12">
                     <label for="toggleB" className="flex items-center cursor-pointer">
                         <div className="relative">
                             <input type="checkbox" id="toggleB" className="sr-only" onClick={() => nightwind.toggle()} />
@@ -31,7 +31,7 @@ function Home () {
                         </div>
                         {/* <div className="ml-3 text-gray-700 font-medium">Toggle Me!</div> */}
                     </label>
-                </div> */}
+                </div>
 
                 <div className="sm:flex w-full justify-center">
                     {/* left half side of the screen */}
@@ -79,21 +79,21 @@ function Home () {
                         </div>
                     
                         <div className="flex border-orange-600 border-2 rounded-full py-1 overflow-y-hidden overflow-x-hidden ">
-                            <div className="flex flex-col scroll-y">
+                            <div className="flex flex-col scroll-y text-orange-600">
                                 <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150 " href="https://www.linkedin.com/in/gracenieboer/" target="_blank" rel="noreferrer">
-                                <FontAwesomeIcon  icon={faLinkedin} style={{height:"20px",color: "#ea580c"}}/>
+                                <FontAwesomeIcon  icon={faLinkedin} style={{height:"20px"}}/>
                                 </a>
                                 <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150" href="mailto:grace.nieboer@outlook.com">
-                                    <FontAwesomeIcon icon={faEnvelope} style={{height:"20px", color:"#ea580c", }}/>
+                                    <FontAwesomeIcon icon={faEnvelope} style={{height:"20px" }}/>
                                 </a>
                                 <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150" href="https://www.instagram.com/grayce.elisabeth_/">
-                                    <FontAwesomeIcon icon={faInstagram} style={{height:"20px", color:"#ea580c", }}/>
+                                    <FontAwesomeIcon icon={faInstagram} style={{height:"20px" }}/>
                                 </a>
                                 <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150" href="https://medium.com/@grace.nieboer">
-                                    <FontAwesomeIcon icon={faMedium} style={{height:"20px",color: "#ea580c", }}/>
+                                    <FontAwesomeIcon icon={faMedium} style={{height:"20px" }}/>
                                 </a>
                                 <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150" href="https://github.com/gnieb">
-                                    <FontAwesomeIcon icon={faGithub} style={{height:"20px",color: "#ea580c",}} />
+                                    <FontAwesomeIcon icon={faGithub} style={{height:"20px"}} />
                                 </a>
                             </div>
                         </div>   
