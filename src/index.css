@@ -114,12 +114,16 @@ body {
   background-position: center;
 }
 
-
 .home {
   background-image: url('./photos/colorful-noise.png');
   background-repeat: no-repeat;
   background-size:contain;
   background-position: center;
+}
+
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #eec729;
 }
 
 /* #about {

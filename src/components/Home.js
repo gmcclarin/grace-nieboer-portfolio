@@ -20,10 +20,22 @@ function Home () {
             <div className="relative bg-center bg-fixed h-screen w-screen overflow-auto p-5" >
                 <img src={circle} className="rounded-full absolute object-cover m-auto top-0 bottom-0 left-0 right-0" />
                 <MobileMenu />
-                {/* <button className="border-2 border-black p-2 rounded-full" onClick={() => nightwind.toggle()}>DARK MODE</button> */}
+
+                {/* toggle dark mode */}
+                {/* <div className="z-50 flex items-center justify-end w-full mb-12">
+                    <label for="toggleB" className="flex items-center cursor-pointer">
+                        <div className="relative">
+                            <input type="checkbox" id="toggleB" className="sr-only" onClick={() => nightwind.toggle()} />
+                            <div className="block bg-gray-600 w-14 h-8 rounded-full"></div>
+                            <div className="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
+                        </div>
+                        {/* <div className="ml-3 text-gray-700 font-medium">Toggle Me!</div> */}
+                    </label>
+                </div> */}
+
                 <div className="sm:flex w-full justify-center">
                     {/* left half side of the screen */}
-                    <div className="sm:w-1/2 h-full flex flex-col items-center justify-between">
+                    <div className="text-black sm:w-1/2 h-full flex flex-col items-center justify-between">
                         <div className="w-full flex m-5">
                             <div className="w-1/2 z-50 mx-2 text-xs font-bold">
                                 FULL STACK DEVELOPER WITH A LOVE FOR DESIGN AND USER IMPACT.
@@ -33,9 +45,9 @@ function Home () {
                             </div>
                         </div>
                         <div className="relative w-full flex justify-center items-center h-0 sm:pb-1/2 text-sm sm:text-2xl lg:text-2xl xl:text-3xl p-5">
-                            <div className="absolute z-50 top-12 left-1/3 sm:left-1/4 -translate-y-1/2 -translate-x-1/2 font-bold">
+                            <div className="text-black absolute z-50 top-12 left-1/3 sm:left-1/4 -translate-y-1/2 -translate-x-1/2 font-bold">
                                     PASSIONATE 
-                                    <div className="scroller">
+                                    <div className="scroller text-black">
                                         <span>
                                         ENGINEER.<br/>
                                         DEVELOPER.<br/> 
@@ -45,7 +57,7 @@ function Home () {
                                 </div> 
                         </div>
 
-                        <div className="z-50 w-full flex m-10 font-nyght text-6xl md:text-8xl">
+                        <div className="text-black z-50 w-full flex m-10 font-nyght text-6xl md:text-8xl">
                             grace nieboer
                         </div>
                     </div>
@@ -60,7 +72,7 @@ function Home () {
                                 <p className="items-end flex">bout.</p>
                                 </NavLink>
                             </div>
-                            <div className="flex justify-center items-center">
+                            <div className="text-black flex justify-center items-center">
                                 <NavLink className=" flex font-nyght lg:text-7xl text-4xl hover:transition-transform hover:scale-125" exact="true" to='/portfolio'>
                                 <p className="lg:text-[250px] text-9xl ">w</p><p className="items-end flex">ork.</p></NavLink>
                             </div>
@@ -87,7 +99,7 @@ function Home () {
                         </div>   
                     </div>
                 </div>
-                <div className="sm:m-0 mt-10 text-right font-nyght text-[8px]">font nyght by 
+                <div className="text-black sm:m-0 mt-10 text-right font-nyght text-[8px]">font nyght by 
                     <a href="https://www.tunera.xyz/fonts/nyght-serif/" target="_blank">@Maksym Kobuzan</a>
                 </div>
             </div>
