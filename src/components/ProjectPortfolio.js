@@ -50,7 +50,7 @@ function ProjectPortfolio () {
                                 <NavLink
                                     to="/fryme"
                                     exact="true"
-                                    className=" text-white hover:text-orange-500 rounded-md font-bold "
+                                    className=" text-stone-400 hover:text-orange-500 rounded-md font-bold "
                                     >FRY ME TO THE MOON
                                 </NavLink>
                                 </RevealOnScroll>
