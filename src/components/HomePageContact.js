@@ -6,6 +6,7 @@ import { faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
+
 export default function HomePageContact () {
     return (
             <div className="flex content-center text-center text-white">

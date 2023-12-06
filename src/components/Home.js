@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import HomePageContact from "./HomePageContact";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -8,9 +7,9 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import MobileMenu from "./MobileMenu";
-import DarkMode from "./DarkMode";
 import nightwind from "nightwind/helper";
 import circle from "../photos/enormouscirclegradient.png"
+import { faMoon } from '@fortawesome/free-solid-svg-icons'
 
 function Home () {
     
@@ -25,9 +24,13 @@ function Home () {
                 <div className="z-40 flex items-center justify-end w-full mb-12">
                     <label for="toggleB" className="flex items-center cursor-pointer">
                         <div className="relative">
-                            <input type="checkbox" id="toggleB" className="sr-only" onClick={() => nightwind.toggle()} />
+                            <input type="checkbox" id="toggleB" className="sr-only bg-neutral-300" onClick={() => nightwind.toggle()} />
                             <div className="block bg-gray-600 w-14 h-8 rounded-full"></div>
-                            <div className="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
+                            <div className="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition">
+                                <div className="text-white m-auto">
+                                    <FontAwesomeIcon  icon={faMoon} style={{height:"20px", margin:"auto", padding:"2px"}}/>
+                                </div>
+                            </div>
                         </div>
                         {/* <div className="ml-3 text-gray-700 font-medium">Toggle Me!</div> */}
                     </label>
