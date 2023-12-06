@@ -22,7 +22,7 @@ function Home () {
                 <MobileMenu />
 
                 {/* toggle dark mode */}
-                <div className="z-50 flex items-center justify-end w-full mb-12">
+                <div className="z-40 flex items-center justify-end w-full mb-12">
                     <label for="toggleB" className="flex items-center cursor-pointer">
                         <div className="relative">
                             <input type="checkbox" id="toggleB" className="sr-only" onClick={() => nightwind.toggle()} />
@@ -37,10 +37,10 @@ function Home () {
                     {/* left half side of the screen */}
                     <div className="text-black sm:w-1/2 h-full flex flex-col items-center justify-between">
                         <div className="w-full flex m-5">
-                            <div className="w-1/2 z-50 mx-2 text-xs font-bold">
+                            <div className="w-1/2 z-40 mx-2 text-xs font-bold">
                                 FULL STACK DEVELOPER WITH A LOVE FOR DESIGN AND USER IMPACT.
                             </div>
-                            <div className="w-1/2 z-50  mx-5 text-xs md::text-sm font-bold">
+                            <div className="w-1/2 z-40  mx-5 text-xs md::text-sm font-bold">
                                 BUILDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER.
                             </div>
                         </div>

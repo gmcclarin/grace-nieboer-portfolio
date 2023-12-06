@@ -38,7 +38,7 @@ export default function JobSurge () {
                 </div>
                 <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
                     <RevealOnScroll>
-                    <div className="sm:my-14 text-neutral-500 text-center font-black sm:py-8">
+                    <div className="sm:my-14 text-neutral-700 text-center font-black sm:py-8">
                         <div className="text-4xl pb-5 md:text-6xl lg:text-7xl">JOB SURGE</div>
                         <div className="flex sm:w-3/4 justify-between mx-auto ">
                             <div className="w-1/2 m-4 text-left file:font-bold sm:text-xl md:text-3xl lg:text-4xl italic text-black">SURGE [ v ]: to move suddenly and powerfully forward or upward.</div>
@@ -73,7 +73,7 @@ export default function JobSurge () {
                             <div className="md:flex-col flex justify-center items-center ">
                                 <img className="w-1/3 md:w-2/3 xl:w-1/2 m-3 " src={photos[3].src} alt="oddball jobs" />
                                 {/* <iframe className="w-1/2 md:w-3/4 m-3" src={photos[2].src} title="web driver in action"/> */}
-                                <div className="w-full md:w-2/3 mt-4 text-sm 2xl:text-xl ">
+                                <div className="w-full md:w-2/3 mt-4 text-sm 2xl:text-xl font-bold">
                                     The photo shows the web driver retrieving and displaying jobs just posted to the careers page of a company called Oddball.
                                 </div>
                             </div>

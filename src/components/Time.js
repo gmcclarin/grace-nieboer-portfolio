@@ -12,11 +12,11 @@ export default function Time(){
     const weekDay = days[(date.getDay())]
     return(
             <div className="text-center">
-                <div className="text-5xl md:text-7xl lg:text-8xl desktop:text-[200px] font-black">
+                <div className="text-4xl md:text-7xl lg:text-8xl desktop:text-[200px] font-black">
                     {weekDay.toUpperCase()}
                 </div>
-                <div className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl p-1">{date.toLocaleDateString()}</div>
-                <div className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl ">{date.toLocaleTimeString()}</div>
+                <div className="text-2xl sm:text-5xl md:text-6xl lg:text-7xl p-1">{date.toLocaleDateString()}</div>
+                <div className="text-2xl sm:text-5xl md:text-6xl lg:text-7xl ">{date.toLocaleTimeString()}</div>
             </div>
     )
 }

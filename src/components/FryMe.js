@@ -28,7 +28,7 @@ export default function FryMe () {
         <NavLink
             to="/portfolio"
             exact="true"
-            className="absolute z-30 bg-white bg-opacity-50 rounded-full p-1 -rotate-90 hover:text-orange-500 text-sm sm:text-2xl font-bold translate-y-28 -translate-x-12 top-0 left-3"
+            className="absolute z-30 bg-white bg-opacity-50 rounded-full p-2 text-neutral-600 -rotate-90 hover:text-orange-500 text-sm sm:text-2xl font-bold translate-y-28 -translate-x-12 top-0 left-3"
             >
                 BACK TO WORK
         </NavLink>
@@ -54,8 +54,8 @@ export default function FryMe () {
                 <div className="sm:my-14 text-center font-bold sm:py-8">
                     <div className="text-4xl pb-5 sm:text-2xl md:text-5xl lg:text-7xl font-black">FRY ME TO THE MOON</div>
                     <div className="flex w-3/4 justify-between mx-auto ">
-                        <div className="w-1/2 p-2 text-left file:font-bold sm:text-xl md:text-3xl lg:text-4xl italic text-black"> {`[An outer-space themed store front for custom potato fry creations]`}</div>
-                        <div className="w-1/2 p-2 text-left font-bold sm:text-xl md:text-3xl lg:text-3xl italic text-black">This full stack web application is a retro take on artisan potatoes. This was a group project built to showcase client, server, and RESTful API development</div>
+                        <div className="w-1/2 p-2 text-left file:font-bold sm:text-xl md:text-3xl lg:text-4xl italic "> {`[An outer-space themed store front for custom potato fry creations]`}</div>
+                        <div className="w-1/2 p-2 text-left font-bold sm:text-xl md:text-3xl lg:text-3xl italic ">This full stack web application is a retro take on artisan potatoes. This was a group project built to showcase client, server, and RESTful API development</div>
                     </div>    
                 </div>
                 </RevealOnScroll>
