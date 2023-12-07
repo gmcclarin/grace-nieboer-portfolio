@@ -126,13 +126,6 @@ input:checked ~ .dot {
   background-color: #848281;
 }
 
-/* #about {
-  background-image: url('./photos/colorful-noise.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-} */
-
 
 @-webkit-keyframes my-animation {
   from { -webkit-transform: translateX(100%); }

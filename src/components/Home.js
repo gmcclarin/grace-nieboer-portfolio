@@ -48,7 +48,7 @@ function Home () {
                             </div>
                         </div>
                         <div className="relative w-full flex justify-center items-center h-0 sm:pb-1/2 text-sm sm:text-2xl lg:text-2xl xl:text-3xl p-5">
-                            <div className="text-black absolute z-50 top-12 left-1/3 sm:left-1/4 -translate-y-1/2 -translate-x-1/2 font-bold">
+                            <div className="text-black absolute z-50 top-12 left-1/3  -translate-y-1/2 -translate-x-1/2 font-bold">
                                     PASSIONATE 
                                     <div className="scroller text-black">
                                         <span>

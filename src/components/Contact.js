@@ -6,16 +6,20 @@ import { faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import NavBar from './NavBar'
 import MobileMenu from './MobileMenu'
+import circle from '../photos/enormouscirclegradient.png'
 
 export default function Contact () {
     return (
-        <div className = "home flex flex-col items-center justify-center h-screen">
+        <div className = "relative bg-zinc-200 h-screen w-screen overflow-auto ">
             <MobileMenu />
-            <div>
-                <NavBar />
-            </div>
-            <div className="p-5 sm:p-20 content-center text-center">
-                <h1 id="contact" className="text-4xl sm:text-[100px] md:text-[150px] lg:text-[200px] font-nyght font-bold pb-10" >let's connect.</h1>
+            <NavBar />
+            <img src={circle} className="rounded-full absolute object-cover m-auto top-0 bottom-0 left-0 right-0"/>
+            
+            <div className="flex justify-center items-center h-screen">
+
+            
+            <div className="z-50 p-5 content-center text-center">
+                <h1  className="text-5xl sm:text-7xl md:text-[110px] xl:text-[150px] font-nyght font-bold" >let's connect.</h1>
                 <a href="https://www.linkedin.com/in/gracenieboer/" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} style={{height:"40px",color: "#262626", margin:"10px"}}/>
                 </a>
@@ -32,7 +36,7 @@ export default function Contact () {
                     <FontAwesomeIcon icon={faGithub} style={{height:"40px",color: "#262626", margin:"8px"}} />
                 </a>
             </div>
-            
+            </div>
         </div>
     )
 }
