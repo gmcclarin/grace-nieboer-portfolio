@@ -10,6 +10,7 @@ import MobileMenu from "./MobileMenu";
 import nightwind from "nightwind/helper";
 import circle from "../photos/enormouscirclegradient.png"
 import { faMoon } from '@fortawesome/free-solid-svg-icons'
+import { WorkWithMe } from "./WorkWithMe";
 
 function Home () {
     
@@ -19,9 +20,9 @@ function Home () {
             <div className="relative bg-zinc-200 bg-center bg-fixed h-screen w-screen overflow-auto p-5" >
                 <img src={circle} className="rounded-full absolute object-cover m-auto top-0 bottom-0 left-0 right-0" />
                 <MobileMenu />
-
                 {/* toggle dark mode */}
-                <div className="z-40 flex items-center justify-end w-full mb-12">
+                <div className="z-40 flex items-center justify-between w-full mb-12">
+                    <WorkWithMe />
                     <label for="toggleB" className="flex items-center cursor-pointer">
                         <div className="relative">
                             <input type="checkbox" id="toggleB" className="sr-only bg-neutral-300" onClick={() => nightwind.toggle()} />

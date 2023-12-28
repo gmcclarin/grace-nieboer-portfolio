@@ -200,10 +200,13 @@ input:checked ~ .dot {
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
   
-  -moz-animation: my-scroll 5s linear infinite;
-  -webkit-animation: my-scroll 5s linear infinite;
-  animation: my-scroll 5s linear infinite;
+  -moz-animation: my-scroll 8s linear infinite;
+  -webkit-animation: my-scroll 8s linear infinite;
+  animation: my-scroll 8s linear infinite;
 }
+
+
+
 
 /* for Firefox */
 @-moz-keyframes my-scroll {
@@ -227,5 +230,48 @@ input:checked ~ .dot {
     -moz-transform: translateY(100%);
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
+  }
+}
+
+/* .scroll-x {
+
+} */
+
+.scroll-x {
+  width: 100%;
+  text-align: center;
+  
+  /* animation properties */
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  
+  -moz-animation: mx-scroll 8s linear infinite;
+  -webkit-animation: mx-scroll 8s linear infinite;
+  animation: mx-scroll 8s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes mx-scroll {
+  from { -moz-transform: translateY(-100%); }
+  to { -moz-transform: translateY(100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes mx-scroll {
+  from { -webkit-transform: translateY(-100%); }
+  to { -webkit-transform: translateY(100%); }
+}
+
+@keyframes mx-scroll {
+  from {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
   }
 }
