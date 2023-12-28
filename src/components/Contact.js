@@ -18,16 +18,16 @@ export default function Contact () {
             <div className="flex justify-center items-center h-screen">
 
             
-            <div className="z-50 p-5 content-center text-center">
-                <h1  className="text-5xl sm:text-7xl md:text-[110px] xl:text-[150px] font-nyght font-bold" >let's connect.</h1>
+            <div className="z-30 p-5 content-center text-center">
+                <h1  className="text-5xl sm:text-7xl md:text-[80px] lg:text-[100px] xl:text-[150px] font-nyght font-bold" >connect with me.</h1>
                 <a href="https://www.linkedin.com/in/gracenieboer/" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} style={{height:"40px",color: "#262626", margin:"10px"}}/>
                 </a>
                 <a href="mailto:grace.nieboer@outlook.com">
-                    <FontAwesomeIcon icon={faEnvelope} style={{height:"40px", color:"#262626", margin:"8px"}}/>
+                    <FontAwesomeIcon icon={faEnvelope} style={{height:"40px", color:"#262626", margin:"9px"}}/>
                 </a>
                 <a href="https://www.instagram.com/grayce.elisabeth_/">
-                    <FontAwesomeIcon icon={faInstagram} style={{height:"40px", color:"#262626", margin:"8px"}}/>
+                    <FontAwesomeIcon icon={faInstagram} style={{height:"40px", color:"#262626", margin:"9px"}}/>
                 </a>
                 <a className="mx-2" href="https://medium.com/@grace.nieboer">
                     <FontAwesomeIcon icon={faMedium} style={{height:"40px",color: "#262626", margin:"8px"}}/>
@@ -36,7 +36,18 @@ export default function Contact () {
                     <FontAwesomeIcon icon={faGithub} style={{height:"40px",color: "#262626", margin:"8px"}} />
                 </a>
             </div>
+                <div className="z-40 absolute bottom-40 right-10 flex justify-end w-full">
+                    <div className="z-40 flex justify-center border-black border-2 rounded-full py-1 w-1/5">
+                        <a 
+                            className="text-black text-lg"
+                            href="https://docs.google.com/document/d/11j7BKzqYw5y554miHNBvvi2kuwA7iyPftVtoJ9Hyh7o/edit?usp=sharing"
+                            target="_blank"
+                            rel="noreferrer">RESUME</a>
+                    </div>
+                </div>
             </div>
+
+            
         </div>
     )
 }
