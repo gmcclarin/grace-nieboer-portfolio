@@ -37,9 +37,9 @@ export default function Contact () {
                 </a>
             </div>
                 <div className="z-40 absolute bottom-40 right-10 flex justify-end w-full">
-                    <div className="z-40 flex justify-center border-black border-2 rounded-full py-1 w-1/5">
+                    <div className="z-40 flex justify-center border-black border-4 rounded-full py-1 w-1/5">
                         <a 
-                            className="text-black text-lg"
+                            className="text-black text-lg font-black"
                             href="https://docs.google.com/document/d/11j7BKzqYw5y554miHNBvvi2kuwA7iyPftVtoJ9Hyh7o/edit?usp=sharing"
                             target="_blank"
                             rel="noreferrer">RESUME</a>
