@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -13,6 +13,8 @@ import { faMoon } from '@fortawesome/free-solid-svg-icons'
 import { WorkWithMe } from "./WorkWithMe";
 
 function Home () {
+
+    const [darkMode, setDarkMode] = useState(true);
     
 
     return (
