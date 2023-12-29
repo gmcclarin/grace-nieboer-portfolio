@@ -21,7 +21,7 @@ function Home () {
                 <img src={circle} className="rounded-full absolute object-cover m-auto top-0 bottom-0 left-0 right-0" />
                 <MobileMenu />
                 {/* toggle dark mode */}
-                <div className="z-40 flex items-center justify-between w-full mb-12">
+                <div className="z-40 flex items-center justify-between w-full sm:mb-12 sm:mt-5 mt-7 mb-7">
                     <WorkWithMe />
                     <label for="toggleB" className="flex items-center cursor-pointer">
                         <div className="relative">
