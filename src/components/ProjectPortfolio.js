@@ -3,12 +3,16 @@ import MobileMenu from "./MobileMenu";
 import { NavLink } from "react-router-dom";
 import Time from "./Time";
 import { RevealOnScroll } from "./RevealOnScroll";
+import DarkMode from "./DarkMode";
 
 function ProjectPortfolio () {
     
     return (
         <div className="bg-white relative block">
         <div className="sm:hidden "><MobileMenu /></div>
+        <div className="absolute z-50 top-3 right-3">
+            <DarkMode />
+        </div>
         <NavBar />
         <div className="flex">
                 <div className = "mx-auto text-center">
