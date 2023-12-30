@@ -14,23 +14,24 @@ import { faSun } from "@fortawesome/free-solid-svg-icons";
 import { WorkWithMe } from "./WorkWithMe";
 // import Cookies from js-cookie
 import Cookies from 'js-cookie';
+import DarkMode from "./DarkMode";
 
 function Home () {
 
-    const [darkMode, setDarkMode] = useState(false);
+    // const [darkMode, setDarkMode] = useState(false);
     
     
     
-    useEffect(() => {
-        if (Cookies.get('darkMode') == 'true') {
-            setDarkMode((darkMode) => true)
-        } else {
-            setDarkMode((darkMode) => false)
-        }
+    // useEffect(() => {
+    //     if (Cookies.get('darkMode') == 'true') {
+    //         setDarkMode((darkMode) => true)
+    //     } else {
+    //         setDarkMode((darkMode) => false)
+    //     }
         
-    }, [])
+    // }, [])
 
-    console.log("darkMode state:", darkMode)
+    // console.log("darkMode state:", darkMode)
 
 
     return (
@@ -41,34 +42,8 @@ function Home () {
                 {/* toggle dark mode */}
                 <div className="z-40 flex items-center justify-between w-full sm:mb-12 sm:mt-5 mt-7 mb-7">
                     <WorkWithMe />
-                    
-                        {/* <div className="relative">
-                            <input 
-                            type="checkbox" 
-                            id="toggleB" 
-                            checked={darkMode} 
-                            className="sr-only bg-neutral-300" 
-                            onChange={() => {
-                                Cookies.set('darkMode', !darkMode)
-                                setDarkMode(darkMode)
-                                nightwind.toggle()
-
-                                
-                            }}
-                            // onClick={ () =>  {
-                                
-                            //     }}
-                                 /> */}
-                            {/* <div className="block bg-gray-600 w-14 h-8 rounded-full"></div>
-                            <div className="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition">
-                                <div className="text-white m-auto">
-                                    <FontAwesomeIcon  icon={faMoon} style={{height:"20px", margin:"auto", padding:"2px"}}/>
-                                </div>
-                            </div>
-                        </div>
-                       
-                     */}
-                     <div className="relative">
+                    <DarkMode />
+                     {/* <div className="relative">
                         <div 
                             className="flex justify-center items-center rounded-full bg-black w-10 h-10 cursor-pointer"
                             onClick={() => {
@@ -85,11 +60,8 @@ function Home () {
                             <div className="text-yellow-600 m-auto">
                                 <svg className="fill-yellow-600" xmlns="http://www.w3.org/2000/svg" height="25" width="25" viewBox="0 0 384 512"><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/></svg>
                             </div> }
-                            {/* <div 
-                            className={darkMode ? "absolute left-1 top-1 rounded-full bg-gray-100 w-10 h-10 cursor-pointer" : "rounded-full bg-black w-10 h-10 cursor-pointer left-1 top-1"}
-                            ></div> */}
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="sm:flex w-full justify-center">
