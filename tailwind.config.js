@@ -4,6 +4,13 @@ module.exports = {
   darkMode: "class",
   content: ["./src/**/*.{html,js}"],
   theme: {
+    nightwind: {
+      colors : {
+        zinc :{
+          200: 'indigo.950'
+        },
+      }
+    },
     fontFamily: {
       'body': 'Arial, Helvetica, sans-serif',
       'display' : 'Bodoni Moda, serif',

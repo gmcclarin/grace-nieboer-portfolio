@@ -11,6 +11,8 @@ Front End web client built with React in JavaScript to showcase favorite fullsta
 - Font Awesome
 - Intersection Observer API
 - NYGHT Serif
+- JS-cookie
+
 
 ### Features Completed
  - Python/Flask Server / API deployed via Render
