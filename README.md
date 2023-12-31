@@ -20,9 +20,12 @@ Front End web client built with React in JavaScript to showcase favorite fullsta
  - Projects requested from server and displayed conditionally based on type of media 
  - 404 Not-Found 'catchall'
  - Responsive UX/UI design styled with Tailwind CSS, mobile-friendly
+ - Dark Mode
 
 ## Features In-Progress
-- Dark Mode
+
+- WRITE BLOG
+- add a boucy arrow on the first screen of mobile version to portfolio part so they know to scroll. Add it to desktop as well maybe.....
 
 
 ## Credits
