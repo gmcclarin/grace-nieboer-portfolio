@@ -15,9 +15,7 @@ Front End web client built with React in JavaScript to showcase favorite fullsta
 
 
 ### Features Completed
- - Python/Flask Server / API deployed via Render
- - PostgreSQL database deployed via Render
- - Projects requested from server and displayed conditionally based on type of media 
+ - Project Prtfolio displaying works of and projects
  - 404 Not-Found 'catchall'
  - Responsive UX/UI design styled with Tailwind CSS, mobile-friendly
  - Dark Mode
@@ -25,7 +23,7 @@ Front End web client built with React in JavaScript to showcase favorite fullsta
 ## Features In-Progress
 
 - WRITE BLOG
-- add a boucy arrow on the first screen of mobile version to portfolio part so they know to scroll. Add it to desktop as well maybe.....
+- look into cookie preferences pop up
 
 
 ## Credits
