@@ -23,7 +23,7 @@ function ProjectPortfolio () {
                                 <div className="sm:ml-24 lg:ml-0 w-3/4 ">
                                         
                                             <div className="p-5">
-                                                <div className="text-xl text-left">Current project, in progress</div>
+                                                <div className="font-bold text-2xl text-left">Current project, in progress</div>
                                                 <div className="text-xl text-left italic">deployment estimated for march 2024 </div>
                                                 
                                             </div>
