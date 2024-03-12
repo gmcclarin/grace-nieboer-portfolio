@@ -24,7 +24,7 @@ function ProjectPortfolio () {
                                         <div className="font-bold text-2xl text-left">Current project, in progress</div>
                                         <div className="text-xl text-left italic">deployment estimated for march 2024 </div>
                                     </div>
-                                    <div className="text-left text-xl p-5">Tylers Tree Solutions</div>
+                                    <div className="text-left text-black text-3xl p-5">Tylers Tree Solutions</div>
                                 </div>
 
                                 <div className="w-full h-full flex justify-end text-right">
@@ -35,26 +35,27 @@ function ProjectPortfolio () {
 
                         <div id="portsection2" className=" sm:ml-24 2xl-ml-16 bg-white w-screen h-5/6 flex items-center justify-center ">
                             <RevealOnScroll>
-                            <NavLink
-                                to="/twoormore"
-                                exact="true"
-                                className=" hover:text-orange-500 rounded-md font-bold "
-                                >TWO OR MORE
-                            </NavLink>
+                                <NavLink
+                                    to="/twoormore"
+                                    exact="true"
+                                    className=" hover:text-orange-500 rounded-md font-bold "
+                                    >TWO OR MORE
+                                </NavLink>
                             </RevealOnScroll>
                         </div> 
                         
-                        <div id="" className="bg-neutral-400 w-screen h-5/6 flex justify-center mx-auto pl-5 items-center">
+                        <div id="" className="bg-white w-screen h-5/6 flex justify-center mx-auto pl-5 items-center">
                             <Time />
-                               <RevealOnScroll >
-                                    <NavLink
-                                        to="/jobsurge"
-                                        exact="true"
-                                        className=" text-white text-left -rotate-90 px-0 my-0 hover:text-orange-500 rounded-md font-bold text-xl md:text-4xl lg:text-6xl xl:text-8xl"
-                                        >JOB SURGE
-                                    </NavLink>
-                                </RevealOnScroll>
+                            <RevealOnScroll >
+                                <NavLink
+                                    to="/jobsurge"
+                                    exact="true"
+                                    className="text-black text-left -rotate-90 px-0 my-0 hover:text-orange-500 rounded-md font-bold text-xl md:text-4xl lg:text-6xl xl:text-8xl"
+                                    >JOB SURGE
+                                </NavLink>
+                            </RevealOnScroll>
                         </div>
+
                         <div id="portsection1" className="w-screen h-5/6 flex items-center justify-center  mx-auto pl-5">
                             <RevealOnScroll  >
                                 <NavLink
@@ -65,6 +66,7 @@ function ProjectPortfolio () {
                             </NavLink>
                             </RevealOnScroll>
                         </div>
+
                     </div>
                 </div>
             </div>
