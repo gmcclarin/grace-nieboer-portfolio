@@ -32,8 +32,8 @@ function ProjectPortfolio () {
                                     
                                 </div>
 
-                                <div className="w-full flex justify-end text-right">
-                                    <div className="w-1/3 "><img src="https://i.postimg.cc/5NCbQ9HY/Colorful-Noise-Gradient-Motivational-Quote-Instagram-Post-1.png"/></div>
+                                <div className="w-full h-full flex justify-end text-right">
+                                    <div className="w-1/2  "><img src="https://i.postimg.cc/5NCbQ9HY/Colorful-Noise-Gradient-Motivational-Quote-Instagram-Post-1.png"/></div>
                                 </div>
                             
                             </RevealOnScroll>
