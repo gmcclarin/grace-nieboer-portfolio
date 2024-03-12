@@ -20,7 +20,7 @@ function ProjectPortfolio () {
                         <div id="" className=" bg-white w-screen h-5/6 flex items-center justify-center ">
                             <RevealOnScroll>
                                 <div className="sm:ml-24 lg:ml-0 w-3/4 ">
-                                    <div className="p-5">
+                                    <div className="p-5 text-black">
                                         <div className="font-bold text-2xl text-left">Current project, in progress</div>
                                         <div className="text-xl text-left italic">deployment estimated for march 2024 </div>
                                     </div>
