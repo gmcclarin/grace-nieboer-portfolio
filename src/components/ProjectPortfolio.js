@@ -17,7 +17,7 @@ function ProjectPortfolio () {
         <div className="flex">
                 <div className = "mx-auto text-center">
                     <div className="snap-y snap-mandatory h-screen w-screen overflow-x-hidden text-3xl md:text-4xl lg:text-6xl xl:text-8xl">
-                    <div id="" className="snap-start snap-always bg-white w-screen h-screen flex items-center justify-center ">
+                        <div id="" className=" bg-white w-screen h-5/6 flex items-center justify-center ">
                             <RevealOnScroll>
                             
                                 <div className="sm:ml-24 lg:ml-0 w-3/4 ">
@@ -39,7 +39,7 @@ function ProjectPortfolio () {
                             </RevealOnScroll>
                         </div>
                         
-                        <div id="" className="snap-start snap-always bg-neutral-400 w-screen h-screen flex justify-center mx-auto pl-5 items-center">
+                        <div id="" className="bg-neutral-400 w-screen h-5/6 flex justify-center mx-auto pl-5 items-center">
                                 <Time />
                                <RevealOnScroll >
                                 <NavLink
@@ -60,7 +60,7 @@ function ProjectPortfolio () {
                                     </svg>
                                 </div>
                         </div>
-                        <div id="portsection1" className="snap-start snap-always w-screen h-screen flex items-center justify-center  mx-auto pl-5">
+                        <div id="portsection1" className="w-screen h-5/6 flex items-center justify-center  mx-auto pl-5">
                             <RevealOnScroll  >
                                 <NavLink
                                 to="/inspiredinteriors"
@@ -70,7 +70,7 @@ function ProjectPortfolio () {
                             </NavLink>
                             </RevealOnScroll>
                         </div>
-                        <div id="portsection2" className=" sm:ml-24 2xl-ml-16 snap-start snap-always bg-white w-screen h-screen flex items-center justify-center ">
+                        <div id="portsection2" className=" sm:ml-24 2xl-ml-16 bg-white w-screen h-5/6 flex items-center justify-center ">
                             <RevealOnScroll>
                             <NavLink
                                 to="/twoormore"
@@ -81,7 +81,7 @@ function ProjectPortfolio () {
                             </RevealOnScroll>
                         </div>
                         
-                        <div  className="portsection3 relative snap-start snap-always bg-black w-screen h-screen flex items-center justify-center ">
+                        <div  className="portsection3 relative bg-black w-screen h-5/6 flex items-center justify-center ">
                                 <RevealOnScroll>
                                 <NavLink
                                     to="/fryme"
