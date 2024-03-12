@@ -9,7 +9,6 @@ import { WorkWithMe } from './WorkWithMe';
 
 
 function About () {
-    
 
     const [openAbout, setOpenAbout] = useState(false)
     const [openBefore, setOpenBefore] = useState(false)
@@ -78,7 +77,7 @@ function About () {
                         </div>
                     </div> 
                 
-                :<div onClick={handleOpenBefore} className="aboutbackground ursor-pointer w-1/5 h-3/4   bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
+                :<div onClick={handleOpenBefore} className="aboutbackground cursor-pointer w-1/5 h-3/4 bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "> 
                     <div className="flex items-end -rotate-90 font-black text-4xl sm:text-7xl text-orange-600 font-nyght "><p  className="text-6xl sm:text-9xl ">b</p><p>ackground</p></div>
                 </div>}
 
@@ -92,8 +91,6 @@ function About () {
                 </div> 
                 
                 :<div onClick={handleOpenNow} className="aboutnow cursor-pointer w-1/5  h-3/4 bg-neutral-600 rounded-full transform transition duration-500 hover:scale-125 overflow-hidden flex justify-center items-center ">
-                    
-                    
                     <div className="flex items-end -rotate-90 font-black text-4xl sm:text-7xl text-orange-600 font-nyght "><p  className="text-6xl sm:text-9xl ">n</p><p>ow</p></div>
                 </div>
                 
@@ -106,9 +103,8 @@ function About () {
                         <HomePageContact />
                     </div>
                 </div> 
-                
-                
-                :<div onClick={handleOpenConnect}  className="aboutconnect   cursor-pointer w-1/5 h-3/4 bg-neutral-800 rounded-full transform transition duration-500 hover:scale-125 flex justify-center  items-center overflow-hidden"> 
+        
+                :<div onClick={handleOpenConnect}  className="aboutconnect cursor-pointer w-1/5 h-3/4 bg-neutral-800 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden"> 
                     <div className="flex items-end -rotate-90 font-black text-4xl sm:text-7xl text-orange-600 font-nyght "><p  className="text-6xl sm:text-9xl ">c</p><p>onnect</p></div>
                 </div>
             }
