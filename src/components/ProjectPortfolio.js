@@ -17,6 +17,7 @@ function ProjectPortfolio () {
         <div className="flex">
                 <div className = "mx-auto text-center">
                     <div className="snap-y snap-mandatory h-screen w-screen overflow-x-hidden text-3xl md:text-4xl lg:text-6xl xl:text-8xl">
+                        
                         <div id="" className=" bg-white w-screen h-5/6 flex items-center justify-center ">
                             <RevealOnScroll>
                                 <div className="sm:ml-24 lg:ml-0 w-3/4 ">
@@ -32,6 +33,43 @@ function ProjectPortfolio () {
                                 </div>
                             </RevealOnScroll>
                         </div>
+
+                        <div id="" className=" bg-white w-screen h-5/6 flex items-center justify-center ">
+                            <RevealOnScroll>
+                                <div className="sm:ml-24 lg:ml-0 w-3/4 ">
+                                    <div className="p-5 text-black">
+                                        <div className="font-bold text-2xl text-left">Current project, in progress</div>
+                                        <div className="text-xl text-left italic">React Native Mobile App</div>
+                                    </div>
+                                    <div className="text-left text-black text-3xl p-5">Date Night</div>
+                                </div>
+
+                                <div className="w-full h-full flex justify-end text-right">
+                                    <div className="w-1/2  "><img src="https://i.postimg.cc/9QNp5c9g/blurryholdinghands.avif"/></div>
+                                </div>
+                            </RevealOnScroll>
+                        </div>
+
+                        {/* <div id="" className=" bg-zinc-200 w-screen h-5/6 flex items-center justify-center ">
+                            <RevealOnScroll >
+                                
+                                <div className="sm:ml-24 lg:ml-0 w-3/4 ">
+                                    <div className="p-5 text-black">
+                                        <div className="font-bold text-2xl text-left">Current project, in progress</div>
+                                        <div className="text-xl text-left italic">React Native Mobile App</div>
+                                    </div>
+                                    <div className="text-left italic font-bold text-black text-3xl p-5">DATE NIGHT</div>
+                                </div>
+
+                                <div className="w-full h-1/2 flex justify-end text-right p-5">
+                                    
+                                    <div className="w-40 h-40 sm:w-64 sm:h-64 lg:w-80 lg:h-80 "><img className="w-40 h-40 sm:w-64 sm:h-64 lg:w-80 lg:h-80  object-cover " src="https://i.postimg.cc/9QNp5c9g/blurryholdinghands.avif"/></div>
+                                    <div className="w-40 h-40 sm:w-64 sm:h-64 lg:w-80 lg:h-80  "><img className="w-40 h-40 sm:w-64 sm:h-64 lg:w-80 lg:h-80  object-cover " src="https://i.postimg.cc/nL04jc5Z/blurrywalking.avif"/></div>
+                                </div>
+                           
+                            </RevealOnScroll>
+                            
+                        </div> */}
 
                         <div id="portsection2" className=" sm:ml-24 2xl-ml-16 bg-white w-screen h-5/6 flex items-center justify-center ">
                             <RevealOnScroll>
