@@ -18,23 +18,31 @@ function ProjectPortfolio () {
                 <div className = "mx-auto text-center">
                     <div className="snap-y snap-mandatory h-screen w-screen overflow-x-hidden text-3xl md:text-4xl lg:text-6xl xl:text-8xl">
                         
-                        <div id="" className=" bg-white w-screen h-5/6 flex items-center justify-center ">
-                            <RevealOnScroll>
-                                <div className="sm:ml-24 lg:ml-0 w-3/4 ">
+                        <div id="" className=" bg-white w-screen h-5/6 mb-8 flex items-center justify-center ">
+                            {/* <RevealOnScroll> */}
+                            <div className="w-full h-full">
+                                <div className=" w-full sm:ml-24 p-10 ">
                                     <div className="p-5 text-black">
-                                        <div className="font-bold text-2xl text-left">Current project, in progress</div>
-                                        <div className="text-xl text-left italic">deployment estimated for march 2024 </div>
+                                        <div className="font-bold text-2xl text-left animate-pulse">Current projects, in progress</div>
+                                        <div className="text-xl text-left italic">deployment estimation varies by project </div>
                                     </div>
-                                    <div className="text-left text-black text-3xl p-5">Tylers Tree Solutions</div>
+                                    <div className="p-5">
+                                        <div className="text-left text-black text-3xl font-bold">TYLER'S TREE SOLUTIONS</div>
+                                        <div className="text-left text-black text-3xl font-bold">DATENIGHT</div>
+                                        <div className="text-left text-black text-3xl font-bold">SEASONSCATERING</div>
+                                    </div>
                                 </div>
 
-                                <div className="w-full h-full flex justify-end text-right">
-                                    <div className="w-1/2  "><img src="https://i.postimg.cc/5NCbQ9HY/Colorful-Noise-Gradient-Motivational-Quote-Instagram-Post-1.png"/></div>
+                                <div className="w-full h-1/2 flex justify-end text-right">
+                                    {/* <div className="w-3/4 sm:w-1/3 h-full"><img className="object-contain w-full h-full" src="https://i.postimg.cc/9QNp5c9g/blurryholdinghands.avif"/></div>   */}
+                                    <div className="w-3/4 sm:w-1/2 h-full"><img className="object-contain w-full h-full" src="https://i.postimg.cc/5NCbQ9HY/Colorful-Noise-Gradient-Motivational-Quote-Instagram-Post-1.png"/></div>  
                                 </div>
-                            </RevealOnScroll>
+
+                            </div>
+                            {/* </RevealOnScroll> */}
                         </div>
 
-                        <div id="" className=" bg-white w-screen h-5/6 flex items-center justify-center ">
+                        {/* <div id="" className=" bg-white w-screen h-5/6 flex items-center justify-center ">
                             <RevealOnScroll>
                                 <div className="sm:ml-24 lg:ml-0 w-3/4 ">
                                     <div className="p-5 text-black">
@@ -45,10 +53,11 @@ function ProjectPortfolio () {
                                 </div>
 
                                 <div className="w-full h-full flex justify-end text-right">
-                                    <div className="w-1/2  "><img src="https://i.postimg.cc/9QNp5c9g/blurryholdinghands.avif"/></div>
+                                    <div className="w-1/2  "><img className="object-cover" src="https://i.postimg.cc/9QNp5c9g/blurryholdinghands.avif"/></div>
+    
                                 </div>
                             </RevealOnScroll>
-                        </div>
+                        </div> */}
 
                         {/* <div id="" className=" bg-zinc-200 w-screen h-5/6 flex items-center justify-center ">
                             <RevealOnScroll >
