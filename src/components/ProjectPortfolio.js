@@ -45,7 +45,7 @@ function ProjectPortfolio () {
                         </div>
 
 
-                        <div id="portsection2" className=" sm:px-16 bg-white w-screen h-1/2 sm:h-full flex items-center justify-center">
+                        <div id="portsection2" className=" sm:px-16 bg-white w-screen h-1/2 md:h-full flex items-center justify-center">
                             <RevealOnScroll>
                             <div className="flex h-full">
                                     <div className="container mx-auto px-2 py-2 lg:px-5 lg:pt-10">
@@ -63,7 +63,7 @@ function ProjectPortfolio () {
                                             <div className="w-full p-1 md:p-2">
                                                 <img
                                                 alt="gallery"
-                                                className="block h-full w-full object-contain object-center"
+                                                className="block h-full w-full object-cover object-center"
                                                 src="https://images.unsplash.com/photo-1685314627216-600b891897ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
                                                 />
                                             </div>
@@ -103,7 +103,7 @@ function ProjectPortfolio () {
                             </RevealOnScroll>
                         </div> 
                         
-                        <div id="" className="bg-white w-screen h-5/6 flex justify-center mx-auto pl-5 items-center">
+                        <div id="" className="bg-white w-screen h-1/2 sm:h-3/4 flex justify-center mx-auto pl-5 items-center">
                             <Time />
                             <RevealOnScroll >
                                 <NavLink
