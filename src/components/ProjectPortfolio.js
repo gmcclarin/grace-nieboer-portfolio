@@ -56,7 +56,7 @@ function ProjectPortfolio () {
                                                 <NavLink
                                                     to="/twoormore"
                                                     exact="true"
-                                                    className="text-4xl md:text-4xl lg:text-6xl xl:text-7xl animate-pulse text-center hover:text-orange-500 rounded-md font-bold "
+                                                    className="text-black text-4xl md:text-4xl lg:text-6xl xl:text-7xl animate-pulse text-center hover:text-orange-500 rounded-md font-bold "
                                                     >TWO OR MORE
                                                 </NavLink>
                                             </div>
