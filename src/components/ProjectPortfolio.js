@@ -43,12 +43,12 @@ function ProjectPortfolio () {
                             </div>
                             </RevealOnScroll>
                             <div
-                                 className="flex fixed right-1/2 bottom-8"
+                                 className="flex fixed right-1/2 bottom-10"
                                 >
-                                    <p className="text-lg lg:text-xl m-1 mb-4 font-bold text-orange-700 font-nyght">scroll</p>
+                                    <p className="text-lg lg:text-xl m-1 mb-4 font-bold text-orange-600 font-nyght">scroll</p>
                                     <svg
                                     xmlns="http://www.w3.org/2000/svg" height="30" width="30"
-                                    className="animate-bounce fill-orange-700" viewBox="0 0 384 512">
+                                    className="animate-bounce fill-orange-600" viewBox="0 0 384 512">
                                         <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/>
                                     </svg>
                                 </div>
@@ -60,9 +60,9 @@ function ProjectPortfolio () {
                             <div className="flex h-full">
                                     <div className="container mx-auto px-2 py-2 lg:px-5 lg:pt-10">
                                         <div className="-m-1 flex flex-wrap md:-m-2">
-                                            <div className="flex w-1/2 flex-wrap">
+                                            <div className="flex w-1/2 h-full flex-wrap">
                                 
-                                            <div className="w-full p-1 flex items-center md:p-2">
+                                            <div className="w-full h-40 p-1 flex items-center md:p-2">
                                                 <NavLink
                                                     to="/twoormore"
                                                     exact="true"
@@ -73,7 +73,7 @@ function ProjectPortfolio () {
                                             <div className="w-full p-1 md:p-2">
                                                 <img
                                                 alt="gallery"
-                                                className="block h-full w-full object-cover object-center"
+                                                className="block w-full h-full object-cover object-center"
                                                 src="https://images.unsplash.com/photo-1685314627216-600b891897ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
                                                 />
                                             </div>
