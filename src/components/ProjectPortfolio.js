@@ -23,21 +23,21 @@ function ProjectPortfolio () {
                         <div id="" className=" bg-white w-screen h-5/6 mb-16 flex items-center justify-center ">
                             <RevealOnScroll>
                             <div className="w-full h-full">
-                                <div className=" w-full sm:pl-24 pt-10 px-10 ">
+                                <div className=" w-full sm:pl-24 py-10 px-5 ">
                                     <div className="p-5 text-black">
                                         <div className="font-bold text-2xl text-left animate-pulse">Current projects, in progress</div>
                                         <div className="text-xl text-left italic font-nyght">deployment estimation varies by project </div>
                                     </div>
-                                    <div className="p-5">
+                                    <div id="ellipse" className="sm:w-3/4 p-5 border-2 border-black ">
                                         <div className="text-left text-black pb-2 text-2xl sm:text-3xl font-bold hover:text-orange-700 hover:translate-x-3">TYLER'S TREE SOLUTIONS</div>
                                         <div className="text-left text-black pb-2 text-2xl sm:text-3xl font-bold hover:text-orange-700 hover:translate-x-3">DATENIGHT</div>
                                         <div className="text-left text-black pb-2 text-2xl sm:text-3xl font-bold hover:text-orange-700 hover:translate-x-3">SEASONSCATERING</div>
                                     </div>
                                 </div>
-
+                                {/* <div id="ellipse" className="w-1/2 h-48 border-black border-2 "></div> */}
                                 <div className="w-full h-1/2 flex justify-center sm:justify-end text-right">
                                     {/* <div className="w-3/4 sm:w-1/3 h-full"><img className="object-contain w-full h-full" src="https://i.postimg.cc/9QNp5c9g/blurryholdinghands.avif"/></div>   */}
-                                    <div className="w-3/4 sm:w-1/2 h-full"><img className="object-contain w-full h-full rounded-full" src="https://i.postimg.cc/9QNp5c9g/blurryholdinghands.avif"/></div>  
+                                    <div className="w-3/4 sm:w-1/2 h-full"><img className="object-contain w-full h-full" src="https://i.postimg.cc/9QNp5c9g/blurryholdinghands.avif"/></div>  
                                 </div>
 
                             </div>

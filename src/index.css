@@ -35,6 +35,10 @@ body {
   background-position: center;
 }
 
+#ellipse {
+  border-radius: 50%;
+}
+
 .portsection3 {
   background-image: url('./photos/moon.jpg');
   background-repeat: no-repeat;
