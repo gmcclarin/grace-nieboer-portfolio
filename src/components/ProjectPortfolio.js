@@ -52,11 +52,11 @@ function ProjectPortfolio () {
                                         <div className="-m-1 flex flex-wrap md:-m-2">
                                             <div className="flex w-1/2 flex-wrap">
                                 
-                                            <div className="w-full p-1 md:p-2">
+                                            <div className="w-full p-1 flex items-center md:p-2">
                                                 <NavLink
                                                     to="/twoormore"
                                                     exact="true"
-                                                    className="text-center hover:text-orange-500 rounded-md font-bold "
+                                                    className="animate-pulse text-center hover:text-orange-500 rounded-md font-bold "
                                                     >TWO OR MORE
                                                 </NavLink>
                                             </div>
