@@ -23,7 +23,7 @@ function ProjectPortfolio () {
                         <div id="" className=" bg-white w-screen h-5/6 mb-16 flex items-center justify-center ">
                             {/* <RevealOnScroll> */}
                             <div className="w-full h-full">
-                                <div className=" w-full sm:pl-24 p-10 ">
+                                <div className=" w-full sm:pl-24 pt-10 px-10 ">
                                     <div className="p-5 text-black">
                                         <div className="font-bold text-2xl text-left animate-pulse">Current projects, in progress</div>
                                         <div className="text-xl text-left italic font-nyght">deployment estimation varies by project </div>
@@ -45,7 +45,7 @@ function ProjectPortfolio () {
                         </div>
 
 
-                        <div id="portsection2" className=" px-16 bg-white w-screen h-full flex items-center justify-center">
+                        <div id="portsection2" className=" sm:px-16 bg-white w-screen h-1/2 sm:h-full flex items-center justify-center">
                             <RevealOnScroll>
                             <div className="flex h-full">
                                     <div className="container mx-auto px-2 py-2 lg:px-5 lg:pt-10">
@@ -56,7 +56,7 @@ function ProjectPortfolio () {
                                                 <NavLink
                                                     to="/twoormore"
                                                     exact="true"
-                                                    className="animate-pulse text-center hover:text-orange-500 rounded-md font-bold "
+                                                    className="text-4xl md:text-4xl lg:text-6xl xl:text-7xl animate-pulse text-center hover:text-orange-500 rounded-md font-bold "
                                                     >TWO OR MORE
                                                 </NavLink>
                                             </div>
