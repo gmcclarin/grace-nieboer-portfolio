@@ -27,9 +27,9 @@ function ProjectPortfolio () {
                                         <div className="text-xl text-left italic">deployment estimation varies by project </div>
                                     </div>
                                     <div className="p-5">
-                                        <div className="text-left text-black text-3xl font-bold">TYLER'S TREE SOLUTIONS</div>
-                                        <div className="text-left text-black text-3xl font-bold">DATENIGHT</div>
-                                        <div className="text-left text-black text-3xl font-bold">SEASONSCATERING</div>
+                                        <div className="text-left text-black pb-2 text-2xl sm:text-3xl font-bold">TYLER'S TREE SOLUTIONS</div>
+                                        <div className="text-left text-black pb-2 text-2xl sm:text-3xl font-bold">DATENIGHT</div>
+                                        <div className="text-left text-black pb-2 text-2xl sm:text-3xl font-bold">SEASONSCATERING</div>
                                     </div>
                                 </div>
 
