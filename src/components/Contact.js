@@ -37,12 +37,20 @@ export default function Contact () {
                 </a>
             </div>
                 <div className="z-40 absolute bottom-40 right-10 flex justify-end w-full">
-                    <div className="z-40 flex justify-center border-black border-4 rounded-full py-1 w-1/5">
+                    <div className="z-40 flex justify-center border-indigo-800 border-2  rounded-full py-3 w-1/4 sm:w-1/5">
                         <a 
-                            className="text-black text-lg font-black"
+                            className="text-indigo-800 text-lg font-black px-3 cursor-pointer"
                             href="https://docs.google.com/document/d/11j7BKzqYw5y554miHNBvvi2kuwA7iyPftVtoJ9Hyh7o/edit?usp=sharing"
                             target="_blank"
                             rel="noreferrer">RESUME</a>
+                    </div>
+                </div>
+                <div className="z-40 absolute bottom-28 right-10 flex justify-end w-full ">
+                    <div className="z-40 flex justify-center border-indigo-800 border-2 rounded-full py-3 w-1/4 sm:w-1/5">
+                        <div 
+                            className="text-indigo-800 text-lg font-black px-3 cursor-pointer"
+            
+                            >CERTIFICATION</div>
                     </div>
                 </div>
             </div>
