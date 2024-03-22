@@ -7,8 +7,12 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import NavBar from './NavBar'
 import MobileMenu from './MobileMenu'
 import circle from '../photos/enormouscirclegradient.png'
+import CertModal from './certModal'
+import { useState } from 'react'
+
 
 export default function Contact () {
+    const [showModal, setShowModal] = useState(false);
     return (
         <div className = "relative bg-zinc-200 h-screen w-screen overflow-auto ">
             <MobileMenu />
@@ -46,14 +50,17 @@ export default function Contact () {
                     </div>
                 </div>
                 <div className="z-40 absolute bottom-28 right-10 flex justify-end w-full ">
-                    <div className="z-40 flex justify-center border-indigo-800 border-2 rounded-full py-3 w-1/4 sm:w-1/5">
+                    {/* <div className="z-40 flex justify-center border-indigo-800 border-2 rounded-full py-3 w-1/4 sm:w-1/5">
                         <div 
                             className="text-indigo-800 text-lg font-black px-3 cursor-pointer"
             
                             >CERTIFICATION</div>
-                    </div>
+                    </div> */}
+
+                    <CertModal showModal={showModal} setShowModal={setShowModal} />
                 </div>
             </div>
+
 
             
         </div>
