@@ -24,24 +24,28 @@ export default function Contact () {
             
             <div className="z-30 p-5 content-center text-center">
                 <h1  className="text-5xl sm:text-7xl md:text-[80px] lg:text-[100px] xl:text-[150px] font-nyght font-bold" >connect with me.</h1>
-                <a className="hover:scale-150"
+                <div className="flex justify-center">
+                
+                <a className="hover:scale-150 transform transition duration-500 m-2 sm:m-3"
                 href="https://www.linkedin.com/in/gracenieboer/" target="_blank" rel="noreferrer">
-                <FontAwesomeIcon icon={faLinkedin} style={{height:"40px",color: "#262626", margin:"10px"}}/>
+                <FontAwesomeIcon icon={faLinkedin} style={{height:"40px",color: "#262626"}}/>
                 </a>
-                <a className="hover:scale-150"
+                <a className="hover:scale-150 transform transition duration-500 m-2 sm:m-3"
                 href="mailto:grace.nieboer@outlook.com">
-                    <FontAwesomeIcon icon={faEnvelope} style={{height:"40px", color:"#262626", margin:"9px"}}/>
+                    <FontAwesomeIcon icon={faEnvelope} style={{height:"40px", color:"#262626"}}/>
                 </a>
-                <a className="hover:scale-150"
+                <a className="hover:scale-150 m-2 sm:m-3"
                 href="https://www.instagram.com/grayce.elisabeth_/">
-                    <FontAwesomeIcon icon={faInstagram} style={{height:"40px", color:"#262626", margin:"9px"}}/>
+                    <FontAwesomeIcon icon={faInstagram} style={{height:"40px", color:"#262626"}}/>
                 </a>
-                <a className="mx-2 hover:scale-150" href="https://medium.com/@grace.nieboer">
-                    <FontAwesomeIcon icon={faMedium} style={{height:"40px",color: "#262626", margin:"8px"}}/>
+                <a className="mx-2 hover:scale-150 m-2 sm:m-3" href="https://medium.com/@grace.nieboer">
+                    <FontAwesomeIcon icon={faMedium} style={{height:"40px",color: "#262626"}}/>
                 </a>
-                <a className="mx-2 hover:scale-150" href="https://github.com/gnieb">
-                    <FontAwesomeIcon icon={faGithub} style={{height:"40px",color: "#262626", margin:"8px"}} />
+                <a className="mx-2 hover:scale-150 m-2 sm:m-3" href="https://github.com/gnieb">
+                    <FontAwesomeIcon icon={faGithub} style={{height:"40px",color: "#262626"}} />
                 </a>
+                
+                </div>
             </div>
                 <div className="z-40 absolute bottom-40 right-10 flex justify-end w-full">
                     <div className="z-40 flex justify-center border-indigo-800 border-2  rounded-full py-3 w-1/4 sm:w-1/5">
