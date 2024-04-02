@@ -5,7 +5,7 @@ const CertModal = ({showModal, setShowModal}) => {
   return (
     <>
       <button
-        className="text-indigo-800 text-lg font-black px-3 cursor-pointer z-40 flex justify-center border-indigo-800 border-2 rounded-full py-3 w-1/4 sm:w-1/5"
+        className="text-indigo-800 text-lg font-black px-3 hover:scale-125 cursor-pointer z-40 flex justify-center border-indigo-800 border-2 rounded-full py-3 w-1/4 sm:w-1/5"
         type="button"
         onClick={() => setShowModal(true)}
       >
