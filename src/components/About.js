@@ -57,10 +57,10 @@ function About () {
 
                 {openAbout ? <div className = "aboutabout  z-10 text-white font-bold  top-50 left-50 text-xl lg:text-2xl  w-3/4 xl:w-1/3 h-full flex justify-center items-center rounded-full ">
                     <div className="flex flex-col items-center justify-center bg-gray-900 opacity-70 rounded-full h-full w-full">
-                        <p className="m-6 p-5 text-white  ">HI, I'M GRACE! </p>
-                        <p className="m-4 p-2 text-white "> I am a full stack software engineer with a love for the creative elements of front-end design.</p>
-                       <p className="m-4 p-2 text-white ">I love Python as a language, along with building API's with REST-ful architecture.
-                        </p>
+                        <p className="m-6 p-5 text-white  ">Hi, I'm Grace! </p>
+                        <p className="m-4 p-2 text-white "> I am a full stack software engineer with a love for the creative elements of UX / UI</p>
+                        <p className="m-4 p-2 text-white ">In my free time, I'm probably kickboxing or thrifting somewhere.</p>
+
                     </div>
                     </div> 
                     :
@@ -84,9 +84,9 @@ function About () {
                 {openNow ? 
                 <div className = "aboutnow z-10 text-white font-bold bg-neutral-600 top-50 left-50 text-lg sm:text-xl lg:text-2xl w-3/4 xl:w-1/3 h-full flex justify-center items-center rounded-full ">
                     <div className="flex flex-col items-center justify-center bg-gray-900 opacity-70 rounded-full h-full w-full">
-                    <p className="m-4 p-2 text-white ">I am currently learning Java, React Native, and Typescript.</p> 
-                    <p className="m-4 p-2 text-white ">I am collaborating on several projects with different teams to build quality, creative products.</p>
-                    <p className="m-4 p-2 text-white"> In my free time, I'm probably kickboxing or thrifting somewhere.</p>
+                    <p className="m-4 p-2 text-white ">I work @ Wilmac Technologies with several cross-functional teams to enhance their Continuity Replay product.</p>
+                    <p className="m-4 p-2 text-white ">I am currently learning C#, and various AWS services; I recently received the AWS Cloud Practitioner certification and plan to continue learning!</p> 
+                    
                     </div>
                 </div> 
                 
