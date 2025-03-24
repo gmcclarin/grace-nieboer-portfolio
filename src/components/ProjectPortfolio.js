@@ -29,8 +29,7 @@ function ProjectPortfolio () {
                                         <div className="text-xl text-left italic font-nyght">deployment estimation varies by project </div>
                                     </div>
                                     <div id="ellipse" className="sm:w-3/4 p-5 border-2 border-black ">
-                                        <div className="text-left text-black pb-2 text-2xl sm:text-3xl font-bold hover:text-orange-700 hover:translate-x-3">TYLER'S TREE SOLUTIONS</div>
-                                        <div className="text-left text-black pb-2 text-2xl sm:text-3xl font-bold hover:text-orange-700 hover:translate-x-3">DATENIGHT</div>
+                                        <div className="text-left text-black pb-2 text-2xl sm:text-3xl font-bold hover:text-orange-700 hover:translate-x-3">TYLER'S TREE SOLUTIONS</div>                                        
                                         <div className="text-left text-black pb-2 text-2xl sm:text-3xl font-bold hover:text-orange-700 hover:translate-x-3">SEASONSCATERING</div>
                                     </div>
                                 </div>

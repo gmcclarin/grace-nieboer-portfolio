@@ -85,7 +85,7 @@ function About () {
                 <div className = "aboutnow z-10 text-white font-bold bg-neutral-600 top-50 left-50 text-lg sm:text-xl lg:text-2xl w-3/4 xl:w-1/3 h-full flex justify-center items-center rounded-full ">
                     <div className="flex flex-col items-center justify-center bg-gray-900 opacity-70 rounded-full h-full w-full">
                     <p className="m-4 p-2 text-white ">I work @ Wilmac Technologies with several cross-functional teams to enhance their Continuity Replay product.</p>
-                    <p className="m-4 p-2 text-white ">I am currently learning C#, and various AWS services; I recently received the AWS Cloud Practitioner certification and plan to continue learning!</p> 
+                    <p className="m-4 p-2 text-white ">I am currently learning C# and various AWS services; I recently received the AWS Cloud Practitioner certification and plan to continue learning!</p> 
                     
                     </div>
                 </div> 
