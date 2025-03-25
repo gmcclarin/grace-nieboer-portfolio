@@ -4,8 +4,6 @@ import { NavLink } from "react-router-dom";
 import Time from "./Time";
 import { RevealOnScroll } from "./RevealOnScroll";
 import DarkMode from "./DarkMode";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBoltLightning } from '@fortawesome/free-solid-svg-icons'
 
 function ProjectPortfolio () {
     
@@ -33,10 +31,8 @@ function ProjectPortfolio () {
                                         <div className="text-left text-black pb-2 text-2xl sm:text-3xl font-bold hover:text-orange-700 hover:translate-x-3">SEASONSCATERING</div>
                                     </div>
                                 </div>
-                                {/* <div id="ellipse" className="w-1/2 h-48 border-black border-2 "></div> */}
                                 <div className="w-full h-1/2 flex justify-center sm:justify-end text-right">
-                                    {/* <div className="w-3/4 sm:w-1/3 h-full"><img className="object-contain w-full h-full" src="https://i.postimg.cc/9QNp5c9g/blurryholdinghands.avif"/></div>   */}
-                                    <div className="w-3/4 sm:w-1/2 h-full"><img className="object-contain w-full h-full" src="https://i.postimg.cc/9QNp5c9g/blurryholdinghands.avif"/></div>  
+                                    <div className="w-3/4 sm:w-1/2 h-full"><img className="object-contain w-full h-full" src="https://i.postimg.cc/9QNp5c9g/blurryholdinghands.avif" alt="holding_hands"/></div>  
                                 </div>
 
                             </div>
