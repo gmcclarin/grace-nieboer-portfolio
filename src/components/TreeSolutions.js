@@ -112,7 +112,7 @@ export default function TreeSolutions () {
                 <div className="m-4">
                         <div className="text-4xl font-black">WANT MORE?</div>
                         <div className="transform transition duration-500 hover:scale-125">
-                            <a href="https://github.com/gnieb/interior-design-board" target="_blank"
+                            <a href="https://github.com/gmcclarin/interior-design-board" target="_blank"
                             className="text-3xl"
                             rel="noreferrer">GITHUB
                             </a>

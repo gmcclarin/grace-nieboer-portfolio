@@ -1,5 +1,4 @@
 # Portfolio
-<!-- [Server Repo](https://github.com/gnieb/grace-nieboer-server2.0) -->
 
 ## About
 Front End web client built with React in JavaScript to showcase favorite fullstack projects, both completed and in progress.

@@ -141,13 +141,13 @@ export default function JobSurge () {
                 <div className="m-4">
                         <div className="text-4xl font-black">WANT MORE?</div>
                         <div className="transform transition duration-500 hover:scale-125">
-                            <a href="https://github.com/gnieb/jobsurge" target="_blank"
+                            <a href="https://github.com/gmcclarin/jobsurge" target="_blank"
                             className="text-3xl"
                             rel="noreferrer">GITHUB - FE
                             </a>
                         </div>
                         <div className="transform transition duration-500 hover:scale-125">
-                            <a href="https://github.com/gnieb/jobwave-server"
+                            <a href="https://github.com/gmcclarin/jobwave-server"
                             target="_blank"
                             rel="noreferrer"
                             className="text-3xl">GITHUB - BE

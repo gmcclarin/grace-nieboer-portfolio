@@ -17,7 +17,7 @@ export default function Contact () {
         <div className = "relative bg-zinc-200 h-screen w-screen overflow-auto ">
             <MobileMenu />
             <NavBar />
-            <img src={circle} className="rounded-full absolute object-cover m-auto top-0 bottom-0 left-0 right-0"/>
+            <img src={circle} alt="contact me" className="rounded-full absolute object-cover m-auto top-0 bottom-0 left-0 right-0"/>
             
             <div className="flex justify-center items-center h-screen">
 

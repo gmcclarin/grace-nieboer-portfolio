@@ -47,8 +47,8 @@ function Home () {
                                 </div> 
                         </div>
 
-                        <div className="text-black z-50 w-full flex m-10 font-nyght text-6xl md:text-8xl">
-                            grace nieboer
+                        <div className="text-black z-50 w-full flex m-10 font-nyght text-6xl md:text-7xl">
+                            grace McCLARIN
                         </div>
                     </div>
 
@@ -70,7 +70,7 @@ function Home () {
                     
                         <div className="flex border-orange-700 border-2 rounded-full py-1 overflow-y-hidden overflow-x-hidden ">
                             <div className="flex flex-col scroll-y text-orange-700">
-                                <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150 " href="https://www.linkedin.com/in/gracenieboer/" target="_blank" rel="noreferrer">
+                                <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150 " href="https://www.linkedin.com/in/gracemcclarin/" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon  icon={faLinkedin} style={{height:"20px"}}/>
                                 </a>
                                 <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150" href="mailto:grace.nieboer@outlook.com">
@@ -82,7 +82,7 @@ function Home () {
                                 <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150" href="https://medium.com/@grace.nieboer">
                                     <FontAwesomeIcon icon={faMedium} style={{height:"20px" }}/>
                                 </a>
-                                <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150" href="https://github.com/gnieb">
+                                <a className="mx-1 sm:mx-2 transform transition duration-500 hover:scale-150" href="https://github.com/gmcclarin">
                                     <FontAwesomeIcon icon={faGithub} style={{height:"20px"}} />
                                 </a>
                             </div>
