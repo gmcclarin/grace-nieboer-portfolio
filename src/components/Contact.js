@@ -27,7 +27,7 @@ export default function Contact () {
                 <div className="flex justify-center">
                 
                 <a className="hover:scale-150 transform transition duration-500 m-2 sm:m-3"
-                href="https://www.linkedin.com/in/gracenieboer/" target="_blank" rel="noreferrer">
+                href="https://www.linkedin.com/in/gracemcclarin/" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} style={{height:"40px",color: "#262626"}}/>
                 </a>
                 <a className="hover:scale-150 transform transition duration-500 m-2 sm:m-3"
@@ -41,7 +41,7 @@ export default function Contact () {
                 <a className="mx-2 hover:scale-150 m-2 sm:m-3" href="https://medium.com/@grace.nieboer">
                     <FontAwesomeIcon icon={faMedium} style={{height:"40px",color: "#262626"}}/>
                 </a>
-                <a className="mx-2 hover:scale-150 m-2 sm:m-3" href="https://github.com/gnieb">
+                <a className="mx-2 hover:scale-150 m-2 sm:m-3" href="https://github.com/gmcclarin">
                     <FontAwesomeIcon icon={faGithub} style={{height:"40px",color: "#262626"}} />
                 </a>
                 
