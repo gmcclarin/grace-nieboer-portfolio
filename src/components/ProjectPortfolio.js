@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 import Time from "./Time";
 import { RevealOnScroll } from "./RevealOnScroll";
 import DarkMode from "./DarkMode";
-import twoOrMore from "../photos/twoormorebackground.png";
 
 function ProjectPortfolio() {
   return (
@@ -20,7 +19,6 @@ function ProjectPortfolio() {
         <div className="mx-auto text-center">
           <div className="h-screen w-screen text-3xl md:text-4xl lg:text-6xl xl:text-7xl">
             <div
-              id=""
               className=" bg-white w-screen h-5/6 mb-16 flex items-center justify-center "
             >
               <RevealOnScroll>
@@ -72,45 +70,27 @@ function ProjectPortfolio() {
                 </svg>
               </div>
             </div>
+            <div className="h-full  grid grid-flow-row-dense grid-cols-3 gap-4 m-5">
+              <NavLink
+                id="twofirstsection"
+                className=" w-full h-full row-span-4 col-span-2 bg-pink-800 transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-2xl"
+                to="/twoormore"
+                exact="true"
+              >
+              </NavLink>
 
-            <div className="h-screen w-full flex flex-col justify-center items-center font-serif text-2xl">
-               Under construction :)
-              <div className="rounded-full bg-orange-700 p-3">
-                <NavLink to="/" extact="true">
-                  Home
+              
+                
+                <NavLink to="/jobsurge" exact="true" className="bg-stone-600 row-span-2 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-2xl">
+                  <Time />
                 </NavLink>
-              </div>
+
+                <NavLink id="portsection1" to="/inspiredinteriors" exact="true"
+                className="bg-stone-600 flex flex-col row-span-2 items-center justify-center transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-2xl">
+                  INSPIRED INTERIORS
+                </NavLink>
+            
             </div>
-
-            {/* this is going to be the new portfolio section */}
-
-            {/* <div className="h-full w-full grid grid-flow-row-dense grid-cols-3 gap-4">
-                            <div id="twofirstsection" className="col-span-2 bg-pink-800"
-                            >
-                                <NavLink
-                                to="/twoormore"
-                                exact="true"
-                                 >TWO OR MORE</NavLink>
-                            </div>
-                            <div className="bg-blue-950">
-                                <Time />
-                                <NavLink 
-                                to="/jobsurge"
-                                exact="true"
-                                >
-                                    Job Surge
-                                </NavLink>
-                            </div>
-                            <div className="bg-yellow-700">
-                                <NavLink
-                                to="/inspiredinteriors"
-                                exact="true"
-                                >
-                                    INSPIRED INTERIORS
-                                </NavLink>
-                            </div>
-                            
-                        </div>*/}
           </div>
         </div>
       </div>
