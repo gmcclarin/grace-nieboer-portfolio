@@ -7,7 +7,7 @@ import DarkMode from "./DarkMode";
 
 function ProjectPortfolio() {
   return (
-    <div className="bg-white relative block no-scrollbar overflow-x-hidden">
+    <div className="bg-white relative block no-scrollbar overflow-x-hidden p-4 ">
       <div className="sm:hidden ">
         <MobileMenu />
       </div>
@@ -19,7 +19,7 @@ function ProjectPortfolio() {
         <div className="mx-auto text-center">
           <div className="w-screen text-3xl md:text-4xl lg:text-6xl xl:text-7xl">
             <div
-              className=" bg-white w-screen mb-16 flex items-center justify-center "
+              className=" bg-white mb-16 flex items-center justify-center "
             >
               <RevealOnScroll>
                 <div className="w-full">
@@ -56,10 +56,10 @@ function ProjectPortfolio() {
                 </div>
               </RevealOnScroll>
             </div>
-            <div className=" grid grid-flow-row-dense grid-cols-3 gap-7 m-8 ">
+            <div className=" grid grid-flow-row-dense grid-cols-3 gap-7">
               <NavLink
                 id="twofirstsection"
-                className=" w-full row-span-4 col-span-2 bg-pink-800 transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-2xl"
+                className=" w-full row-span-6 col-span-2 bg-pink-800 transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-2xl"
                 to="/twoormore"
                 exact="true"
               >
@@ -69,7 +69,7 @@ function ProjectPortfolio() {
                 </NavLink>
 
                 <NavLink id="portsection1" to="/inspiredinteriors" exact="true"
-                className="bg-stone-600 flex flex-col row-span-2 items-center justify-center transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-2xl">
+                className="bg-stone-600 flex flex-col row-span-5 items-center justify-center transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-2xl">
                 </NavLink>
             
             </div>
