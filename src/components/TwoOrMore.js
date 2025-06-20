@@ -118,13 +118,6 @@ export default function TwoOrMore () {
                             rel="noreferrer">GITHUB
                             </a>
                         </div>
-                        <div className="transform transition duration-500 hover:scale-125">
-                            <a href="https://brave-tree-0c566030f.3.azurestaticapps.net/"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="text-3xl">LIVE APPLICATION
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
