@@ -1,69 +1,111 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { faMedium } from '@fortawesome/free-brands-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import NavBar from './NavBar'
-import MobileMenu from './MobileMenu'
-import circle from '../photos/enormouscirclegradient.png'
-import CertModal from './certModal'
-import { useState } from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faMedium } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import NavBar from "./NavBar";
+import MobileMenu from "./MobileMenu";
+import circle from "../photos/enormouscirclegradient.png";
+import CertModal from "./certModal";
+import { useState } from "react";
 
+export default function Contact() {
+  const [showModal, setShowModal] = useState(false);
+  return (
+    <div className="relative bg-zinc-200 h-screen w-screen overflow-auto ">
+      <MobileMenu />
+      <NavBar />
+      <img
+        src={circle}
+        alt="contact me"
+        className="rounded-full absolute object-cover m-auto top-0 bottom-0 left-0 right-0"
+      />
 
-export default function Contact () {
-    const [showModal, setShowModal] = useState(false);
-    return (
-        <div className = "relative bg-zinc-200 h-screen w-screen overflow-auto ">
-            <MobileMenu />
-            <NavBar />
-            <img src={circle} alt="contact me" className="rounded-full absolute object-cover m-auto top-0 bottom-0 left-0 right-0"/>
-            
-            <div className="flex justify-center items-center h-screen">
-
-            
-            <div className="z-30 p-5 content-center text-center">
-                <h1  className="text-5xl sm:text-7xl md:text-[80px] lg:text-[100px] xl:text-[150px] font-nyght font-bold" >connect with me.</h1>
-                <div className="flex justify-center">
-                
-                <a className="hover:scale-150 transform transition duration-500 m-2 sm:m-3"
-                href="https://www.linkedin.com/in/gracemcclarin/" target="_blank" rel="noreferrer">
-                <FontAwesomeIcon icon={faLinkedin} style={{height:"40px",color: "#262626"}}/>
-                </a>
-                <a className="hover:scale-150 transform transition duration-500 m-2 sm:m-3"
-                href="mailto:grace.nieboer@outlook.com">
-                    <FontAwesomeIcon icon={faEnvelope} style={{height:"40px", color:"#262626"}}/>
-                </a>
-                <a className="hover:scale-150 m-2 sm:m-3"
-                href="https://www.instagram.com/grayce.elisabeth_/">
-                    <FontAwesomeIcon icon={faInstagram} style={{height:"40px", color:"#262626"}}/>
-                </a>
-                <a className="mx-2 hover:scale-150 m-2 sm:m-3" href="https://medium.com/@grace.nieboer">
-                    <FontAwesomeIcon icon={faMedium} style={{height:"40px",color: "#262626"}}/>
-                </a>
-                <a className="mx-2 hover:scale-150 m-2 sm:m-3" href="https://github.com/gmcclarin">
-                    <FontAwesomeIcon icon={faGithub} style={{height:"40px",color: "#262626"}} />
-                </a>
-                
-                </div>
-            </div>
-                <div className="z-40 absolute bottom-40 right-10 flex justify-end w-full">
-                    <button className="z-40 flex justify-center border-indigo-800 border-2 hover:scale-125 rounded-full py-3 w-1/4 sm:w-1/5">
-                        <a 
-                            className="text-indigo-800 text-lg font-black px-3 text-center cursor-pointer "
-                            href="https://docs.google.com/document/d/11j7BKzqYw5y554miHNBvvi2kuwA7iyPftVtoJ9Hyh7o/edit?usp=sharing"
-                            target="_blank"
-                            rel="noreferrer">RESUME</a>
-                    </button>
-                </div>
-                <div className="z-40 absolute bottom-28 right-10 flex justify-end w-full ">
-
-                    <CertModal showModal={showModal} setShowModal={setShowModal} />
-                </div>
-            </div>
-
-
-            
+      <div className="flex justify-center items-center h-screen">
+        <div className="z-30 p-5 content-center text-center">
+          <h1 className="text-5xl sm:text-7xl md:text-[80px] lg:text-[100px] xl:text-[150px] font-nyght font-bold">
+            connect with me.
+          </h1>
+          <div className="flex justify-center">
+            <a
+              className="hover:scale-150 transform transition duration-500 m-2 sm:m-3"
+              href="https://www.linkedin.com/in/gracemcclarin/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                style={{ height: "40px", color: "#262626" }}
+              />
+            </a>
+            <a
+              className="hover:scale-150 transform transition duration-500 m-2 sm:m-3"
+              href="mailto:grace.nieboer@outlook.com"
+            >
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                style={{ height: "40px", color: "#262626" }}
+              />
+            </a>
+            <a
+              className="hover:scale-150 m-2 sm:m-3"
+              href="https://www.instagram.com/grayce.elisabeth_/"
+            >
+              <FontAwesomeIcon
+                icon={faInstagram}
+                style={{ height: "40px", color: "#262626" }}
+              />
+            </a>
+            <a
+              className="mx-2 hover:scale-150 m-2 sm:m-3"
+              href="https://medium.com/@grace.nieboer"
+            >
+              <FontAwesomeIcon
+                icon={faMedium}
+                style={{ height: "40px", color: "#262626" }}
+              />
+            </a>
+            <a
+              className="mx-2 hover:scale-150 m-2 sm:m-3"
+              href="https://github.com/gmcclarin"
+            >
+              <FontAwesomeIcon
+                icon={faGithub}
+                style={{ height: "40px", color: "#262626" }}
+              />
+            </a>
+          </div>
         </div>
-    )
+        <div className="z-40 absolute bottom-40 right-10 flex justify-end w-full">
+          <button className="z-40 flex justify-center border-indigo-800 border-2 hover:scale-125 rounded-full py-3 w-1/4 sm:w-1/5">
+            <a
+              className="text-indigo-800 text-lg font-black px-3 text-center cursor-pointer "
+              href="https://docs.google.com/document/d/11j7BKzqYw5y554miHNBvvi2kuwA7iyPftVtoJ9Hyh7o/edit?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              RESUME
+            </a>
+          </button>
+        </div>
+        <div className="z-40 absolute bottom-28 right-10 flex justify-end w-full ">
+          <CertModal showModal={showModal} setShowModal={setShowModal} />
+        </div>
+        <div>
+          {/* Footer */}
+          <div className="z-40 absolute bottom-20 right-15 text-black text-right font-nyght text-[10px] pr-4">
+            font nyght by{" "}
+            <a
+              href="https://www.tunera.xyz/fonts/nyght-serif/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              @Maksym Kobuzan
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
