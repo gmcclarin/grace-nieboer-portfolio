@@ -42,25 +42,25 @@ function Home() {
             </div>
           </div>
 
-          <div className="text-black z-50 w-full flex pb-3 px-10 font-nyght text-6xl md:text-4xl">
+          <div className="text-black z-50 w-full flex pb-3 px-10 font-nyght text-4xl md:text-5xl">
             grace
           </div>
-          <div className="text-black z-50 w-full flex pb-5 px-10 font-nyght text-6xl md:text-4xl">
+          <div className="text-black z-50 w-full flex pb-5 px-10 font-nyght text-4xl md:text-5xl">
             McCLARIN
           </div>
-          <div className="w-3/4 px-10">
+          <div className=" w-3/4 lg:w-1/2 px-10">
             <WorkWithMe />
           </div>
         </div>
 
         {/* RIGHT HALF */}
-        <div className="sm:w-1/2 relative flex flex-col justify-between items-end z-10 overflow-hidden">
+        <div className="sm:w-1/2 relative flex flex-col justify-between items-end z-10">
           <DarkMode />
           <div className="flex-grow"></div>
 
-          <div className="relative flex flex-col items-end justify-end space-x-8 pb-4 pr-4">
+          <div className="relative flex items-end justify-end space-x-8 ">
             <NavLink
-              className="inline-block leading-none text-black hover:transition-transform hover:scale-110 font-nyght text-8xl lg:text-[9rem] origin-bottom-right"
+              className="inline-block text-black hover:transition-transform hover:scale-110 font-nyght text-8xl lg:text-[8rem] rotate-[-90deg] origin-top-right -translate-y-[190%] "
               exact="true"
               to="/about"
             >
@@ -68,23 +68,12 @@ function Home() {
             </NavLink>
 
             <NavLink
-              className="inline-block leading-none text-black hover:transition-transform hover:scale-110 font-nyght text-8xl lg:text-[9rem]  origin-bottom-right"
+              className="inline-block text-black hover:transition-transform hover:scale-110 font-nyght text-8xl lg:text-[8rem] rotate-[-90deg] origin-top-left translate-y-[100%] translate-x-20"
               exact="true"
               to="/portfolio"
             >
               work.
             </NavLink>
-          </div>
-
-          <div className="text-black text-right font-nyght text-[8px] pr-4 pb-1">
-            font nyght by{" "}
-            <a
-              href="https://www.tunera.xyz/fonts/nyght-serif/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              @Maksym Kobuzan
-            </a>
           </div>
         </div>
       </div>
