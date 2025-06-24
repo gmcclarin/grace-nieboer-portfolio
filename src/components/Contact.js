@@ -13,7 +13,7 @@ import { useState } from "react";
 export default function Contact() {
   const [showModal, setShowModal] = useState(false);
   return (
-    <div className="relative bg-zinc-200 h-screen w-screen overflow-auto ">
+    <div className="relative bg-zinc-200 h-screen w-screen overflow-auto p-4">
       <MobileMenu />
       <NavBar />
       <img
