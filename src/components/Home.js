@@ -3,10 +3,24 @@ import MobileMenu from "./MobileMenu";
 import circle from "../photos/enormouscirclegradient.png";
 import { WorkWithMe } from "./WorkWithMe";
 import DarkMode from "./DarkMode";
+import { useState } from "react";
+
+import coding from "../photos/laptoplove.png";
+import about from "../photos/Optimized-lookatcameraportfolio3.png";
+
 
 function Home() {
+  const [cursorImg, setCursorImg] = useState(null);
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+
+  const handleMouseMove = (e) => {
+    setMousePos({ x: e.clientX, y: e.clientY });
+  };
+
   return (
-    <div className="relative bg-zinc-200 bg-center bg-fixed h-screen w-full overflow-x-hidden flex flex-col p-8">
+    <div 
+    className="relative bg-zinc-200 bg-center bg-fixed h-screen w-full overflow-x-hidden flex flex-col p-8"
+     onMouseMove={handleMouseMove}>
       {/* Background */}
       <div className="absolute inset-0 overflow-hidden">
         <img
@@ -72,6 +86,8 @@ function Home() {
               }}
               exact="true"
               to="/about"
+              onMouseEnter={() => setCursorImg(about)}
+            onMouseLeave={() => setCursorImg(null)}
             >
               about.
             </NavLink>
@@ -100,6 +116,22 @@ function Home() {
           </div>
         </div>
       </div>
+
+      {/* Cursor Image */}
+      {cursorImg && (
+        <img
+          src={cursorImg}
+          alt="preview"
+          className="fixed z-50 cursor-none pointer-events-none shadow-lg transition-opacity duration-300"
+          style={{
+            top: `${mousePos.y + 20}px`,
+            left: `${mousePos.x + 20}px`,
+            width: "200px",
+            height: "auto",
+            opacity: 1,
+          }}
+        />
+      )}
     </div>
   );
 }
