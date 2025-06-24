@@ -18,9 +18,7 @@ function ProjectPortfolio() {
       <div className="flex">
         <div className="mx-auto text-center">
           <div className="w-screen text-3xl md:text-4xl lg:text-6xl xl:text-7xl">
-            <div
-              className=" bg-white mb-16 flex items-center justify-center "
-            >
+            <div className=" bg-white mb-16 flex items-center justify-center ">
               <RevealOnScroll>
                 <div className="w-full">
                   <div className=" w-full sm:pl-24 py-10 px-5 ">
@@ -62,16 +60,26 @@ function ProjectPortfolio() {
                 className=" w-full row-span-6 col-span-2 bg-pink-800 transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-2xl"
                 to="/twoormore"
                 exact="true"
+              ></NavLink>
+              <NavLink
+                id="treeSolutionsPortfolio"
+                to="/treesolutions"
+                exact="true"
+              ></NavLink>
+              <NavLink
+                to="/jobsurge"
+                exact="true"
+                className="bg-stone-600 row-span-2 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-2xl"
               >
+                <Time />
               </NavLink>
-                <NavLink to="/jobsurge" exact="true" className="bg-stone-600 row-span-2 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-2xl">
-                  <Time />
-                </NavLink>
 
-                <NavLink id="portsection1" to="/inspiredinteriors" exact="true"
-                className="bg-stone-600 flex flex-col row-span-5 items-center justify-center transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-2xl">
-                </NavLink>
-            
+              <NavLink
+                id="portsection1"
+                to="/inspiredinteriors"
+                exact="true"
+                className="bg-stone-600 flex flex-col row-span-5 items-center justify-center transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-2xl"
+              ></NavLink>
             </div>
           </div>
         </div>

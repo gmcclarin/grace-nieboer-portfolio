@@ -89,12 +89,12 @@ export default function Contact() {
             </a>
           </button>
         </div>
-        <div className="z-40 absolute bottom-28 right-10 flex justify-end w-full ">
+        <div className="z-40 absolute bottom-24 right-10 flex justify-end w-full ">
           <CertModal showModal={showModal} setShowModal={setShowModal} />
         </div>
         <div>
           {/* Footer */}
-          <div className="z-40 absolute bottom-20 right-15 text-black text-right font-nyght text-[10px] pr-4">
+          <div className="z-40 absolute bottom-12 right-10 text-black text-right font-nyght text-[10px] pr-4">
             font nyght by{" "}
             <a
               href="https://www.tunera.xyz/fonts/nyght-serif/"
