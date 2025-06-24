@@ -26,7 +26,7 @@ function Home() {
         <img
           src={circle}
           alt="bg-circle"
-          className="object-cover opacity-30 blur-lg h-full w-full"
+          className="object-cover opacity-10 blur-lg h-full w-full"
         />
       </div>
 
@@ -80,7 +80,7 @@ function Home() {
           {/* Absolute Rotated Links */}
           <div className="absolute bottom-0 right-6 flex flex-row gap-6">
             <NavLink
-              className="font-nyght text-[12rem] origin-bottom leading-none text-white hover:transition-transform hover:scale-110"
+              className="font-nyght text-[9rem] origin-bottom leading-none text-black hover:transition-transform hover:scale-110"
               style={{
                 writingMode: "sideways-lr",
               }}
@@ -93,7 +93,7 @@ function Home() {
             </NavLink>
 
             <NavLink
-              className="font-nyght text-[12rem] origin-bottom leading-none text-white hover:transition-transform hover:scale-110"
+              className="font-nyght text-[9rem] origin-bottom leading-none text-black hover:transition-transform hover:scale-110"
               style={{
                 writingMode: "sideways-lr",
               }}
@@ -104,7 +104,7 @@ function Home() {
             </NavLink>
 
             <NavLink
-              className="font-nyght text-[12rem] origin-bottom leading-none text-white hover:transition-transform hover:scale-110"
+              className="font-nyght text-[9rem] origin-bottom leading-none text-black hover:transition-transform hover:scale-110"
               style={{
                 writingMode: "sideways-lr",
               }}
