@@ -5,8 +5,9 @@ import { WorkWithMe } from "./WorkWithMe";
 import DarkMode from "./DarkMode";
 import { useState } from "react";
 
-import coding from "../photos/laptoplove.png";
+import fuego from "../photos/fuego.jpeg";
 import about from "../photos/Optimized-lookatcameraportfolio3.png";
+import laptop from "../photos/laptoplove.png"
 
 
 function Home() {
@@ -86,7 +87,7 @@ function Home() {
               }}
               exact="true"
               to="/about"
-              onMouseEnter={() => setCursorImg(about)}
+              onMouseEnter={() => setCursorImg(fuego)}
             onMouseLeave={() => setCursorImg(null)}
             >
               about.
@@ -99,6 +100,8 @@ function Home() {
               }}
               exact="true"
               to="/portfolio"
+              onMouseEnter={() => setCursorImg(about)}
+            onMouseLeave={() => setCursorImg(null)}
             >
               work.
             </NavLink>
@@ -110,6 +113,8 @@ function Home() {
               }}
               exact="true"
               to="/contact"
+              onMouseEnter={() => setCursorImg(laptop)}
+            onMouseLeave={() => setCursorImg(null)}
             >
               contact.
             </NavLink>

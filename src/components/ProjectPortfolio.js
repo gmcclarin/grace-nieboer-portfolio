@@ -20,7 +20,7 @@ function ProjectPortfolio() {
           <div className="w-screen text-3xl md:text-4xl lg:text-6xl xl:text-7xl">
             <div className=" bg-white mb-16 flex items-center justify-center ">
               <RevealOnScroll>
-                <div className="w-full">
+                <div className="w-full p-4">
                   <div className=" w-full sm:pl-24 py-10 px-5 ">
                     <div className="p-5 text-black">
                       <div className="font-bold text-2xl text-left animate-pulse">
