@@ -13,18 +13,20 @@ import { useState } from "react";
 export default function Contact() {
   const [showModal, setShowModal] = useState(false);
   return (
-    <div className="relative bg-zinc-200 h-screen w-screen overflow-auto p-4">
+    <div className="relative bg-zinc-200 bg-center bg-fixed h-screen w-full overflow-x-hidden flex flex-col p-8">
+      <div className="absolute inset-0 overflow-hidden">
+        <img
+          src={circle}
+          alt="bg-circle"
+          className="object-cover opacity-10 blur-lg h-full w-full"
+        />
+      </div>
       <MobileMenu />
       <NavBar />
-      <img
-        src={circle}
-        alt="contact me"
-        className="rounded-full absolute object-cover m-auto top-0 bottom-0 left-0 right-0"
-      />
 
       <div className="flex justify-center items-center h-screen">
         <div className="z-30 p-5 content-center text-center">
-          <h1 className="text-5xl sm:text-7xl md:text-[80px] lg:text-[100px] xl:text-[150px] font-nyght font-bold">
+          <h1 className="text-5xl sm:text-7xl md:text-[80px] lg:text-[100px] xl:text-[150px] font-nyght font-bold text-black">
             connect with me.
           </h1>
           <div className="flex justify-center">
@@ -36,7 +38,7 @@ export default function Contact() {
             >
               <FontAwesomeIcon
                 icon={faLinkedin}
-                style={{ height: "40px", color: "#262626" }}
+                style={{ height: "40px", color: "#000" }}
               />
             </a>
             <a
@@ -45,7 +47,7 @@ export default function Contact() {
             >
               <FontAwesomeIcon
                 icon={faEnvelope}
-                style={{ height: "40px", color: "#262626" }}
+                style={{ height: "40px", color: "#000" }}
               />
             </a>
             <a
@@ -54,7 +56,7 @@ export default function Contact() {
             >
               <FontAwesomeIcon
                 icon={faInstagram}
-                style={{ height: "40px", color: "#262626" }}
+                style={{ height: "40px", color: "#000" }}
               />
             </a>
             <a
@@ -63,7 +65,7 @@ export default function Contact() {
             >
               <FontAwesomeIcon
                 icon={faMedium}
-                style={{ height: "40px", color: "#262626" }}
+                style={{ height: "40px", color: "#000" }}
               />
             </a>
             <a
@@ -72,7 +74,7 @@ export default function Contact() {
             >
               <FontAwesomeIcon
                 icon={faGithub}
-                style={{ height: "40px", color: "#262626" }}
+                style={{ height: "40px", color: "#000" }}
               />
             </a>
           </div>
