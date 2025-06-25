@@ -3,6 +3,7 @@ import MobileMenu from "./MobileMenu";
 import { NavLink } from "react-router-dom";
 import Time from "./Time";
 import { RevealOnScroll } from "./RevealOnScroll";
+import circle from "../photos/enormouscirclegradient.png";
 
 function ProjectPortfolio() {
   return (
@@ -11,6 +12,13 @@ function ProjectPortfolio() {
         <MobileMenu />
       </div>
       <NavBar />
+      <div className="absolute inset-0 overflow-hidden">
+        <img
+          src={circle}
+          alt="bg-circle"
+          className="object-cover opacity-10 blur-lg h-full w-full"
+        />
+      </div>
       <div className="flex">
         <div className="mx-auto text-center">
           <div className="w-screen text-3xl md:text-4xl lg:text-6xl xl:text-7xl">
