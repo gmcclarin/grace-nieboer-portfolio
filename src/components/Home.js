@@ -100,7 +100,7 @@ function Home() {
               }}
               exact="true"
               to="/portfolio"
-              onMouseEnter={() => setCursorImg(about)}
+              onMouseEnter={() => setCursorImg(laptop)}
             onMouseLeave={() => setCursorImg(null)}
             >
               work.
@@ -113,7 +113,7 @@ function Home() {
               }}
               exact="true"
               to="/contact"
-              onMouseEnter={() => setCursorImg(laptop)}
+              onMouseEnter={() => setCursorImg(about)}
             onMouseLeave={() => setCursorImg(null)}
             >
               contact.
@@ -129,8 +129,8 @@ function Home() {
           alt="preview"
           className="fixed z-50 cursor-none pointer-events-none shadow-lg transition-opacity duration-300"
           style={{
-            top: `${mousePos.y + 20}px`,
-            left: `${mousePos.x + 20}px`,
+            top: `${mousePos.y - 280}px`,
+            left: `${mousePos.x - 70}px`,
             width: "200px",
             height: "auto",
             opacity: 1,
