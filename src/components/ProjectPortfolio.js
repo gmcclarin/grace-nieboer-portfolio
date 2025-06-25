@@ -3,22 +3,18 @@ import MobileMenu from "./MobileMenu";
 import { NavLink } from "react-router-dom";
 import Time from "./Time";
 import { RevealOnScroll } from "./RevealOnScroll";
-import DarkMode from "./DarkMode";
 
 function ProjectPortfolio() {
   return (
-    <div className="bg-white relative block no-scrollbar overflow-x-hidden p-4 ">
+    <div className="bg-neutral-100 relative block no-scrollbar overflow-x-hidden p-4 ">
       <div className="sm:hidden ">
         <MobileMenu />
-      </div>
-      <div className="absolute z-50 top-3 right-3">
-        <DarkMode />
       </div>
       <NavBar />
       <div className="flex">
         <div className="mx-auto text-center">
           <div className="w-screen text-3xl md:text-4xl lg:text-6xl xl:text-7xl">
-            <div className=" bg-white mb-16 flex items-center justify-center ">
+            <div className="mb-16 flex items-center justify-center ">
               <RevealOnScroll>
                 <div className="w-full p-4">
                   <div className=" w-full sm:pl-24 py-10 px-5 ">

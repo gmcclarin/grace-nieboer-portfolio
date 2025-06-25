@@ -2,11 +2,7 @@ import NavBar from './NavBar';
 import MobileMenu from './MobileMenu';
 import { useState } from 'react'
 import HomePageContact from './HomePageContact'
-import DarkMode from './DarkMode';
 import { WorkWithMe } from './WorkWithMe';
-
-
-
 
 function About () {
 
@@ -49,8 +45,7 @@ function About () {
             <NavBar />
             
             <div className="z-40 flex items-center justify-between w-full mt-7 sm:mt-0">
-                    <WorkWithMe />
-                    <DarkMode />
+                <WorkWithMe />
             </div>
             
             <div className="relative sm:mx-20 lg:mx-32 mb-5 flex  h-screen items-center justify-center overscroll-x-auto overscroll-y-hidden">
