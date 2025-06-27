@@ -13,7 +13,7 @@ import { useState } from "react";
 export default function Contact() {
   const [showModal, setShowModal] = useState(false);
   return (
-    <div className="relative bg-zinc-200 bg-center bg-fixed h-screen w-full overflow-x-hidden flex flex-col p-8">
+    <div className="relative bg-zinc-200 bg-center bg-fixed h-screen w-full overflow-x-hidden flex flex-col p-4">
       <div className="absolute inset-0 overflow-hidden">
         <img
           src={circle}

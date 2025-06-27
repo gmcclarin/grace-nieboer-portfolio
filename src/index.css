@@ -74,6 +74,13 @@ body {
 }
 
 
+#treeSolutionsPortfolio {
+  background-image: url('./photos/trees.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 @keyframes swish {
   to {
     opacity: 1;

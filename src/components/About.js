@@ -39,13 +39,13 @@ function About() {
   };
 
   return (
-    <div className="bg-zinc-100 relative h-screen w-screen overflow-auto p-5">
+    <div className="bg-zinc-100 relative h-screen w-screen overflow-auto p-4">
       <MobileMenu />
       <NavBar />
 
-      <div className="z-40 flex items-center justify-between w-full mt-7 sm:mt-0">
+      {/* <div className="z-40 flex items-center justify-between w-full mt-8 sm:mt-0">
         <WorkWithMe />
-      </div>
+      </div> */}
 
       <div className="absolute inset-0 overflow-hidden">
         <img

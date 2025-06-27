@@ -1,42 +1,77 @@
+import { NavLink } from "react-router-dom";
 import NavBar from "./NavBar";
 import MobileMenu from "./MobileMenu";
-import { NavLink } from "react-router-dom";
 import Time from "./Time";
 import { RevealOnScroll } from "./RevealOnScroll";
-import circle from "../photos/enormouscirclegradient.png";
+import DarkMode from "./DarkMode";
+
+const galleryItems = [
+  {
+    id: "twofirstsection",
+    to: "/twoormore",
+    className: "col-span-2 row-span-2 bg-pink-800",
+    content: null,
+  },
+  {
+    id: "treeSolutionsPortfolio",
+    to: "/treesolutions",
+    className: "bg-green-700 row-span-1",
+    content: null,
+  },
+  {
+    id: "jobsurge",
+    to: "/jobsurge",
+    className: "bg-stone-600 row-span-1 flex items-center justify-center",
+    content: <Time />, 
+  },
+  {
+    id: "portsection1",
+    to: "/inspiredinteriors",
+    className: "bg-stone-600 row-span-1",
+    content: null,
+  },
+];
+
+function GalleryItem({ id, to, className, content }) {
+  return (
+    <NavLink
+      key={id}
+      id={id}
+      to={to}
+      exact="true"
+      className={`transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl ${className}`}
+    >
+      {content}
+    </NavLink>
+  );
+}
 
 function ProjectPortfolio() {
   return (
-    <div className="bg-neutral-100 relative block no-scrollbar overflow-x-hidden p-4 ">
-      <div className="sm:hidden ">
+    <div className="bg-white relative block no-scrollbar overflow-x-hidden p-4">
+      <div className="sm:hidden">
         <MobileMenu />
       </div>
       <NavBar />
-      <div className="absolute inset-0 overflow-hidden">
-        <img
-          src={circle}
-          alt="bg-circle"
-          className="object-cover opacity-10 blur-lg h-full w-full"
-        />
-      </div>
+
       <div className="flex">
-        <div className="mx-auto text-center">
-          <div className="w-screen text-3xl md:text-4xl lg:text-6xl xl:text-7xl">
-            <div className="mb-16 flex items-center justify-center ">
+        <div className="mx-auto text-center w-screen">
+          <div className="text-3xl md:text-4xl lg:text-6xl xl:text-7xl">
+            <div className="bg-white mb-16 flex items-center justify-center">
               <RevealOnScroll>
                 <div className="w-full p-4">
-                  <div className=" w-full sm:pl-24 py-10 px-5 ">
+                  <div className="w-full sm:pl-24 py-10 px-5">
                     <div className="p-5 text-black">
                       <div className="font-bold text-2xl text-left animate-pulse">
                         Current projects, in progress
                       </div>
                       <div className="text-xl text-left italic font-nyght">
-                        deployment estimation varies by project{" "}
+                        deployment estimation varies by project
                       </div>
                     </div>
                     <div
                       id="ellipse"
-                      className="sm:w-3/4 p-5 border-2 border-black "
+                      className="sm:w-3/4 p-5 border-2 border-black"
                     >
                       <div className="text-left text-black pb-2 text-2xl sm:text-3xl font-bold hover:text-orange-700 hover:translate-x-3">
                         TYLER'S TREE SOLUTIONS
@@ -58,32 +93,11 @@ function ProjectPortfolio() {
                 </div>
               </RevealOnScroll>
             </div>
-            <div className=" grid grid-flow-row-dense grid-cols-3 gap-7">
-              <NavLink
-                id="twofirstsection"
-                className=" w-full row-span-6 col-span-2 bg-pink-800 transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-2xl"
-                to="/twoormore"
-                exact="true"
-              ></NavLink>
-              <NavLink
-                id="treeSolutionsPortfolio"
-                to="/treesolutions"
-                exact="true"
-              ></NavLink>
-              <NavLink
-                to="/jobsurge"
-                exact="true"
-                className="bg-stone-600 row-span-2 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-2xl"
-              >
-                <Time />
-              </NavLink>
 
-              <NavLink
-                id="portsection1"
-                to="/inspiredinteriors"
-                exact="true"
-                className="bg-stone-600 flex flex-col row-span-5 items-center justify-center transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-2xl"
-              ></NavLink>
+            <div className="grid grid-cols-3 gap-7 auto-rows-[200px]">
+              {galleryItems.map((item) => (
+                <GalleryItem key={item.id} {...item} />
+              ))}
             </div>
           </div>
         </div>
