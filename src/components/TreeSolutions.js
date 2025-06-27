@@ -1,30 +1,8 @@
 
 import { NavLink } from "react-router-dom";
-import explore from '../photos/explorepage.png'
-import palette from '../photos/color_palette.png'
-import moodboard1 from '../photos/moodboardexample.png'
-import moodboard2 from '../photos/moodboard2.png'
 import { RevealOnScroll } from "./RevealOnScroll";
 
 export default function TreeSolutions () {
-
-    // const photos = [
-    //     {src:"https://i.postimg.cc/VkmSncp2/Screenshot-2023-05-10-at-10-50-29-AM.png",
-    //     name:"home page",
-    //     isPhoto: true},
-    //     {src:"https://i.postimg.cc/Y2fC8fW0/Screenshot-2023-08-10-at-9-54-37-PM.png",
-    //     name:"log in",
-    //     isPhoto:true},
-    //     {src:"https://i.postimg.cc/xdvFzCXk/Screenshot-2023-08-10-at-10-07-30-PM.png",
-    //     name:"palette",
-    //     isPhoto:true},
-    //     {src:"https://i.postimg.cc/kXCBMfkF/Screenshot-2023-08-10-at-10-22-19-PM.png",
-    //     name:"moodboard",
-    //     isPhoto:true},
-    //     {src:"https://player.vimeo.com/video/853567624?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&autoplay=1&loop=1&autopause=0",
-    //     name:"palette video",
-    //     isPhoto:false},
-    // ]
 
     return (
         <div className="relative overflow-y-hidden overflow-x-hidden ">

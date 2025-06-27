@@ -11,7 +11,7 @@ export default function Time(){
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
     const weekDay = days[(date.getDay())]
     return(
-            <div className="text-center text-black">
+            <div className="text-center text-white">
                 <div className="text-4xl md:text-5xl desktop:text-[200px] font-black">
                     {weekDay.toUpperCase()}
                 </div>

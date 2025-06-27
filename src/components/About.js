@@ -2,7 +2,6 @@ import NavBar from "./NavBar";
 import MobileMenu from "./MobileMenu";
 import { useState } from "react";
 import HomePageContact from "./HomePageContact";
-import { WorkWithMe } from "./WorkWithMe";
 import circle from "../photos/enormouscirclegradient.png";
 
 function About() {
@@ -42,11 +41,6 @@ function About() {
     <div className="bg-zinc-100 relative h-screen w-screen overflow-auto p-4">
       <MobileMenu />
       <NavBar />
-
-      {/* <div className="z-40 flex items-center justify-between w-full mt-8 sm:mt-0">
-        <WorkWithMe />
-      </div> */}
-
       <div className="absolute inset-0 overflow-hidden">
         <img
           src={circle}
