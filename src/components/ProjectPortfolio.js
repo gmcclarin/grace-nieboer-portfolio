@@ -8,6 +8,8 @@ import trees from "../photos/trees.png";
 import twoOrMore from "../photos/tomhome.png";
 import inspired from "../photos/photo20.avif";
 import lapTop from "../photos/roseLaptop.jpg"
+import circle from "../photos/enormouscirclegradient.png";
+
 
 const galleryItems = [
   {
@@ -77,18 +79,20 @@ function ProjectPortfolio() {
   }, []);
 
   return (
-    <div className="bg-white min-h-screen no-scrollbar overflow-x-hidden pt-20 px-4">
+    <div className="bg-white min-h-screen no-scrollbar overflow-x-hidden p-4">
       <div className="sm:hidden">
         <MobileMenu />
       </div>
-
-      <div className="absolute z-50 top-3 right-3">
-        <DarkMode />
+      <NavBar />
+      <div className="absolute inset-0 overflow-hidden">
+        <img
+          src={circle}
+          alt="bg-circle"
+          className="object-cover opacity-10 blur-lg h-full w-full"
+        />
       </div>
 
-      <NavBar />
-
-      <div className="flex flex-col gap-24">
+      <div className="flex flex-col gap-24 pt-20">
         {galleryItems.map((item) => (
           <GalleryItem key={item.id} {...item} />
         ))}
