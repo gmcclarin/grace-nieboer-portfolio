@@ -19,7 +19,7 @@ export default function TreeSolutions() {
           <img
             src={trees}
             alt="trees"
-            className="absolute top-0 left-0 w-full h-[75vh] object-cover z-0"
+            className="absolute top-50 left-50 w-3/4 h-[75vh] object-cover z-0"
           />
           <div className="absolute top-1/2 left-1/2 z-10 transform -translate-x-1/2 -translate-y-1/2 text-stone-950 text-4xl sm:text-8xl font-black drop-shadow-xl text-center">
             TYLER'S TREE SOLUTIONS
@@ -29,9 +29,6 @@ export default function TreeSolutions() {
         <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
           <RevealOnScroll>
             <div className="sm:my-14 text-center font-bold sm:py-8">
-              <div className="text-4xl pb-5 md:text-6xl lg:text-7xl font-black">
-                TYLER'S TREE SOLUTIONS
-              </div>
               <div className="flex w-full sm:w-3/4 justify-between mx-auto ">
                 <div className="w-1/2 m-4 text-left file:font-bold sm:text-xl md:text-3xl lg:text-4xl italic  font-bold">
                   {" "}
