@@ -2,10 +2,11 @@ import { NavLink } from "react-router-dom";
 import { RevealOnScroll } from "./RevealOnScroll";
 import contact from "../photos/contact.png";
 import marquis from "../photos/marquis.png";
+import trees from "../photos/trees.png";
 
 export default function TreeSolutions() {
   return (
-    <div className="relative overflow-y-hidden overflow-x-hidden ">
+    <div className="relative overflow-y-hidden overflow-x-hidden bg-stone-100 text-black">
       <NavLink
         to="/portfolio"
         exact="true"
@@ -14,14 +15,17 @@ export default function TreeSolutions() {
         BACK TO WORK
       </NavLink>
       <div className="snap-y snap-mandatory h-screen w-screen overflow-y-scroll overflow-x-hidden ">
-        <div
-          id=""
-          className="snap-start snap-always w-screen h-screen flex justify-center items-center"
-        >
-          <div className="text-4xl pb-5 sm:text-8xl  transform translate-y-12 transition-opacity swishy2 font-black">
+        <div className="snap-start snap-always w-screen h-screen relative flex items-center justify-center">
+          <img
+            src={trees}
+            alt="trees"
+            className="absolute top-0 left-0 w-full h-[75vh] object-cover z-0"
+          />
+          <div className="absolute top-1/2 left-1/2 z-10 transform -translate-x-1/2 -translate-y-1/2 text-stone-950 text-4xl sm:text-8xl font-black drop-shadow-xl text-center">
             TYLER'S TREE SOLUTIONS
           </div>
         </div>
+
         <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
           <RevealOnScroll>
             <div className="sm:my-14 text-center font-bold sm:py-8">
@@ -57,16 +61,22 @@ export default function TreeSolutions() {
           </RevealOnScroll>
         </div>
         <div className="snap-start snap-always w-screen h-screen">
-          <div className="lg:flex w-screen pt-12 px-10 sm:px-32 justify-between items-center">
-            <div>
-      <div className="flex items-center justify-center w-[90%] m-10 max-w-4xl aspect-video overflow-hidden rounded-xl shadow-xl ">
-                <img src={marquis} alt="marquis" />
-              </div>
-      <div className="flex items-center justify-center w-[90%] m-10 max-w-4xl aspect-video overflow-hidden rounded-xl shadow-xl ">
-                <img src={contact} alt="contact" className="w-full h-full object-contain" />
-              </div>
+          <RevealOnScroll>
+            <div className="columns-1 sm:columns-2 gap-4 px-4 sm:px-12 py-10 max-w-screen-xl mx-auto h-full overflow-y-auto">
+              {[marquis, contact, trees].map((img, i) => (
+                <div
+                  key={i}
+                  className="mb-4 overflow-hidden rounded-xl shadow-xl transition-transform duration-500 hover:scale-105 break-inside-avoid"
+                >
+                  <img
+                    src={img}
+                    alt={`gallery-img-${i}`}
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+              ))}
             </div>
-          </div>
+          </RevealOnScroll>
         </div>
         <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto items-center">
           <div className="m-4">

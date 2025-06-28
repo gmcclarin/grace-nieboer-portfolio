@@ -2,7 +2,6 @@ import { NavLink } from "react-router-dom";
 import NavBar from "./NavBar";
 import MobileMenu from "./MobileMenu";
 import Time from "./Time";
-import DarkMode from "./DarkMode";
 import { useEffect } from "react";
 import trees from "../photos/trees.png";
 import twoOrMore from "../photos/tomhome.png";
