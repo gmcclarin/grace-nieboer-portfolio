@@ -26,9 +26,6 @@ export default function Contact() {
 
       <div className="flex justify-center items-center h-screen">
         <div className="z-30 p-5 content-center text-center">
-          <h1 className="text-5xl sm:text-7xl md:text-[80px] lg:text-[100px] xl:text-[150px] font-nyght font-bold text-black">
-            connect with me.
-          </h1>
           <div className="flex justify-center">
             <a
               className="hover:scale-150 transform transition duration-500 m-2 sm:m-3"
@@ -38,7 +35,7 @@ export default function Contact() {
             >
               <FontAwesomeIcon
                 icon={faLinkedin}
-                style={{ height: "40px", color: "#000" }}
+                style={{ height: "50px", color: "#000" }}
               />
             </a>
             <a
@@ -47,7 +44,7 @@ export default function Contact() {
             >
               <FontAwesomeIcon
                 icon={faEnvelope}
-                style={{ height: "40px", color: "#000" }}
+                style={{ height: "50px", color: "#000" }}
               />
             </a>
             <a
@@ -56,7 +53,7 @@ export default function Contact() {
             >
               <FontAwesomeIcon
                 icon={faInstagram}
-                style={{ height: "40px", color: "#000" }}
+                style={{ height: "50px", color: "#000" }}
               />
             </a>
             <a
@@ -65,7 +62,7 @@ export default function Contact() {
             >
               <FontAwesomeIcon
                 icon={faMedium}
-                style={{ height: "40px", color: "#000" }}
+                style={{ height: "50px", color: "#000" }}
               />
             </a>
             <a
@@ -74,7 +71,7 @@ export default function Contact() {
             >
               <FontAwesomeIcon
                 icon={faGithub}
-                style={{ height: "40px", color: "#000" }}
+                style={{ height: "50px", color: "#000" }}
               />
             </a>
           </div>
