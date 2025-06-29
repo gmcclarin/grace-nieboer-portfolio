@@ -80,7 +80,7 @@ export default function TreeSolutions() {
             <div className="text-4xl font-black">WANT MORE?</div>
             <div className="transform transition duration-500 hover:scale-125">
               <a
-                href="https://github.com/gmcclarin/tyler"
+                href="https://github.com/gmcclarin/github-readme-generator"
                 target="_blank"
                 className="text-3xl"
                 rel="noreferrer"
@@ -90,7 +90,7 @@ export default function TreeSolutions() {
             </div>
             <div className="transform transition duration-500 hover:scale-125">
               <a
-                href="https://tylerstreesolutions.netlify.app/"
+                href="https://generate-github-profile-readme.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="text-3xl"
