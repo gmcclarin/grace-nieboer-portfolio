@@ -35,10 +35,14 @@ export default function TreeSolutions() {
                   {`[A Tree Solutions services project ]`}
                 </div>
                 <div className="w-1/2 m-4 text-md text-left font-bold sm:text-lg md:text-3xl italic ">
-                  This client was expanding their business and needed a central
-                  place to direct potential leads, submit a contact info for a
-                  quote, and list services in a way that prioritizes UX/UI
-                  design. .
+                  <div>✨ Features </div>
+                  <div>🔧 Live markdown preview</div>
+                  <div> 🖼️ Customizable sections:  About Me, Skills, Projects, Stats, and Social Links</div>
+                  <div>🎨 Styled themes and layouts for aesthetic profiles</div> 
+                  <div>💾 One-click copy or
+                  download of the finished README </div>
+                  <div>💡 Smart prompts and tips for
+                  better self-branding</div>  
                 </div>
               </div>
             </div>
@@ -48,12 +52,12 @@ export default function TreeSolutions() {
           <RevealOnScroll>
             <div className="m-4">
               <div className="text-4xl  font-black">THE TECH STACK</div>
-              <div className="text-3xl">REACT JS</div>
-              <div className="text-3xl">JAVASCRIPT</div>
-              <div className="text-3xl">EMAILJS</div>
-              <div className="text-3xl">TAILWIND</div>
-              <div className="text-3xl">FORMIK</div>
-              <div className="text-3xl">FONTAWESOME</div>
+              <div className="text-3xl">Frontend: React + Tailwind CSS</div>
+              <div className="text-3xl">
+                State Management: React Hook Form + Context API
+              </div>
+              <div className="text-3xl">Markdown Rendering: react-markdown</div>
+              <div className="text-3xl">Deployment: Netlify (TBD)</div>
             </div>
           </RevealOnScroll>
         </div>
