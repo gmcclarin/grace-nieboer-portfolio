@@ -1,14 +1,12 @@
 import { NavLink } from "react-router-dom";
 import { RevealOnScroll } from "./RevealOnScroll";
-import contact from "../photos/contact.png";
-import marquis from "../photos/marquis.png";
 import instructionsDark from "../photos/generatorinstructionsDark.png"
 import instructionsLight from "../photos/generatorInstructions.png"
 import preview from "../photos/githubgenerator.png"
 
 export default function GithubGenerator() {
   return (
-    <div className="relative overflow-y-hidden overflow-x-hidden bg-stone-100 text-black">
+    <div className="relative overflow-y-hidden overflow-x-hidden bg-stone-100 text-black p-5">
       <NavLink
         to="/portfolio"
         exact="true"
@@ -28,24 +26,18 @@ export default function GithubGenerator() {
           </div>
         </div>
 
-        <div className="snap-start snap-always w-screen h-screen flex justify-center mx-auto pl-5 items-center">
+        <div className="snap-start snap-always flex justify-center items-center">
           <RevealOnScroll>
             <div className="sm:my-14 text-center font-bold sm:py-8">
-              <div className="flex w-full sm:w-3/4 justify-between mx-auto ">
-                <div className="w-1/2 m-4 text-left file:font-bold sm:text-xl md:text-3xl lg:text-4xl italic  font-bold">
-                  {" "}
-                  {`[A Tree Solutions services project ]`}
-                </div>
-                <div className="w-1/2 m-4 text-md text-left font-bold sm:text-lg md:text-3xl italic ">
-                  <div>✨ Features </div>
-                  <div>🔧 Live markdown preview</div>
-                  <div> 🖼️ Customizable sections:  About Me, Skills, Projects, Stats, and Social Links</div>
-                  <div>🎨 Styled themes and layouts for aesthetic profiles</div> 
-                  <div>💾 One-click copy or
+              <div className="text-3xl p-5">✨ Features </div>
+              <div className="w-full text-left justify-between mx-auto text-xl">
+                  <div className="m-5 p-2 border-slate-200 rounded-lg border-2 shadow-xl">🔧 Live markdown preview</div>
+                  <div className="m-5 p-2 border-slate-200 rounded-lg border-2 shadow-xl"> 🖼️ Customizable sections:  About Me, Skills, Projects, Stats, and Social Links</div>
+                  <div className="m-5 p-2 border-slate-200 rounded-lg border-2 shadow-xl">🎨 Styled themes and layouts for aesthetic profiles</div> 
+                  <div className="m-5 p-2 border-slate-200 rounded-lg border-2 shadow-xl">💾 One-click copy or
                   download of the finished README </div>
-                  <div>💡 Smart prompts and tips for
+                  <div className="m-5 p-2 border-slate-200 rounded-lg border-2 shadow-xl">💡 Smart prompts and tips for
                   better self-branding</div>  
-                </div>
               </div>
             </div>
           </RevealOnScroll>
@@ -59,7 +51,7 @@ export default function GithubGenerator() {
                 State Management: React Hook Form + Context API
               </div>
               <div className="text-3xl">Markdown Rendering: react-markdown</div>
-              <div className="text-3xl">Deployment: Netlify (TBD)</div>
+              <div className="text-3xl">Deployment: Netlify</div>
             </div>
           </RevealOnScroll>
         </div>
