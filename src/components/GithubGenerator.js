@@ -2,7 +2,9 @@ import { NavLink } from "react-router-dom";
 import { RevealOnScroll } from "./RevealOnScroll";
 import contact from "../photos/contact.png";
 import marquis from "../photos/marquis.png";
-import trees from "../photos/trees.png";
+import instructionsDark from "../photos/generatorinstructionsDark.png"
+import instructionsLight from "../photos/generatorInstructions.png"
+import preview from "../photos/githubgenerator.png"
 
 export default function TreeSolutions() {
   return (
@@ -17,7 +19,7 @@ export default function TreeSolutions() {
       <div className="snap-y snap-mandatory h-screen w-screen overflow-y-scroll overflow-x-hidden ">
         <div className="snap-start snap-always w-screen h-screen relative flex items-center justify-center">
           <img
-            src={trees}
+            src={instructionsDark}
             alt="trees"
             className="absolute top-50 left-50 w-3/4 h-[75vh] object-cover z-0"
           />
@@ -64,7 +66,7 @@ export default function TreeSolutions() {
         <div className="snap-start snap-always w-screen h-screen">
           <RevealOnScroll>
             <div className="columns-1 sm:columns-2 gap-4 px-4 sm:px-12 py-10 max-w-screen-xl mx-auto h-full overflow-y-auto">
-              {[marquis, contact, trees].map((img, i) => (
+              {[preview, instructionsLight, instructionsDark].map((img, i) => (
                 <div
                   key={i}
                   className="mb-4 overflow-hidden rounded-xl shadow-xl transition-transform duration-500 hover:scale-105 break-inside-avoid"

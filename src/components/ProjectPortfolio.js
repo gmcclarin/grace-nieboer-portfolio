@@ -6,35 +6,41 @@ import { useEffect } from "react";
 import trees from "../photos/trees.png";
 import twoOrMore from "../photos/tomhome.png";
 import inspired from "../photos/photo20.avif";
-import lapTop from "../photos/roseLaptop.jpg"
+import lapTop from "../photos/roseLaptop.jpg";
 import circle from "../photos/enormouscirclegradient.png";
-
+import preview from "../photos/githubgenerator.png";
 
 const galleryItems = [
   {
     id: "1",
     to: "/twoormore",
     image: twoOrMore,
-    label: "Two or More"
+    label: "Two or More",
   },
   {
     id: "2",
     to: "/treesolutions",
     image: trees,
-    label: "Tree Solutions"
+    label: "Tree Solutions",
   },
   {
     id: "3",
     to: "/jobsurge",
     image: lapTop,
     label: "JobSurge",
-    overlay: <Time />
+    overlay: <Time />,
   },
   {
     id: "4",
     to: "/inspiredinteriors",
     image: inspired,
-    label: "Inspired Interiors"
+    label: "Inspired Interiors",
+  },
+  {
+    id: "5",
+    to: "/github-profile-generator",
+    image: preview,
+    label: "Github Profile Generator",
   },
 ];
 
@@ -48,11 +54,7 @@ function GalleryItem({ id, to, image, label, overlay }) {
       className="group relative w-full flex justify-center py-20 overflow-hidden"
     >
       <div className="relative flex items-center justify-center w-[90%] max-w-4xl aspect-video overflow-hidden rounded-xl shadow-xl transition-transform duration-700 ease-in-out transform translate-y-10 opacity-0 group-hover:scale-[1.02] group-hover:shadow-2xl group-hover:brightness-90 animate-fade-slide">
-        <img
-          src={image}
-          alt={label}
-          className="w-full h-full object-cover"
-        />
+        <img src={image} alt={label} className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-white text-3xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-500">
           {overlay || label}
         </div>
@@ -63,13 +65,16 @@ function GalleryItem({ id, to, image, label, overlay }) {
 
 function ProjectPortfolio() {
   useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("!opacity-100", "!translate-y-0");
-        }
-      });
-    }, { threshold: 0.3 });
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("!opacity-100", "!translate-y-0");
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
 
     const items = document.querySelectorAll(".animate-fade-slide");
     items.forEach((el) => observer.observe(el));

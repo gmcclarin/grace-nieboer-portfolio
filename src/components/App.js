@@ -24,6 +24,7 @@ function App() {
           <Route path="/jobsurge" element={<JobSurge />}/>
           <Route path="/twoormore" element={<TwoOrMore />}/>
           <Route path="/treesolutions" element={<TreeSolutions />}/>
+          
           <Route path="*" element={<NotFound />} />
         </Routes>
     </div>
