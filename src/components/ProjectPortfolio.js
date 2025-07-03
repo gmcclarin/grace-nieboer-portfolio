@@ -11,25 +11,14 @@ import circle from "../photos/enormouscirclegradient.png";
 import preview from "../photos/githubgenerator.png";
 
 const galleryItems = [
-  {
-    id: "1",
-    to: "/twoormore",
-    image: twoOrMore,
-    label: "Two or More",
-  },
+ 
   {
     id: "2",
     to: "/treesolutions",
     image: trees,
     label: "Tree Solutions",
   },
-  {
-    id: "3",
-    to: "/jobsurge",
-    image: lapTop,
-    label: "JobSurge",
-    overlay: <Time />,
-  },
+  
   {
     id: "4",
     to: "/inspiredinteriors",
@@ -41,6 +30,19 @@ const galleryItems = [
     to: "/github-profile-generator",
     image: preview,
     label: "Github Profile Generator",
+  },
+  {
+    id: "1",
+    to: "/twoormore",
+    image: twoOrMore,
+    label: "Two or More",
+  },
+  {
+    id: "3",
+    to: "/jobsurge",
+    image: lapTop,
+    label: "JobSurge",
+    overlay: <Time />,
   },
 ];
 
