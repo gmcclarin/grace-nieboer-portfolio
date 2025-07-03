@@ -6,7 +6,7 @@ import instructionsDark from "../photos/generatorinstructionsDark.png"
 import instructionsLight from "../photos/generatorInstructions.png"
 import preview from "../photos/githubgenerator.png"
 
-export default function TreeSolutions() {
+export default function GithubGenerator() {
   return (
     <div className="relative overflow-y-hidden overflow-x-hidden bg-stone-100 text-black">
       <NavLink

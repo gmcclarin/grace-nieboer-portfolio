@@ -10,6 +10,7 @@ import TwoOrMore from './TwoOrMore';
 import JobSurge from './JobSurge';
 import TreeSolutions from './TreeSolutions'
 import nightwind from "nightwind/helper"
+import GithubGenerator from "./GithubGenerator.js"
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           <Route path="/jobsurge" element={<JobSurge />}/>
           <Route path="/twoormore" element={<TwoOrMore />}/>
           <Route path="/treesolutions" element={<TreeSolutions />}/>
-          
+          <Route path="/github-profile-generator" element={<GithubGenerator />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
     </div>
