@@ -28,50 +28,52 @@ export default function Contact() {
         <div className="z-30 p-5 content-center text-center">
           <div className="flex justify-center">
             <a
-              className="hover:scale-150 transform transition duration-500 m-2 sm:m-3"
+              className="hover:scale-150 transform transition duration-500 m-2 sm:m-3 text-black"
               href="https://www.linkedin.com/in/gracemcclarin/"
               target="_blank"
               rel="noreferrer"
+
             >
               <FontAwesomeIcon
                 icon={faLinkedin}
-                style={{ height: "50px", color: "#000" }}
+                
+                style={{ height: "50px"}}
               />
             </a>
             <a
-              className="hover:scale-150 transform transition duration-500 m-2 sm:m-3"
+              className="hover:scale-150 transform transition duration-500 m-2 sm:m-3 text-black"
               href="mailto:grace.nieboer@outlook.com"
             >
               <FontAwesomeIcon
                 icon={faEnvelope}
-                style={{ height: "50px", color: "#000" }}
+                style={{ height: "50px" }}
               />
             </a>
             <a
-              className="hover:scale-150 m-2 sm:m-3"
+              className="hover:scale-150 m-2 sm:m-3 text-black"
               href="https://www.instagram.com/grayce.elisabeth_/"
             >
               <FontAwesomeIcon
                 icon={faInstagram}
-                style={{ height: "50px", color: "#000" }}
+                style={{ height: "50px" }}
               />
             </a>
             <a
-              className="mx-2 hover:scale-150 m-2 sm:m-3"
+              className="mx-2 hover:scale-150 m-2 sm:m-3 text-black"
               href="https://medium.com/@grace.nieboer"
             >
               <FontAwesomeIcon
                 icon={faMedium}
-                style={{ height: "50px", color: "#000" }}
+                style={{ height: "50px"}}
               />
             </a>
             <a
-              className="mx-2 hover:scale-150 m-2 sm:m-3"
+              className="mx-2 hover:scale-150 m-2 sm:m-3 text-black"
               href="https://github.com/gmcclarin"
             >
               <FontAwesomeIcon
                 icon={faGithub}
-                style={{ height: "50px", color: "#000" }}
+                style={{ height: "50px" }}
               />
             </a>
           </div>
