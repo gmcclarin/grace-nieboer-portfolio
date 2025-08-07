@@ -50,7 +50,7 @@ export default function Contact() {
               />
             </a>
             <a
-              className="hover:scale-150 m-2 sm:m-3 text-black"
+              className="hover:scale-150 transform transition duration-500 m-2 sm:m-3 text-black"
               href="https://www.instagram.com/grayce.elisabeth_/"
             >
               <FontAwesomeIcon
@@ -59,7 +59,7 @@ export default function Contact() {
               />
             </a>
             <a
-              className="mx-2 hover:scale-150 m-2 sm:m-3 text-black"
+              className="mx-2 hover:scale-150 transform transition duration-500 m-2 sm:m-3 text-black"
               href="https://medium.com/@grace.nieboer"
             >
               <FontAwesomeIcon
@@ -68,7 +68,7 @@ export default function Contact() {
               />
             </a>
             <a
-              className="mx-2 hover:scale-150 m-2 sm:m-3 text-black"
+              className="mx-2 hover:scale-150 transform transition duration-500 m-2 sm:m-3 text-black"
               href="https://github.com/gmcclarin"
             >
               <FontAwesomeIcon
