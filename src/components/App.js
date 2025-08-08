@@ -11,6 +11,7 @@ import JobSurge from './JobSurge';
 import TreeSolutions from './TreeSolutions'
 import nightwind from "nightwind/helper"
 import GithubGenerator from "./GithubGenerator.js"
+import ProjectPortfolio2 from './ProjectPortfolioV2.js';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />}/>
           <Route path="portfolio/*" element={<ProjectPortfolio />}/>
+          <Route path="portfoliov2" element={<ProjectPortfolio2 />} />
           <Route path="/inspiredinteriors" element={<InspiredInteriors />}/>
           <Route path="/jobsurge" element={<JobSurge />}/>
           <Route path="/twoormore" element={<TwoOrMore />}/>
