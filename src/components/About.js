@@ -51,7 +51,7 @@ function About() {
 
       <div className="relative sm:mx-20 lg:mx-32 mb-5 flex  h-screen items-center justify-center overscroll-x-auto overscroll-y-hidden">
         {openAbout ? (
-          <div className="aboutabout  z-10 text-white font-bold  top-50 left-50 text-xl lg:text-2xl  w-3/4 xl:w-1/4 h-3/4 flex justify-center items-center rounded-full ">
+          <div className="aboutabout z-10 text-white top-50 left-50 text-xl lg:text-2xl  w-3/4 xl:w-1/4 h-3/4 flex justify-center items-center rounded-full ">
             <div className="flex flex-col items-center justify-center bg-gray-900 opacity-70 rounded-full h-full w-full">
               <p className="m-4 p-2 text-white ">
                 Hi, I’m Grace — a full-stack software engineer passionate about
@@ -74,7 +74,7 @@ function About() {
           </div>
         )}
         {openBefore ? (
-          <div className="aboutbackground z-10 text-white font-bold bg-neutral-600 top-50 left-50 text-sm md:text-md lg:text-lg 2xl:text-2xl w-3/4 xl:w-1/4 h-3/4 flex justify-center items-center rounded-full ">
+          <div className="aboutbackground z-10 text-white bg-neutral-600 top-50 left-50 text-sm md:text-md lg:text-lg 2xl:text-2xl w-3/4 xl:w-1/4 h-3/4 flex justify-center items-center rounded-full ">
             <div className="flex flex-col items-center justify-center bg-gray-900 opacity-70 rounded-full h-full w-full">
               <p className="my-1 sm:m-4 p-2 text-white rounded-lg">
                 Before tech, I earned my Master’s in Public Administration and
