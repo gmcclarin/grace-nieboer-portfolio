@@ -25,8 +25,8 @@ export default function ProjectPortfolio2() {
             <div className="flex-1 min-h-0 overflow-y-auto">
               <div className="py-16 space-y-4">
                 <Time />
-                <div>
-                  
+                <div className="p-6 space-y-4">
+                  web scraping working hard here
                 </div>
               </div>
             </div>
@@ -58,7 +58,14 @@ export default function ProjectPortfolio2() {
             <div className="p-4 border-b font-semibold">03</div>
             <div className="flex-1 min-h-0 overflow-y-auto">
               <div className="p-6 space-y-4">
-                {/* lots of content here */}
+                Currently working on the production of two new products in the Continuity Suite @ WILMAC Technologies :
+                 
+              </div>
+              <div className="p-6 space-y-4">
+                Continuity Replay
+              </div>
+              <div className="p-6 space-y-4">
+                Continuity Workforce Management
               </div>
             </div>
           </div>
