@@ -22,11 +22,11 @@ export default function ProjectPortfolio2() {
           
           {/* Column 1 */}
           <div className="bg-white flex flex-col min-h-0">
-            <div className="mt-12 p-4 border-b font-semibold">01</div>
+            <div className="mt-12 p-4 border-b text-black font-semibold">01</div>
 
             <div className="flex-1 min-h-0 overflow-y-auto">
-              <div className="py-16 space-y-4">
-                <div className="p-6 space-y-4 text-center font-bold text-xl">
+              <div className="py-6 space-y-4">
+                <div className="p-6 text-center font-bold text-xl">
                   INSPIRED INTERIORS
                 </div>
                 <div>
@@ -44,7 +44,7 @@ Bringing color, texture, and inspiration together — one moodboard at a time   
 
           {/* Column 2 */}
           <div className="bg-white flex flex-col min-h-0 mt-24">
-            <div className="p-4 border-b font-semibold">02</div>
+            <div className="p-4 border-b font-semibold text-black">02</div>
             <div className="flex-1 min-h-0 overflow-y-auto">
               <div className="p-6 space-y-4">
                 
@@ -54,7 +54,7 @@ Bringing color, texture, and inspiration together — one moodboard at a time   
 
           {/* Column 3 */}
           <div className="bg-white flex flex-col min-h-0">
-            <div className="mt-12 p-4 border-b font-semibold">03</div>
+            <div className="mt-12 p-4 border-b font-semibold text-black">03</div>
             <div className="flex-1 min-h-0 overflow-y-auto">
               <div className="p-6 space-y-4">
                 Currently working on the production of two new products in the Continuity Suite @ WILMAC Technologies :
