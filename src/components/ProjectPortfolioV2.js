@@ -18,12 +18,22 @@ export default function ProjectPortfolio2() {
       </div>
       <NavBar />
       <div className="flex-1 min-h-0 ">
-        <div className="grid grid-cols-1 md:grid-cols-3 h-full w-full gap-8 px-40">
+        <div className="grid grid-cols-1 lg:grid-cols-3 h-full w-full gap-8 px-40">
           
           {/* Column 1 */}
           <div className="bg-white flex flex-col min-h-0">
+            <div className="mt-12 p-4 border-b font-semibold">01</div>
+
             <div className="flex-1 min-h-0 overflow-y-auto">
               <div className="py-16 space-y-4">
+                <div className="p-6 space-y-4 text-center font-bold text-xl">
+                  INSPIRED INTERIORS
+                </div>
+                <div>
+                  <img src={inspired} alt="mini_inspired"/>
+                </div>
+                <div className="p-6 space-y-4 text-center">
+Bringing color, texture, and inspiration together — one moodboard at a time                </div>
                 <Time />
                 <div className="p-6 space-y-4">
                   web scraping working hard here
@@ -37,25 +47,14 @@ export default function ProjectPortfolio2() {
             <div className="p-4 border-b font-semibold">02</div>
             <div className="flex-1 min-h-0 overflow-y-auto">
               <div className="p-6 space-y-4">
-                This concept reimagines an architectural product website with a minimalistic, editorial-inspired design. It combines clean typography, high-end visuals, and smooth user flows to highlight the craftsmanship behind acoustic panels and sustainable architecture solutions.
-                This concept reimagines an architectural product website with a minimalistic, editorial-inspired design. It combines clean typography, high-end visuals, and smooth user flows to highlight the craftsmanship behind acoustic panels and sustainable architecture solutions.
-                This concept reimagines an architectural product website with a minimalistic, editorial-inspired design. It combines clean typography, high-end visuals, and smooth user flows to highlight the craftsmanship behind acoustic panels and sustainable architecture solutions.
-                This concept reimagines an architectural product website with a minimalistic, editorial-inspired design. It combines clean typography, high-end visuals, and smooth user flows to highlight the craftsmanship behind acoustic panels and sustainable architecture solutions.
-                This concept reimagines an architectural product website with a minimalistic, editorial-inspired design. It combines clean typography, high-end visuals, and smooth user flows to highlight the craftsmanship behind acoustic panels and sustainable architecture solutions.
-                This concept reimagines an architectural product website with a minimalistic, editorial-inspired design. It combines clean typography, high-end visuals, and smooth user flows to highlight the craftsmanship behind acoustic panels and sustainable architecture solutions.
-                This concept reimagines an architectural product website with a minimalistic, editorial-inspired design. It combines clean typography, high-end visuals, and smooth user flows to highlight the craftsmanship behind acoustic panels and sustainable architecture solutions.
-                This concept reimagines an architectural product website with a minimalistic, editorial-inspired design. It combines clean typography, high-end visuals, and smooth user flows to highlight the craftsmanship behind acoustic panels and sustainable architecture solutions.
-                This concept reimagines an architectural product website with a minimalistic, editorial-inspired design. It combines clean typography, high-end visuals, and smooth user flows to highlight the craftsmanship behind acoustic panels and sustainable architecture solutions.
-                This concept reimagines an architectural product website with a minimalistic, editorial-inspired design. It combines clean typography, high-end visuals, and smooth user flows to highlight the craftsmanship behind acoustic panels and sustainable architecture solutions.
-                This concept reimagines an architectural product website with a minimalistic, editorial-inspired design. It combines clean typography, high-end visuals, and smooth user flows to highlight the craftsmanship behind acoustic panels and sustainable architecture solutions.
-
+                
               </div>
             </div>
           </div>
 
           {/* Column 3 */}
           <div className="bg-white flex flex-col min-h-0">
-            <div className="p-4 border-b font-semibold">03</div>
+            <div className="mt-12 p-4 border-b font-semibold">03</div>
             <div className="flex-1 min-h-0 overflow-y-auto">
               <div className="p-6 space-y-4">
                 Currently working on the production of two new products in the Continuity Suite @ WILMAC Technologies :
