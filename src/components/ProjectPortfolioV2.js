@@ -46,9 +46,10 @@ export default function ProjectPortfolio2() {
 
                 {/* JOB SURGE */}
                 <div className="bg-stone-400 p-6 py-16">
+                  <div className="font-bold text-xl py-6">JOB SURGE</div>
                   <Time />
                   <div className="p-6 space-y-4 text-center">
-                    <div className="font-bold text-xl">JOB SURGE</div>
+                    
                     web scraping working hard here
                   </div>
                   {/* <div className="flex justify-stretch"> */}
@@ -68,14 +69,19 @@ export default function ProjectPortfolio2() {
           {/* Column 2 */}
           <div className="bg-stone-200 flex flex-col min-h-0 mt-24">
             <div className="flex-1 min-h-0 overflow-y-auto">
-              <div className="p-6 space-y-4"></div>
+              <div className="p-6 space-y-4">
+                <div className="p-6 text-center font-bold text-xl text-black">TYLER'S TREE SERVICE</div>
+                  {/* example content */}
+                                <div className="p-6 text-center font-bold text-xl text-black">
+GITHUB GENERATOR</div>
+              </div>
             </div>
           </div>
 
           {/* Column 3 */}
-          <div className="bg-stone-400 flex flex-col min-h-0 pt-24">
+          <div className="bg-stone-400 flex flex-col min-h-0 pt-24 text-left p-6">
             <div className="flex-1 min-h-0 overflow-y-auto">
-              <div className="p-6 space-y-4">
+              <div className="p-6 space-y-4 text-justify">
                 Currently working on the production of two new products in the
                 Continuity Suite @ WILMAC Technologies :
               </div>
