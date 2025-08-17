@@ -75,7 +75,7 @@ export default function ProjectPortfolio2() {
                     <div className="p-6">TYLER'S TREE SERVICE</div>
                     <div></div>
                     <NavLink
-                    to="/jobsurge"
+                    to="/treesolutions"
                     exact="true"
                     className={containedButtonStyle}
                   >
