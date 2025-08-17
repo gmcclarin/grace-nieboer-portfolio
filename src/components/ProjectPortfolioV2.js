@@ -9,9 +9,9 @@ import preview from "../photos/githubgenerator.png";
 
 export default function ProjectPortfolio2() {
   const containedButtonStyle =
-    "rounded-full bg-white px-6 py-3 flex justify-center text-sm text-black";
+    "rounded-full bg-stone-100 px-6 py-3 flex justify-center text-sm text-black m-2";
   const outlinedButtonStyle =
-    "rounded-full border-2 border-black px-6 py-3 flex justify-center text-sm text-black";
+    "rounded-full border-2 border-black px-6 py-3 flex justify-center text-sm text-black m-2";
   return (
     <div className="bg-white h-screen w-screen overflow-hidden flex flex-col text-center">
       <div className="sm:hidden">
@@ -23,7 +23,7 @@ export default function ProjectPortfolio2() {
           {/* Column 1 */}
           <div className="bg-stone-100 flex flex-col min-h-0">
             <div className="flex-1 min-h-0 overflow-y-auto mt-12">
-              <div className="py-6 space-y-4">
+              <div className=" space-y-4">
                 <div className=" p-6 py-16">
                   <div className="p-6 text-center font-bold text-xl text-black">
                     INSPIRED INTERIORS
@@ -49,7 +49,6 @@ export default function ProjectPortfolio2() {
                   <div className="font-bold text-xl py-6">JOB SURGE</div>
                   <Time />
                   <div className="p-6 space-y-4 text-center">
-                    
                     web scraping working hard here
                   </div>
                   {/* <div className="flex justify-stretch"> */}
@@ -69,11 +68,29 @@ export default function ProjectPortfolio2() {
           {/* Column 2 */}
           <div className="bg-stone-200 flex flex-col min-h-0 mt-24">
             <div className="flex-1 min-h-0 overflow-y-auto">
-              <div className="p-6 space-y-4">
-                <div className="p-6 text-center font-bold text-xl text-black">TYLER'S TREE SERVICE</div>
-                  {/* example content */}
-                                <div className="p-6 text-center font-bold text-xl text-black">
-GITHUB GENERATOR</div>
+              <div className=" space-y-4">
+                <div className="relative text-center ">
+                  <img src={trees} alt="trees" className="w-full h-full object-cover" />
+                  <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-white text-xl font-bold">
+                    <div className="p-6">TYLER'S TREE SERVICE</div>
+                    <div></div>
+                    <NavLink
+                    to="/jobsurge"
+                    exact="true"
+                    className={containedButtonStyle}
+                  >
+                    Learn More
+                  </NavLink>
+                  </div>
+                  
+                </div>
+
+                <div className="pt-16 text-center font-bold text-xl text-black">
+                  GITHUB GENERATOR
+                </div>
+                <div className="pt-16 text-center font-bold text-xl text-black">
+                  TWO OR MORE
+                </div>
               </div>
             </div>
           </div>
