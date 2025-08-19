@@ -9,9 +9,9 @@ import preview from "../photos/githubgenerator.png";
 
 export default function ProjectPortfolio2() {
   const containedButtonStyle =
-    "rounded-full bg-stone-100 px-6 py-3 flex justify-center text-sm text-black m-2";
+    "rounded-full bg-stone-50 px-6 py-3 flex justify-center text-sm text-black m-2 shadow-2xl";
   const outlinedButtonStyle =
-    "rounded-full border-2 border-black px-6 py-3 flex justify-center text-sm text-black m-2";
+    "rounded-full border-2 border-black px-6 py-3 flex justify-center text-sm text-black m-2 shadow-2xl";
   return (
     <div className="bg-white h-screen w-screen overflow-hidden flex flex-col text-center">
       <div className="sm:hidden">
@@ -21,7 +21,7 @@ export default function ProjectPortfolio2() {
       <div className="flex-1 min-h-0 ">
         <div className="grid grid-cols-1 lg:grid-cols-3 h-full w-full gap-8 px-40">
           {/* Column 1 */}
-          <div className="bg-stone-100 flex flex-col min-h-0">
+          <div className="bg-stone-100 flex flex-col min-h-0 shadow-2xl">
             <div className="flex-1 min-h-0 overflow-y-auto mt-12">
               <div className=" space-y-4">
                 <div className=" p-6 py-16">
@@ -66,45 +66,76 @@ export default function ProjectPortfolio2() {
           </div>
 
           {/* Column 2 */}
-          <div className="bg-stone-200 flex flex-col min-h-0 mt-24">
-            <div className="flex-1 min-h-0 overflow-y-auto">
-              <div className=" space-y-4">
-                <div className="relative text-center ">
-                  <img src={trees} alt="trees" className="w-full h-full object-cover" />
-                  <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-white text-xl font-bold">
-                    <div className="p-6">TYLER'S TREE SERVICE</div>
-                    <div></div>
-                    <NavLink
+          <div className="bg-stone-100 flex flex-col min-h-0 mt-24 shadow-2xl">
+            <div className="flex flex-col h-full">
+              {/* Section 1 */}
+              <div className="relative text-center flex-none">
+                <img
+                  src={trees}
+                  alt="trees"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-white text-xl font-bold">
+                  <div className="p-6">TYLER'S TREE SERVICE</div>
+                  <NavLink
                     to="/treesolutions"
                     exact="true"
                     className={containedButtonStyle}
                   >
                     Learn More
                   </NavLink>
-                  </div>
-                  
                 </div>
+              </div>
 
-                <div className="pt-16 text-center font-bold text-xl text-black">
+              {/* Section 2 */}
+              <div className="p-6 flex-none">
+                <div className="pt-16 p-6 text-center font-bold text-xl text-black">
                   GITHUB GENERATOR
                 </div>
-                <div className="pt-16 text-center font-bold text-xl text-black">
+                <NavLink
+                  to="/github-profile-generator"
+                  exact="true"
+                  className={outlinedButtonStyle}
+                >
+                  Learn More
+                </NavLink>
+              </div>
+
+              {/* Section 3 (fills remaining space) */}
+              <div className="p-6 flex-1 flex flex-col justify-between">
+                <img
+                  src={twoOrMore}
+                  alt="twoORMore"
+                  className="w-full h-full object-cover"
+                />
+                <div className="text-center font-bold text-xl text-black p-6">
                   TWO OR MORE
                 </div>
+                <NavLink
+                  to="/twoormore"
+                  exact="true"
+                  className={outlinedButtonStyle}
+                >
+                  Learn More
+                </NavLink>
               </div>
             </div>
           </div>
 
           {/* Column 3 */}
-          <div className="bg-stone-400 flex flex-col min-h-0 pt-24 text-left p-6">
-            <div className="flex-1 min-h-0 overflow-y-auto">
-              <div className="p-6 space-y-4 text-justify">
-                Currently working on the production of two new products in the
-                Continuity Suite @ WILMAC Technologies :
+          <div className="bg-stone-400 flex flex-col min-h-0 pt-24 text-left p-6 shadow-2xl">
+            <div className="flex-1 min-h-0 overflow-y-auto text-left">
+              <div className="pt-16 p-6 font-bold text-3xl underline text-black text-center">
+                Current Work
               </div>
-              <div className="p-6 space-y-4">Continuity Replay</div>
-              <div className="p-6 space-y-4">
+              <div className="pt-16 p-6 text-center font-bold text-xl text-black">
+                Continuity Replay
+              </div>
+              <div className="pt-16 p-6 text-center font-bold text-xl text-black">
                 Continuity Workforce Management
+              </div>
+              <div className="pt-16 p-6 text-center font-bold text-xl text-black">
+                Cultivate
               </div>
             </div>
           </div>
