@@ -9,6 +9,12 @@ module.exports = {
         zinc :{
           200: 'indigo.950'
         },
+         brown: {
+          100: "brown.900",
+          400: "brown.700",
+          700: "brown.400",
+          900: "brown.100",
+        },
       }
     },
     fontFamily: {
@@ -22,6 +28,14 @@ module.exports = {
       
     },
     extend: {
+      colors :{
+        brown :{
+          100:"#796D63",
+          400: "#736356",
+          700: "#4C3E32",
+          900: "#423429"
+        }
+      },
       backgroundImage: {
         'main': "url('texturePaint.avif')"
       },

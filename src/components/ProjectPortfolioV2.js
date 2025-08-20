@@ -123,7 +123,7 @@ export default function ProjectPortfolio2() {
           </div>
 
           {/* Column 3 */}
-          <div className="bg-stone-400 flex flex-col min-h-0 pt-24 text-left p-6 shadow-2xl">
+          <div className="bg-brown-400 flex flex-col min-h-0 pt-24 text-left p-6 shadow-2xl">
             <div className="flex-1 min-h-0 overflow-y-auto text-left">
               <div className="pt-16 p-6 font-bold text-3xl underline text-black text-center">
                 Current Work
