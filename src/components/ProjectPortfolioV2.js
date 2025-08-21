@@ -8,6 +8,8 @@ import inspired from "../photos/photo20.avif";
 import preview from "../photos/githubgenerator.png";
 
 export default function ProjectPortfolio2() {
+  const isDisabled = true;
+
   const containedButtonStyle =
     "rounded-full bg-stone-50 px-6 py-3 flex justify-center text-sm text-black m-2 shadow-2xl";
   const outlinedButtonStyle =
@@ -67,7 +69,7 @@ export default function ProjectPortfolio2() {
 
           {/* Column 2 */}
           <div className="bg-stone-100 flex flex-col min-h-0 mt-24 shadow-2xl">
-            <div className="flex flex-col h-full">
+            <div className="flex-1 min-h-0 overflow-y-auto">
               {/* Section 1 */}
               <div className="relative text-center flex-none">
                 <img
@@ -123,10 +125,12 @@ export default function ProjectPortfolio2() {
           </div>
 
           {/* Column 3 */}
-          <div className="bg-brown-400 flex flex-col min-h-0 pt-24 text-left p-6 shadow-2xl">
-            <div className="flex-1 min-h-0 overflow-y-auto text-left">
-              <div className="pt-16 p-6 font-bold text-3xl underline text-black text-center">
-                Current Work
+          <div className="bg-stone-300 flex flex-col min-h-0 pt-24 text-left shadow-2xl">
+            <div className="flex-1 flex flex-col min-h-0 h-full overflow-y-auto text-left">
+              {/* section 1 */}
+              <div className="flex flex-col flex-none">
+                <div className="pt-16 p-6 font-bold text-3xl text-black text-center">
+                Current Work @ Wilmac Technologies
               </div>
               <div className="pt-16 p-6 text-center font-bold text-xl text-black">
                 Continuity Replay
@@ -134,9 +138,23 @@ export default function ProjectPortfolio2() {
               <div className="pt-16 p-6 text-center font-bold text-xl text-black">
                 Continuity Workforce Management
               </div>
-              <div className="pt-16 p-6 text-center font-bold text-xl text-black">
+              </div>
+              {/* section 2 */}
+              <div className="flex-1 bg-stone-50 p-6 text-stone-800">
+                <div className="pt-16 p-6 text-center font-bold text-xl text-black">
                 Cultivate
               </div>
+              <div >Define goals, track growth, and live with intention</div>
+              <NavLink
+                  to="/cultivate"
+                  exact="true"
+                  className={`${outlinedButtonStyle} ${isDisabled ? "pointer-events-none opacity-50" : ""}`}
+                  
+                >
+                  In Progress
+                </NavLink>
+              </div>
+              
             </div>
           </div>
         </div>
