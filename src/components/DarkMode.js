@@ -7,7 +7,7 @@ const DarkMode = () => {
     const [darkMode, setDarkMode] = useState(false);
     
     useEffect(() => {
-        if (Cookies.get('darkMode') == 'true') {
+        if (Cookies.get('darkMode') === 'true') {
             setDarkMode((darkMode) => true)
         } else {
             setDarkMode((darkMode) => false)

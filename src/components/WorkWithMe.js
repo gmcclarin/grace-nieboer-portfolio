@@ -3,7 +3,7 @@ import { useState } from "react"
 
 
 export const WorkWithMe = () => {
-    const [isHover, setIsHover] = useState(false);
+    const [, setIsHover] = useState(false);
 
     const hovering = () => {
         setIsHover(true);
@@ -19,7 +19,6 @@ export const WorkWithMe = () => {
             <div
             onMouseOver={hovering}
             onMouseOut={notHovering} 
-            // className={isHover? "flex flex-col scroll-x text-orange-700" : "flex flex-col text-orange-700"}
             className="flex flex-col scroll-x text-orange-700"
             >
             

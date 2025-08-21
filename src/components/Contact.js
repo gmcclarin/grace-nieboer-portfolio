@@ -7,7 +7,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import NavBar from "./NavBar";
 import MobileMenu from "./MobileMenu";
 import circle from "../photos/enormouscirclegradient.png";
-import CertModal from "./certModal";
+import CertModal from "./CertModal";
 import { useState } from "react";
 
 export default function Contact() {
