@@ -94,13 +94,23 @@ export default function ProjectPortfolio2() {
                 <div className="pt-16 p-6 text-center font-bold text-xl text-black">
                   GITHUB GENERATOR
                 </div>
-                <NavLink
+                <div className="p-6 text-center text-black">
+                  Deployed project that builds a custom special README for github profile 
+                </div>
+                <div className="flex justify-between items-center">
+                  <NavLink
                   to="/github-profile-generator"
                   exact="true"
                   className={outlinedButtonStyle}
                 >
-                  Learn More
+                  More
                 </NavLink>
+                <a className={outlinedButtonStyle} href="https://generate-github-profile-readme.netlify.app/" 
+                target="_blank"
+                rel="noopener noreferrer">DEPLOYED</a>
+                </div>
+                
+                
               </div>
 
               {/* Section 3 (fills remaining space) */}
@@ -140,7 +150,6 @@ export default function ProjectPortfolio2() {
                 </div>
                 <a
                   href="https://wilmactech.com/"
-                  r
                   target="_blank"
                   rel="noopener noreferrer"
                   className={containedButtonStyle}
