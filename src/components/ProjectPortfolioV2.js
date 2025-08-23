@@ -11,9 +11,9 @@ export default function ProjectPortfolio2() {
   const isDisabled = true;
 
   const containedButtonStyle =
-    "rounded-full bg-stone-50 px-6 py-3 flex justify-center text-sm text-black m-2 shadow-2xl";
+    "rounded-full bg-stone-50 px-6 py-3 flex justify-center text-sm text-black m-2 shadow-2xl transition duration-700 ease-in-out hover:scale-110";
   const outlinedButtonStyle =
-    "rounded-full border-2 border-black px-6 py-3 flex justify-center text-sm text-black m-2 shadow-2xl";
+    "rounded-full border-2 border-black px-6 py-3 flex justify-center text-sm text-black m-2 shadow-2xl transition duration-700 ease-in-out hover:scale-110";
   return (
     <div className="bg-white h-screen w-screen overflow-hidden flex flex-col text-center">
       <div className="sm:hidden">
