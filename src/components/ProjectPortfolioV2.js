@@ -53,7 +53,6 @@ export default function ProjectPortfolio2() {
                   <div className="p-6 space-y-4 text-center">
                     An organizational app to help with job searching, powered by web scrapers. 
                   </div>
-                  {/* <div className="flex justify-stretch"> */}
                   <NavLink
                     to="/jobsurge"
                     exact="true"
@@ -61,7 +60,6 @@ export default function ProjectPortfolio2() {
                   >
                     Learn More
                   </NavLink>
-                  {/* </div> */}
                 </div>
               </div>
             </div>

@@ -28,6 +28,17 @@ module.exports = {
       
     },
     extend: {
+       keyframes: {
+        'marquee-y': {
+          '0%':   { transform: 'translateY(0%)' },
+          '100%': { transform: 'translateY(-50%)' }, // scroll one full copy height
+        },
+      },
+      animation: {
+        'marquee-slow': 'marquee-y 50s linear infinite',
+        'marquee-med':  'marquee-y 35s linear infinite',
+        'marquee-fast': 'marquee-y 24s linear infinite',
+      },
       colors :{
         brown :{
           100:"#9D928B",
