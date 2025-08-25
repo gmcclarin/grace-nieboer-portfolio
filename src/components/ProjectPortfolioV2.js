@@ -35,7 +35,7 @@ export default function ProjectPortfolio2() {
                   </div>
                   <div className="p-6 space-y-4 text-cennter text-black">
                     Bringing color, texture, and inspiration together — one
-                    moodboard at a time
+                    moodboard at a time.
                   </div>
                   <NavLink
                     to="/inspiredinteriors"
@@ -51,7 +51,7 @@ export default function ProjectPortfolio2() {
                   <div className="font-bold text-xl py-6">JOB SURGE</div>
                   <Time />
                   <div className="p-6 space-y-4 text-center">
-                    web scraping working hard here
+                    An organizational app to help with job searching, powered by web scrapers. 
                   </div>
                   {/* <div className="flex justify-stretch"> */}
                   <NavLink
@@ -90,12 +90,12 @@ export default function ProjectPortfolio2() {
               </div>
 
               {/* Section 2 */}
-              <div className="p-6 flex-none">
+              <div className="p-6 py-16 flex-none">
                 <div className="pt-16 p-6 text-center font-bold text-xl text-black">
                   GITHUB GENERATOR
                 </div>
                 <div className="p-6 text-center text-black">
-                  Deployed project that builds a custom special README for github profile 
+                  Deployed project that can help build a custom special README to download or copy + paste to any github profile.
                 </div>
                 <div className="flex justify-between items-center">
                   <NavLink
@@ -114,7 +114,7 @@ export default function ProjectPortfolio2() {
               </div>
 
               {/* Section 3 (fills remaining space) */}
-              <div className="p-6 flex-1 flex flex-col justify-between">
+              <div className="p-6 py-16 flex-1 flex flex-col justify-between">
                 <img
                   src={twoOrMore}
                   alt="twoORMore"
@@ -138,7 +138,7 @@ export default function ProjectPortfolio2() {
           <div className="bg-stone-300 flex flex-col min-h-0 pt-24 text-left shadow-2xl">
             <div className="flex-1 flex flex-col min-h-0 h-full overflow-y-auto text-left">
               {/* section 1 */}
-              <div className="flex flex-col flex-none p-6">
+              <div className="flex flex-col flex-none p-6 py-16">
                 <div className="pt-16 p-6 font-bold text-3xl text-black text-center">
                   Current Work @ Wilmac Technologies
                 </div>
@@ -158,7 +158,7 @@ export default function ProjectPortfolio2() {
                 </a>
               </div>
               {/* section 2 */}
-              <div className="flex-1 bg-stone-50 p-6 text-stone-800">
+              <div className="flex-1 bg-stone-50 p-6 py-16 text-stone-800">
                 <div className="pt-16 p-6 text-center font-bold text-xl text-black">
                   Cultivate
                 </div>
