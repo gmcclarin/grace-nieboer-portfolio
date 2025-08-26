@@ -5,6 +5,7 @@ import Time from "./Time";
 import trees from "../photos/trees.png";
 import twoOrMore from "../photos/tomhome.png";
 import inspired from "../photos/photo20.avif";
+import AutoScroll from "./AutoScroll";
 // import preview from "../photos/githubgenerator.png";
 
 export default function ProjectPortfolio2() {
@@ -24,7 +25,7 @@ export default function ProjectPortfolio2() {
         <div className="grid grid-cols-1 lg:grid-cols-3 h-full w-full gap-8 px-40">
           {/* Column 1 */}
           <div className="bg-stone-100 flex flex-col min-h-0 shadow-2xl">
-            <div className="flex-1 min-h-0 overflow-y-auto mt-12">
+            <AutoScroll>
               <div className=" space-y-4">
                 <div className=" p-6 py-16">
                   <div className="p-6 text-center font-bold text-xl text-black">
@@ -51,7 +52,8 @@ export default function ProjectPortfolio2() {
                   <div className="font-bold text-xl py-6">JOB SURGE</div>
                   <Time />
                   <div className="p-6 space-y-4 text-center">
-                    An organizational app to help with job searching, powered by web scrapers. 
+                    An organizational app to help with job searching, powered by
+                    web scrapers.
                   </div>
                   <NavLink
                     to="/jobsurge"
@@ -62,12 +64,12 @@ export default function ProjectPortfolio2() {
                   </NavLink>
                 </div>
               </div>
-            </div>
+            </AutoScroll>
           </div>
 
           {/* Column 2 */}
           <div className="bg-stone-100 flex flex-col min-h-0 mt-24 shadow-2xl">
-            <div className="flex-1 min-h-0 overflow-y-auto">
+            <AutoScroll>
               {/* Section 1 */}
               <div className="relative text-center flex-none">
                 <img
@@ -93,22 +95,26 @@ export default function ProjectPortfolio2() {
                   GITHUB GENERATOR
                 </div>
                 <div className="p-6 text-center text-black">
-                  Deployed project that can help build a custom special README to download or copy + paste to any github profile.
+                  Deployed project that can help build a custom special README
+                  to download or copy + paste to any github profile.
                 </div>
                 <div className="flex justify-between items-center">
                   <NavLink
-                  to="/github-profile-generator"
-                  exact="true"
-                  className={outlinedButtonStyle}
-                >
-                  More
-                </NavLink>
-                <a className={outlinedButtonStyle} href="https://generate-github-profile-readme.netlify.app/" 
-                target="_blank"
-                rel="noopener noreferrer">DEPLOYED</a>
+                    to="/github-profile-generator"
+                    exact="true"
+                    className={outlinedButtonStyle}
+                  >
+                    More
+                  </NavLink>
+                  <a
+                    className={outlinedButtonStyle}
+                    href="https://generate-github-profile-readme.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    DEPLOYED
+                  </a>
                 </div>
-                
-                
               </div>
 
               {/* Section 3 (fills remaining space) */}
@@ -129,12 +135,12 @@ export default function ProjectPortfolio2() {
                   Learn More
                 </NavLink>
               </div>
-            </div>
+            </AutoScroll>
           </div>
 
           {/* Column 3 */}
           <div className="bg-stone-300 flex flex-col min-h-0 pt-24 text-left shadow-2xl">
-            <div className="flex-1 flex flex-col min-h-0 h-full overflow-y-auto text-left">
+            <AutoScroll>
               {/* section 1 */}
               <div className="flex flex-col flex-none p-6 py-16">
                 <div className="pt-16 p-6 font-bold text-3xl text-black text-center">
@@ -171,7 +177,7 @@ export default function ProjectPortfolio2() {
                   In Progress
                 </NavLink>
               </div>
-            </div>
+            </AutoScroll>
           </div>
         </div>
       </div>

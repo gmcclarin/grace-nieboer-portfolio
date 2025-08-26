@@ -3,7 +3,7 @@ import Home from './Home';
 import About from './About';
 import ProjectPortfolio from './ProjectPortfolio';
 import Contact from './Contact';
-import {Routes, Route} from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import NotFound from './NotFound';
 import InspiredInteriors from './InspiredInteriors';
 import TwoOrMore from './TwoOrMore';
