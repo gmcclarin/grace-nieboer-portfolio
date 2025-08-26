@@ -69,7 +69,7 @@ export default function ProjectPortfolio2() {
 
           {/* Column 2 */}
           <div className="bg-stone-100 flex flex-col min-h-0 mt-24 shadow-2xl">
-            <AutoScroll>
+            <AutoScroll reverse>
               {/* Section 1 */}
               <div className="relative text-center flex-none">
                 <img

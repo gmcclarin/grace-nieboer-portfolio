@@ -3,6 +3,7 @@ export default function AutoScroll({
   className = "",
   contentClassName = "",
   children,
+  reverse
 }) {
   const speedClass =
     speed === "slow"
@@ -10,6 +11,8 @@ export default function AutoScroll({
       : speed === "fast"
       ? "animate-marquee-fast"
       : "animate-marquee-med";
+
+  const dir = reverse ? "[animation-direction:reverse]" : "";
 
   return (
     <div
@@ -26,6 +29,7 @@ export default function AutoScroll({
         className={[
           "will-change-transform [transform:translateZ(0)]", // smoother on Chrome
           speedClass,
+          dir,
           // pause on hover; respect reduced motion
           "group-hover:[animation-play-state:paused] motion-reduce:animate-none",
         ].join(" ")}
