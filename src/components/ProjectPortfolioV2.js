@@ -138,8 +138,8 @@ export default function ProjectPortfolio2() {
           </div>
 
           {/* Column 3 */}
-          <div className="bg-stone-300 flex flex-col min-h-0 pt-24 text-left shadow-2xl">
-            <AutoScroll speed={34} showScrollbarOnHover contentClassName="space-y-0">
+          <div className="bg-stone-300 flex flex-col min-h-0  text-left shadow-2xl">
+            <AutoScroll speed={34} showScrollbarOnHover contentClassName="space-y-0 pt-24">
               {/* section 1 */}
               <div className="flex flex-col flex-none p-6 py-16">
                 <div className="pt-16 p-6 font-bold text-3xl text-black text-center">
