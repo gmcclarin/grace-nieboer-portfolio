@@ -25,7 +25,7 @@ export default function ProjectPortfolio2() {
         <div className="grid grid-cols-1 lg:grid-cols-3 h-full w-full gap-8 px-40">
           {/* Column 1 */}
           <div className="bg-stone-100 flex flex-col min-h-0 shadow-2xl">
-            <AutoScroll>
+            <AutoScroll speed={22} showScrollbarOnHover contentClassName="space-y-4 mt-12">
               <div className=" space-y-4">
                 <div className=" p-6 py-16">
                   <div className="p-6 text-center font-bold text-xl text-black">
@@ -69,8 +69,7 @@ export default function ProjectPortfolio2() {
 
           {/* Column 2 */}
           <div className="bg-stone-100 flex flex-col min-h-0 mt-24 shadow-2xl">
-            <AutoScroll reverse>
-              {/* Section 1 */}
+            <AutoScroll reverse speed={28} showScrollbarOnHover>              {/* Section 1 */}
               <div className="relative text-center flex-none">
                 <img
                   src={trees}
@@ -140,7 +139,7 @@ export default function ProjectPortfolio2() {
 
           {/* Column 3 */}
           <div className="bg-stone-300 flex flex-col min-h-0 pt-24 text-left shadow-2xl">
-            <AutoScroll>
+            <AutoScroll speed={34} showScrollbarOnHover contentClassName="space-y-0">
               {/* section 1 */}
               <div className="flex flex-col flex-none p-6 py-16">
                 <div className="pt-16 p-6 font-bold text-3xl text-black text-center">
