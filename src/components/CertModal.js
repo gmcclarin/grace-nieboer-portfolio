@@ -1,5 +1,3 @@
-
-
 const CertModal = ({showModal, setShowModal}) => {
     
   return (
