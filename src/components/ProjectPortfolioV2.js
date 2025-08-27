@@ -22,7 +22,7 @@ export default function ProjectPortfolio2() {
       </div>
       <NavBar />
       <div className="flex-1 min-h-0 ">
-        <div className="grid grid-cols-1 lg:grid-cols-3 h-full w-full gap-8 px-40">
+        <div className="grid sm:grid-cols-3 h-full w-full gap-4 sm:gap-2 lg:gap-8 sm:px-8 lg:px-40">
           {/* Column 1 */}
           <div className="bg-stone-100 flex flex-col min-h-0 shadow-2xl">
             <AutoScroll speed={22} showScrollbarOnHover contentClassName="space-y-4 mt-12">
@@ -68,7 +68,7 @@ export default function ProjectPortfolio2() {
           </div>
 
           {/* Column 2 */}
-          <div className="bg-stone-100 flex flex-col min-h-0 mt-24 shadow-2xl">
+          <div className="bg-stone-100 flex flex-col min-h-0 sm:mt-24 shadow-2xl">
             <AutoScroll reverse speed={28} showScrollbarOnHover>              {/* Section 1 */}
               <div className="relative text-center flex-none">
                 <img
