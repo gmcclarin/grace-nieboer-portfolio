@@ -22,7 +22,7 @@ export default function ProjectPortfolio2() {
       </div>
       <NavBar />
       <div className="flex-1 min-h-0 ">
-        <div className="grid sm:grid-cols-3 h-full w-full gap-4 sm:gap-2 lg:gap-8 sm:px-8 lg:px-40">
+        <div className="grid sm:grid-cols-3 h-full w-full gap-4 sm:gap-2 lg:gap-8 sm:px-8 xl:px-40">
           {/* Column 1 */}
           <div className="bg-stone-100 flex flex-col min-h-0 shadow-2xl">
             <AutoScroll speed={22} showScrollbarOnHover contentClassName="space-y-4 mt-12">
@@ -78,13 +78,22 @@ export default function ProjectPortfolio2() {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-white text-xl font-bold">
                   <div className="p-6">TYLER'S TREE SERVICE</div>
+                  <div className="flex justify-between items-center flex-wrap">
                   <NavLink
                     to="/treesolutions"
                     exact="true"
                     className={containedButtonStyle}
                   >
-                    Learn More
+                    More...
                   </NavLink>
+                  <a
+                  className={containedButtonStyle}
+                  href="https://tylerstreesolutions.com/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                    LIVE
+                  </a>
+                  </div>
                 </div>
               </div>
 
@@ -97,13 +106,13 @@ export default function ProjectPortfolio2() {
                   Deployed project that can help build a custom special README
                   to download or copy + paste to any github profile.
                 </div>
-                <div className="flex justify-between items-center">
+                <div className="">
                   <NavLink
                     to="/github-profile-generator"
                     exact="true"
                     className={outlinedButtonStyle}
                   >
-                    More
+                    More...
                   </NavLink>
                   <a
                     className={outlinedButtonStyle}
@@ -111,7 +120,7 @@ export default function ProjectPortfolio2() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    DEPLOYED
+                    LIVE
                   </a>
                 </div>
               </div>
