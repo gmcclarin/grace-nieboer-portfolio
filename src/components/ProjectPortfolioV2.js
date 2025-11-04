@@ -6,7 +6,6 @@ import trees from "../photos/trees.png";
 import twoOrMore from "../photos/tomhome.png";
 import inspired from "../photos/photo20.avif";
 import AutoScroll from "./AutoScroll";
-// import preview from "../photos/githubgenerator.png";
 
 export default function ProjectPortfolio2() {
   const isDisabled = true;

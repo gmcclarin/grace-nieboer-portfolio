@@ -90,7 +90,7 @@ function About() {
             onClick={handleOpenBefore}
             className="aboutbackground cursor-pointer w-1/5 h-1/2 bg-neutral-400 rounded-full transform transition duration-500 hover:scale-125 flex justify-center items-center overflow-hidden "
           >
-            <div className="flex items-end -rotate-90 font-black text-4xl sm:text-7xl text-orange-600 font-nyght ">
+            <div className="flex items-end -rotate-90 font-black text-4xl sm:text-6xl text-orange-600 font-nyght ">
               <p>background</p>
             </div>
           </div>
