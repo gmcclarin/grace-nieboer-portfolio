@@ -74,7 +74,7 @@ export default function AutoScroll({
   return (
     <div
       ref={containerRef}
-      className={`${scrollClasses} ${className}`}
+      className={`${scrollClasses} ${className} will-change-transform transform-gpu overflow-y-scroll overscroll-contain touch-none`}
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       onTouchStart={() => setPaused(true)}
