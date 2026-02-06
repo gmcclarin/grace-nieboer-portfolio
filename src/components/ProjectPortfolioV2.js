@@ -24,7 +24,11 @@ export default function ProjectPortfolio2() {
         <div className="grid sm:grid-cols-3 h-full w-full gap-4 sm:gap-2 lg:gap-8 sm:px-8 xl:px-40">
           {/* Column 1 */}
           <div className="bg-stone-100 flex flex-col min-h-0 shadow-2xl">
-            <AutoScroll speed={22} showScrollbarOnHover contentClassName="space-y-4 mt-12">
+            <AutoScroll
+              speed={22}
+              showScrollbarOnHover
+              contentClassName="space-y-4 mt-12"
+            >
               <div className=" space-y-4">
                 <div className=" p-6 py-16">
                   <div className="p-6 text-center font-bold text-xl text-black">
@@ -48,19 +52,22 @@ export default function ProjectPortfolio2() {
 
                 {/* JOB SURGE */}
                 <div className="bg-stone-400 p-6 py-16">
-                  <div className="font-bold text-xl py-6">JOB SURGE</div>
-                  <Time />
+                  <div className="font-bold text-xl py-6">DEPENDENCY DRIFT</div>
                   <div className="p-6 space-y-4 text-center">
-                    An organizational app to help with job searching, powered by
-                    web scrapers.
+                    A developer tool that detects **dependency drift** between
+                    declared dependencies (e.g. `package.json`) and resolved
+                    dependencies (e.g. `package-lock.json`) and detect outdated
+                    dependencies with update risk levels across GitHub
+                    repositories.
                   </div>
-                  <NavLink
-                    to="/jobsurge"
-                    exact="true"
-                    className={containedButtonStyle}
+                  <a
+                    className={outlinedButtonStyle}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/gmcclarin/dependency-drift"
                   >
-                    Learn More
-                  </NavLink>
+                    In Progress
+                  </a>
                 </div>
               </div>
             </AutoScroll>
@@ -68,7 +75,9 @@ export default function ProjectPortfolio2() {
 
           {/* Column 2 */}
           <div className="bg-stone-100 flex flex-col min-h-0 sm:mt-24 shadow-2xl">
-            <AutoScroll reverse speed={28} showScrollbarOnHover>              {/* Section 1 */}
+            <AutoScroll reverse speed={28} showScrollbarOnHover>
+              {" "}
+              {/* Section 1 */}
               <div className="relative text-center flex-none">
                 <img
                   src={trees}
@@ -78,28 +87,28 @@ export default function ProjectPortfolio2() {
                 <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-white text-xl font-bold">
                   <div className="p-6">TYLER'S TREE SERVICE</div>
                   <div className="flex justify-between items-center flex-wrap">
-                  <NavLink
-                    to="/treesolutions"
-                    exact="true"
-                    className={containedButtonStyle}
-                  >
-                    More...
-                  </NavLink>
-                  <a
-                  className={containedButtonStyle}
-                  href="https://tylerstreesolutions.com/"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                    LIVE
-                  </a>
+                    <NavLink
+                      to="/treesolutions"
+                      exact="true"
+                      className={containedButtonStyle}
+                    >
+                      More...
+                    </NavLink>
+                    <a
+                      className={containedButtonStyle}
+                      href="https://tylerstreesolutions.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      LIVE
+                    </a>
                   </div>
                 </div>
               </div>
-
               {/* Section 2 */}
               <div className="p-6 py-16 flex-none">
                 <div className="pt-16 p-6 text-center font-bold text-xl text-black">
-                  GITHUB GENERATOR
+                  GITHUB SPECIAL README GENERATOR
                 </div>
                 <div className="p-6 text-center text-black">
                   Deployed project that can help build a custom special README
@@ -123,7 +132,6 @@ export default function ProjectPortfolio2() {
                   </a>
                 </div>
               </div>
-
               {/* Section 3 (fills remaining space) */}
               <div className="p-6 py-16 flex-1 flex flex-col justify-between">
                 <img
@@ -147,7 +155,11 @@ export default function ProjectPortfolio2() {
 
           {/* Column 3 */}
           <div className="bg-stone-300 flex flex-col min-h-0  text-left shadow-2xl">
-            <AutoScroll speed={34} showScrollbarOnHover contentClassName="space-y-0 pt-24">
+            <AutoScroll
+              speed={34}
+              showScrollbarOnHover
+              contentClassName="space-y-0 pt-24"
+            >
               {/* section 1 */}
               <div className="flex flex-col flex-none p-6 py-16">
                 <div className="pt-16 p-6 font-bold text-3xl text-black text-center">
