@@ -1,7 +1,6 @@
 import MobileMenu from "./MobileMenu";
 import NavBar from "./NavBar";
 import { NavLink } from "react-router-dom";
-import Time from "./Time";
 import trees from "../photos/trees.png";
 import twoOrMore from "../photos/tomhome.png";
 import inspired from "../photos/photo20.avif";
@@ -57,7 +56,7 @@ export default function ProjectPortfolio2() {
                     A developer tool that detects **dependency drift** between
                     declared dependencies (e.g. `package.json`) and resolved
                     dependencies (e.g. `package-lock.json`) and detect outdated
-                    dependencies with update risk levels across GitHub
+                    dependencies with updated risk levels across GitHub
                     repositories.
                   </div>
                   <a
