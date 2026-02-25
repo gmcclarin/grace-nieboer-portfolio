@@ -10,6 +10,7 @@ import JobSurge from './JobSurge';
 import TreeSolutions from './TreeSolutions'
 import GithubGenerator from "./GithubGenerator.js"
 import ProjectPortfolio2 from './ProjectPortfolioV2.js';
+import HomeV2 from '../pages/HomeV2.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <div className="bg-neutral-200" >
         <Routes>
           <Route exact path="/" element={<Home />}/>
+          <Route exact path="v2" element={< HomeV2 />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />}/>
           <Route path="portfolio/*" element={<ProjectPortfolio2 />}/>
