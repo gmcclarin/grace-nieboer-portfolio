@@ -22,6 +22,7 @@ module.exports = {
       'display' : 'Bodoni Moda, serif',
       'fun' : 'font-family, serif',
       'nyght' : 'nyght',
+      'serif': ['Noto Serif Display']
     },
     textColors : {
       'primary' : "#22292f",

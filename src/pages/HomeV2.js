@@ -12,13 +12,31 @@ import Navigation from "../components/Navigation";
  * 
  */
 
+const bg1 = "https://images.unsplash.com/photo-1771694583915-78f9b39fd6d1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMTB8fHxlbnwwfHx8fHw%3D"
+
 export default function HomeV2() {
     return (
-        <div>
-            {/* top image placeholder beauty */}
-
-            {/* Nav  */}
+        <div className="min-h-screen">
+            {/* HERO section*/}
+        <div className="bg-cover bg-center h-[75vh]"
+        style={{ backgroundImage: `url(${bg1})` }}
+        >
             <Navigation />
+            <div className="p-4 text-5xl font-serif text-white">
+                <p>Grace</p>
+                <p>McClarin</p>
+            </div>
         </div>
+
+        {/* Pretty fluff section */}
+
+
+        {/* Portfolio words with link */}
+
+
+        {/* photos for about  */}
+
+
+         </div>
     )
 }
