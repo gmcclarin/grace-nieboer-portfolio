@@ -11,22 +11,24 @@ import TreeSolutions from './TreeSolutions'
 import GithubGenerator from "./GithubGenerator.js"
 import ProjectPortfolio2 from './ProjectPortfolioV2.js';
 import HomeV2 from '../pages/HomeV2.js';
+import UnderConstruction from '../pages/UnderConstruction.js';
 
 function App() {
   return (
     <div>
-    <div className="bg-neutral-200" >
+    <div className="" >
         <Routes>
-          <Route exact path="/" element={<Home />}/>
+          <Route exact path="/" element={<UnderConstruction />} />
+          {/* <Route exact path="/" element={<Home />}/> */}
           <Route exact path="v2" element={< HomeV2 />} />
-          <Route path="about" element={<About />} />
+          {/* <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />}/>
           <Route path="portfolio/*" element={<ProjectPortfolio2 />}/>
           <Route path="/inspiredinteriors" element={<InspiredInteriors />}/>
           <Route path="/jobsurge" element={<JobSurge />}/>
           <Route path="/twoormore" element={<TwoOrMore />}/>
           <Route path="/treesolutions" element={<TreeSolutions />}/>
-          <Route path="/github-profile-generator" element={<GithubGenerator />} />
+          <Route path="/github-profile-generator" element={<GithubGenerator />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
     </div>
