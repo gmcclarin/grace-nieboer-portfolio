@@ -2,9 +2,21 @@ import Button from "../components/Button";
 import Navigation from "../components/Navigation";
 import me1 from "../photos/Optimized-lookatcameraportfolio3.png";
 import coffee from "../photos/escalatorcoffee.png";
+import ex1 from "../photos/cameraFlatLay.jpeg";
+import ex2 from "../photos/laptoplove.png";
+import ex3 from "../photos/Optimized-starbsandcaution.png";
+import ex4 from "../photos/fuego.jpeg";
+import california from "../photos/home/california.png";
+import palms from "../photos/home/palm-trees.png";
+import pellegrino from "../photos/home/pellegrino.png";
+import bandw from "../photos/home/black-and-white-flowers.png" 
+import waiting from "../photos/home/waitingforthetrain.png"
 
-const bg1 =
-  "https://images.unsplash.com/photo-1771694583915-78f9b39fd6d1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMTB8fHxlbnwwfHx8fHw%3D";
+const placeholder2 =
+  "https://images.unsplash.com/photo-1771076402741-c4220c3c4748?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMzh8fHxlbnwwfHx8fHw%3D";
+const placeholder3 =
+  "https://images.unsplash.com/photo-1771580425842-36380c98efc4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNDN8fHxlbnwwfHx8fHw%3D";
+
 
 export default function HomeV2() {
   return (
@@ -12,7 +24,7 @@ export default function HomeV2() {
       {/* HERO section*/}
       <div
         className="bg-cover bg-center h-[75vh]"
-        style={{ backgroundImage: `url(${bg1})` }}
+        style={{ backgroundImage: `url(${california})` }}
       >
         <Navigation />
         <div className="p-4 text-5xl font-serif text-white">
@@ -36,7 +48,7 @@ export default function HomeV2() {
         {/* image of me and something I like */}
         <img
           alt="me"
-          src={me1}
+          src={waiting}
           className="w-full h-auto col-span-1 md:col-span-4"
         />
         <div className=" col-span-1 md:col-span-2">
@@ -50,19 +62,61 @@ export default function HomeV2() {
 
       {/* Portfolio words with link */}
       <div className="bg-amber-900 min-h-[25vh] grid grid-cols-5 grid-rows-3 gap-6 p-8 text-white">
-        
         <div className="col-start-3 row-start-1 flex items-center justify-center text-justify">
           <p className="max-w-md">
-            This will be some more text about the work that I have done, and why I am proud of
-            each item.
+            This will be some more text about the work that I have done, and why
+            I am proud of each item.
           </p>
         </div>
         <div className="col-span-5 row-start-3 flex itens-center justify-center text-9xl font-serif">
-            PORTFOLIO
+          PORTFOLIO
         </div>
       </div>
 
-      {/* photos for about  */}
+      {/* photos in mason-ish layout for about  */}
+
+      <div className="grid grid-cols-3 gap-3 bg-black p-3 grid-rows-4 aspect-[3/2]">
+        <img
+          alt="1"
+          src={placeholder3}
+          className="row-span-2 col-span-2 w-full h-full object-cover"
+        />
+        <img
+          alt="1"
+          src={pellegrino}
+          className="row-span-2 w-full h-full object-cover"
+        />
+        <img
+          alt="1"
+          src={bandw}
+          className="row-span-2 w-full h-full object-cover"
+        />
+        <img
+          alt="1"
+          src={placeholder2}
+          className="row-span-2 col-span-2 w-full h-full object-cover"
+        />
+      </div>
+
+      {/* 5th section */}
+      <div className="h-[35vh] grid grid-cols-3 grid-rows-4 ">
+        <div className=" gap-2 col-start-2 col-span-1 row-span-2 row-start-2 flex flex-col items-center justify-center">
+          <p className="font-serif text-2xl text-justify flex items-center">
+            Lorem ipsum excaliber gargantuan the quick brown fox jumps over the
+            lazt turtle
+          </p>
+          <p className="mx-auto">SOMETHING</p>
+          <Button className="mx-auto" label="ABOUT" />
+        </div>
+      </div>
+
+      {/* 6th section */}
+      <div className="grid grid-cols-4 grid-rows-3 items-center justify-center">
+        <p className="col-start-2 col-span-2 text-8xl font-serif">SOME KIND OF QUOTE HERE</p>
+        <img alt="about me" className="col-start-2 col-span-1 row-start-2 w-full h-full object-cover"  src={ex4}/>
+      </div>
+
+      {/* 7th section  */}
     </div>
   );
 }
