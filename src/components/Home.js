@@ -5,7 +5,7 @@ import { WorkWithMe } from "./WorkWithMe";
 import DarkMode from "./DarkMode";
 import { useState } from "react";
 
-import fuego from "../photos/fuego.jpeg";
+import fuego from "../photos/home/fuego.jpg";
 import about from "../photos/Optimized-lookatcameraportfolio3.png";
 import laptop from "../photos/laptoplove.png"
 

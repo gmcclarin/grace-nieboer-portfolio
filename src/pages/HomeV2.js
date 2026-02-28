@@ -1,19 +1,21 @@
 import Button from "../components/Button";
 import Navigation from "../components/Navigation";
-import me1 from "../photos/Optimized-lookatcameraportfolio3.png";
 import coffee from "../photos/escalatorcoffee.png";
-import ex1 from "../photos/cameraFlatLay.jpeg";
 import ex2 from "../photos/laptoplove.png";
 import ex3 from "../photos/Optimized-starbsandcaution.png";
-import ex4 from "../photos/fuego.jpeg";
+import fuego from "../photos/home/fuego.jpg";
 import california from "../photos/home/california.png";
 import palms from "../photos/home/palm-trees.png";
 import pellegrino from "../photos/home/pellegrino.png";
 import bandw from "../photos/home/black-and-white-flowers.png" 
 import waiting from "../photos/home/waitingforthetrain.png"
+import mag from "../photos/home/mag.jpeg"
+import vogue from "../photos/home/vogue.jpeg"
+import me from "../photos/home/me.jpeg"
+import boston from "../photos/home/boston-art.jpeg";
+import roses from "../photos/home/roses.jpeg";
 
-const placeholder2 =
-  "https://images.unsplash.com/photo-1771076402741-c4220c3c4748?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMzh8fHxlbnwwfHx8fHw%3D";
+
 const placeholder3 =
   "https://images.unsplash.com/photo-1771580425842-36380c98efc4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNDN8fHxlbnwwfHx8fHw%3D";
 
@@ -24,10 +26,10 @@ export default function HomeV2() {
       {/* HERO section*/}
       <div
         className="bg-cover bg-center h-[75vh]"
-        style={{ backgroundImage: `url(${california})` }}
+        style={{ backgroundImage: `url(${boston})` }}
       >
         <Navigation />
-        <div className="p-4 text-5xl font-serif text-white">
+        <div className="p-8 text-6xl font-serif text-white">
           <p>Grace</p>
           <p>McClarin</p>
         </div>
@@ -35,15 +37,15 @@ export default function HomeV2() {
 
       {/* Pretty fluff section */}
       <div className="max-w-6xl mx-auto p-6 grid grid-cols-2 md:grid-cols-12 gap-5 items-start">
-        <div className="col-span-2 md:col-span-3 ">
+        <div className="col-span-2 md:col-span-4 ">
           <p className="text-3xl font-serif mb-5">
-            SOME BIG BAD WORDS ABOUT ME GO HERE
+            I’m drawn to thoughtful design, quiet details, and building things that feel both useful and human.
           </p>
           <Button label="More about me" />
         </div>
 
         {/* EMPTY SPACER */}
-        <div className="hidden md:block md:col-span-3" />
+        <div className="hidden md:block md:col-span-2" />
 
         {/* image of me and something I like */}
         <img
@@ -88,12 +90,12 @@ export default function HomeV2() {
         />
         <img
           alt="1"
-          src={bandw}
+          src={mag}
           className="row-span-2 w-full h-full object-cover"
         />
         <img
           alt="1"
-          src={placeholder2}
+          src={vogue}
           className="row-span-2 col-span-2 w-full h-full object-cover"
         />
       </div>
@@ -113,7 +115,7 @@ export default function HomeV2() {
       {/* 6th section */}
       <div className="grid grid-cols-4 grid-rows-3 items-center justify-center">
         <p className="col-start-2 col-span-2 text-8xl font-serif">SOME KIND OF QUOTE HERE</p>
-        <img alt="about me" className="col-start-2 col-span-1 row-start-2 w-full h-full object-cover"  src={ex4}/>
+        <img alt="about me" className="col-start-2 col-span-1 row-start-2 w-full h-full object-cover"  src={fuego}/>
       </div>
 
       {/* 7th section  */}
