@@ -111,17 +111,31 @@ export default function HomeV2() {
       </div>
 
       {/* 6th section */}
-      <div className="grid grid-cols-4 grid-rows-3 items-center justify-center">
-        <p className="col-start-2 col-span-2 text-3xl sm:text-5xl md:text-7xl lg:text-8xl leading-tight text-center md:text-left py-20 md:py-28 font-serif">
-         GOOD DESIGN SHOULD FEEL INEVITABLE
-        </p>
-        <p>I design and build — from interface to implementation — working comfortably across both creative and technical layers.</p>
-        <img
-          alt="about me"
-          className="col-start-2 col-span-2 row-start-2 w-full h-full object-cover"
-          src={fuego2}
-        />
-      </div>
+      {/* 6th section */}
+<div className="py-24 md:py-32 px-6 grid md:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
+
+  {/* LEFT: Philosophy */}
+  <div>
+    <p className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight font-serif tracking-tight">
+      Good design should feel inevitable.
+    </p>
+
+    <p className="mt-6 text-base md:text-lg leading-relaxed max-w-md">
+      I design and build — from interface to implementation — working
+      comfortably across both creative and technical layers.
+    </p>
+  </div>
+
+  {/* RIGHT: Image */}
+  <div className="aspect-[4/5] w-full">
+    <img
+      alt="about me"
+      src={fuego2}
+      className="w-full h-full object-cover"
+    />
+  </div>
+
+</div>
 
       {/* 7th section  */}
     </div>
