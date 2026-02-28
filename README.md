@@ -1,7 +1,10 @@
 # Portfolio
 
+
 ## About
-Front End web client built with React in JavaScript to showcase favorite fullstack projects, both completed and in progress.
+Designing and engineering digital experiences that remain human — even as technology accelerates.
+
+This front end web client was built with React in Javascript to showcase a few favorite fullstack projects and current work
 
 ### Built With
 - React.js
@@ -14,7 +17,7 @@ Front End web client built with React in JavaScript to showcase favorite fullsta
 
 
 ### Features Completed
- - Project Prtfolio displaying works of and projects
+ - Project Portfolio displaying works and projects
  - 404 Not-Found 'catchall'
  - Responsive UX/UI design styled with Tailwind CSS, mobile-friendly
  - Dark Mode
