@@ -22,7 +22,7 @@ export default function HomeV2() {
     <div className="min-h-screen">
       {/* HERO section*/}
       <div
-        className="bg-cover bg-center h-[60vh] md:h-[75vh] lg:h-[85vh]"
+        className="bg-cover bg-center h-[60vh] md:h-[75vh]"
         style={{ backgroundImage: `url(${boston})` }}
       >
         <Navigation />
@@ -48,11 +48,11 @@ export default function HomeV2() {
         {/* image of me and something I like */}
         <img
           alt="me"
-          src={waiting}
+          src={california}
           className="w-full h-auto col-span-1 md:col-span-4"
         />
         <div className=" col-span-1 md:col-span-2">
-          <img alt="coffee" src={coffee} className="w-full h-auto" />
+          <img alt="coffee" src={me} className="w-full h-auto" />
           <p className="text-sm md:text-base lg:text-lg leading-relaxed">
             As AI reshapes how we build, I’m focused on ensuring what we build
             still serves people first.
@@ -61,15 +61,15 @@ export default function HomeV2() {
       </div>
 
       {/* Portfolio words with link */}
-      <div className="bg-amber-900 min-h-[25vh] grid md:grid-cols-5 grid-cols-3 grid-rows-3 gap-6 p-8 text-white">
-        <div className="col-span-3 md:col-span-3 lg:col-span-1 md:col-start-2 lg:col-start-3 row-start-1 flex items-center justify-center text-justify">
-          <p className="max-w-md md:max-w-lg text-base md:text-lg leading-relaxed">
+      <div className="bg-amber-900 min-h-[25vh] grid md:grid-cols-4 grid-cols-4 grid-rows-3 gap-6 p-8 text-white">
+        <div className="col-span-2 col-start-2 row-start-1 flex items-center justify-center text-justify">
+          <p className="max-w-md md:max-w-lg text-base md:text-lg lg:text-2xl leading-relaxed">
             In a rapidly evolving digital landscape — shaped increasingly by
             automation and AI — I care about building technology that remains
             human at its core. My work balances systems thinking with empathy.
           </p>
         </div>
-        <div className="col-span-3 md:col-span-5 row-start-3 flex items-center justify-center text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-serif">
+        <div className="col-span-5 row-start-3 flex items-center justify-center text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-serif">
           PORTFOLIO
         </div>
       </div>
