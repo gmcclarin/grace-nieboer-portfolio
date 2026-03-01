@@ -7,10 +7,9 @@ import TwoOrMore from './TwoOrMore';
 import JobSurge from './JobSurge';
 import TreeSolutions from './TreeSolutions'
 import GithubGenerator from "./GithubGenerator.js"
-import ProjectPortfolio2 from './ProjectPortfolioV2.js';
-import HomeV2 from '../pages/HomeV2.js';
+import Portfolio from '../pages/Portfolio.js';
+import HomeV2 from '../pages/Home.js';
 import UnderConstruction from '../pages/UnderConstruction.js';
-import Navigation from './Navigation.js';
 
 function App() {
   return (
@@ -21,9 +20,10 @@ function App() {
           {/* <Route exact path="/" element={<Home />}/> */}
            <Route exact path="v2" element={< HomeV2 />} />
            <Route path="about" element={<About />} />
+          
+          <Route path="portfolio/*" element={<Portfolio />}/>
            {/* 
-          <Route path="portfolio/*" element={<ProjectPortfolio2 />}/>
-          <Route path="/inspiredinteriors" element={<InspiredInteriors />}/>
+           <Route path="/inspiredinteriors" element={<InspiredInteriors />}/>
           <Route path="/jobsurge" element={<JobSurge />}/>
           <Route path="/twoormore" element={<TwoOrMore />}/>
           <Route path="/treesolutions" element={<TreeSolutions />}/>

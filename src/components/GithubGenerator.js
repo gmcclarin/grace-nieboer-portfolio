@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
 import { RevealOnScroll } from "./RevealOnScroll";
-import instructionsDark from "../photos/generatorinstructionsDark.png"
-import instructionsLight from "../photos/generatorInstructions.png"
-import preview from "../photos/githubgenerator.png"
+import instructionsDark from "../assets/images/portfolio/generatorinstructionsDark.png"
+import instructionsLight from "../assets/images/portfolio/generatorInstructions.png"
+import preview from "../assets/images/portfolio/githubgenerator.png"
 
 export default function GithubGenerator() {
   return (

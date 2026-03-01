@@ -1,9 +1,9 @@
 
 import { NavLink } from "react-router-dom";
-import explore from '../photos/explorepage.png'
-import palette from '../photos/color_palette.png'
-import moodboard1 from '../photos/moodboardexample.png'
-import moodboard2 from '../photos/moodboard2.png'
+import explore from '../assets/images/portfolio/explorepage.png'
+import palette from '../assets/images/portfolio/color_palette.png'
+import moodboard1 from '../assets/images/portfolio/moodboardexample.png'
+import moodboard2 from '../assets/images/portfolio/moodboard2.png'
 import { RevealOnScroll } from "./RevealOnScroll";
 
 export default function InspiredInteriors () {

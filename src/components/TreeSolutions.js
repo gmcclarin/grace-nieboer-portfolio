@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
 import { RevealOnScroll } from "./RevealOnScroll";
-import contact from "../photos/contact.png";
-import marquis from "../photos/marquis.png";
-import trees from "../photos/trees.png";
+import contact from "../assets/images/portfolio/contact.png";
+import marquis from "../assets/images/portfolio/marquis.png";
+import trees from "../assets/images/portfolio/trees.png";
 
 export default function TreeSolutions() {
   return (

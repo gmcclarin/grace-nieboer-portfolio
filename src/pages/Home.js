@@ -1,23 +1,17 @@
 import Button from "../components/Button";
 import Navigation from "../components/Navigation";
-import coffee from "../photos/escalatorcoffee.png";
-import laptop from "../photos/laptoplove.png";
-import fuego from "../photos/home/fuego.jpg";
-import california from "../photos/home/california.png";
-import palms from "../photos/home/palm-trees.png";
-import pellegrino from "../photos/home/pellegrino.png";
-import waiting from "../photos/home/waitingforthetrain.png";
-import mag from "../photos/home/mag.jpeg";
-import vogue from "../photos/home/vogue.jpeg";
-import me from "../photos/home/me.jpeg";
-import boston from "../photos/home/boston-art.jpeg";
-import roses from "../photos/home/roses.jpeg";
-import fuego2 from "../photos/home/fuego2.jpeg";
-import laptop2 from "../photos/home/laptop2.jpeg";
+import california from "../assets/images/home/california.png";
+import pellegrino from "../assets/images/home/pellegrino.png";
+import mag from "../assets/images/home//mag.jpeg";
+import vogue from "../assets/images/home//vogue.jpeg";
+import me from "../assets/images/home/me.jpeg";
+import boston from "../assets/images/home/boston-art.jpeg";
+import fuego2 from "../assets/images/home/fuego2.jpeg";
+import laptop2 from "../assets/images/home/laptop2.jpeg";
 import Footer from "../components/Footer";
 
 
-export default function HomeV2() {
+export default function Home() {
   return (
     <div className="min-h-screen">
       {/* HERO section*/}

@@ -1,8 +1,8 @@
 
 import { NavLink } from "react-router-dom";
-import about from '../photos/abouttwoormore.png'
-import why from '../photos/thewhy.png'
-import meet from '../photos/meetbrian.png'
+import about from '../assets/images/portfolio/abouttwoormore.png'
+import why from '../assets/images/portfolio/thewhy.png'
+import meet from '../assets/images/portfolio/meetbrian.png'
 import { RevealOnScroll } from "./RevealOnScroll";
 
 

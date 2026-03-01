@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import Time from "./Time";
-import todos from '../photos/todos.png'
+import todos from '../assets/images/portfolio/todos.png'
 import { RevealOnScroll } from "./RevealOnScroll";
 
 export default function JobSurge () {

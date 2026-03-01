@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
-import portrait from "../photos/home/me.jpeg";
+import portrait from "../assets/images/home/me.jpeg";
 
 export default function About() {
   return (

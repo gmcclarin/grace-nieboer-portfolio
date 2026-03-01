@@ -1,4 +1,4 @@
-import { useRevealOnScreen } from "./useRevealOnScreen";
+import { useRevealOnScreen } from "../hooks/useRevealOnScreen"
 
 
 const RevealOnScroll = ({children}) => {

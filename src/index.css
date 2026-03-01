@@ -21,36 +21,12 @@ body {
   height: 100%
   }
 
-#treeportfoliosection {
-    background-image: url('https://images.unsplash.com/photo-1702802564238-50664a45bf63?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-  }
 
-#portsection1 {
-  background-image: url('./photos/photo20.avif');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+
+
 
 #ellipse {
   border-radius: 50%;
-}
-
-.portsection3 {
-  background-image: url('./photos/moon.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center;
-}
-
-#home-about {
-  background-image: url('./photos/starbsandcaution.png');
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .video-element {
@@ -59,27 +35,6 @@ body {
   object-fit: cover;
 }
 
-#inspfirstsection {
-  background-image: url('./photos/photo20.avif');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#twofirstsection {
-    background-image: url('./photos/tomhome.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-
-#treeSolutionsPortfolio {
-  background-image: url('./photos/trees.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 @keyframes swish {
   to {
@@ -93,42 +48,6 @@ body {
   opacity: 0;
   transform: translateY(3rem);
   animation: swish 2s ease .5s forwards;
-}
-
-.aboutabout{
-  background-image: url('./photos/Optimized-lookatcameraportfolio3.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.aboutbackground {
-  background-image: url('./photos/Optimized-starbsandcaution.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-}
-
-.aboutnow {
-  background-image: url('./photos/Optimized-laptoplove.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.aboutconnect {
-  background-image: url('./photos/Optimized-portfolio5.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.home {
-  background-image: url('./photos/colorful-noise.png');
-  background-repeat: no-repeat;
-  background-size:contain;
-  background-position: center;
 }
 
 input:checked ~ .dot {
