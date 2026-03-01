@@ -7,9 +7,9 @@ export default function Navigation ({fontColor}) {
         style={{
             color:fontColor
         }}>
-            <NavigationLink label="Home"/>
-            <NavigationLink label="About" />
-            <NavigationLink label="Portfolio" />
+            <NavigationLink label="Home" href="/v2"/>
+            <NavigationLink label="About" href="/about" />
+            <NavigationLink label="Portfolio" href="/portfolio" />
         </div>
     )
 }

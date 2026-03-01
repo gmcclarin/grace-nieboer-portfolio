@@ -25,7 +25,7 @@ export default function HomeV2() {
         className="bg-cover bg-center h-[60vh] md:h-[75vh]"
         style={{ backgroundImage: `url(${boston})` }}
       >
-        <Navigation />
+        <Navigation fontColor="white" />
         <div className="p-6 md:p-8 text-4xl md:text-6xl lg:text-7xl font-serif text-white">
           <p>Grace</p>
           <p>McClarin</p>
