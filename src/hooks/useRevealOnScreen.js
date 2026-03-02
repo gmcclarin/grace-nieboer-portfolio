@@ -18,10 +18,11 @@ const useRevealOnScreen = (options) => {
 
         return () => {
             if(ref.current) {
+                // eslint-disable-next-line react-hooks/exhaustive-deps
                 scrollObserver.unobserve(ref.current)
             }
         }
-    }, [])
+    }, [options])
 
 
 

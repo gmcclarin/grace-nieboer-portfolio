@@ -1,12 +1,15 @@
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
-import placeholder1 from "../assets/images/portfolio/twoormorebackground.png";
+import interiors from "../assets/images/portfolio/inspired-interiors-home.avif";
+import githubgenerator from "../assets/images/portfolio/githubgenerator.png";
+import trees from "../assets/images/portfolio/trees.png";
+import twoOrMore from "../assets/images/portfolio/tomhome.png";
+import depdrift from "../assets/images/portfolio/dep-drift.png";
 
 export default function Portfolio() {
   return (
     <div>
       <Navigation fontColor="black" />
-      {/* HERO */}
       {/* HERO */}
       <section className="px-6 md:px-8 pt-24 pb-16">
         <h1 className="text-6xl md:text-8xl lg:text-9xl font-serif tracking-tight">
@@ -20,19 +23,29 @@ export default function Portfolio() {
           <ProjectCard
             title="Inspired Interiors"
             description="Full-stack application designed for clarity, accessibility, and scale."
-            imageUrl={placeholder1}
+            imageUrl={interiors}
           />
           <ProjectCard
-            title="Design System"
-            description="Modular UI system built with structure and restraint."
-            imageUrl="/project2.jpg"
+            title="Dependency Drift"
+            description="A full-stack developer tool that detects dependency drift between declared and resolved packages. Designed using Hexagonal Architecture to isolate domain logic and surface production risk early."
+            imageUrl={depdrift}
           />
 
           <ProjectCard
-            title="Cloud Migration"
+            title="Github Special README generator"
             description="AWS-based architecture focused on reliability and governance."
-            imageUrl="/project3.jpg"
+            imageUrl={githubgenerator}
           />
+          <ProjectCard
+          title="Tylers Tree Solutions"
+          description="A custom site built for a local tree service company, designed to showcase their services and attract new customers."
+           imageUrl={trees}
+           />
+           <ProjectCard
+           title="Two Or More"
+           description="A custom application designed for a grass-roots organization in Michigan" 
+           imageUrl={twoOrMore}
+           />
         </div>
       </section>
 
@@ -42,7 +55,7 @@ export default function Portfolio() {
 }
 
 const ProjectCard = ({ title, description, imageUrl }) => (
-  <div className="snap-start flex-shrink-0 w-[80vw] md:w-[50vw] lg:w-[40vw] group cursor-pointer transition-all duration-500">
+  <div className="snap-start flex-shrink-0 w-[65vw] md:w-[35vw] lg:w-[28vw group cursor-pointer transition-all duration-500">
     {/* Image Container */}
     <div className="aspect-[4/3] overflow-hidden">
       <img
