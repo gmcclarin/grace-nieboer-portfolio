@@ -25,6 +25,7 @@ export default function Portfolio() {
             title="Inspired Interiors"
             description="Full-stack intreior design application designed for exploration, inspiration, and planning."
             imageUrl={interiors}
+            path="/portfolio/inspired-interiors"
           />
           <ProjectCard
             title="Dependency Drift"
@@ -37,16 +38,19 @@ export default function Portfolio() {
             title="Github Special README generator"
             description="A polished web app for generating structured, styled GitHub profile READMEs with live markdown preview, guided prompts, and export-ready formatting."
             imageUrl={githubgenerator}
+            path="/portfolio/github-profile-generator"
           />
           <ProjectCard
           title="Tylers Tree Solutions"
           description="A custom site built for a local tree service company, designed to showcase their services and attract new customers."
            imageUrl={trees}
+           path="/portfolio/tree-solutions"
            />
            <ProjectCard
            title="Two Or More"
            description="A custom application designed for a grass-roots organization in Michigan" 
            imageUrl={twoOrMore}
+           path="/portfolio/two-or-more"
            />
         </div>
       </section>
