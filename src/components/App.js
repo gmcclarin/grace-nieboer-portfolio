@@ -7,6 +7,7 @@ import TwoOrMore from './TwoOrMore';
 import JobSurge from './JobSurge';
 import TreeSolutions from './TreeSolutions'
 import GithubGenerator from "./GithubGenerator.js"
+import DependencyDrift from '../pages/DependencyDrift.js';
 import Portfolio from '../pages/Portfolio.js';
 import HomeV2 from '../pages/Home.js';
 import UnderConstruction from '../pages/UnderConstruction.js';
@@ -21,7 +22,8 @@ function App() {
            <Route exact path="v2" element={< HomeV2 />} />
            <Route path="about" element={<About />} />
           
-          <Route path="portfolio/*" element={<Portfolio />}/>
+          <Route path="portfolio" element={<Portfolio />}/>
+          <Route path="/portfolio/dependency-drift" element={<DependencyDrift />}/>
            {/* 
            <Route path="/inspiredinteriors" element={<InspiredInteriors />}/>
           <Route path="/jobsurge" element={<JobSurge />}/>

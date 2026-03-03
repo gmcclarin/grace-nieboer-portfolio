@@ -5,6 +5,7 @@ import githubgenerator from "../assets/images/portfolio/githubgenerator.png";
 import trees from "../assets/images/portfolio/trees.png";
 import twoOrMore from "../assets/images/portfolio/tomhome.png";
 import depdrift from "../assets/images/portfolio/dep-drift.png";
+import { Link } from "react-router-dom";
 
 export default function Portfolio() {
   return (
@@ -22,18 +23,19 @@ export default function Portfolio() {
         <div className="flex gap-8 px-6 md:px-8 pb-24 snap-x snap-mandatory">
           <ProjectCard
             title="Inspired Interiors"
-            description="Full-stack application designed for clarity, accessibility, and scale."
+            description="Full-stack intreior design application designed for exploration, inspiration, and planning."
             imageUrl={interiors}
           />
           <ProjectCard
             title="Dependency Drift"
             description="A full-stack developer tool that detects dependency drift between declared and resolved packages. Designed using Hexagonal Architecture to isolate domain logic and surface production risk early."
             imageUrl={depdrift}
+            path="/portfolio/dependency-drift"
           />
 
           <ProjectCard
             title="Github Special README generator"
-            description="AWS-based architecture focused on reliability and governance."
+            description="A polished web app for generating structured, styled GitHub profile READMEs with live markdown preview, guided prompts, and export-ready formatting."
             imageUrl={githubgenerator}
           />
           <ProjectCard
@@ -54,15 +56,16 @@ export default function Portfolio() {
   );
 }
 
-const ProjectCard = ({ title, description, imageUrl }) => (
+const ProjectCard = ({ title, description, imageUrl, path }) => (
   <div className="snap-start flex-shrink-0 w-[65vw] md:w-[35vw] lg:w-[28vw group cursor-pointer transition-all duration-500">
     {/* Image Container */}
-    <div className="aspect-[4/3] overflow-hidden">
+    <div className="aspect-[4/3] overflow-hidden flex items-center">
+    <Link to={path}>
       <img
         src={imageUrl}
         alt={title}
-        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-      />
+    className="max-h-full w-auto object-contain transition-transform duration-700 group-hover:scale-105"
+      /></Link>
     </div>
 
     {/* Text Reveal */}
