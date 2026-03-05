@@ -22,6 +22,12 @@ export default function Portfolio() {
       <section className="overflow-x-auto no-scrollbar">
         <div className="flex gap-8 px-6 md:px-8 pb-24 snap-x snap-mandatory">
           <ProjectCard
+            title="Deploy Sight"
+            description="A lightweight DevOps visibility platform for small engineering teams.
+Designed to provide essential insights into deployment processes without the complexity of traditional tools."
+            imageUrl=""
+          />
+          <ProjectCard
             title="Inspired Interiors"
             description="Full-stack intreior design application designed for exploration, inspiration, and planning."
             imageUrl={interiors}
@@ -41,17 +47,17 @@ export default function Portfolio() {
             path="/portfolio/github-profile-generator"
           />
           <ProjectCard
-          title="Tylers Tree Solutions"
-          description="A custom site built for a local tree service company, designed to showcase their services and attract new customers."
-           imageUrl={trees}
-           path="/portfolio/tree-solutions"
-           />
-           <ProjectCard
-           title="Two Or More"
-           description="A custom application designed for a grass-roots organization in Michigan" 
-           imageUrl={twoOrMore}
-           path="/portfolio/two-or-more"
-           />
+            title="Tylers Tree Solutions"
+            description="A custom site built for a local tree service company, designed to showcase their services and attract new customers."
+            imageUrl={trees}
+            path="/portfolio/tree-solutions"
+          />
+          <ProjectCard
+            title="Two Or More"
+            description="A custom application designed for a grass-roots organization in Michigan"
+            imageUrl={twoOrMore}
+            path="/portfolio/two-or-more"
+          />
         </div>
       </section>
 
@@ -64,12 +70,13 @@ const ProjectCard = ({ title, description, imageUrl, path }) => (
   <div className="snap-start flex-shrink-0 w-[65vw] md:w-[35vw] lg:w-[28vw group cursor-pointer transition-all duration-500">
     {/* Image Container */}
     <div className="aspect-[4/3] overflow-hidden flex items-center">
-    <Link to={path}>
-      <img
-        src={imageUrl}
-        alt={title}
-    className="max-h-full w-auto object-contain transition-transform duration-700 group-hover:scale-105"
-      /></Link>
+      <Link to={path}>
+        <img
+          src={imageUrl}
+          alt={title}
+          className="max-h-full w-auto object-contain transition-transform duration-700 group-hover:scale-105"
+        />
+      </Link>
     </div>
 
     {/* Text Reveal */}
