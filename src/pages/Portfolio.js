@@ -5,6 +5,7 @@ import githubgenerator from "../assets/images/portfolio/githubgenerator.png";
 import trees from "../assets/images/portfolio/trees.png";
 import twoOrMore from "../assets/images/portfolio/tomhome.png";
 import depdrift from "../assets/images/portfolio/dep-drift.png";
+import deploysight from "../assets/images/portfolio/deploysight.png";
 import { Link } from "react-router-dom";
 
 export default function Portfolio() {
@@ -25,7 +26,7 @@ export default function Portfolio() {
             title="Deploy Sight"
             description="A lightweight DevOps visibility platform for small engineering teams.
 Designed to provide essential insights into deployment processes without the complexity of traditional tools."
-            imageUrl=""
+            imageUrl={deploysight}
           />
           <ProjectCard
             title="Inspired Interiors"
