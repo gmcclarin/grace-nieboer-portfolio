@@ -12,7 +12,7 @@ export default function About() {
           technology.
         </p>
 
-        <p className="mt-8 text-lg md:text-xl leading-relaxed text-neutral-600 max-w-2xl mx-auto">
+        <p className="mt-8 text-lg md:text-xl leading-relaxed text-neutral-800 max-w-2xl mx-auto">
           My work bridges human understanding and technical execution, shaped by
           a career that began in public administration and evolved into software
           engineering.
@@ -36,7 +36,7 @@ export default function About() {
             navigate conflict, policy, and organizational change.
           </p>
 
-          <p className="mt-6 leading-relaxed text-neutral-700">
+          <p className="mt-6 leading-relaxed text-neutral-800">
             With a Master’s degree in Public Administration, my early career
             focused on understanding how institutions function and how decisions
             impact real people. I spent years in HR resolving workplace
@@ -44,7 +44,7 @@ export default function About() {
             outcomes.
           </p>
 
-          <p className="mt-6 leading-relaxed text-neutral-700">
+          <p className="mt-6 leading-relaxed text-neutral-800">
             In 2022, I made a deliberate shift into software engineering —
             completing an intensive full-stack development bootcamp and earning
             my certification. What began as curiosity quickly became clarity.
@@ -59,7 +59,7 @@ export default function About() {
             It was the most decisive career move I’ve made — and the right one.
           </p>
 
-          <p className="mt-8 text-lg leading-relaxed text-neutral-700">
+          <p className="mt-8 text-lg leading-relaxed text-neutral-800">
             Four years into tech, I’ve found the intersection where design,
             engineering, and human-centered thinking meet. I don’t see code as
             separate from people — I see it as infrastructure for experience.
@@ -72,7 +72,7 @@ export default function About() {
         <div className="grid md:grid-cols-3 gap-12">
           <div>
             <p className="font-serif text-2xl">Software Engineering</p>
-            <p className="mt-4 text-neutral-700 leading-relaxed">
+            <p className="mt-4 text-neutral-800 leading-relaxed">
               Full-stack development across modern frameworks, building scalable
               and maintainable applications from interface to infrastructure.
             </p>
@@ -80,7 +80,7 @@ export default function About() {
 
           <div>
             <p className="font-serif text-2xl">Cloud Foundations</p>
-            <p className="mt-4 text-neutral-700 leading-relaxed">
+            <p className="mt-4 text-neutral-800 leading-relaxed">
               AWS Certified Cloud Practitioner, with a focus on reliability,
               architecture, and thoughtful system design.
             </p>
@@ -88,7 +88,7 @@ export default function About() {
 
           <div>
             <p className="font-serif text-2xl">Human Systems</p>
-            <p className="mt-4 text-neutral-700 leading-relaxed">
+            <p className="mt-4 text-neutral-800 leading-relaxed">
               A background in employee relations and public administration that
               informs how I think about scale, governance, and the human impact
               of technology.
@@ -105,14 +105,14 @@ export default function About() {
           </div>
 
           <div>
-            <p className="leading-relaxed text-neutral-700">
+            <p className="leading-relaxed text-neutral-800">
               I value clarity over noise, structure over trend, and thoughtful
               iteration over speed for its own sake. My background in employee
               relations taught me how to listen carefully and solve problems
               without ego — skills that translate directly into technical work.
             </p>
 
-            <p className="mt-6 leading-relaxed text-neutral-700">
+            <p className="mt-6 leading-relaxed text-neutral-800">
               Whether collaborating with a team or building independently, I aim
               to create environments where decisions are intentional and
               outcomes feel steady, considered, and resilient.
