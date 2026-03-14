@@ -9,6 +9,7 @@ import boston from "../assets/images/home/boston-art.jpeg";
 import fuego2 from "../assets/images/home/fuego2.jpeg";
 import laptop2 from "../assets/images/home/laptop2.jpeg";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 
 export default function Home() {
@@ -33,7 +34,10 @@ export default function Home() {
             I’m drawn to thoughtful design, quiet details, and building things
             that feel both useful and human.
           </p>
+          <Link to="/about">              
           <Button label="More about me" />
+
+          </Link>
         </div>
 
         {/* EMPTY SPACER */}
