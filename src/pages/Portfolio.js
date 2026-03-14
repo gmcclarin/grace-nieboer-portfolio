@@ -5,7 +5,7 @@ import githubgenerator from "../assets/images/portfolio/githubgenerator.png";
 import trees from "../assets/images/portfolio/trees.png";
 import twoOrMore from "../assets/images/portfolio/tomhome.png";
 import depdrift from "../assets/images/portfolio/dep-drift.png";
-import deploysight from "../assets/images/portfolio/deploysight.png";
+import deploysight from "../assets/images/portfolio/deploysight2.png";
 import { Link } from "react-router-dom";
 
 export default function Portfolio() {
