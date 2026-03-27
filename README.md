@@ -20,7 +20,6 @@ This front end web client was built with React in Javascript to showcase a few f
  - Project Portfolio displaying works and projects
  - 404 Not-Found 'catchall'
  - Responsive UX/UI design styled with Tailwind CSS, mobile-friendly
- - Dark Mode
 
 ## Features In-Progress
 

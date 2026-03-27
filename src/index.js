@@ -1,20 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './components/App';
-import { Helmet } from "react-helmet"
-import nightwind from "nightwind/helper"
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./components/App";
+import nightwind from "nightwind/helper";
 
 import { BrowserRouter } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  
   <BrowserRouter>
-  <Helmet>
-      <script>{nightwind.init()}</script>
-    </Helmet>
+    <script>{nightwind.init()}</script>
     <App />
-  </BrowserRouter>
+  </BrowserRouter>,
 );

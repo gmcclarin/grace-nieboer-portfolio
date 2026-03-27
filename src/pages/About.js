@@ -12,7 +12,7 @@ export default function About() {
           technology.
         </p>
 
-        <p className="mt-8 text-lg md:text-xl leading-relaxed text-neutral-800 max-w-2xl mx-auto">
+        <p className="mt-8 text-lg md:text-xl leading-relaxed text-stone-950 max-w-2xl mx-auto">
           My work bridges human understanding and technical execution, shaped by
           a career that began in public administration and evolved into software
           engineering.
@@ -36,7 +36,7 @@ export default function About() {
             navigate conflict, policy, and organizational change.
           </p>
 
-          <p className="mt-6 leading-relaxed text-neutral-800">
+          <p className="mt-6 leading-relaxed">
             With a Master’s degree in Public Administration, my early career
             focused on understanding how institutions function and how decisions
             impact real people. I spent years in HR resolving workplace

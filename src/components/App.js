@@ -9,7 +9,6 @@ import GithubGenerator from "../pages/GithubGenerator.js"
 import DependencyDrift from '../pages/DependencyDrift.js';
 import Portfolio from '../pages/Portfolio.js';
 import HomeV2 from '../pages/Home.js';
-import UnderConstruction from '../pages/UnderConstruction.js';
 
 function App() {
   return (
