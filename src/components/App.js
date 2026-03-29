@@ -19,7 +19,7 @@ function App() {
            <Route path="about" element={<About />} />
           <Route path="portfolio" element={<Portfolio />}/>
           <Route path="/portfolio/dependency-drift" element={<DependencyDrift />}/>
-          <Route path="/portfolio/inspiredinteriors" element={<InspiredInteriors />}/>
+          <Route path="/portfolio/inspired-interiors" element={<InspiredInteriors />}/>
           <Route path="/portfolio/github-profile-generator" element={<GithubGenerator />} />  
           <Route path="/portfolio/tree-solutions" element={<TreeSolutions />}/>
           <Route path="/portfolio/two-or-more" element={<TwoOrMore />}/>
