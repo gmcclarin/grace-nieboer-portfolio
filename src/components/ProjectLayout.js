@@ -1,6 +1,7 @@
 import Navigation from "./Navigation";
 import Footer from "./Footer";
-import { Link } from "react-router-dom";
+import Seo from "./Seo";
+import { Link, useLocation } from "react-router-dom";
 
 export default function ProjectLayout({
   title,
@@ -10,8 +11,10 @@ export default function ProjectLayout({
   liveLink,
   githubLink,
 }) {
+  const { pathname } = useLocation();
   return (
     <div className="bg-white text-black">
+      <Seo title={title} description={subtitle} path={pathname} />
       <Navigation fontColor="black" />
       <Link className="underline text-sm p-5" to="/portfolio">{`<<< Back to Portfolio`}</Link>
       {/* HERO */}

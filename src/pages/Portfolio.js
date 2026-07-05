@@ -7,10 +7,16 @@ import twoOrMore from "../assets/images/portfolio/tomhome.png";
 import depdrift from "../assets/images/portfolio/dep-drift.png";
 import deploysight from "../assets/images/portfolio/deploysight2.png";
 import { Link } from "react-router-dom";
+import Seo from "../components/Seo";
 
 export default function Portfolio() {
   return (
     <div>
+      <Seo
+        title="Work"
+        description="Selected projects: client websites, full-stack apps, and developer tools built with React, TypeScript, and Node."
+        path="/portfolio"
+      />
       <Navigation fontColor="black" />
       {/* HERO */}
       <section className="px-6 md:px-8 pt-24 pb-16">

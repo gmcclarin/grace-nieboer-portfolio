@@ -1,10 +1,16 @@
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
+import Seo from "../components/Seo";
 import portrait from "../assets/images/home/me.jpeg";
 
 export default function About() {
   return (
     <div>
+      <Seo
+        title="About"
+        description="From public administration to full-stack software engineering — how I work and what I care about building."
+        path="/about"
+      />
       <Navigation fontColor="black" />
       <section className="py-32 px-6 text-center max-w-4xl mx-auto">
         <p className="text-4xl md:text-6xl font-serif leading-tight tracking-tight">

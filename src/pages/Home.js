@@ -9,12 +9,17 @@ import boston from "../assets/images/home/boston-art.jpeg";
 import fuego2 from "../assets/images/home/fuego2.jpeg";
 import laptop2 from "../assets/images/home/laptop2.jpeg";
 import Footer from "../components/Footer";
+import Seo from "../components/Seo";
 import { Link } from "react-router-dom";
 
 
 export default function Home() {
   return (
     <div className="min-h-screen">
+      <Seo
+        description="Grace McClarin is a full-stack software engineer in Rochester, NY building websites and web apps for small businesses. React, TypeScript, Node, and AWS."
+        path="/"
+      />
       {/* HERO section*/}
       <div
         className="bg-cover bg-center h-[60vh] md:h-[75vh]"

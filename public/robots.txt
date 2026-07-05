@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gracemcclarin.netlify.app/sitemap.xml
