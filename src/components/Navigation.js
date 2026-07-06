@@ -10,6 +10,7 @@ export default function Navigation ({fontColor}) {
             <NavigationLink label="Home" href="/"/>
             <NavigationLink label="About" href="/about" />
             <NavigationLink label="Portfolio" href="/portfolio" />
+            <NavigationLink label="Contact" href="/contact" />
         </div>
     )
 }

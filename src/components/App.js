@@ -9,6 +9,7 @@ import GithubGenerator from "../pages/GithubGenerator.js"
 import DependencyDrift from '../pages/DependencyDrift.js';
 import Portfolio from '../pages/Portfolio.js';
 import HomeV2 from '../pages/Home.js';
+import Contact from '../pages/Contact.js';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/" element={<HomeV2 />} />
            <Route path="about" element={<About />} />
           <Route path="portfolio" element={<Portfolio />}/>
+          <Route path="contact" element={<Contact />}/>
           <Route path="/portfolio/dependency-drift" element={<DependencyDrift />}/>
           <Route path="/portfolio/inspired-interiors" element={<InspiredInteriors />}/>
           <Route path="/portfolio/github-profile-generator" element={<GithubGenerator />} />  

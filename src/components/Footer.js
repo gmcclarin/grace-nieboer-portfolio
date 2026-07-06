@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <div className="border-t border-neutral-200 py-24 px-6">
@@ -6,6 +8,15 @@ export default function Footer() {
           Designing and engineering digital experiences that remain human — even
           as technology accelerates.
         </p>
+
+        <div className="mt-10 flex justify-center">
+          <Link
+            to="/contact"
+            className="inline-flex items-center border-orange-700 border-2 rounded-full py-2 px-6 text-orange-700 hover:bg-orange-700 hover:text-white transition text-sm tracking-wide"
+          >
+            LET'S WORK TOGETHER
+          </Link>
+        </div>
 
         <div className="mt-12 flex justify-center gap-8 text-sm tracking-wide">
           <a
