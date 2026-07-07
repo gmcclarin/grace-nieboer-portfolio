@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 
-const SITE_URL = "https://gracemcclarin.netlify.app";
+const SITE_URL = "https://gracemcclarin.com";
 
 export default function Seo({ title, description, path = "" }) {
   const fullTitle = title
