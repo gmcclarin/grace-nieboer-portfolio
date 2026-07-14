@@ -5,7 +5,7 @@
 // Requires env var RESEND_API_KEY (Netlify UI -> Site configuration ->
 // Environment variables). The key never lives in this repo.
 
-const NOTIFY_TO = "grace.mcclarin@outlook.com";
+const NOTIFY_TO = "grace.nieboer@outlook.com"; // must match the Resend account email until the domain is verified in Resend
 // Resend's shared onboarding sender works without domain verification,
 // but can ONLY deliver to the email on your Resend account.
 // After verifying gracemcclarin.com in Resend, switch to e.g.:
