@@ -7,18 +7,19 @@ export default function DeploySight() {
       title="Deploy Sight"
       subtitle="A lightweight DevOps visibility platform giving small engineering teams essential insight into their deployments — without the weight of traditional tooling."
       heroImage={deploysightImg}
+      githubLink="https://github.com/gmcclarin/deploysight"
     >
       {/* Problem */}
       <section>
         <h2 className="text-2xl font-serif">The Problem</h2>
         <p className="mt-4 text-neutral-700 leading-relaxed">
-          Enterprise observability platforms are built for enterprise teams. For a
-          small engineering group, they arrive with configuration overhead, pricing
-          tiers, and dashboards full of signals nobody asked for.
+          Modern teams ship across several platforms at once — Netlify here, GitHub
+          Actions there, AWS somewhere else. Every one of them reports its own
+          deployments perfectly well, and none of them report anyone else's.
         </p>
         <p className="mt-4 text-neutral-700 leading-relaxed">
-          Meanwhile the questions those teams actually ask are simple: what shipped,
-          when did it ship, did it succeed, and what changed since the last release?
+          So the simplest questions get answered by opening four dashboards: what
+          shipped, where did it ship, did it succeed, and when.
         </p>
       </section>
 
@@ -26,14 +27,15 @@ export default function DeploySight() {
       <section>
         <h2 className="text-2xl font-serif">Approach</h2>
         <p className="mt-4 text-neutral-700 leading-relaxed">
-          Deploy Sight narrows the surface area deliberately. It tracks deployments
-          across environments and surfaces them as a clear, chronological picture of
-          release health — status, duration, frequency, and failures — rather than a
-          wall of metrics.
+          Deploy Sight ingests deployment webhooks from each provider, normalizes
+          them into one shared model, and persists them. The dashboard reads back a
+          single source of truth: summary cards for total, successful, failed, and
+          in-flight deployments, above a table of every deployment with its repo,
+          branch, environment, status, commit, and timestamp.
         </p>
         <p className="mt-4 text-neutral-700 leading-relaxed">
-          The result is a tool a team can adopt in an afternoon and still trust six
-          months later.
+          The surface area is deliberately narrow — the questions a small team
+          actually asks, answered in one place.
         </p>
       </section>
 
