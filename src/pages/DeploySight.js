@@ -37,15 +37,35 @@ export default function DeploySight() {
         </p>
       </section>
 
+      {/* Architecture */}
+      <section>
+        <h2 className="text-2xl font-serif">Architecture</h2>
+        <p className="mt-4 text-neutral-700 leading-relaxed">
+          Every hosting provider emits a different webhook payload. Deploy Sight
+          keeps that difference at the edge: a ports-and-adapters layer defines a
+          single <span className="italic">WebhookParser</span> contract, each
+          provider gets an adapter that satisfies it, and a registry resolves the
+          right one per request.
+        </p>
+        <p className="mt-4 text-neutral-700 leading-relaxed">
+          Everything past that boundary speaks one normalized deployment model, so
+          the domain logic stays provider-agnostic and adding a platform means
+          adding an adapter — not touching the core.
+        </p>
+      </section>
+
       {/* Technical */}
       <section>
         <h2 className="text-2xl font-serif">Technical Implementation</h2>
         <ul className="mt-4 text-neutral-700 space-y-3">
-          <li>React + Material UI CSS frontend</li>
-          <li>Node.js + Express API</li>
-          <li>PostgreSQL for deployment history and environment state</li>
-          <li>CI/CD pipeline integration for deployment events</li>
-          <li>Environment-aware views for staging and production</li>
+          <li>TypeScript across the full stack</li>
+          <li>Node.js + Express API with a repository and service layer</li>
+          <li>PostgreSQL via TypeORM, containerized with Docker Compose</li>
+          <li>Webhook ingestion from Netlify and GitHub Actions</li>
+          <li>React 19 + Vite frontend</li>
+          <li>Material UI with MUI X DataGrid for the deployment table</li>
+          <li>TanStack Query + Axios for server state</li>
+          <li>ngrok for local webhook testing</li>
         </ul>
       </section>
 
