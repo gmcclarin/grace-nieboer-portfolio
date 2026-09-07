@@ -7,6 +7,7 @@ import TwoOrMore from '../pages/TwoOrMore.js';
 import TreeSolutions from '../pages/TreeSolutions'
 import GithubGenerator from "../pages/GithubGenerator.js"
 import DependencyDrift from '../pages/DependencyDrift.js';
+import DeploySight from '../pages/DeploySight.js';
 import Portfolio from '../pages/Portfolio.js';
 import HomeV2 from '../pages/Home.js';
 import Contact from '../pages/Contact.js';
@@ -20,6 +21,7 @@ function App() {
            <Route path="about" element={<About />} />
           <Route path="portfolio" element={<Portfolio />}/>
           <Route path="contact" element={<Contact />}/>
+          <Route path="/portfolio/deploy-sight" element={<DeploySight />}/>
           <Route path="/portfolio/dependency-drift" element={<DependencyDrift />}/>
           <Route path="/portfolio/inspired-interiors" element={<InspiredInteriors />}/>
           <Route path="/portfolio/github-profile-generator" element={<GithubGenerator />} />  

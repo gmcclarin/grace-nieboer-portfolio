@@ -7,16 +7,16 @@ export default function GithubGenerator() {
       title="GitHub Profile README Generator"
       subtitle="A structured web application for crafting polished, aesthetic GitHub profile READMEs with live preview and guided self-branding."
       heroImage={githubImg}
-      liveLink="https://your-live-link.com"
-      githubLink="https://github.com/your-repo"
+      liveLink="https://generate-github-profile-readme.netlify.app/"
+      githubLink="https://github.com/gmcclarin/github-readme-generator"
     >
       {/* Problem */}
       <section>
         <h2 className="text-2xl font-serif">The Problem</h2>
         <p className="mt-4 text-neutral-700 leading-relaxed">
-          A developer’s GitHub profile is often their first impression — yet most
-          profiles are inconsistently formatted, difficult to structure, or built
-          from static templates without personalization.
+          A developer’s GitHub profile is often their first impression — yet
+          most profiles are inconsistently formatted, difficult to structure, or
+          built from static templates without personalization.
         </p>
         <p className="mt-4 text-neutral-700 leading-relaxed">
           Developers need a guided, structured way to present themselves clearly
@@ -33,8 +33,8 @@ export default function GithubGenerator() {
           while rendering a live Markdown preview in real time.
         </p>
         <p className="mt-4 text-neutral-700 leading-relaxed">
-          The experience balances usability and structure, reducing friction while
-          encouraging thoughtful self-presentation.
+          The experience balances usability and structure, reducing friction
+          while encouraging thoughtful self-presentation.
         </p>
       </section>
 
@@ -55,8 +55,8 @@ export default function GithubGenerator() {
         <h2 className="text-2xl font-serif">Why It Matters</h2>
         <p className="mt-4 text-neutral-700 leading-relaxed">
           This project focuses on developer experience. It treats a GitHub
-          profile as a designed interface — not just a markdown file —
-          blending UI structure with personal branding.
+          profile as a designed interface — not just a markdown file — blending
+          UI structure with personal branding.
         </p>
       </section>
     </ProjectLayout>

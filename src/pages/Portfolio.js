@@ -33,6 +33,7 @@ export default function Portfolio() {
             description="A lightweight DevOps visibility platform for small engineering teams.
 Designed to provide essential insights into deployment processes without the complexity of traditional tools."
             imageUrl={deploysight}
+            path="/portfolio/deploy-sight"
           />
           <ProjectCard
             title="Inspired Interiors"
