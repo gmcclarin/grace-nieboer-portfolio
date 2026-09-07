@@ -29,6 +29,11 @@ export default function Portfolio() {
       <section className="overflow-x-auto no-scrollbar">
         <div className="flex gap-8 px-6 md:px-8 pb-24 snap-x snap-mandatory">
           <ProjectCard
+            title="Curbside"
+            status="In Progress"
+            description="A website health checker for small business owners. Enter a URL, get a plain-English report card covering mobile experience, SEO basics, speed, SSL, and findability — plus a clear path to getting it fixed."
+          />
+          <ProjectCard
             title="Deploy Sight"
             description="A lightweight DevOps visibility platform for small engineering teams.
 Designed to provide essential insights into deployment processes without the complexity of traditional tools."
@@ -74,25 +79,43 @@ Designed to provide essential insights into deployment processes without the com
   );
 }
 
-const ProjectCard = ({ title, description, imageUrl, path }) => (
-  <div className="snap-start flex-shrink-0 w-[65vw] md:w-[35vw] lg:w-[28vw group cursor-pointer transition-all duration-500">
-    {/* Image Container */}
-    <div className="aspect-[4/3] overflow-hidden flex items-center">
-      <Link to={path}>
-        <img
-          src={imageUrl}
-          alt={title}
-          className="max-h-full w-auto object-contain transition-transform duration-700 group-hover:scale-105"
-        />
-      </Link>
+const ProjectCard = ({ title, description, imageUrl, path, status }) => {
+  const media = imageUrl ? (
+    <img
+      src={imageUrl}
+      alt={title}
+      className="max-h-full w-auto object-contain transition-transform duration-700 group-hover:scale-105"
+    />
+  ) : (
+    /* No screenshot yet — a titled placeholder tile instead of a broken image */
+    <div className="h-full w-full border border-neutral-200 bg-neutral-50 flex flex-col items-center justify-center gap-4 px-6 text-center">
+      {status && (
+        <p className="text-sm tracking-widest uppercase text-neutral-400">
+          {status}
+        </p>
+      )}
+      <p className="text-3xl font-serif">{title}</p>
     </div>
+  );
 
-    {/* Text Reveal */}
-    <div className="mt-6 opacity-0 translate-y-4 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
-      <h2 className="text-2xl font-serif">{title}</h2>
-      <p className="mt-2 text-neutral-600 leading-relaxed max-w-md">
-        {description}
-      </p>
+  return (
+    <div
+      className={`snap-start flex-shrink-0 w-[65vw] md:w-[35vw] lg:w-[28vw group transition-all duration-500 ${
+        path ? "cursor-pointer" : ""
+      }`}
+    >
+      {/* Image Container */}
+      <div className="aspect-[4/3] overflow-hidden flex items-center">
+        {path ? <Link to={path}>{media}</Link> : media}
+      </div>
+
+      {/* Text Reveal */}
+      <div className="mt-6 opacity-0 translate-y-4 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
+        <h2 className="text-2xl font-serif">{title}</h2>
+        <p className="mt-2 text-neutral-600 leading-relaxed max-w-md">
+          {description}
+        </p>
+      </div>
     </div>
-  </div>
-);
+  );
+};
