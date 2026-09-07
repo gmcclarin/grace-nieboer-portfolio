@@ -100,7 +100,7 @@ const ProjectCard = ({ title, description, imageUrl, path, status }) => {
 
   return (
     <div
-      className={`snap-start flex-shrink-0 w-[65vw] md:w-[35vw] lg:w-[28vw group transition-all duration-500 ${
+      className={`snap-start flex-shrink-0 w-[65vw] md:w-[35vw] lg:w-[28vw] group transition-all duration-500 ${
         path ? "cursor-pointer" : ""
       }`}
     >
